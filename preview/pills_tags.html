@@ -1,0 +1,37 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<title>Pills, tags & badges</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html,body{margin:0;padding:0;background:var(--rh-coconut);font-family:var(--rh-font-sans);}
+  .card{padding:22px 28px;display:flex;flex-direction:column;gap:14px;}
+  .row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+  .pill{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:9999px;font-size:12px;font-weight:500;line-height:1.2;}
+  .p-mint{background:var(--rh-mint-light);color:var(--rh-mint-darkest);}
+  .p-lime{background:var(--rh-lime-lightest);color:var(--rh-lime-darkest);}
+  .p-yuzu{background:var(--rh-yuzu-lightest);color:var(--rh-yuzu-darkest);}
+  .p-berry{background:var(--rh-blueberry-lightest);color:var(--rh-blueberry-darkest);}
+  .p-stone{background:var(--rh-stone-light);color:var(--rh-stone-darkest);}
+  .p-error{background:var(--rh-error-bg);color:var(--rh-error);}
+  .tag{display:inline-flex;gap:6px;align-items:center;padding:4px 10px;border:1px solid var(--rh-stone);border-radius:9999px;font-size:11px;text-transform:lowercase;color:var(--rh-blackberry);}
+  .dot{width:6px;height:6px;border-radius:50%;background:currentColor;}
+  .label{font-size:11px;color:var(--rh-stone-darkest);letter-spacing:.06em;text-transform:uppercase;font-weight:500;min-width:70px;}
+</style></head>
+<body>
+<div class="card">
+  <div class="row"><span class="label">Pills</span>
+    <span class="pill p-lime"><span class="dot"></span>Best rate</span>
+    <span class="pill p-mint">Featured</span>
+    <span class="pill p-yuzu">MoneySense 2024</span>
+    <span class="pill p-berry">New</span>
+    <span class="pill p-stone">Updated daily</span>
+    <span class="pill p-error">Rate change</span>
+  </div>
+  <div class="row"><span class="label">Tags</span>
+    <span class="tag">mortgages</span>
+    <span class="tag">first-time buyers</span>
+    <span class="tag">5-year fixed</span>
+    <span class="tag">cashback cards</span>
+  </div>
+</div>
+</body></html>

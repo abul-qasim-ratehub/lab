@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ratehub.ca — Smarter Financial Choices, Simplified.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Canada's #1 financial comparison platform. Compare mortgages, credit cards, savings, and insurance from 30+ lenders. Free, unbiased, updated daily.">
+<link rel="icon" href="../../assets/brand/favicon-32x32.png">
+<link rel="stylesheet" href="../../colors_and_type.css">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  body { margin: 0; background: var(--rh-coconut); font-family: var(--rh-font-sans); }
+  button, input, select, textarea { font-family: inherit; }
+  img { display: block; }
+  html { scroll-behavior: smooth; }
+
+  /* Section dividers */
+  .rh-section-divider {
+    border: none; border-top: 1px solid var(--rh-stone-light); margin: 0;
+  }
+
+  /* Rate table row hover */
+  .rh-rate-row { transition: background 200ms; }
+  .rh-rate-row:hover { background: var(--rh-stone-lightest) !important; }
+
+  /* Award strip item */
+  .rh-award-item { transition: opacity 280ms; opacity: .65; }
+  .rh-award-item:hover { opacity: 1; }
+
+  /* Focus ring */
+  *:focus-visible { outline: 3px solid rgba(0,181,214,0.6); outline-offset: 2px; border-radius: 4px; }
+
+  /* Vertical section header shared style */
+  .rh-vertical-eyebrow {
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: .12em; color: var(--rh-stone-darkest); margin-bottom: 6px;
+  }
+</style>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js"
+  integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L"
+  crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"
+  integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm"
+  crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"
+  integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y"
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="root"></div>
+
+<!-- Design system primitives -->
+<script type="text/babel" src="components.jsx"></script>
+
+<!-- Existing section components -->
+<script type="text/babel" src="Header.jsx"></script>
+<script type="text/babel" src="Footer.jsx"></script>
+<script type="text/babel" src="TrustStrip.jsx"></script>
+<script type="text/babel" src="MortgageRateTable.jsx"></script>
+<script type="text/babel" src="CardFinder.jsx"></script>
+<script type="text/babel" src="SavingsShowcase.jsx"></script>
+<script type="text/babel" src="EducationStrip.jsx"></script>
+
+<!-- New redesigned components -->
+<script type="text/babel" src="HeroBannerV2.jsx"></script>
+<script type="text/babel" src="MortgageCalculator.jsx"></script>
+<script type="text/babel" src="FeaturedIn.jsx"></script>
+
+<script type="text/babel">
+
+// ═══════════════════════════════════════════════════════════════════
+// SECTION: ProductCategoryGridV2
+// 6 cards, live rate badge, lift-on-hover micro-interaction
+// ═══════════════════════════════════════════════════════════════════
+const ProductCategoryGridV2 = ({ onNavigate }) => {
+  const cats = [
+    { id: 'mortgages', icon: 'house',       name: 'Mortgages',    desc: 'Compare 30+ lenders',        badge: '4.39% fixed',  tone: 'berry' },
+    { id: 'cards',     icon: 'credit-card', name: 'Credit cards', desc: '200+ cards. One quiz.',       badge: '4% cash back', tone: 'lime'  },
+    { id: 'banking',   icon: 'piggy',       name: 'Savings',      desc: 'Up to 5.25% interest',        badge: '4.00% HISA',   tone: 'mint'  },
+    { id: 'insurance', icon: 'shield',      name: 'Insurance',    desc: 'Home, auto, life & travel',   badge: 'Save 32%',     tone: 'yuzu'  },
+    { id: 'investing', icon: 'trending',    name: 'Investing',    desc: 'GICs, ETFs & robo-advisors',  badge: '5.10% GIC',    tone: 'lime'  },
+    { id: 'tools',     icon: 'calculator',  name: 'Tools',        desc: '20+ free calculators',        badge: 'Free',         tone: 'stone' },
+  ];
+  const [hovered, setHovered] = React.useState(null);
+  return (
+    <section style={{ padding: '72px 28px 40px', maxWidth: 1280, margin: '0 auto' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: 32, flexWrap: 'wrap', gap: 12 }}>
+        <div>
+          <div className="rh-vertical-eyebrow">Everything in one place</div>
+          <h2 style={{ fontSize: 30, fontWeight: 500, margin: '0 0 8px', letterSpacing: '-0.015em' }}>One place. Every product.</h2>
+          <p style={{ fontSize: 15, color: 'var(--rh-blackberry-light)', margin: 0, maxWidth: 520, lineHeight: 1.5 }}>
+            Compare side-by-side, apply in minutes, and track every financial decision from one dashboard.
+          </p>
+        </div>
+        <Anchor>See everything we compare</Anchor>
+      </div>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(6, 1fr)', gap: 14 }}>
+        {cats.map(c => (
+          <button
+            key={c.id}
+            className="rh-cat-card"
+            onClick={() => onNavigate(c.id)}
+            onMouseEnter={() => setHovered(c.id)}
+            onMouseLeave={() => setHovered(null)}
+            style={{
+              background: '#fff',
+              border: `1.5px solid ${hovered === c.id ? 'var(--rh-blueberry)' : 'var(--rh-stone-light)'}`,
+              borderRadius: 16, padding: '22px 16px',
+              display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 14,
+              cursor: 'pointer', textAlign: 'left', fontFamily: 'inherit',
+              boxShadow: hovered === c.id ? 'var(--rh-shadow-m)' : 'var(--rh-shadow-xs)',
+              transform: hovered === c.id ? 'translateY(-4px)' : 'none',
+              transition: 'all 250ms ease',
+            }}
+          >
+            <div style={{
+              width: 48, height: 48, borderRadius: 12,
+              background: hovered === c.id ? 'var(--rh-blueberry-lightest)' : 'var(--rh-stone-lightest)',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              transition: 'background 250ms',
+            }}>
+              <Icon name={c.icon} size={26} color="var(--rh-blueberry-dark)" />
+            </div>
+            <div style={{ flex: 1 }}>
+              <div style={{ fontSize: 14, fontWeight: 500, marginBottom: 3 }}>{c.name}</div>
+              <div style={{ fontSize: 12, color: 'var(--rh-stone-darkest)', lineHeight: 1.4 }}>{c.desc}</div>
+            </div>
+            <Pill tone={c.tone}>{c.badge}</Pill>
+          </button>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+// ═══════════════════════════════════════════════════════════════════
+// SECTION: InsurancePreview — homepage vertical section
+// ═══════════════════════════════════════════════════════════════════
+const InsurancePreview = ({ onNavigate }) => {
+  const [activeType, setActiveType] = React.useState('home');
+  const types = [
+    { id: 'home',   icon: 'house',  label: 'Home',   from: '$42/mo',   coverage: '10+ insurers · Rebuild value covered' },
+    { id: 'auto',   icon: 'car',    label: 'Auto',   from: '$89/mo',   coverage: 'Collision, liability & comprehensive' },
+    { id: 'life',   icon: 'heart',  label: 'Life',   from: '$21/mo',   coverage: 'Term & whole life · No medical needed' },
+    { id: 'tenant', icon: 'shield', label: 'Tenant', from: '$18/mo',   coverage: 'Contents + liability · Any rental type' },
+  ];
+  const active = types.find(t => t.id === activeType);
+  return (
+    <section style={{ padding: '72px 28px', background: 'linear-gradient(180deg, #fff 0%, var(--rh-stone-lightest) 100%)' }}>
+      <div style={{ maxWidth: 1280, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 64, alignItems: 'center' }}>
+        {/* Left: copy + type selector */}
+        <div>
+          <Pill tone="stone" icon={<Icon name="shield" size={14} color="var(--rh-stone-darkest)" />}>Insurance</Pill>
+          <h2 style={{ fontSize: 32, fontWeight: 500, margin: '14px 0 12px', letterSpacing: '-0.015em', lineHeight: 1.2 }}>
+            Protect what matters most
+          </h2>
+          <p style={{ fontSize: 16, color: 'var(--rh-blackberry-light)', margin: '0 0 28px', lineHeight: 1.6, maxWidth: 400 }}>
+            Get quotes from 10+ top Canadian insurers in minutes. Compare coverage, not just price.
+          </p>
+          {/* Type tabs */}
+          <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 28 }}>
+            {types.map(t => (
+              <button key={t.id} onClick={() => setActiveType(t.id)} style={{
+                display: 'flex', alignItems: 'center', gap: 6,
+                padding: '9px 16px', borderRadius: 9999,
+                border: `1.5px solid ${activeType === t.id ? 'var(--rh-blueberry)' : 'var(--rh-stone)'}`,
+                background: activeType === t.id ? 'var(--rh-blueberry-lightest)' : '#fff',
+                color: activeType === t.id ? 'var(--rh-blueberry-darkest)' : 'var(--rh-blackberry)',
+                fontFamily: 'inherit', fontSize: 13, fontWeight: activeType === t.id ? 600 : 400,
+                cursor: 'pointer', transition: 'all 200ms',
+              }}>
+                <Icon name={t.icon} size={14} color={activeType === t.id ? 'var(--rh-blueberry-dark)' : 'var(--rh-stone-darkest)'} />
+                {t.label}
+              </button>
+            ))}
+          </div>
+          <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
+            <Button size="m" onClick={() => onNavigate('insurance')}>Get a quote →</Button>
+            <Button size="m" variant="secondary" onClick={() => onNavigate('insurance')}>Compare all plans</Button>
+          </div>
+        </div>
+
+        {/* Right: animated detail card */}
+        <Card style={{ overflow: 'hidden', padding: 0 }}>
+          <div style={{ background: 'var(--rh-blueberry-darkest)', padding: '28px 28px 24px', color: '#fff' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 16 }}>
+              <div style={{ width: 48, height: 48, borderRadius: 14, background: 'rgba(255,255,255,0.12)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <Icon name={active.icon} size={28} color="var(--rh-mint)" />
+              </div>
+              <div>
+                <div style={{ fontSize: 12, opacity: .7, fontWeight: 500, textTransform: 'uppercase', letterSpacing: '.08em' }}>{active.label} insurance · from</div>
+                <div style={{ fontSize: 32, fontWeight: 700, lineHeight: 1, letterSpacing: '-0.02em' }}>{active.from}</div>
+              </div>
+            </div>
+            <div style={{ fontSize: 13, opacity: .75, lineHeight: 1.5 }}>{active.coverage}</div>
+          </div>
+          <div style={{ padding: '24px 28px' }}>
+            <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 20px', display: 'flex', flexDirection: 'column', gap: 12 }}>
+              {[
+                'Quotes in under 5 minutes',
+                'Licensed insurance brokers on standby',
+                'Bundle & save up to 32% on home + auto',
+                'No commitment required to compare',
+              ].map(item => (
+                <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 10, fontSize: 14 }}>
+                  <span style={{ width: 20, height: 20, borderRadius: '50%', background: 'var(--rh-lime-lightest)', color: 'var(--rh-lime-dark)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="4 12 10 18 20 6"/></svg>
+                  </span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <img src="../../assets/logos/rh_insurance_light.svg" alt="RH Insurance" style={{ height: 22, filter: 'invert(0.5) sepia(0) brightness(0.6)' }} />
+          </div>
+        </Card>
+      </div>
+    </section>
+  );
+};
+
+// ═══════════════════════════════════════════════════════════════════
+// SECTION: InvestingPreview — homepage vertical section
+// ═══════════════════════════════════════════════════════════════════
+const InvestingPreview = ({ onNavigate }) => {
+  const products = [
+    { icon: 'trending',  label: 'Robo-advisors',  rate: '~8%/yr',  color: 'var(--rh-lime-lightest)',      fg: 'var(--rh-lime-darkest)',      desc: 'Automated, low-cost investing. Ideal for hands-off investors.' },
+    { icon: 'dollar',    label: 'GICs',            rate: '5.10%',   color: 'var(--rh-blueberry-lightest)', fg: 'var(--rh-blueberry-darkest)', desc: 'Guaranteed returns. CDIC insured. No market risk.' },
+    { icon: 'bar-chart', label: 'Online brokers',  rate: '$0 fees', color: 'var(--rh-yuzu-lightest)',      fg: 'var(--rh-yuzu-darkest)',      desc: 'Self-directed ETF and stock investing with low commissions.' },
+    { icon: 'piggy',     label: 'TFSA & RRSP',     rate: 'Tax-free',color: 'var(--rh-mint-lightest)',      fg: 'var(--rh-mint-darkest)',      desc: 'Max your tax-sheltered contribution room every year.' },
+  ];
+  return (
+    <section style={{ padding: '72px 28px', maxWidth: 1280, margin: '0 auto' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: 36, flexWrap: 'wrap', gap: 12 }}>
+        <div>
+          <Pill tone="lime" icon={<Icon name="trending" size={14} color="var(--rh-lime-darkest)" />}>Investing</Pill>
+          <h2 style={{ fontSize: 30, fontWeight: 500, margin: '12px 0 8px', letterSpacing: '-0.015em' }}>Grow your wealth, simplified</h2>
+          <p style={{ fontSize: 15, color: 'var(--rh-blackberry-light)', margin: 0, maxWidth: 480, lineHeight: 1.5 }}>
+            Compare robo-advisors, GICs, and online brokerages side-by-side. No jargon — just clear numbers.
+          </p>
+        </div>
+        <Button variant="secondary" onClick={() => onNavigate('investing')}>Explore investing →</Button>
+      </div>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}>
+        {products.map((p, i) => (
+          <Card key={i} style={{ padding: 0, overflow: 'hidden', cursor: 'pointer' }}
+            onMouseEnter={e => { e.currentTarget.style.boxShadow = 'var(--rh-shadow-m)'; e.currentTarget.style.transform = 'translateY(-3px)'; }}
+            onMouseLeave={e => { e.currentTarget.style.boxShadow = 'var(--rh-shadow-xs)'; e.currentTarget.style.transform = 'none'; }}
+          >
+            {/* Colored header */}
+            <div style={{ background: p.color, padding: '20px 20px 16px' }}>
+              <Icon name={p.icon} size={32} color={p.fg} />
+              <div style={{ fontSize: 20, fontWeight: 700, color: p.fg, marginTop: 10, letterSpacing: '-0.01em' }}>{p.rate}</div>
+            </div>
+            {/* Body */}
+            <div style={{ padding: '16px 20px 20px' }}>
+              <div style={{ fontSize: 15, fontWeight: 500, marginBottom: 6 }}>{p.label}</div>
+              <div style={{ fontSize: 13, color: 'var(--rh-blackberry-light)', lineHeight: 1.5, marginBottom: 14 }}>{p.desc}</div>
+              <Anchor style={{ fontSize: 13 }}>Compare options</Anchor>
+            </div>
+          </Card>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+// ═══════════════════════════════════════════════════════════════════
+// SECTION: SectionBridge — visual anchor between verticals
+// ═══════════════════════════════════════════════════════════════════
+const SectionBridge = ({ icon, eyebrow, heading, cta, onCta, children }) => (
+  <div style={{ padding: '0 28px', maxWidth: 1280, margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: -8, paddingTop: 60, flexWrap: 'wrap', gap: 12 }}>
+    <div>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4 }}>
+        <Icon name={icon} size={20} color="var(--rh-blueberry-dark)" />
+        <span className="rh-vertical-eyebrow">{eyebrow}</span>
+      </div>
+      <h2 style={{ fontSize: 26, fontWeight: 500, margin: 0, letterSpacing: '-0.01em' }}>{heading}</h2>
+    </div>
+    {cta && <Button variant="ghost" onClick={onCta} style={{ padding: 0 }}>{cta}</Button>}
+    {children}
+  </div>
+);
+
+// ═══════════════════════════════════════════════════════════════════
+// SECTION: AwardStrip (enhanced version)
+// ═══════════════════════════════════════════════════════════════════
+const AwardStrip = () => {
+  const awards = [
+    { icon: 'trophy',    label: 'MoneySense',   sub: 'Best Rate Platform 2024' },
+    { icon: 'award',     label: 'CanWise',       sub: 'Best Mortgage Broker 2023' },
+    { icon: 'star',      label: 'Webby Award',   sub: 'Excellence in Finance 2023' },
+    { icon: 'award',     label: 'CMA',           sub: 'Digital Marketing 2024' },
+    { icon: 'checkmark', label: 'BBB',           sub: 'A+ Accredited Business' },
+  ];
+  return (
+    <section style={{
+      background: 'var(--rh-stone-lightest)', padding: '28px 28px',
+      borderTop: '1px solid var(--rh-stone-light)',
+      borderBottom: '1px solid var(--rh-stone-light)',
+    }}>
+      <div style={{ maxWidth: 1280, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 48, flexWrap: 'wrap' }}>
+        <span style={{ fontSize: 11, fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.12em', color: 'var(--rh-stone-darkest)', flexShrink: 0 }}>Industry recognition</span>
+        {awards.map((a, i) => (
+          <div key={i} className="rh-award-item" style={{ display: 'flex', alignItems: 'center', gap: 8, cursor: 'default' }}>
+            <Icon name={a.icon} size={18} color="var(--rh-yuzu-dark)" />
+            <div>
+              <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--rh-blackberry)', lineHeight: 1.1 }}>{a.label}</div>
+              <div style={{ fontSize: 11, color: 'var(--rh-stone-darkest)' }}>{a.sub}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+// ═══════════════════════════════════════════════════════════════════
+// PAGE: Insurance — full page
+// ═══════════════════════════════════════════════════════════════════
+const InsurancePage = ({ onNavigate }) => {
+  const types = [
+    { icon: 'house',  label: 'Home',    from: '$42/mo',  desc: 'Protect your home and belongings. 10+ insurers compared.' },
+    { icon: 'car',    label: 'Auto',    from: '$89/mo',  desc: 'Compare comprehensive, collision, and liability coverage.' },
+    { icon: 'heart',  label: 'Life',    from: '$21/mo',  desc: 'Term and whole life. No medical exam options available.' },
+    { icon: 'plane',  label: 'Travel',  from: '$14/trip',desc: 'Emergency medical, trip cancellation and baggage coverage.' },
+    { icon: 'shield', label: 'Tenant',  from: '$18/mo',  desc: 'Protect your contents and get personal liability coverage.' },
+    { icon: 'dollar', label: 'Business',from: '$55/mo',  desc: 'Commercial general liability and property coverage.' },
+  ];
+  return (
+    <div>
+      <div style={{ background: 'var(--rh-blueberry-darkest)', color: '#fff', padding: '72px 28px' }}>
+        <div style={{ maxWidth: 1280, margin: '0 auto' }}>
+          <Pill tone="stone" icon={<Icon name="shield" size={14} color="var(--rh-stone-darkest)" />}>Insurance</Pill>
+          <h1 className="showDot" style={{ fontSize: 52, fontWeight: 700, margin: '18px 0 14px', letterSpacing: '-0.025em', lineHeight: 1.08 }}>
+            Protect what matters most
+          </h1>
+          <p style={{ fontSize: 17, opacity: .88, maxWidth: 520, margin: '0 0 32px', lineHeight: 1.65 }}>
+            Get quotes from 10+ top Canadian insurers in minutes. Home, auto, life, and travel coverage compared honestly.
+          </p>
+          <div style={{ display: 'flex', gap: 12 }}>
+            <Button size="l" variant="coconut">Get a quote →</Button>
+            <Button size="l" variant="ghost" style={{ color: 'rgba(255,255,255,0.8)' }}>Talk to a broker</Button>
+          </div>
+        </div>
+      </div>
+      <section style={{ padding: '56px 28px', maxWidth: 1280, margin: '0 auto' }}>
+        <h2 style={{ fontSize: 24, fontWeight: 500, margin: '0 0 24px' }}>Choose your coverage</h2>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 14 }}>
+          {types.map(t => (
+            <Card key={t.label} style={{ display: 'flex', alignItems: 'flex-start', gap: 16, cursor: 'pointer', padding: '20px' }}
+              onMouseEnter={e => { e.currentTarget.style.borderColor='var(--rh-blueberry)'; e.currentTarget.style.boxShadow='var(--rh-shadow-m)'; }}
+              onMouseLeave={e => { e.currentTarget.style.borderColor='var(--rh-stone-light)'; e.currentTarget.style.boxShadow='var(--rh-shadow-xs)'; }}
+            >
+              <div style={{ width: 44, height: 44, borderRadius: 12, background: 'var(--rh-blueberry-lightest)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                <Icon name={t.icon} size={24} color="var(--rh-blueberry-dark)" />
+              </div>
+              <div>
+                <div style={{ fontSize: 15, fontWeight: 500, marginBottom: 2 }}>{t.label} insurance</div>
+                <div style={{ fontSize: 13, color: 'var(--rh-lime-dark)', fontWeight: 500, marginBottom: 6 }}>From {t.from}</div>
+                <div style={{ fontSize: 12, color: 'var(--rh-blackberry-light)', lineHeight: 1.5 }}>{t.desc}</div>
+              </div>
+            </Card>
+          ))}
+        </div>
+      </section>
+      <TrustStrip />
+    </div>
+  );
+};
+
+// ═══════════════════════════════════════════════════════════════════
+// PAGE: Investing
+// ═══════════════════════════════════════════════════════════════════
+const InvestingPage = () => {
+  const products = [
+    { icon: 'trending',  label: 'Robo-advisors',  rate: '~8%/yr',  desc: 'Automated, diversified portfolios. Ideal for hands-off investors.' },
+    { icon: 'dollar',    label: 'GICs',            rate: '5.10%',   desc: 'Guaranteed returns, CDIC insured. Zero market risk.' },
+    { icon: 'bar-chart', label: 'ETF brokerages',  rate: '$0 fees', desc: 'Self-directed investing with commission-free ETF trades.' },
+    { icon: 'piggy',     label: 'TFSA & RRSP',     rate: 'Tax-free',desc: 'Max your tax-sheltered contribution room every year.' },
+  ];
+  return (
+    <div>
+      <div style={{ background: 'var(--rh-blueberry-darkest)', color: '#fff', padding: '72px 28px' }}>
+        <div style={{ maxWidth: 1280, margin: '0 auto' }}>
+          <Pill tone="lime" icon={<Icon name="trending" size={14} color="var(--rh-lime-darkest)" />}>Investing</Pill>
+          <h1 className="showDot" style={{ fontSize: 52, fontWeight: 700, margin: '18px 0 14px', letterSpacing: '-0.025em', lineHeight: 1.08 }}>
+            Grow your wealth, simplified
+          </h1>
+          <p style={{ fontSize: 17, opacity: .88, maxWidth: 520, margin: '0 0 32px', lineHeight: 1.65 }}>
+            Compare robo-advisors, GICs, and self-directed brokerages. No jargon — just the numbers that matter.
+          </p>
+          <Button size="l" variant="coconut">Explore options →</Button>
+        </div>
+      </div>
+      <section style={{ padding: '56px 28px', maxWidth: 1280, margin: '0 auto' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}>
+          {products.map((p, i) => (
+            <Card key={i} style={{ textAlign: 'center', cursor: 'pointer' }}
+              onMouseEnter={e => { e.currentTarget.style.boxShadow='var(--rh-shadow-l)'; e.currentTarget.style.transform='translateY(-4px)'; }}
+              onMouseLeave={e => { e.currentTarget.style.boxShadow='var(--rh-shadow-xs)'; e.currentTarget.style.transform='none'; }}
+            >
+              <Icon name={p.icon} size={48} color="var(--rh-lime-dark)" style={{ margin: '0 auto 16px' }} />
+              <div style={{ fontSize: 22, fontWeight: 700, color: 'var(--rh-lime-dark)', marginBottom: 4 }}>{p.rate}</div>
+              <div style={{ fontSize: 16, fontWeight: 500, marginBottom: 8 }}>{p.label}</div>
+              <div style={{ fontSize: 13, color: 'var(--rh-blackberry-light)', lineHeight: 1.5, marginBottom: 16 }}>{p.desc}</div>
+              <Anchor>Compare →</Anchor>
+            </Card>
+          ))}
+        </div>
+      </section>
+    </div>
+  );
+};
+
+// ═══════════════════════════════════════════════════════════════════
+// PAGE: Tools
+// ═══════════════════════════════════════════════════════════════════
+const ToolsPage = () => {
+  const tools = [
+    { icon: 'house',       label: 'Mortgage payment',    color: 'var(--rh-blueberry-lightest)', fg: 'var(--rh-blueberry-dark)' },
+    { icon: 'calculator',  label: 'Affordability',       color: 'var(--rh-mint-lightest)',      fg: 'var(--rh-mint-dark)'      },
+    { icon: 'dollar',      label: 'Land transfer tax',   color: 'var(--rh-yuzu-lightest)',      fg: 'var(--rh-yuzu-dark)'      },
+    { icon: 'refresh',     label: 'Mortgage penalty',    color: 'var(--rh-stone-lightest)',     fg: 'var(--rh-stone-darkest)'  },
+    { icon: 'piggy',       label: 'Savings goals',       color: 'var(--rh-lime-lightest)',      fg: 'var(--rh-lime-dark)'      },
+    { icon: 'credit-card', label: 'Debt payoff',         color: 'var(--rh-watermelon-lightest)',fg: 'var(--rh-strawberry)'     },
+    { icon: 'trending',    label: 'RRSP vs TFSA',        color: 'var(--rh-lime-lightest)',      fg: 'var(--rh-lime-dark)'      },
+    { icon: 'shield',      label: 'Life insurance needs',color: 'var(--rh-blueberry-lightest)', fg: 'var(--rh-blueberry-dark)' },
+    { icon: 'bar-chart',   label: 'Compound interest',   color: 'var(--rh-mint-lightest)',      fg: 'var(--rh-mint-dark)'      },
+    { icon: 'map-pin',     label: 'CMHC premium',        color: 'var(--rh-yuzu-lightest)',      fg: 'var(--rh-yuzu-dark)'      },
+    { icon: 'dollar',      label: 'Closing costs',       color: 'var(--rh-stone-lightest)',     fg: 'var(--rh-stone-darkest)'  },
+    { icon: 'user',        label: 'Income needed',       color: 'var(--rh-blueberry-lightest)', fg: 'var(--rh-blueberry-dark)' },
+  ];
+  return (
+    <div style={{ padding: '56px 28px', maxWidth: 1280, margin: '0 auto' }}>
+      <div style={{ marginBottom: 32 }}>
+        <h1 style={{ fontSize: 36, fontWeight: 500, margin: '0 0 8px', letterSpacing: '-0.015em' }}>Free Canadian calculators</h1>
+        <p style={{ fontSize: 16, color: 'var(--rh-blackberry-light)', margin: 0 }}>20+ interactive tools built for Canadian mortgages, taxes, and savings.</p>
+      </div>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 14 }}>
+        {tools.map((t, i) => (
+          <Card key={i} style={{ cursor: 'pointer', padding: 0, overflow: 'hidden', transition: 'box-shadow 250ms, transform 220ms' }}
+            onMouseEnter={e => { e.currentTarget.style.boxShadow='var(--rh-shadow-m)'; e.currentTarget.style.transform='translateY(-2px)'; }}
+            onMouseLeave={e => { e.currentTarget.style.boxShadow='var(--rh-shadow-xs)'; e.currentTarget.style.transform='none'; }}
+          >
+            <div style={{ height: 5, background: t.color }} />
+            <div style={{ padding: '18px 20px', display: 'flex', alignItems: 'center', gap: 14 }}>
+              <div style={{ width: 40, height: 40, borderRadius: 10, background: t.color, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                <Icon name={t.icon} size={22} color={t.fg} />
+              </div>
+              <div>
+                <div style={{ fontWeight: 500, fontSize: 13, marginBottom: 4 }}>{t.label}</div>
+                <Anchor style={{ fontSize: 12 }}>Try it</Anchor>
+              </div>
+            </div>
+          </Card>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+// ═══════════════════════════════════════════════════════════════════
+// APP — Router + full page composition
+// ═══════════════════════════════════════════════════════════════════
+const App = () => {
+  const [page, setPage] = React.useState(() => localStorage.getItem('rh_page_v2') || 'home');
+  const go = (p) => {
+    setPage(p);
+    localStorage.setItem('rh_page_v2', p);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  return (
+    <div>
+      <Header current={page} onNavigate={go} />
+
+      {/* ── HOME ──────────────────────────────────────────────────── */}
+      {page === 'home' && (
+        <div data-screen-label="Home">
+
+          {/* 1. Hero — split screen with tabbed progressive form */}
+          <HeroBannerV2 onFindRates={() => go('mortgages')} onNavigate={go} />
+
+          {/* 2. Product category grid — all 6 verticals */}
+          <ProductCategoryGridV2 onNavigate={go} />
+
+          <hr className="rh-section-divider" />
+
+          {/* 3. MORTGAGES — live rate table */}
+          <SectionBridge icon="house" eyebrow="Mortgages" heading="Today's best mortgage rates" cta="See all rates →" onCta={() => go('mortgages')} />
+          <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 0 0' }}>
+            <MortgageRateTable />
+          </div>
+
+          <hr className="rh-section-divider" />
+
+          {/* 4. CREDIT CARDS — card finder grid */}
+          <SectionBridge icon="credit-card" eyebrow="Credit Cards" heading="Find the right card for you" cta="See all cards →" onCta={() => go('cards')} />
+          <CardFinder />
+
+          <hr className="rh-section-divider" />
+
+          {/* 5. BANKING — savings rate table */}
+          <SectionBridge icon="piggy" eyebrow="Banking & Savings" heading="Earn more from every dollar" cta="See savings rates →" onCta={() => go('banking')} />
+          <SavingsShowcase />
+
+          <hr className="rh-section-divider" />
+
+          {/* 6. INSURANCE — interactive type selector */}
+          <InsurancePreview onNavigate={go} />
+
+          <hr className="rh-section-divider" />
+
+          {/* 7. INVESTING — product grid */}
+          <InvestingPreview onNavigate={go} />
+
+          <hr className="rh-section-divider" />
+
+          {/* 8. TOOLS — interactive mortgage calculator */}
+          <div style={{ maxWidth: 1280, margin: '0 auto', padding: '20px 0 0' }}>
+            <SectionBridge icon="calculator" eyebrow="Tools & Calculators" heading="See your real monthly payment" cta="All calculators →" onCta={() => go('tools')} />
+          </div>
+          <MortgageCalculator onFindRates={() => go('mortgages')} />
+
+          <hr className="rh-section-divider" />
+
+          {/* 9. Trust stats */}
+          <TrustStrip />
+
+          {/* 10. Press + testimonials */}
+          <FeaturedIn />
+
+          {/* 11. Education */}
+          <hr className="rh-section-divider" />
+          <EducationStrip />
+
+          {/* 12. Awards */}
+          <AwardStrip />
+        </div>
+      )}
+
+      {/* ── MORTGAGES ──────────────────────────────────────────────── */}
+      {page === 'mortgages' && (
+        <div data-screen-label="Mortgages">
+          <div style={{ background: 'var(--rh-blueberry-darkest)', color: '#fff', padding: '72px 28px' }}>
+            <div style={{ maxWidth: 1280, margin: '0 auto' }}>
+              <Pill tone="yuzu" icon={<Icon name="house" size={14} color="var(--rh-yuzu-darkest)" />}>Mortgages</Pill>
+              <h1 className="showDot" style={{ fontSize: 52, fontWeight: 700, margin: '18px 0 14px', letterSpacing: '-0.025em', lineHeight: 1.08 }}>
+                Canada's smartest mortgage comparison
+              </h1>
+              <p style={{ fontSize: 17, opacity: .88, maxWidth: 540, margin: '0 0 32px', lineHeight: 1.65 }}>
+                Compare rates from 30+ lenders in real time. Save up to $13,384 over 5 years — no obligation, no credit check.
+              </p>
+              <div style={{ background: '#fff', borderRadius: 16, padding: '22px 28px', boxShadow: '0 20px 50px rgba(0,79,110,0.3)', display: 'grid', gridTemplateColumns: '1.1fr 0.9fr 1fr 1fr auto', gap: 14, alignItems: 'flex-end' }}>
+                <Select label="I'm looking to" value="purchase" onChange={() => {}} options={[
+                  { value: 'purchase', label: 'Purchase a new home' },
+                  { value: 'renew', label: 'Renew my mortgage' },
+                  { value: 'refinance', label: 'Refinance' },
+                ]}/>
+                <Select label="Province" value="ON" onChange={() => {}} options={[
+                  { value: 'ON', label: 'Ontario' }, { value: 'BC', label: 'British Columbia' }, { value: 'AB', label: 'Alberta' },
+                ]}/>
+                <Input label="Home value" value="$750,000" onChange={() => {}} />
+                <Input label="Down payment" value="$150,000" onChange={() => {}} />
+                <PulseButton>Find my rate →</PulseButton>
+              </div>
+            </div>
+          </div>
+          <MortgageCalculator onFindRates={() => {}} />
+          <MortgageRateTable />
+          <EducationStrip />
+          <AwardStrip />
+        </div>
+      )}
+
+      {/* ── CREDIT CARDS ───────────────────────────────────────────── */}
+      {page === 'cards' && (
+        <div data-screen-label="Credit Cards">
+          <div style={{ background: 'var(--rh-blueberry-darkest)', color: '#fff', padding: '72px 28px' }}>
+            <div style={{ maxWidth: 1280, margin: '0 auto' }}>
+              <Pill tone="berry">CardFinder</Pill>
+              <h1 className="showDot" style={{ fontSize: 52, fontWeight: 700, margin: '18px 0 14px', letterSpacing: '-0.025em', lineHeight: 1.08 }}>Find the right card for you</h1>
+              <p style={{ fontSize: 17, opacity: .88, maxWidth: 540, margin: '0 0 32px', lineHeight: 1.65 }}>
+                Compare 200+ cards by cash back, travel, or low interest — matched to your spending in 60 seconds.
+              </p>
+              <Button size="l" variant="coconut">Start the quiz →</Button>
+            </div>
+          </div>
+          <CardFinder />
+          <FeaturedIn />
+          <AwardStrip />
+        </div>
+      )}
+
+      {/* ── BANKING ────────────────────────────────────────────────── */}
+      {page === 'banking' && (
+        <div data-screen-label="Banking">
+          <div style={{ background: 'var(--rh-blueberry-darkest)', color: '#fff', padding: '72px 28px' }}>
+            <div style={{ maxWidth: 1280, margin: '0 auto' }}>
+              <Pill tone="mint">Banking</Pill>
+              <h1 className="showDot" style={{ fontSize: 52, fontWeight: 700, margin: '18px 0 14px', letterSpacing: '-0.025em', lineHeight: 1.08 }}>Your money, made better</h1>
+              <p style={{ fontSize: 17, opacity: .88, maxWidth: 540, margin: '0 0 32px', lineHeight: 1.65 }}>
+                Compare high-interest savings, GICs, and chequing from Canada's top banks. Updated daily.
+              </p>
+              <Button size="l" variant="coconut">See savings rates →</Button>
+            </div>
+          </div>
+          <SavingsShowcase />
+          <TrustStrip />
+          <AwardStrip />
+        </div>
+      )}
+
+      {/* ── INSURANCE ──────────────────────────────────────────────── */}
+      {page === 'insurance' && <InsurancePage onNavigate={go} />}
+
+      {/* ── INVESTING ──────────────────────────────────────────────── */}
+      {page === 'investing' && <InvestingPage />}
+
+      {/* ── TOOLS ──────────────────────────────────────────────────── */}
+      {page === 'tools' && (
+        <div data-screen-label="Tools">
+          <ToolsPage />
+          <MortgageCalculator onFindRates={() => go('mortgages')} />
+        </div>
+      )}
+
+      <Footer />
+    </div>
+  );
+};
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

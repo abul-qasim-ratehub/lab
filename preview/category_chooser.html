@@ -1,0 +1,23 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<title>Category chooser</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html,body{margin:0;padding:0;background:var(--rh-coconut);font-family:var(--rh-font-sans);}
+  .card{padding:20px 28px;display:grid;grid-template-columns:repeat(6,1fr);gap:12px;}
+  .cat{background:#fff;border:1px solid var(--rh-stone-light);border-radius:12px;padding:14px 10px;display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;cursor:pointer;transition:border-color 300ms,box-shadow 300ms,transform 300ms;}
+  .cat:hover{border-color:var(--rh-blueberry);box-shadow:var(--rh-shadow-s);}
+  .ic{width:48px;height:48px;color:var(--rh-blueberry-dark);}
+  .ic svg{width:100%;height:100%;}
+  .name{font-size:12px;font-weight:500;color:var(--rh-blackberry);line-height:1.2;}
+</style></head>
+<body>
+<div class="card">
+  <div class="cat"><div class="ic"><img src="../assets/icons/house.svg" style="width:100%;height:100%;"></div><div class="name">Mortgages</div></div>
+  <div class="cat"><div class="ic"><img src="../assets/icons/credit-card.svg" style="width:100%;height:100%;"></div><div class="name">Credit cards</div></div>
+  <div class="cat"><div class="ic"><img src="../assets/icons/piggy.svg" style="width:100%;height:100%;"></div><div class="name">Savings</div></div>
+  <div class="cat"><div class="ic"><img src="../assets/icons/shield.svg" style="width:100%;height:100%;"></div><div class="name">Insurance</div></div>
+  <div class="cat"><div class="ic"><img src="../assets/icons/trending.svg" style="width:100%;height:100%;"></div><div class="name">Investing</div></div>
+  <div class="cat"><div class="ic"><img src="../assets/icons/calculator.svg" style="width:100%;height:100%;"></div><div class="name">Calculators</div></div>
+</div>
+</body></html>

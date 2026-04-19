@@ -1,0 +1,29 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<title>Buttons — primary</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html,body{margin:0;padding:0;background:var(--rh-coconut);font-family:var(--rh-font-sans);}
+  .card{padding:22px 28px;display:flex;flex-direction:column;gap:14px;}
+  .row{display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
+  .btn{font-family:var(--rh-font-sans);font-weight:500;font-size:15px;border:none;border-radius:8px;padding:12px 22px;cursor:pointer;transition:background-color 300ms,color 300ms,box-shadow 300ms;line-height:1.2;}
+  .primary{background:#2d6e8a;color:#fff;}
+  .primary:hover{background:var(--rh-blueberry-dark);}
+  .primary-hover{background:var(--rh-blueberry-dark);color:#fff;}
+  .primary-active{background:var(--rh-blueberry-darkest);color:#fff;}
+  .primary-disabled{background:#2d6e8a;color:#fff;opacity:.5;cursor:default;}
+  .primary-focus{background:#2d6e8a;color:#fff;box-shadow:var(--rh-shadow-focus);}
+  .label{font-size:11px;color:var(--rh-stone-darkest);letter-spacing:.06em;text-transform:uppercase;font-weight:500;min-width:70px;}
+</style></head>
+<body>
+<div class="card">
+  <div class="row"><span class="label">Default</span><button class="btn primary">See today's rates</button><button class="btn primary">Get my quote</button></div>
+  <div class="row">
+    <span class="label">States</span>
+    <button class="btn primary-hover">Hover</button>
+    <button class="btn primary-active">Active</button>
+    <button class="btn primary-focus">Focus</button>
+    <button class="btn primary-disabled">Disabled</button>
+  </div>
+</div>
+</body></html>

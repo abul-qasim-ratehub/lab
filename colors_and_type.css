@@ -1,0 +1,295 @@
+/* ============================================================================
+   Ratehub Design System — Colors & Type
+   Source: front-end/packages/base-ui (Colours.js, Typography.js, Sizes.js)
+   ============================================================================ */
+
+@font-face {
+  font-family: 'Gordita';
+  font-weight: 400;
+  font-display: swap;
+  src: url('./fonts/Gordita-regular.woff2') format('woff2'),
+       url('./fonts/Gordita-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gordita';
+  font-weight: 500;
+  font-display: swap;
+  src: url('./fonts/Gordita-medium.woff2') format('woff2'),
+       url('./fonts/Gordita-medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gordita';
+  font-weight: 700;
+  font-display: swap;
+  src: url('./fonts/Gordita-bold.woff2') format('woff2'),
+       url('./fonts/Gordita-bold.woff') format('woff');
+}
+
+:root {
+  /* ===== Neutrals ===== */
+  --rh-coconut: #ffffff;
+  --rh-coconut-dark: #fbfffd;
+  --rh-blackberry: #000000;
+  --rh-blackberry-light: #393939;
+
+  /* ===== Primary — Blueberry (brand blue) ===== */
+  --rh-blueberry-lightest: #dbf9ff;
+  --rh-blueberry-light:    #a4f1ff;
+  --rh-blueberry:          #00b5d6;
+  --rh-blueberry-dark:     #00729e;
+  --rh-blueberry-darkest:  #004f6e;
+
+  /* ===== Primary — Mint (accent green) ===== */
+  --rh-mint-lightest: #f5fffa;
+  --rh-mint-light:    #e0fff5;
+  --rh-mint:          #9ffcdf;
+  --rh-mint-dark:     #68e9c1;
+  --rh-mint-darkest:  #3ea592;
+
+  /* ===== Primary — Lime (success/savings) ===== */
+  --rh-lime-lightest: #d3f7e2;
+  --rh-lime-light:    #a7e8c2;
+  --rh-lime:          #4ab879;
+  --rh-lime-dark:     #358255;
+  --rh-lime-darkest:  #1f5f39;
+
+  /* ===== Secondary — Grape ===== */
+  --rh-grape-lightest: #fbeeff;
+  --rh-grape-light:    #ecd1f4;
+  --rh-grape:          #b969d1;
+  --rh-grape-dark:     #80209c;
+  --rh-grape-darkest:  #550a6b;
+
+  /* ===== Secondary — Yuzu (reward/highlight) ===== */
+  --rh-yuzu-lightest: #fff4da;
+  --rh-yuzu-light:    #fde4a7;
+  --rh-yuzu:          #ffcc50;
+  --rh-yuzu-dark:     #fcb60a;
+  --rh-yuzu-darkest:  #e7a400;
+
+  /* ===== Secondary — Tangerine (warning/warm) ===== */
+  --rh-tangerine-lightest: #ffe7c8;
+  --rh-tangerine-light:    #ffbc68;
+  --rh-tangerine:          #ff9300;
+  --rh-tangerine-dark:     #ea7000;
+  --rh-tangerine-darkest:  #cd5b00;
+
+  /* ===== Secondary — Watermelon ===== */
+  --rh-watermelon-lightest: #ffedef;
+  --rh-watermelon-light:    #ffc7cc;
+  --rh-watermelon:          #ff989b;
+  --rh-watermelon-dark:     #e56b6f;
+  --rh-watermelon-darkest:  #d2484c;
+
+  /* ===== Secondary — Strawberry (error/alert) ===== */
+  --rh-strawberry-lightest: #ffa69d;
+  --rh-strawberry-light:    #ff6e59;
+  --rh-strawberry:          #f6452c;
+  --rh-strawberry-dark:     #d82e15;
+  --rh-strawberry-darkest:  #ab1b00;
+
+  /* ===== Stone (cool neutrals / borders) ===== */
+  --rh-stone-lightest: #f5f9fa;
+  --rh-stone-light:    #e5eff1;
+  --rh-stone:          #c0ced3;
+  --rh-stone-dark:     #a4b4ba;
+  --rh-stone-darkest:  #6a787c;
+
+  /* ===== Grey scale (Material-derived) ===== */
+  --rh-grey-50:  #fafafa;
+  --rh-grey-100: #f5f5f5;
+  --rh-grey-200: #eeeeee;
+  --rh-grey-300: #e0e0e0;
+  --rh-grey-400: #bdbdbd;
+  --rh-grey-500: #9e9e9e;
+  --rh-grey-600: #757575;
+  --rh-grey-700: #616161;
+  --rh-grey-800: #424242;
+  --rh-grey-900: #212121;
+
+  /* ===== Semantic tokens ===== */
+  --rh-bg:             var(--rh-coconut);
+  --rh-bg-subtle:      var(--rh-stone-lightest);
+  --rh-bg-muted:       var(--rh-stone-light);
+  --rh-bg-inverse:     var(--rh-blueberry-darkest);
+  --rh-bg-brand:       var(--rh-blueberry-darkest);  /* deep teal hero */
+  --rh-bg-brand-soft:  var(--rh-blueberry-lightest);
+
+  --rh-fg:             var(--rh-blackberry);
+  --rh-fg-secondary:   var(--rh-blackberry-light);
+  --rh-fg-muted:       var(--rh-stone-darkest);
+  --rh-fg-inverse:     var(--rh-coconut);
+  --rh-fg-link:        var(--rh-blueberry-dark);
+  --rh-fg-link-hover:  var(--rh-blueberry);
+
+  --rh-border:         var(--rh-stone);
+  --rh-border-subtle:  var(--rh-stone-light);
+  --rh-border-strong:  var(--rh-blackberry);
+
+  --rh-success:        var(--rh-lime-dark);
+  --rh-success-bg:     var(--rh-lime-lightest);
+  --rh-warning:        var(--rh-tangerine-dark);
+  --rh-warning-bg:     var(--rh-tangerine-lightest);
+  --rh-error:          var(--rh-strawberry-dark);
+  --rh-error-bg:       var(--rh-watermelon-lightest);
+  --rh-info:           var(--rh-blueberry-dark);
+  --rh-info-bg:        var(--rh-blueberry-lightest);
+
+  /* Brand dot accent */
+  --rh-dot: var(--rh-blueberry);
+
+  /* ===== Typography ===== */
+  --rh-font-sans: 'Gordita', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                  Roboto, Helvetica, Arial, sans-serif;
+  --rh-font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --rh-weight-regular: 400;
+  --rh-weight-medium:  500;
+  --rh-weight-bold:    700;
+
+  /* Font sizes (from Sizes.FONTS — 1rem = 16px base, 14px <1366px) */
+  --rh-font-3xs: 0.625rem;   /* 10 */
+  --rh-font-2xs: 0.75rem;    /* 12 */
+  --rh-font-xs:  0.875rem;   /* 14 */
+  --rh-font-s:   1rem;       /* 16 */
+  --rh-font-m:   1.125rem;   /* 18 */
+  --rh-font-l:   1.25rem;    /* 20 */
+  --rh-font-xl:  1.5rem;     /* 24 */
+  --rh-font-2xl: 1.625rem;   /* 26 */
+  --rh-font-3xl: 2rem;       /* 32 */
+  --rh-font-4xl: 2.375rem;   /* 38 */
+  --rh-font-5xl: 3rem;       /* 48 */
+  --rh-font-6xl: 3.75rem;    /* 60 */
+
+  --rh-leading-xs: 1;
+  --rh-leading-s:  1.2;
+  --rh-leading-m:  1.5;
+  --rh-leading-l:  1.75;
+  --rh-leading-xl: 2;
+
+  /* ===== Spacing (multiples of 1rem = 16px) ===== */
+  --rh-space-eighth:  0.125rem;   /* 2  */
+  --rh-space-quarter: 0.25rem;    /* 4  */
+  --rh-space-half:    0.5rem;     /* 8  */
+  --rh-space-0_75:    0.75rem;    /* 12 */
+  --rh-space-1:       1rem;       /* 16 */
+  --rh-space-1_25:    1.25rem;    /* 20 */
+  --rh-space-1_5:     1.5rem;     /* 24 */
+  --rh-space-1_75:    1.75rem;    /* 28 */
+  --rh-space-2:       2rem;       /* 32 */
+  --rh-space-2_5:     2.5rem;     /* 40 */
+  --rh-space-3:       3rem;       /* 48 */
+  --rh-space-4:       4rem;       /* 64 */
+  --rh-space-5:       5rem;       /* 80 */
+  --rh-space-6:       6rem;       /* 96 */
+  --rh-space-8:       8rem;       /* 128 */
+
+  /* ===== Radii ===== */
+  --rh-radius-xs:   4px;
+  --rh-radius-s:    8px;     /* default buttons */
+  --rh-radius-m:    12px;    /* inputs, cards */
+  --rh-radius-l:    16px;    /* feature cards */
+  --rh-radius-xl:   24px;
+  --rh-radius-full: 9999px;  /* pills */
+
+  /* ===== Shadows (soft, cool-blue tint) ===== */
+  --rh-shadow-xs: 0 1px 2px rgba(0, 79, 110, 0.06);
+  --rh-shadow-s:  0 2px 6px rgba(0, 79, 110, 0.08);
+  --rh-shadow-m:  0 8px 20px rgba(0, 79, 110, 0.10);
+  --rh-shadow-l:  0 16px 40px rgba(0, 79, 110, 0.14);
+  --rh-shadow-focus: 0 0 0 3px rgba(0, 181, 214, 0.35);
+
+  /* ===== Motion ===== */
+  --rh-ease:     ease;
+  --rh-ease-in:  ease-in;
+  --rh-ease-out: ease-out;
+  --rh-duration-fast:   150ms;
+  --rh-duration-base:   300ms;
+  --rh-duration-slow:   500ms;
+
+  /* ===== Layout ===== */
+  --rh-container-narrow: 720px;
+  --rh-container:        1104px;
+  --rh-container-wide:   1280px;
+}
+
+/* ============================================================================
+   Base element styles
+   ============================================================================ */
+html, body {
+  font-family: var(--rh-font-sans);
+  font-weight: var(--rh-weight-regular);
+  font-size: 16px;
+  line-height: var(--rh-leading-m);
+  color: var(--rh-fg);
+  background: var(--rh-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 1366px) {
+  html, body { font-size: 14px; }
+}
+
+::selection {
+  background-color: rgba(164, 241, 255, 0.99);
+  color: var(--rh-blackberry);
+}
+
+/* ============================================================================
+   Semantic typography classes (mirrors Typography.js)
+   ============================================================================ */
+
+/* Display — the giant marketing headlines */
+.rh-title-4xl { font-size: var(--rh-font-5xl); font-weight: var(--rh-weight-bold);   line-height: var(--rh-leading-s); }
+.rh-title-3xl { font-size: var(--rh-font-4xl); font-weight: var(--rh-weight-bold);   line-height: var(--rh-leading-s); }
+.rh-title-2xl { font-size: var(--rh-font-3xl); font-weight: var(--rh-weight-medium); line-height: var(--rh-leading-s); }
+
+/* Titles — section / card headers */
+.rh-title-l   { font-size: var(--rh-font-2xl); font-weight: var(--rh-weight-medium); line-height: var(--rh-leading-m); }
+.rh-title-m   { font-size: var(--rh-font-xl);  font-weight: var(--rh-weight-medium); line-height: var(--rh-leading-m); }
+.rh-title-s   { font-size: var(--rh-font-l);   font-weight: var(--rh-weight-medium); line-height: var(--rh-leading-m); }
+.rh-title-xs  { font-size: var(--rh-font-m);   font-weight: var(--rh-weight-medium); line-height: var(--rh-leading-m); }
+.rh-title-2xs { font-size: var(--rh-font-s);   font-weight: var(--rh-weight-medium); line-height: var(--rh-leading-m); }
+.rh-title-3xs { font-size: var(--rh-font-xs);  font-weight: var(--rh-weight-medium); line-height: var(--rh-leading-m); }
+
+/* Body text */
+.rh-text-xl  { font-size: var(--rh-font-l);  line-height: var(--rh-leading-m); }
+.rh-text-l   { font-size: var(--rh-font-m);  line-height: var(--rh-leading-m); }
+.rh-text-m   { font-size: var(--rh-font-s);  line-height: var(--rh-leading-m); }
+.rh-text-s   { font-size: var(--rh-font-xs); line-height: var(--rh-leading-m); }
+.rh-text-xs  { font-size: var(--rh-font-2xs); line-height: var(--rh-leading-m); }
+.rh-text-2xs { font-size: var(--rh-font-3xs); line-height: var(--rh-leading-m); }
+
+.weight-regular { font-weight: var(--rh-weight-regular); }
+.weight-medium  { font-weight: var(--rh-weight-medium); }
+.weight-bold    { font-weight: var(--rh-weight-bold); }
+
+/* Brand "dot" — the tiny blueberry period that ends marquee headlines */
+.showDot::after {
+  content: ".";
+  color: var(--rh-dot);
+}
+
+/* ============================================================================
+   Mapped to generic heading tags (for prose-style content)
+   ============================================================================ */
+h1 { font-size: var(--rh-font-5xl); font-weight: var(--rh-weight-bold);   line-height: var(--rh-leading-s); margin: 0 0 0.5em; }
+h2 { font-size: var(--rh-font-3xl); font-weight: var(--rh-weight-medium); line-height: var(--rh-leading-s); margin: 0 0 0.5em; }
+h3 { font-size: var(--rh-font-2xl); font-weight: var(--rh-weight-medium); line-height: var(--rh-leading-m); margin: 0 0 0.5em; }
+h4 { font-size: var(--rh-font-xl);  font-weight: var(--rh-weight-medium); line-height: var(--rh-leading-m); margin: 0 0 0.5em; }
+h5 { font-size: var(--rh-font-l);   font-weight: var(--rh-weight-medium); line-height: var(--rh-leading-m); margin: 0 0 0.5em; }
+h6 { font-size: var(--rh-font-m);   font-weight: var(--rh-weight-medium); line-height: var(--rh-leading-m); margin: 0 0 0.5em; }
+
+p  { font-size: var(--rh-font-s); line-height: var(--rh-leading-l); margin: 0 0 1em; }
+
+a  { color: var(--rh-fg-link); text-decoration: underline; text-underline-offset: 2px; transition: color var(--rh-duration-base); }
+a:hover { color: var(--rh-fg-link-hover); }
+
+code, pre {
+  font-family: var(--rh-font-mono);
+  font-size: 0.9em;
+  background: var(--rh-stone-lightest);
+  border-radius: var(--rh-radius-xs);
+  padding: 0.1em 0.35em;
+}

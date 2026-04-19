@@ -1,0 +1,20 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<title>Elevation / shadows</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html,body{margin:0;padding:0;background:var(--rh-stone-lightest);font-family:var(--rh-font-sans);}
+  .card{padding:24px 28px;display:grid;grid-template-columns:repeat(4,1fr);gap:18px;}
+  .item{display:flex;flex-direction:column;align-items:center;gap:10px;}
+  .box{width:100%;height:64px;background:var(--rh-coconut);border-radius:12px;}
+  .tok{font-family:var(--rh-font-mono);font-size:11px;color:var(--rh-stone-darkest);}
+  .name{font-size:11px;font-weight:500;}
+</style></head>
+<body>
+<div class="card">
+  <div class="item"><div class="box" style="box-shadow:var(--rh-shadow-xs)"></div><div class="name">xs</div><div class="tok">--rh-shadow-xs</div></div>
+  <div class="item"><div class="box" style="box-shadow:var(--rh-shadow-s)"></div><div class="name">s</div><div class="tok">--rh-shadow-s</div></div>
+  <div class="item"><div class="box" style="box-shadow:var(--rh-shadow-m)"></div><div class="name">m</div><div class="tok">--rh-shadow-m</div></div>
+  <div class="item"><div class="box" style="box-shadow:var(--rh-shadow-l)"></div><div class="name">l</div><div class="tok">--rh-shadow-l</div></div>
+</div>
+</body></html>

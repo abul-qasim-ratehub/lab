@@ -1,0 +1,53 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<title>Checkmark bullets & stars</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html,body{margin:0;padding:0;background:var(--rh-coconut);font-family:var(--rh-font-sans);}
+  .card{padding:22px 28px;display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+  .list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;}
+  .li{display:flex;align-items:flex-start;gap:10px;font-size:14px;line-height:1.45;}
+  .tick{width:22px;height:22px;border-radius:50%;background:var(--rh-lime-lightest);color:var(--rh-lime-dark);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+  .tick svg{width:12px;height:12px;}
+  .stars{display:flex;gap:3px;color:var(--rh-lime-dark);}
+  .stars svg{width:18px;height:18px;}
+  .rating{display:flex;align-items:center;gap:10px;font-size:13px;}
+  .score{font-weight:700;}
+  .ct{color:var(--rh-stone-darkest);font-size:12px;}
+  h4{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--rh-stone-darkest);font-weight:500;margin:0 0 8px;}
+</style></head>
+<body>
+<div class="card">
+  <div>
+    <h4>Checkmark feature list</h4>
+    <ul class="list">
+      <li class="li"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 12 10 18 20 6"/></svg></span>Compare 30+ lenders in one place</li>
+      <li class="li"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 12 10 18 20 6"/></svg></span>No hidden fees or obligations</li>
+      <li class="li"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 12 10 18 20 6"/></svg></span>Free to use · updated daily</li>
+    </ul>
+  </div>
+  <div>
+    <h4>Star ratings</h4>
+    <div class="rating">
+      <span class="stars">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+      </span>
+      <span class="score">4.9</span><span class="ct">· 1,823 reviews</span>
+    </div>
+    <div class="rating" style="margin-top:10px;">
+      <span class="stars" style="color:var(--rh-yuzu-dark)">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor" opacity=".3"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+      </span>
+      <span class="score">4.3</span><span class="ct">· 452 reviews</span>
+    </div>
+  </div>
+</div>
+</body></html>

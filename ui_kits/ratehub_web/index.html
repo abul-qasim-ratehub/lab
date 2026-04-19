@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ratehub.ca — Compare rates. Save smart.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="../../assets/brand/favicon-32x32.png">
+<link rel="stylesheet" href="../../colors_and_type.css">
+<style>
+  body { margin: 0; background: var(--rh-coconut); }
+  * { box-sizing: border-box; }
+  button, input, select { font-family: inherit; }
+  [data-screen-label] { min-height: 100vh; }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel" src="components.jsx"></script>
+<script type="text/babel" src="Header.jsx"></script>
+<script type="text/babel" src="Footer.jsx"></script>
+<script type="text/babel" src="HeroBanner.jsx"></script>
+<script type="text/babel" src="ProductCategoryGrid.jsx"></script>
+<script type="text/babel" src="TrustStrip.jsx"></script>
+<script type="text/babel" src="MortgageRateTable.jsx"></script>
+<script type="text/babel" src="CardFinder.jsx"></script>
+<script type="text/babel" src="SavingsShowcase.jsx"></script>
+<script type="text/babel" src="EducationStrip.jsx"></script>
+<script type="text/babel">
+const App = () => {
+  const [page, setPage] = React.useState(() => localStorage.getItem('rh_page') || 'home');
+  const go = (p) => { setPage(p); localStorage.setItem('rh_page', p); window.scrollTo({ top: 0, behavior: 'smooth' }); };
+
+  return (
+    <div>
+      <Header current={page} onNavigate={go} />
+      {page === 'home' && (
+        <div data-screen-label="01 Home">
+          <HeroBanner onFindRates={() => go('mortgages')} />
+          <ProductCategoryGrid onNavigate={go} />
+          <TrustStrip />
+          <MortgageRateTable />
+          <CardFinder />
+          <SavingsShowcase />
+          <EducationStrip />
+          <AwardStrip />
+        </div>
+      )}
+      {page === 'mortgages' && (
+        <div data-screen-label="02 Mortgages">
+          <HeroBanner onFindRates={() => {}} />
+          <MortgageRateTable />
+          <EducationStrip />
+        </div>
+      )}
+      {page === 'cards' && (
+        <div data-screen-label="03 Cards">
+          <div style={{ background: 'var(--rh-blueberry-darkest)', color: '#fff', padding: '72px 28px' }}>
+            <div style={{ maxWidth: 1280, margin: '0 auto' }}>
+              <Pill tone="yuzu">CardFinder</Pill>
+              <h1 className="showDot" style={{ fontSize: 60, fontWeight: 700, margin: '18px 0 12px', letterSpacing: '-0.02em', lineHeight: 1.1 }}>Find the right card</h1>
+              <p style={{ fontSize: 18, opacity: .9, maxWidth: 560, margin: 0 }}>Compare 200+ cards by cash back, travel rewards, low interest, or no annual fee — we match you to the card that actually fits.</p>
+            </div>
+          </div>
+          <CardFinder />
+          <AwardStrip />
+        </div>
+      )}
+      {page === 'banking' && <div data-screen-label="04 Banking"><SavingsShowcase /><TrustStrip /></div>}
+      {page === 'insurance' && (
+        <div data-screen-label="05 Insurance" style={{ padding: '80px 28px', maxWidth: 1280, margin: '0 auto', textAlign: 'center' }}>
+          <Icon name="shield" size={88} color="var(--rh-blueberry-dark)" />
+          <h1 className="showDot" style={{ fontSize: 44, fontWeight: 700, margin: '20px 0 12px' }}>Insurance that fits</h1>
+          <p style={{ fontSize: 18, color: 'var(--rh-blackberry-light)', maxWidth: 560, margin: '0 auto 28px' }}>Get a home insurance quote in 5 minutes. Compare auto, life, travel, and business coverage from Canada's top insurers.</p>
+          <Button size="l">Get a quote →</Button>
+        </div>
+      )}
+      {page === 'investing' && (
+        <div data-screen-label="06 Investing" style={{ padding: '80px 28px', maxWidth: 1280, margin: '0 auto', textAlign: 'center' }}>
+          <Icon name="trending" size={88} color="var(--rh-lime-dark)" />
+          <h1 className="showDot" style={{ fontSize: 44, fontWeight: 700, margin: '20px 0 12px' }}>Investing, simplified</h1>
+          <p style={{ fontSize: 18, color: 'var(--rh-blackberry-light)', maxWidth: 560, margin: '0 auto 28px' }}>Compare robo-advisors, GICs, and self-directed brokerages. Grow your wealth without the guesswork.</p>
+          <Button size="l">Explore investing →</Button>
+        </div>
+      )}
+      {page === 'tools' && (
+        <div data-screen-label="07 Tools" style={{ padding: '80px 28px', maxWidth: 1280, margin: '0 auto' }}>
+          <h1 style={{ fontSize: 44, fontWeight: 500, margin: '0 0 32px' }}>Free Canadian calculators</h1>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}>
+            {[
+              { i: 'house', t: 'Mortgage payment' },
+              { i: 'calculator', t: 'Affordability' },
+              { i: 'dollar', t: 'Land transfer tax' },
+              { i: 'refresh', t: 'Penalty calculator' },
+              { i: 'piggy', t: 'Savings goals' },
+              { i: 'credit-card', t: 'Debt payoff' },
+              { i: 'trending', t: 'RRSP vs TFSA' },
+              { i: 'shield', t: 'Life insurance' },
+            ].map((c, i) => (
+              <Card key={i} style={{ cursor: 'pointer', textAlign: 'center' }}>
+                <Icon name={c.i} size={56} color="var(--rh-blueberry-dark)" />
+                <div style={{ fontWeight: 500, marginTop: 10 }}>{c.t}</div>
+                <Anchor>Try it</Anchor>
+              </Card>
+            ))}
+          </div>
+        </div>
+      )}
+      <Footer />
+    </div>
+  );
+};
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

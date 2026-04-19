@@ -1,0 +1,26 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<title>Spacing scale</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html,body{margin:0;padding:0;background:var(--rh-coconut);font-family:var(--rh-font-sans);}
+  .card{padding:18px 28px;display:flex;flex-direction:column;gap:6px;}
+  .row{display:grid;grid-template-columns:90px 60px 1fr;gap:12px;align-items:center;font-size:12px;}
+  .tok{font-family:var(--rh-font-mono);color:var(--rh-stone-darkest);}
+  .px{font-family:var(--rh-font-mono);color:var(--rh-blackberry);font-weight:500;}
+  .bar{height:14px;background:var(--rh-blueberry);border-radius:3px;}
+</style></head>
+<body>
+<div class="card">
+  <div class="row"><span class="tok">space-quarter</span><span class="px">4px</span><span class="bar" style="width:4px"></span></div>
+  <div class="row"><span class="tok">space-half</span><span class="px">8px</span><span class="bar" style="width:8px"></span></div>
+  <div class="row"><span class="tok">space-0_75</span><span class="px">12px</span><span class="bar" style="width:12px"></span></div>
+  <div class="row"><span class="tok">space-1</span><span class="px">16px</span><span class="bar" style="width:16px"></span></div>
+  <div class="row"><span class="tok">space-1_5</span><span class="px">24px</span><span class="bar" style="width:24px"></span></div>
+  <div class="row"><span class="tok">space-2</span><span class="px">32px</span><span class="bar" style="width:32px"></span></div>
+  <div class="row"><span class="tok">space-3</span><span class="px">48px</span><span class="bar" style="width:48px"></span></div>
+  <div class="row"><span class="tok">space-4</span><span class="px">64px</span><span class="bar" style="width:64px"></span></div>
+  <div class="row"><span class="tok">space-5</span><span class="px">80px</span><span class="bar" style="width:80px"></span></div>
+  <div class="row"><span class="tok">space-6</span><span class="px">96px</span><span class="bar" style="width:96px"></span></div>
+</div>
+</body></html>

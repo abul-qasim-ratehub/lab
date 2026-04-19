@@ -1,0 +1,26 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<title>Colors — Semantic tokens</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html,body{margin:0;padding:0;background:var(--rh-coconut);font-family:var(--rh-font-sans);}
+  .card{padding:16px 28px;display:grid;grid-template-columns:repeat(2,1fr);gap:10px;}
+  .t{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:8px;border:1px solid var(--rh-stone-light);font-size:13px;}
+  .sw{width:20px;height:20px;border-radius:6px;flex-shrink:0;border:1px solid rgba(0,0,0,.05);}
+  .name{font-weight:500;}
+  .tok{font-family:var(--rh-font-mono);font-size:11px;color:var(--rh-stone-darkest);margin-left:auto;}
+</style></head>
+<body>
+<div class="card">
+  <div class="t"><div class="sw" style="background:#004f6e"></div><div class="name">Brand hero</div><div class="tok">--rh-bg-brand</div></div>
+  <div class="t"><div class="sw" style="background:#dbf9ff"></div><div class="name">Brand soft</div><div class="tok">--rh-bg-brand-soft</div></div>
+  <div class="t"><div class="sw" style="background:#358255"></div><div class="name">Success</div><div class="tok">--rh-success</div></div>
+  <div class="t"><div class="sw" style="background:#d3f7e2"></div><div class="name">Success bg</div><div class="tok">--rh-success-bg</div></div>
+  <div class="t"><div class="sw" style="background:#ea7000"></div><div class="name">Warning</div><div class="tok">--rh-warning</div></div>
+  <div class="t"><div class="sw" style="background:#ffe7c8"></div><div class="name">Warning bg</div><div class="tok">--rh-warning-bg</div></div>
+  <div class="t"><div class="sw" style="background:#d82e15"></div><div class="name">Error</div><div class="tok">--rh-error</div></div>
+  <div class="t"><div class="sw" style="background:#ffedef"></div><div class="name">Error bg</div><div class="tok">--rh-error-bg</div></div>
+  <div class="t"><div class="sw" style="background:#00729e"></div><div class="name">Info / link</div><div class="tok">--rh-fg-link</div></div>
+  <div class="t"><div class="sw" style="background:#c0ced3"></div><div class="name">Border</div><div class="tok">--rh-border</div></div>
+</div>
+</body></html>

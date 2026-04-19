@@ -1,0 +1,25 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<title>Buttons — variants</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html,body{margin:0;padding:0;background:var(--rh-coconut);font-family:var(--rh-font-sans);}
+  .card{padding:22px 28px;display:flex;flex-direction:column;gap:12px;}
+  .row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .btn{font-family:var(--rh-font-sans);font-weight:500;font-size:15px;border-radius:8px;padding:12px 22px;cursor:pointer;transition:all 300ms;line-height:1.2;border:2px solid transparent;}
+  .secondary{background:transparent;border-color:var(--rh-blackberry);color:var(--rh-blackberry);}
+  .secondary:hover{background:var(--rh-blackberry);color:#fff;}
+  .alternate{background:var(--rh-blackberry);color:#fff;border:none;}
+  .alternate:hover{background:var(--rh-blackberry-light);}
+  .coconut{background:var(--rh-coconut);color:var(--rh-blueberry-dark);border:2px solid var(--rh-coconut);box-shadow:var(--rh-shadow-s);}
+  .coconut:hover{color:var(--rh-blueberry);}
+  .inverse-bg{background:var(--rh-blueberry-darkest);padding:10px 14px;border-radius:8px;}
+  .label{font-size:11px;color:var(--rh-stone-darkest);letter-spacing:.06em;text-transform:uppercase;font-weight:500;min-width:80px;}
+</style></head>
+<body>
+<div class="card">
+  <div class="row"><span class="label">Secondary</span><button class="btn secondary">Compare plans</button></div>
+  <div class="row"><span class="label">Alternate</span><button class="btn alternate">Start saving</button></div>
+  <div class="row"><span class="label">Coconut</span><div class="inverse-bg"><button class="btn coconut">Find my mortgage</button></div></div>
+</div>
+</body></html>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<title>Brand — decorative shapes</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html,body{margin:0;padding:0;background:var(--rh-coconut);font-family:var(--rh-font-sans);}
+  .card{padding:18px 24px;display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+  .box{position:relative;border-radius:14px;overflow:hidden;min-height:140px;display:flex;align-items:flex-end;padding:14px 16px;}
+  .one{background:var(--rh-blueberry-darkest);color:#fff;}
+  .two{background:var(--rh-blueberry-lightest);color:var(--rh-blueberry-darkest);}
+  .bg{position:absolute;inset:0;opacity:.3;}
+  .bg img{width:100%;height:100%;object-fit:cover;}
+  .t{position:relative;z-index:1;}
+  .t b{display:block;font-size:18px;font-weight:500;margin-bottom:2px;}
+  .t span{font-size:12px;opacity:.8;font-family:var(--rh-font-mono);}
+</style></head>
+<body>
+<div class="card">
+  <div class="box one"><div class="bg"><img src="../assets/brand/background-circle.svg"></div>
+    <div class="t"><b>Hero circle</b><span>background-circle.svg</span></div>
+  </div>
+  <div class="box two"><div class="bg" style="opacity:.5"><img src="../assets/brand/two-dots.svg"></div>
+    <div class="t"><b>Two-dot accent</b><span>two-dots.svg</span></div>
+  </div>
+</div>
+</body></html>
