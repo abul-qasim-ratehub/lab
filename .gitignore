@@ -4,26 +4,72 @@
 ._*
 .Spotlight-V100
 .Trashes
+
+# Windows
 ehthumbs.db
 Thumbs.db
 
-# Editor
+# IDE and Editor files
 .vscode/
 .idea/
+.sublime-project
+.sublime-workspace
 *.swp
 *.swo
 *~
+.c9/
+.project
+.classpath
 
-# Uploads / scratch
-uploads/
+# IDE cache files
+.eslintcache
+.stylelintcache
 
-# Node (if ever added)
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.*.js
+
+# Dependencies
 node_modules/
+pnpm-store/
+
+# Package manager logs
 npm-debug.log*
+npm-error.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+pnpm-error.log*
+lerna-debug.log*
 
-# Build output (if ever added)
+# Build output
 dist/
 build/
+.next/
+out/
+
+# Cache and temporary files
 .cache/
+.temp/
+temp/
+tmp/
+*.bak
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
+.typings/
+
+# Node REPL history
+.node_repl_history
+
+# Uploads (user-generated content)
+uploads/*
+!uploads/.gitkeep
