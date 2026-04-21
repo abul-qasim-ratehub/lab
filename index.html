@@ -153,6 +153,7 @@
 <script type="text/babel" src="src/HeroBannerV2.jsx"></script>
 <script type="text/babel" src="src/MortgageCalculator.jsx"></script>
 <script type="text/babel" src="src/FeaturedIn.jsx"></script>
+<script type="text/babel" src="src/HomeValueEstimator.jsx"></script>
 
 <!-- ── App ── -->
 <script type="text/babel">
@@ -591,6 +592,7 @@ const App = () => {
       {page === 'insurance'  && <InsurancePage onNavigate={go} />}
       {page === 'investing'  && <InvestingPage />}
       {page === 'tools'      && <div><ToolsPage /><MortgageCalculator onFindRates={() => go('mortgages')} /></div>}
+      {page === 'home-value' && <HomeValueEstimator onNavigate={go} />}
 
       <Footer />
     </div>

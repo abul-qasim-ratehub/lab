@@ -9,6 +9,7 @@ const Header = ({ onNavigate, current }) => {
     { id: 'insurance', label: 'Insurance'            },
     { id: 'investing', label: 'Investing'            },
     { id: 'tools',     label: 'Tools & calculators'  },
+    { id: 'home-value', label: 'Home value'           },
   ];
   return (
     <header style={{
