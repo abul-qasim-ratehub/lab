@@ -11,6 +11,7 @@ const Header = ({ onNavigate, current }) => {
     { id: 'investing', label: 'Investing'            },
     { id: 'tools',     label: 'Tools & calculators'  },
     { id: 'home-value', label: 'Home value'           },
+    { id: 'members',    label: 'My mortgage'          },
   ];
 
   const handleNav = (id) => {
