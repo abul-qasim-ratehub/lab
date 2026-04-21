@@ -77,7 +77,7 @@ const MortgageCalculator = ({ onFindRates }) => {
         </div>
 
         {/* ── Main grid ── */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 360px', gap: 24, alignItems: 'start' }}>
+        <div className="rh-grid-2" style={{ display: 'grid', gridTemplateColumns: '1fr 360px', gap: 24, alignItems: 'start' }}>
 
           {/* Left — Controls */}
           <Card style={{ padding: '32px 32px 24px' }}>
@@ -111,7 +111,7 @@ const MortgageCalculator = ({ onFindRates }) => {
             />
 
             {/* Summary chips */}
-            <div style={{
+            <div className="rh-grid-3" style={{
               display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12,
               background: 'var(--rh-blueberry-lightest)', borderRadius: 12, padding: '16px 20px',
               marginTop: 8,

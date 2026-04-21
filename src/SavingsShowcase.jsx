@@ -7,7 +7,7 @@ const SavingsShowcase = () => {
   ];
   return (
     <section style={{ background: 'linear-gradient(180deg, var(--rh-mint-lightest) 0%, #fff 100%)', padding: '72px 28px' }}>
-      <div style={{ maxWidth: 1280, margin: '0 auto', display: 'grid', gridTemplateColumns: '340px 1fr', gap: 48, alignItems: 'flex-start' }}>
+      <div className="rh-grid-2" style={{ maxWidth: 1280, margin: '0 auto', display: 'grid', gridTemplateColumns: '340px 1fr', gap: 48, alignItems: 'flex-start' }}>
         <div>
           <Pill tone="mint">Savings</Pill>
           <h2 className="showDot" style={{ fontSize: 40, fontWeight: 500, margin: '14px 0 16px', letterSpacing: '-0.01em', lineHeight: 1.1 }}>Your money, made better</h2>

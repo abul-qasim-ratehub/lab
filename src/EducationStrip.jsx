@@ -13,7 +13,7 @@ const EducationStrip = () => {
         </div>
         <Anchor>Visit the Education Centre</Anchor>
       </div>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20 }}>
+      <div className="rh-grid-3" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20 }}>
         {items.map((it, i) => (
           <Card key={i} padding={0} style={{ overflow: 'hidden' }}>
             <div style={{ height: 140, background: it.color, display: 'flex', alignItems: 'flex-end', padding: 20 }}>

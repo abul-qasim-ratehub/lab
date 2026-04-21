@@ -15,7 +15,7 @@ const CardFinder = () => {
         </div>
         <Button variant="secondary">Start the quiz →</Button>
       </div>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}>
+      <div className="rh-grid-4" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}>
         {cards.map((c, i) => (
           <Card key={i} padding={0} style={{ overflow: 'hidden' }}>
             <div style={{ background: c.color, height: 130, position: 'relative', padding: 20, color: '#fff', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>

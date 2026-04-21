@@ -98,7 +98,7 @@ const FeaturedIn = () => {
         </div>
 
         {/* Testimonial cards */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20 }}>
+        <div className="rh-grid-3" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20 }}>
           {testimonials.map((t, i) => {
             const av = avatarColors[t.tone];
             return (

@@ -76,6 +76,80 @@
     font-size: 11px; font-weight: 600; text-transform: uppercase;
     letter-spacing: .12em; color: var(--rh-stone-darkest); margin-bottom: 6px;
   }
+
+  /* ── Global responsive overrides ─────────────────────────────────────── */
+  .rh-flex-wrap { display: flex; flex-wrap: wrap; }
+
+  /* Mobile menu toggle (hidden on desktop) */
+  .rh-mobile-menu-btn {
+    display: none; background: none; border: none; cursor: pointer; padding: 8px;
+    color: var(--rh-blackberry); font-family: inherit;
+  }
+  .rh-mobile-nav {
+    display: none; position: absolute; top: 100%; left: 0; right: 0;
+    background: var(--rh-coconut); border-bottom: 1px solid var(--rh-stone-light);
+    box-shadow: var(--rh-shadow-m); z-index: 49; padding: 8px 0;
+  }
+  .rh-mobile-nav.open { display: block; }
+  .rh-mobile-nav a {
+    display: block; padding: 12px 20px; font-size: 15px; font-weight: 500;
+    color: var(--rh-blackberry); text-decoration: none;
+    transition: background 200ms;
+  }
+  .rh-mobile-nav a:hover { background: var(--rh-blueberry-lightest); color: var(--rh-blueberry-dark); }
+
+  /* Tablet: ≤ 1024px */
+  @media (max-width: 1024px) {
+    .rh-grid-6 { grid-template-columns: repeat(3, 1fr) !important; }
+    .rh-grid-4 { grid-template-columns: repeat(2, 1fr) !important; }
+
+    header > div { flex-wrap: wrap; gap: 12px !important; padding: 10px 16px !important; }
+    header nav { gap: 0 !important; flex-wrap: wrap; }
+    header nav a { padding: 6px 10px !important; font-size: 13px !important; }
+  }
+
+  /* Mobile: ≤ 768px */
+  @media (max-width: 768px) {
+    .rh-hero-h1 { font-size: 32px !important; }
+    .rh-grid-6 { grid-template-columns: repeat(2, 1fr) !important; }
+    .rh-grid-4 { grid-template-columns: repeat(2, 1fr) !important; }
+    .rh-grid-3 { grid-template-columns: 1fr !important; }
+    .rh-grid-2 { grid-template-columns: 1fr !important; gap: 24px !important; }
+
+    .rh-hero-section { padding: 40px 16px !important; }
+    .rh-section { padding: 40px 16px !important; }
+    section { padding-left: 16px !important; padding-right: 16px !important; }
+
+    /* Header: hide desktop nav, show hamburger */
+    header > div { padding: 10px 16px !important; gap: 8px !important; }
+    header nav { display: none !important; }
+    .rh-mobile-menu-btn { display: block !important; }
+
+    /* Rate table: horizontal scroll */
+    .rh-rate-row { min-width: 700px; }
+    section:has(.rh-rate-row) > div { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+    /* Award strip: wrap and smaller */
+    .rh-award-item { gap: 6px !important; }
+
+    /* Stack flex containers */
+    .rh-flex-responsive { flex-direction: column !important; align-items: stretch !important; }
+
+    /* Estimate result card */
+    .rh-estimate-result { flex-direction: column !important; text-align: left !important; }
+    .rh-estimate-result > div:last-child { text-align: left !important; }
+
+    /* Sections with flex space-between headers → stack */
+    section > div > div[style*="justifyContent"] { flex-direction: column !important; align-items: flex-start !important; gap: 12px !important; }
+  }
+
+  /* Small mobile: ≤ 480px */
+  @media (max-width: 480px) {
+    .rh-hero-h1 { font-size: 26px !important; }
+    .rh-grid-6 { grid-template-columns: 1fr !important; }
+    .rh-grid-4 { grid-template-columns: 1fr !important; }
+    .rh-grid-2 { grid-template-columns: 1fr !important; }
+  }
 </style>
 
 <!-- React 18 + Babel standalone (no build step required) -->
@@ -181,7 +255,7 @@ const ProductCategoryGridV2 = ({ onNavigate }) => {
         </div>
         <Anchor>See everything we compare</Anchor>
       </div>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(6, 1fr)', gap: 14 }}>
+      <div className="rh-grid-6" style={{ display: 'grid', gridTemplateColumns: 'repeat(6, 1fr)', gap: 14 }}>
         {cats.map(c => (
           <button key={c.id} className="rh-cat-card" onClick={() => onNavigate(c.id)}
             onMouseEnter={() => setHovered(c.id)} onMouseLeave={() => setHovered(null)}
@@ -227,7 +301,7 @@ const InsurancePreview = ({ onNavigate }) => {
   const active = types.find(t => t.id === activeType);
   return (
     <section style={{ padding: '72px 28px', background: 'linear-gradient(180deg, #fff 0%, var(--rh-stone-lightest) 100%)' }}>
-      <div style={{ maxWidth: 1280, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 64, alignItems: 'center' }}>
+      <div className="rh-grid-2" style={{ maxWidth: 1280, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 64, alignItems: 'center' }}>
         <div>
           <Pill tone="stone" icon={<Icon name="shield" size={14} color="var(--rh-stone-darkest)" />}>Insurance</Pill>
           <h2 style={{ fontSize: 32, fontWeight: 500, margin: '14px 0 12px', letterSpacing: '-0.015em', lineHeight: 1.2 }}>
@@ -307,7 +381,7 @@ const InvestingPreview = ({ onNavigate }) => {
         </div>
         <Button variant="secondary" onClick={() => onNavigate('investing')}>Explore investing →</Button>
       </div>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}>
+      <div className="rh-grid-4" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}>
         {products.map((p, i) => (
           <Card key={i} style={{ padding: 0, overflow: 'hidden', cursor: 'pointer' }}
             onMouseEnter={e => { e.currentTarget.style.boxShadow = 'var(--rh-shadow-m)'; e.currentTarget.style.transform = 'translateY(-3px)'; }}
@@ -382,10 +456,10 @@ const InsurancePage = ({ onNavigate }) => {
   ];
   return (
     <div>
-      <div style={{ background: 'var(--rh-blueberry-darkest)', color: '#fff', padding: '72px 28px' }}>
+      <div className="rh-hero-section" style={{ background: 'var(--rh-blueberry-darkest)', color: '#fff', padding: '72px 28px' }}>
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
           <Pill tone="stone" icon={<Icon name="shield" size={14} color="var(--rh-stone-darkest)" />}>Insurance</Pill>
-          <h1 className="showDot" style={{ fontSize: 52, fontWeight: 700, margin: '18px 0 14px', letterSpacing: '-0.025em', lineHeight: 1.08 }}>Protect what matters most</h1>
+          <h1 className="showDot rh-hero-h1" style={{ fontSize: 52, fontWeight: 700, margin: '18px 0 14px', letterSpacing: '-0.025em', lineHeight: 1.08 }}>Protect what matters most</h1>
           <p style={{ fontSize: 17, opacity: .88, maxWidth: 520, margin: '0 0 32px', lineHeight: 1.65 }}>
             Get quotes from 10+ top Canadian insurers in minutes. Compared honestly, side-by-side.
           </p>
@@ -394,7 +468,7 @@ const InsurancePage = ({ onNavigate }) => {
       </div>
       <section style={{ padding: '56px 28px', maxWidth: 1280, margin: '0 auto' }}>
         <h2 style={{ fontSize: 24, fontWeight: 500, margin: '0 0 24px' }}>Choose your coverage</h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 14 }}>
+        <div className="rh-grid-3" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 14 }}>
           {types.map(t => (
             <Card key={t.label} style={{ display: 'flex', alignItems: 'flex-start', gap: 16, cursor: 'pointer', padding: 20 }}
               onMouseEnter={e => { e.currentTarget.style.borderColor='var(--rh-blueberry)'; e.currentTarget.style.boxShadow='var(--rh-shadow-m)'; }}
@@ -427,16 +501,16 @@ const InvestingPage = () => {
   ];
   return (
     <div>
-      <div style={{ background: 'var(--rh-blueberry-darkest)', color: '#fff', padding: '72px 28px' }}>
+      <div className="rh-hero-section" style={{ background: 'var(--rh-blueberry-darkest)', color: '#fff', padding: '72px 28px' }}>
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
           <Pill tone="lime" icon={<Icon name="trending" size={14} color="var(--rh-lime-darkest)" />}>Investing</Pill>
-          <h1 className="showDot" style={{ fontSize: 52, fontWeight: 700, margin: '18px 0 14px', letterSpacing: '-0.025em', lineHeight: 1.08 }}>Grow your wealth, simplified</h1>
+          <h1 className="showDot rh-hero-h1" style={{ fontSize: 52, fontWeight: 700, margin: '18px 0 14px', letterSpacing: '-0.025em', lineHeight: 1.08 }}>Grow your wealth, simplified</h1>
           <p style={{ fontSize: 17, opacity: .88, maxWidth: 520, margin: '0 0 32px', lineHeight: 1.65 }}>No jargon — just the numbers that matter.</p>
           <Button size="l" variant="coconut">Explore options →</Button>
         </div>
       </div>
       <section style={{ padding: '56px 28px', maxWidth: 1280, margin: '0 auto' }}>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}>
+        <div className="rh-grid-4" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}>
           {products.map((p, i) => (
             <Card key={i} style={{ textAlign: 'center', cursor: 'pointer' }}
               onMouseEnter={e => { e.currentTarget.style.boxShadow='var(--rh-shadow-l)'; e.currentTarget.style.transform='translateY(-4px)'; }}
@@ -475,7 +549,7 @@ const ToolsPage = () => {
     <div style={{ padding: '56px 28px', maxWidth: 1280, margin: '0 auto' }}>
       <h1 style={{ fontSize: 36, fontWeight: 500, margin: '0 0 8px', letterSpacing: '-0.015em' }}>Free Canadian calculators</h1>
       <p style={{ fontSize: 16, color: 'var(--rh-blackberry-light)', margin: '0 0 32px' }}>20+ interactive tools built for Canadian mortgages, taxes, and savings.</p>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 14 }}>
+      <div className="rh-grid-4" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 14 }}>
         {tools.map((t, i) => (
           <Card key={i} style={{ cursor: 'pointer', padding: 0, overflow: 'hidden' }}
             onMouseEnter={e => { e.currentTarget.style.boxShadow='var(--rh-shadow-m)'; e.currentTarget.style.transform='translateY(-2px)'; }}
@@ -540,10 +614,10 @@ const App = () => {
 
       {page === 'mortgages' && (
         <div>
-          <div style={{ background: 'var(--rh-blueberry-darkest)', color: '#fff', padding: '72px 28px' }}>
+          <div className="rh-hero-section" style={{ background: 'var(--rh-blueberry-darkest)', color: '#fff', padding: '72px 28px' }}>
             <div style={{ maxWidth: 1280, margin: '0 auto' }}>
               <Pill tone="yuzu" icon={<Icon name="house" size={14} color="var(--rh-yuzu-darkest)" />}>Mortgages</Pill>
-              <h1 className="showDot" style={{ fontSize: 52, fontWeight: 700, margin: '18px 0 14px', letterSpacing: '-0.025em', lineHeight: 1.08 }}>Canada's smartest mortgage comparison</h1>
+              <h1 className="showDot rh-hero-h1" style={{ fontSize: 52, fontWeight: 700, margin: '18px 0 14px', letterSpacing: '-0.025em', lineHeight: 1.08 }}>Canada's smartest mortgage comparison</h1>
               <p style={{ fontSize: 17, opacity: .88, maxWidth: 540, margin: '0 0 32px', lineHeight: 1.65 }}>
                 Compare rates from 30+ lenders in real time. Save up to $13,384 over 5 years — no obligation, no credit check.
               </p>
@@ -559,10 +633,10 @@ const App = () => {
 
       {page === 'cards' && (
         <div>
-          <div style={{ background: 'var(--rh-blueberry-darkest)', color: '#fff', padding: '72px 28px' }}>
+          <div className="rh-hero-section" style={{ background: 'var(--rh-blueberry-darkest)', color: '#fff', padding: '72px 28px' }}>
             <div style={{ maxWidth: 1280, margin: '0 auto' }}>
               <Pill tone="berry">CardFinder</Pill>
-              <h1 className="showDot" style={{ fontSize: 52, fontWeight: 700, margin: '18px 0 14px', letterSpacing: '-0.025em', lineHeight: 1.08 }}>Find the right card for you</h1>
+              <h1 className="showDot rh-hero-h1" style={{ fontSize: 52, fontWeight: 700, margin: '18px 0 14px', letterSpacing: '-0.025em', lineHeight: 1.08 }}>Find the right card for you</h1>
               <p style={{ fontSize: 17, opacity: .88, maxWidth: 540, margin: '0 0 32px', lineHeight: 1.65 }}>Compare 200+ cards by cash back, travel, or low interest — matched to your spending in 60 seconds.</p>
               <Button size="l" variant="coconut">Start the quiz →</Button>
             </div>
@@ -575,10 +649,10 @@ const App = () => {
 
       {page === 'banking' && (
         <div>
-          <div style={{ background: 'var(--rh-blueberry-darkest)', color: '#fff', padding: '72px 28px' }}>
+          <div className="rh-hero-section" style={{ background: 'var(--rh-blueberry-darkest)', color: '#fff', padding: '72px 28px' }}>
             <div style={{ maxWidth: 1280, margin: '0 auto' }}>
               <Pill tone="mint">Banking</Pill>
-              <h1 className="showDot" style={{ fontSize: 52, fontWeight: 700, margin: '18px 0 14px', letterSpacing: '-0.025em', lineHeight: 1.08 }}>Your money, made better</h1>
+              <h1 className="showDot rh-hero-h1" style={{ fontSize: 52, fontWeight: 700, margin: '18px 0 14px', letterSpacing: '-0.025em', lineHeight: 1.08 }}>Your money, made better</h1>
               <p style={{ fontSize: 17, opacity: .88, maxWidth: 540, margin: '0 0 32px', lineHeight: 1.65 }}>Compare high-interest savings, GICs, and chequing from Canada's top banks. Updated daily.</p>
               <Button size="l" variant="coconut">See savings rates →</Button>
             </div>

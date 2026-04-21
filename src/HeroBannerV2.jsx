@@ -291,12 +291,12 @@ const HeroBannerV2 = ({ onFindRates, onNavigate }) => {
   const ctaLabel = isLastStep ? ctaFinal[tab] : 'Continue →';
 
   return (
-    <section style={{
+    <section className="rh-hero-section" style={{
       background: 'linear-gradient(160deg, var(--rh-stone-lightest) 0%, #fff 55%)',
       padding: '80px 28px 80px',
       borderBottom: '1px solid var(--rh-stone-light)',
     }}>
-      <div style={{ maxWidth: 1280, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 480px', gap: 64, alignItems: 'center' }}>
+      <div className="rh-grid-2" style={{ maxWidth: 1280, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 480px', gap: 64, alignItems: 'center' }}>
 
         {/* ── LEFT: editorial copy ── */}
         <div>
@@ -311,7 +311,7 @@ const HeroBannerV2 = ({ onFindRates, onNavigate }) => {
           </div>
 
           {/* Editorial headline */}
-          <h1 style={{ margin: '0 0 24px', lineHeight: 1.05, letterSpacing: '-0.03em' }}>
+          <h1 className="rh-hero-h1" style={{ margin: '0 0 24px', lineHeight: 1.05, letterSpacing: '-0.03em' }}>
             <span style={{
               display: 'block', fontSize: 62, fontWeight: 700,
               color: 'var(--rh-blueberry-darkest)', fontFamily: 'var(--rh-font-sans)',
@@ -372,7 +372,7 @@ const HeroBannerV2 = ({ onFindRates, onNavigate }) => {
           border: '1px solid var(--rh-stone-light)',
         }}>
           {/* Tab bar */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', borderBottom: '1px solid var(--rh-stone-light)' }}>
+          <div className="rh-grid-4" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', borderBottom: '1px solid var(--rh-stone-light)' }}>
             {tabs.map(t => {
               const active = tab === t.id;
               return (

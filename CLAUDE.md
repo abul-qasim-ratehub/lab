@@ -60,6 +60,19 @@ A standalone React 18 design system and homepage redesign for **Ratehub.ca**, Ca
 - **Shadows**: `xs`–`l`, cool-blue tint
 - **Motion**: 150ms/300ms/500ms, ease/ease-in/ease-out
 
+## Responsive design system
+CSS-class-based responsive breakpoints in `index.html` global styles:
+- **Breakpoints**: 1024px (tablet), 768px (mobile), 480px (small mobile)
+- **Grid classes**: Add to any grid container for automatic responsive collapse:
+  - `rh-grid-6` → 3 cols tablet, 2 cols mobile, 1 col small
+  - `rh-grid-4` → 2 cols tablet/mobile, 1 col small
+  - `rh-grid-3` → 1 col mobile
+  - `rh-grid-2` → 1 col mobile (side-by-side layouts stack)
+- **Section classes**: `rh-hero-section`, `rh-section` — auto-reduce padding on mobile
+- **Headline class**: `rh-hero-h1` — scales from 52px to 32px (mobile) to 26px (small)
+- **Header**: Desktop nav hidden on mobile, replaced by hamburger menu (`rh-mobile-menu-btn` + `rh-mobile-nav`)
+- **Always add these classes** alongside inline styles when creating grids or hero sections
+
 ## Design non-negotiables (from SKILL.md)
 - **Typeface**: Gordita only (vendored, do not redistribute)
 - **Primary CTA**: Desaturated `#2d6e8a`, hover → `#00729e` (NOT raw blueberry)

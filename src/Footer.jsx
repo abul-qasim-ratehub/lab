@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer style={{ background: 'var(--rh-blueberry-darkest)', color: 'var(--rh-coconut)', padding: '64px 28px 28px', marginTop: 80 }}>
       <div style={{ maxWidth: 1280, margin: '0 auto' }}>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr) 280px', gap: 40 }}>
+        <div className="rh-grid-6" style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr) 280px', gap: 40 }}>
           {cols.map(c => (
             <div key={c.h}>
               <h4 style={{ fontSize: 13, fontWeight: 500, margin: '0 0 14px', letterSpacing: '.04em', textTransform: 'uppercase', opacity: .7 }}>{c.h}</h4>
