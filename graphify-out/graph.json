@@ -313,16 +313,16 @@
       "source_file": "ui_kits/ratehub_web/Header.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_header_jsx",
-      "community": 19,
+      "community": 24,
       "norm_label": "header.jsx"
     },
     {
       "label": "Header()",
       "file_type": "code",
-      "source_file": "src/Header.jsx",
-      "source_location": "L4",
+      "source_file": "ui_kits/ratehub_web/Header.jsx",
+      "source_location": "L1",
       "id": "header_header",
-      "community": 19,
+      "community": 24,
       "norm_label": "header()"
     },
     {
@@ -331,98 +331,93 @@
       "source_file": "ui_kits/ratehub_web/components.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_components_jsx",
-      "community": 10,
+      "community": 8,
       "norm_label": "components.jsx"
     },
     {
       "label": "Button()",
       "file_type": "code",
-      "source_file": "src/components.jsx",
+      "source_file": "ui_kits/ratehub_web/components.jsx",
       "source_location": "L4",
       "id": "components_button",
-      "community": 10,
+      "community": 8,
       "norm_label": "button()"
     },
     {
       "label": "Anchor()",
       "file_type": "code",
-      "source_file": "src/components.jsx",
+      "source_file": "ui_kits/ratehub_web/components.jsx",
       "source_location": "L51",
       "id": "components_anchor",
-      "community": 10,
+      "community": 8,
       "norm_label": "anchor()"
     },
     {
       "label": "Pill()",
       "file_type": "code",
-      "source_file": "src/components.jsx",
-      "source_location": "L75",
+      "source_file": "ui_kits/ratehub_web/components.jsx",
+      "source_location": "L74",
       "id": "components_pill",
-      "community": 10,
+      "community": 8,
       "norm_label": "pill()"
     },
     {
       "label": "Icon()",
       "file_type": "code",
-      "source_file": "src/components.jsx",
-      "source_location": "L100",
+      "source_file": "ui_kits/ratehub_web/components.jsx",
+      "source_location": "L98",
       "id": "components_icon",
-      "community": 10,
+      "community": 8,
       "norm_label": "icon()"
     },
     {
       "label": "Card()",
       "file_type": "code",
-      "source_file": "src/components.jsx",
-      "source_location": "L106",
+      "source_file": "ui_kits/ratehub_web/components.jsx",
+      "source_location": "L104",
       "id": "components_card",
-      "community": 10,
+      "community": 8,
       "norm_label": "card()"
     },
     {
       "label": "Input()",
       "file_type": "code",
-      "source_file": "src/components.jsx",
-      "source_location": "L118",
+      "source_file": "ui_kits/ratehub_web/components.jsx",
+      "source_location": "L115",
       "id": "components_input",
-      "community": 10,
+      "community": 8,
       "norm_label": "input()"
     },
     {
       "label": "Select()",
       "file_type": "code",
-      "source_file": "src/components.jsx",
-      "source_location": "L154",
+      "source_file": "ui_kits/ratehub_web/components.jsx",
+      "source_location": "L151",
       "id": "components_select",
-      "community": 10,
+      "community": 8,
       "norm_label": "select()"
     },
     {
       "label": "CheckBullet()",
       "file_type": "code",
-      "source_file": "src/components.jsx",
-      "source_location": "L178",
+      "source_file": "ui_kits/ratehub_web/components.jsx",
+      "source_location": "L175",
       "id": "components_checkbullet",
-      "community": 10,
+      "community": 8,
       "norm_label": "checkbullet()"
     },
     {
-      "label": "ProductCategoryGrid.jsx",
+      "label": "ProductCategoryGrid.jsx (ui_kit)",
       "file_type": "code",
       "source_file": "ui_kits/ratehub_web/ProductCategoryGrid.jsx",
-      "source_location": "L1",
-      "id": "ui_kits_ratehub_web_productcategorygrid_jsx",
-      "community": 32,
-      "norm_label": "productcategorygrid.jsx"
-    },
-    {
-      "label": "ProductCategoryGrid()",
-      "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/ProductCategoryGrid.jsx",
-      "source_location": "L1",
-      "id": "productcategorygrid_productcategorygrid",
-      "community": 32,
-      "norm_label": "productcategorygrid()"
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "uikit_product_category_grid",
+      "community": 43,
+      "norm_label": "productcategorygrid.jsx (ui_kit)"
     },
     {
       "label": "SavingsShowcase.jsx",
@@ -430,16 +425,16 @@
       "source_file": "ui_kits/ratehub_web/SavingsShowcase.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_savingsshowcase_jsx",
-      "community": 20,
+      "community": 25,
       "norm_label": "savingsshowcase.jsx"
     },
     {
       "label": "SavingsShowcase()",
       "file_type": "code",
-      "source_file": "src/SavingsShowcase.jsx",
+      "source_file": "ui_kits/ratehub_web/SavingsShowcase.jsx",
       "source_location": "L1",
       "id": "savingsshowcase_savingsshowcase",
-      "community": 20,
+      "community": 25,
       "norm_label": "savingsshowcase()"
     },
     {
@@ -448,35 +443,30 @@
       "source_file": "ui_kits/ratehub_web/Footer.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_footer_jsx",
-      "community": 21,
+      "community": 26,
       "norm_label": "footer.jsx"
     },
     {
       "label": "Footer()",
       "file_type": "code",
-      "source_file": "src/Footer.jsx",
+      "source_file": "ui_kits/ratehub_web/Footer.jsx",
       "source_location": "L1",
       "id": "footer_footer",
-      "community": 21,
+      "community": 26,
       "norm_label": "footer()"
     },
     {
-      "label": "HeroBanner.jsx",
+      "label": "HeroBanner.jsx (v1, ui_kit)",
       "file_type": "code",
       "source_file": "ui_kits/ratehub_web/HeroBanner.jsx",
-      "source_location": "L1",
-      "id": "ui_kits_ratehub_web_herobanner_jsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "uikit_hero_banner_v1",
       "community": 33,
-      "norm_label": "herobanner.jsx"
-    },
-    {
-      "label": "HeroBanner()",
-      "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/HeroBanner.jsx",
-      "source_location": "L1",
-      "id": "herobanner_herobanner",
-      "community": 33,
-      "norm_label": "herobanner()"
+      "norm_label": "herobanner.jsx (v1, ui_kit)"
     },
     {
       "label": "MortgageRateTable.jsx",
@@ -484,16 +474,16 @@
       "source_file": "ui_kits/ratehub_web/MortgageRateTable.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_mortgageratetable_jsx",
-      "community": 22,
+      "community": 27,
       "norm_label": "mortgageratetable.jsx"
     },
     {
       "label": "MortgageRateTable()",
       "file_type": "code",
-      "source_file": "src/MortgageRateTable.jsx",
+      "source_file": "ui_kits/ratehub_web/MortgageRateTable.jsx",
       "source_location": "L1",
       "id": "mortgageratetable_mortgageratetable",
-      "community": 22,
+      "community": 27,
       "norm_label": "mortgageratetable()"
     },
     {
@@ -502,25 +492,25 @@
       "source_file": "ui_kits/ratehub_web/TrustStrip.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_truststrip_jsx",
-      "community": 15,
+      "community": 17,
       "norm_label": "truststrip.jsx"
     },
     {
       "label": "TrustStrip()",
       "file_type": "code",
-      "source_file": "src/TrustStrip.jsx",
+      "source_file": "ui_kits/ratehub_web/TrustStrip.jsx",
       "source_location": "L1",
       "id": "truststrip_truststrip",
-      "community": 15,
+      "community": 17,
       "norm_label": "truststrip()"
     },
     {
       "label": "AwardStrip()",
       "file_type": "code",
-      "source_file": "src/TrustStrip.jsx",
+      "source_file": "ui_kits/ratehub_web/TrustStrip.jsx",
       "source_location": "L22",
       "id": "truststrip_awardstrip",
-      "community": 15,
+      "community": 17,
       "norm_label": "awardstrip()"
     },
     {
@@ -529,16 +519,16 @@
       "source_file": "ui_kits/ratehub_web/CardFinder.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_cardfinder_jsx",
-      "community": 23,
+      "community": 28,
       "norm_label": "cardfinder.jsx"
     },
     {
       "label": "CardFinder()",
       "file_type": "code",
-      "source_file": "src/CardFinder.jsx",
+      "source_file": "ui_kits/ratehub_web/CardFinder.jsx",
       "source_location": "L1",
       "id": "cardfinder_cardfinder",
-      "community": 23,
+      "community": 28,
       "norm_label": "cardfinder()"
     },
     {
@@ -547,61 +537,61 @@
       "source_file": "ui_kits/ratehub_web/HeroBannerV2.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_herobannerv2_jsx",
-      "community": 13,
+      "community": 12,
       "norm_label": "herobannerv2.jsx"
     },
     {
       "label": "PulseButton()",
       "file_type": "code",
-      "source_file": "src/HeroBannerV2.jsx",
-      "source_location": "L57",
+      "source_file": "ui_kits/ratehub_web/HeroBannerV2.jsx",
+      "source_location": "L62",
       "id": "herobannerv2_pulsebutton",
-      "community": 13,
+      "community": 12,
       "norm_label": "pulsebutton()"
     },
     {
       "label": "StepDots()",
       "file_type": "code",
-      "source_file": "src/HeroBannerV2.jsx",
-      "source_location": "L84",
+      "source_file": "ui_kits/ratehub_web/HeroBannerV2.jsx",
+      "source_location": "L86",
       "id": "herobannerv2_stepdots",
-      "community": 13,
+      "community": 12,
       "norm_label": "stepdots()"
     },
     {
       "label": "OptionBtn()",
       "file_type": "code",
-      "source_file": "src/HeroBannerV2.jsx",
-      "source_location": "L119",
+      "source_file": "ui_kits/ratehub_web/HeroBannerV2.jsx",
+      "source_location": "L124",
       "id": "herobannerv2_optionbtn",
-      "community": 13,
+      "community": 12,
       "norm_label": "optionbtn()"
     },
     {
       "label": "StepInput()",
       "file_type": "code",
-      "source_file": "src/HeroBannerV2.jsx",
-      "source_location": "L134",
+      "source_file": "ui_kits/ratehub_web/HeroBannerV2.jsx",
+      "source_location": "L140",
       "id": "herobannerv2_stepinput",
-      "community": 13,
+      "community": 12,
       "norm_label": "stepinput()"
     },
     {
       "label": "ProvinceSelect()",
       "file_type": "code",
-      "source_file": "src/HeroBannerV2.jsx",
-      "source_location": "L157",
+      "source_file": "ui_kits/ratehub_web/HeroBannerV2.jsx",
+      "source_location": "L164",
       "id": "herobannerv2_provinceselect",
-      "community": 13,
+      "community": 12,
       "norm_label": "provinceselect()"
     },
     {
       "label": "HeroBannerV2()",
       "file_type": "code",
-      "source_file": "src/HeroBannerV2.jsx",
-      "source_location": "L175",
+      "source_file": "ui_kits/ratehub_web/HeroBannerV2.jsx",
+      "source_location": "L183",
       "id": "herobannerv2_herobannerv2",
-      "community": 13,
+      "community": 12,
       "norm_label": "herobannerv2()"
     },
     {
@@ -610,16 +600,16 @@
       "source_file": "ui_kits/ratehub_web/FeaturedIn.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_featuredin_jsx",
-      "community": 24,
+      "community": 29,
       "norm_label": "featuredin.jsx"
     },
     {
       "label": "FeaturedIn()",
       "file_type": "code",
-      "source_file": "src/FeaturedIn.jsx",
+      "source_file": "ui_kits/ratehub_web/FeaturedIn.jsx",
       "source_location": "L4",
       "id": "featuredin_featuredin",
-      "community": 24,
+      "community": 29,
       "norm_label": "featuredin()"
     },
     {
@@ -628,16 +618,16 @@
       "source_file": "ui_kits/ratehub_web/EducationStrip.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_educationstrip_jsx",
-      "community": 25,
+      "community": 30,
       "norm_label": "educationstrip.jsx"
     },
     {
       "label": "EducationStrip()",
       "file_type": "code",
-      "source_file": "src/EducationStrip.jsx",
+      "source_file": "ui_kits/ratehub_web/EducationStrip.jsx",
       "source_location": "L1",
       "id": "educationstrip_educationstrip",
-      "community": 25,
+      "community": 30,
       "norm_label": "educationstrip()"
     },
     {
@@ -646,358 +636,30 @@
       "source_file": "ui_kits/ratehub_web/MortgageCalculator.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_mortgagecalculator_jsx",
-      "community": 26,
+      "community": 31,
       "norm_label": "mortgagecalculator.jsx"
     },
     {
       "label": "MortgageCalculator()",
       "file_type": "code",
-      "source_file": "src/MortgageCalculator.jsx",
+      "source_file": "ui_kits/ratehub_web/MortgageCalculator.jsx",
       "source_location": "L4",
       "id": "mortgagecalculator_mortgagecalculator",
-      "community": 26,
+      "community": 31,
       "norm_label": "mortgagecalculator()"
     },
     {
-      "label": "Header.jsx",
+      "label": "Header.jsx \u2014 Sticky nav",
       "file_type": "code",
       "source_file": "src/Header.jsx",
-      "source_location": "L1",
-      "id": "src_header_jsx",
-      "community": 19,
-      "norm_label": "header.jsx"
-    },
-    {
-      "label": "components.jsx",
-      "file_type": "code",
-      "source_file": "src/components.jsx",
-      "source_location": "L1",
-      "id": "src_components_jsx",
-      "community": 10,
-      "norm_label": "components.jsx"
-    },
-    {
-      "label": "MembersDashboard.jsx",
-      "file_type": "code",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L1",
-      "id": "src_membersdashboard_jsx",
-      "community": 11,
-      "norm_label": "membersdashboard.jsx"
-    },
-    {
-      "label": "fmtCad()",
-      "file_type": "code",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L79",
-      "id": "membersdashboard_fmtcad",
-      "community": 11,
-      "norm_label": "fmtcad()"
-    },
-    {
-      "label": "fmtDate()",
-      "file_type": "code",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L80",
-      "id": "membersdashboard_fmtdate",
-      "community": 11,
-      "norm_label": "fmtdate()"
-    },
-    {
-      "label": "propLine()",
-      "file_type": "code",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L81",
-      "id": "membersdashboard_propline",
-      "community": 11,
-      "norm_label": "propline()"
-    },
-    {
-      "label": "SectionLabel()",
-      "file_type": "code",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L84",
-      "id": "membersdashboard_sectionlabel",
-      "community": 11,
-      "norm_label": "sectionlabel()"
-    },
-    {
-      "label": "StatCell()",
-      "file_type": "code",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L91",
-      "id": "membersdashboard_statcell",
-      "community": 11,
-      "norm_label": "statcell()"
-    },
-    {
-      "label": "DetailRow()",
-      "file_type": "code",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L100",
-      "id": "membersdashboard_detailrow",
-      "community": 11,
-      "norm_label": "detailrow()"
-    },
-    {
-      "label": "ProgressBar()",
-      "file_type": "code",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L108",
-      "id": "membersdashboard_progressbar",
-      "community": 11,
-      "norm_label": "progressbar()"
-    },
-    {
-      "label": "MembersDashboard()",
-      "file_type": "code",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L115",
-      "id": "membersdashboard_membersdashboard",
-      "community": 11,
-      "norm_label": "membersdashboard()"
-    },
-    {
-      "label": "SavingsShowcase.jsx",
-      "file_type": "code",
-      "source_file": "src/SavingsShowcase.jsx",
-      "source_location": "L1",
-      "id": "src_savingsshowcase_jsx",
-      "community": 20,
-      "norm_label": "savingsshowcase.jsx"
-    },
-    {
-      "label": "Footer.jsx",
-      "file_type": "code",
-      "source_file": "src/Footer.jsx",
-      "source_location": "L1",
-      "id": "src_footer_jsx",
-      "community": 21,
-      "norm_label": "footer.jsx"
-    },
-    {
-      "label": "MortgageRateTable.jsx",
-      "file_type": "code",
-      "source_file": "src/MortgageRateTable.jsx",
-      "source_location": "L1",
-      "id": "src_mortgageratetable_jsx",
-      "community": 22,
-      "norm_label": "mortgageratetable.jsx"
-    },
-    {
-      "label": "TrustStrip.jsx",
-      "file_type": "code",
-      "source_file": "src/TrustStrip.jsx",
-      "source_location": "L1",
-      "id": "src_truststrip_jsx",
-      "community": 15,
-      "norm_label": "truststrip.jsx"
-    },
-    {
-      "label": "CardFinder.jsx",
-      "file_type": "code",
-      "source_file": "src/CardFinder.jsx",
-      "source_location": "L1",
-      "id": "src_cardfinder_jsx",
-      "community": 23,
-      "norm_label": "cardfinder.jsx"
-    },
-    {
-      "label": "HomeValueEstimator.jsx",
-      "file_type": "code",
-      "source_file": "src/HomeValueEstimator.jsx",
-      "source_location": "L1",
-      "id": "src_homevalueestimator_jsx",
-      "community": 34,
-      "norm_label": "homevalueestimator.jsx"
-    },
-    {
-      "label": "HomeValueEstimator()",
-      "file_type": "code",
-      "source_file": "src/HomeValueEstimator.jsx",
-      "source_location": "L9",
-      "id": "homevalueestimator_homevalueestimator",
-      "community": 34,
-      "norm_label": "homevalueestimator()"
-    },
-    {
-      "label": "HeroBannerV2.jsx",
-      "file_type": "code",
-      "source_file": "src/HeroBannerV2.jsx",
-      "source_location": "L1",
-      "id": "src_herobannerv2_jsx",
-      "community": 13,
-      "norm_label": "herobannerv2.jsx"
-    },
-    {
-      "label": "FeaturedIn.jsx",
-      "file_type": "code",
-      "source_file": "src/FeaturedIn.jsx",
-      "source_location": "L1",
-      "id": "src_featuredin_jsx",
-      "community": 24,
-      "norm_label": "featuredin.jsx"
-    },
-    {
-      "label": "EducationStrip.jsx",
-      "file_type": "code",
-      "source_file": "src/EducationStrip.jsx",
-      "source_location": "L1",
-      "id": "src_educationstrip_jsx",
-      "community": 25,
-      "norm_label": "educationstrip.jsx"
-    },
-    {
-      "label": "MortgageCalculator.jsx",
-      "file_type": "code",
-      "source_file": "src/MortgageCalculator.jsx",
-      "source_location": "L1",
-      "id": "src_mortgagecalculator_jsx",
-      "community": 26,
-      "norm_label": "mortgagecalculator.jsx"
-    },
-    {
-      "label": "App (SPA entry point)",
-      "file_type": "code",
-      "source_file": "index.html",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "index_app",
-      "community": 0,
-      "norm_label": "app (spa entry point)"
-    },
-    {
-      "label": "Password Gate",
-      "file_type": "code",
-      "source_file": "index.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "index_password_gate",
-      "community": 0,
-      "norm_label": "password gate"
-    },
-    {
-      "label": "ProductCategoryGridV2",
-      "file_type": "code",
-      "source_file": "index.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "index_product_category_grid_v2",
-      "community": 0,
-      "norm_label": "productcategorygridv2"
-    },
-    {
-      "label": "InsurancePreview",
-      "file_type": "code",
-      "source_file": "index.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "index_insurance_preview",
-      "community": 0,
-      "norm_label": "insurancepreview"
-    },
-    {
-      "label": "InvestingPreview",
-      "file_type": "code",
-      "source_file": "index.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "index_investing_preview",
-      "community": 0,
-      "norm_label": "investingpreview"
-    },
-    {
-      "label": "AwardStrip",
-      "file_type": "code",
-      "source_file": "index.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "index_award_strip",
-      "community": 0,
-      "norm_label": "awardstrip"
-    },
-    {
-      "label": "SectionBridge",
-      "file_type": "code",
-      "source_file": "index.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "index_section_bridge",
-      "community": 43,
-      "norm_label": "sectionbridge"
-    },
-    {
-      "label": "InsurancePage",
-      "file_type": "code",
-      "source_file": "index.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "index_insurance_page",
-      "community": 0,
-      "norm_label": "insurancepage"
-    },
-    {
-      "label": "InvestingPage",
-      "file_type": "code",
-      "source_file": "index.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "index_investing_page",
+      "id": "src_header",
       "community": 44,
-      "norm_label": "investingpage"
-    },
-    {
-      "label": "Responsive Grid CSS Classes",
-      "file_type": "code",
-      "source_file": "index.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "index_responsive_grid_classes",
-      "community": 0,
-      "norm_label": "responsive grid css classes"
-    },
-    {
-      "label": "Mobile Navigation (hamburger)",
-      "file_type": "code",
-      "source_file": "index.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "index_mobile_nav",
-      "community": 0,
-      "norm_label": "mobile navigation (hamburger)"
+      "norm_label": "header.jsx \u2014 sticky nav"
     },
     {
       "label": "src/components.jsx \u2014 Primitives",
@@ -1009,7 +671,7 @@
       "author": null,
       "contributor": null,
       "id": "src_components",
-      "community": 0,
+      "community": 45,
       "norm_label": "src/components.jsx \u2014 primitives"
     },
     {
@@ -1022,7 +684,7 @@
       "author": null,
       "contributor": null,
       "id": "src_button",
-      "community": 0,
+      "community": 46,
       "norm_label": "button component"
     },
     {
@@ -1035,7 +697,7 @@
       "author": null,
       "contributor": null,
       "id": "src_pill",
-      "community": 0,
+      "community": 47,
       "norm_label": "pill component"
     },
     {
@@ -1048,7 +710,7 @@
       "author": null,
       "contributor": null,
       "id": "src_icon",
-      "community": 0,
+      "community": 9,
       "norm_label": "icon component"
     },
     {
@@ -1061,7 +723,7 @@
       "author": null,
       "contributor": null,
       "id": "src_card",
-      "community": 0,
+      "community": 48,
       "norm_label": "card component"
     },
     {
@@ -1074,7 +736,7 @@
       "author": null,
       "contributor": null,
       "id": "src_input",
-      "community": 45,
+      "community": 49,
       "norm_label": "input component"
     },
     {
@@ -1087,7 +749,7 @@
       "author": null,
       "contributor": null,
       "id": "src_anchor",
-      "community": 0,
+      "community": 50,
       "norm_label": "anchor component"
     },
     {
@@ -1100,151 +762,8 @@
       "author": null,
       "contributor": null,
       "id": "src_checkbullet",
-      "community": 2,
+      "community": 51,
       "norm_label": "checkbullet component"
-    },
-    {
-      "label": "Header.jsx \u2014 Sticky nav",
-      "file_type": "code",
-      "source_file": "src/Header.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_header",
-      "community": 0,
-      "norm_label": "header.jsx \u2014 sticky nav"
-    },
-    {
-      "label": "Footer.jsx",
-      "file_type": "code",
-      "source_file": "src/Footer.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_footer",
-      "community": 0,
-      "norm_label": "footer.jsx"
-    },
-    {
-      "label": "HeroBannerV2.jsx",
-      "file_type": "code",
-      "source_file": "src/HeroBannerV2.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_hero_banner_v2",
-      "community": 0,
-      "norm_label": "herobannerv2.jsx"
-    },
-    {
-      "label": "MortgageCalculator.jsx",
-      "file_type": "code",
-      "source_file": "src/MortgageCalculator.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_mortgage_calculator",
-      "community": 0,
-      "norm_label": "mortgagecalculator.jsx"
-    },
-    {
-      "label": "MortgageRateTable.jsx",
-      "file_type": "code",
-      "source_file": "src/MortgageRateTable.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_mortgage_rate_table",
-      "community": 0,
-      "norm_label": "mortgageratetable.jsx"
-    },
-    {
-      "label": "CardFinder.jsx",
-      "file_type": "code",
-      "source_file": "src/CardFinder.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_card_finder",
-      "community": 0,
-      "norm_label": "cardfinder.jsx"
-    },
-    {
-      "label": "SavingsShowcase.jsx",
-      "file_type": "code",
-      "source_file": "src/SavingsShowcase.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_savings_showcase",
-      "community": 0,
-      "norm_label": "savingsshowcase.jsx"
-    },
-    {
-      "label": "TrustStrip.jsx",
-      "file_type": "code",
-      "source_file": "src/TrustStrip.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_trust_strip",
-      "community": 0,
-      "norm_label": "truststrip.jsx"
-    },
-    {
-      "label": "EducationStrip.jsx",
-      "file_type": "code",
-      "source_file": "src/EducationStrip.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_education_strip",
-      "community": 0,
-      "norm_label": "educationstrip.jsx"
-    },
-    {
-      "label": "FeaturedIn.jsx",
-      "file_type": "code",
-      "source_file": "src/FeaturedIn.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_featured_in",
-      "community": 0,
-      "norm_label": "featuredin.jsx"
-    },
-    {
-      "label": "HomeValueEstimator.jsx (Zoocasa)",
-      "file_type": "code",
-      "source_file": "src/HomeValueEstimator.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_home_value_estimator",
-      "community": 0,
-      "norm_label": "homevalueestimator.jsx (zoocasa)"
     },
     {
       "label": "MembersDashboard.jsx",
@@ -1256,21 +775,143 @@
       "author": null,
       "contributor": null,
       "id": "src_members_dashboard",
-      "community": 0,
+      "community": 52,
       "norm_label": "membersdashboard.jsx"
     },
     {
-      "label": "colors_and_type.css \u2014 Design Tokens",
+      "label": "SavingsShowcase.jsx",
       "file_type": "code",
-      "source_file": "colors_and_type.css",
+      "source_file": "src/SavingsShowcase.jsx",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_and_type",
-      "community": 2,
-      "norm_label": "colors_and_type.css \u2014 design tokens"
+      "id": "src_savings_showcase",
+      "community": 53,
+      "norm_label": "savingsshowcase.jsx"
+    },
+    {
+      "label": "Footer.jsx",
+      "file_type": "code",
+      "source_file": "src/Footer.jsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "src_footer",
+      "community": 54,
+      "norm_label": "footer.jsx"
+    },
+    {
+      "label": "MortgageRateTable.jsx",
+      "file_type": "code",
+      "source_file": "src/MortgageRateTable.jsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "src_mortgage_rate_table",
+      "community": 55,
+      "norm_label": "mortgageratetable.jsx"
+    },
+    {
+      "label": "TrustStrip.jsx",
+      "file_type": "code",
+      "source_file": "src/TrustStrip.jsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "src_trust_strip",
+      "community": 56,
+      "norm_label": "truststrip.jsx"
+    },
+    {
+      "label": "CardFinder.jsx",
+      "file_type": "code",
+      "source_file": "src/CardFinder.jsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "src_card_finder",
+      "community": 57,
+      "norm_label": "cardfinder.jsx"
+    },
+    {
+      "label": "HomeValueEstimator.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/src/HomeValueEstimator.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_src_homevalueestimator_jsx",
+      "community": 32,
+      "norm_label": "homevalueestimator.jsx"
+    },
+    {
+      "label": "HomeValueEstimator()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/src/HomeValueEstimator.jsx",
+      "source_location": "L9",
+      "id": "homevalueestimator_homevalueestimator",
+      "community": 32,
+      "norm_label": "homevalueestimator()"
+    },
+    {
+      "label": "HeroBannerV2.jsx",
+      "file_type": "code",
+      "source_file": "src/HeroBannerV2.jsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "src_hero_banner_v2",
+      "community": 33,
+      "norm_label": "herobannerv2.jsx"
+    },
+    {
+      "label": "FeaturedIn.jsx",
+      "file_type": "code",
+      "source_file": "src/FeaturedIn.jsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "src_featured_in",
+      "community": 58,
+      "norm_label": "featuredin.jsx"
+    },
+    {
+      "label": "EducationStrip.jsx",
+      "file_type": "code",
+      "source_file": "src/EducationStrip.jsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "src_education_strip",
+      "community": 59,
+      "norm_label": "educationstrip.jsx"
+    },
+    {
+      "label": "MortgageCalculator.jsx",
+      "file_type": "code",
+      "source_file": "src/MortgageCalculator.jsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "src_mortgage_calculator",
+      "community": 60,
+      "norm_label": "mortgagecalculator.jsx"
     },
     {
       "label": "Token: blueberry (primary brand)",
@@ -1281,9 +922,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "token_color_blueberry",
-      "community": 7,
-      "norm_label": "token: blueberry (primary brand)"
+      "community": 9,
+      "norm_label": "token: blueberry (primary brand)",
+      "id": "token_color_blueberry"
     },
     {
       "label": "Token: lime (rates/success)",
@@ -1294,9 +935,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "token_color_lime",
-      "community": 2,
-      "norm_label": "token: lime (rates/success)"
+      "community": 61,
+      "norm_label": "token: lime (rates/success)",
+      "id": "token_color_lime"
     },
     {
       "label": "Token: mint (savings/success-soft)",
@@ -1307,9 +948,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "token_color_mint",
-      "community": 2,
-      "norm_label": "token: mint (savings/success-soft)"
+      "community": 62,
+      "norm_label": "token: mint (savings/success-soft)",
+      "id": "token_color_mint"
     },
     {
       "label": "Token: yuzu (rewards/highlights)",
@@ -1320,9 +961,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "token_color_yuzu",
-      "community": 2,
-      "norm_label": "token: yuzu (rewards/highlights)"
+      "community": 63,
+      "norm_label": "token: yuzu (rewards/highlights)",
+      "id": "token_color_yuzu"
     },
     {
       "label": "Token: stone (neutrals/borders)",
@@ -1333,9 +974,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "token_color_stone",
-      "community": 2,
-      "norm_label": "token: stone (neutrals/borders)"
+      "community": 64,
+      "norm_label": "token: stone (neutrals/borders)",
+      "id": "token_color_stone"
     },
     {
       "label": "Token: coconut (page background)",
@@ -1346,9 +987,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "token_color_coconut",
-      "community": 2,
-      "norm_label": "token: coconut (page background)"
+      "community": 65,
+      "norm_label": "token: coconut (page background)",
+      "id": "token_color_coconut"
     },
     {
       "label": "Token: blackberry (body text)",
@@ -1359,9 +1000,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "token_color_blackberry",
-      "community": 2,
-      "norm_label": "token: blackberry (body text)"
+      "community": 66,
+      "norm_label": "token: blackberry (body text)",
+      "id": "token_color_blackberry"
     },
     {
       "label": "Token: Gordita typography scale",
@@ -1372,9 +1013,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "token_typography",
-      "community": 2,
-      "norm_label": "token: gordita typography scale"
+      "community": 34,
+      "norm_label": "token: gordita typography scale",
+      "id": "token_typography"
     },
     {
       "label": "Token: 8px grid spacing",
@@ -1385,9 +1026,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "token_spacing",
-      "community": 2,
-      "norm_label": "token: 8px grid spacing"
+      "community": 67,
+      "norm_label": "token: 8px grid spacing",
+      "id": "token_spacing"
     },
     {
       "label": "Token: border radii (xs\u2013full)",
@@ -1398,9 +1039,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "token_radii",
-      "community": 2,
-      "norm_label": "token: border radii (xs\u2013full)"
+      "community": 68,
+      "norm_label": "token: border radii (xs\u2013full)",
+      "id": "token_radii"
     },
     {
       "label": "Token: shadows (xs\u2013l, cool-blue)",
@@ -1411,9 +1052,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "token_shadows",
-      "community": 2,
-      "norm_label": "token: shadows (xs\u2013l, cool-blue)"
+      "community": 69,
+      "norm_label": "token: shadows (xs\u2013l, cool-blue)",
+      "id": "token_shadows"
     },
     {
       "label": "Token: motion (150/300/500ms)",
@@ -1424,9 +1065,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "token_motion",
-      "community": 2,
-      "norm_label": "token: motion (150/300/500ms)"
+      "community": 70,
+      "norm_label": "token: motion (150/300/500ms)",
+      "id": "token_motion"
     },
     {
       "label": "SKILL.md \u2014 Brand Rules",
@@ -1437,9 +1078,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skill_brand_rules",
-      "community": 7,
-      "norm_label": "skill.md \u2014 brand rules"
+      "community": 9,
+      "norm_label": "skill.md \u2014 brand rules",
+      "id": "skill_brand_rules"
     },
     {
       "label": "Primary CTA: #2d6e8a (desaturated)",
@@ -1450,9 +1091,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skill_primary_cta",
-      "community": 7,
-      "norm_label": "primary cta: #2d6e8a (desaturated)"
+      "community": 9,
+      "norm_label": "primary cta: #2d6e8a (desaturated)",
+      "id": "skill_primary_cta"
     },
     {
       "label": ".showDot \u2014 blueberry H1 period",
@@ -1463,9 +1104,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skill_show_dot",
-      "community": 7,
-      "norm_label": ".showdot \u2014 blueberry h1 period"
+      "community": 9,
+      "norm_label": ".showdot \u2014 blueberry h1 period",
+      "id": "skill_show_dot"
     },
     {
       "label": "Icon rule: assets/icons/ SVG only",
@@ -1476,9 +1117,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skill_icons_rule",
-      "community": 7,
-      "norm_label": "icon rule: assets/icons/ svg only"
+      "community": 9,
+      "norm_label": "icon rule: assets/icons/ svg only",
+      "id": "skill_icons_rule"
     },
     {
       "label": "Brand voice: sentence case, numbers over adjectives",
@@ -1489,9 +1130,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skill_voice_rule",
-      "community": 7,
-      "norm_label": "brand voice: sentence case, numbers over adjectives"
+      "community": 9,
+      "norm_label": "brand voice: sentence case, numbers over adjectives",
+      "id": "skill_voice_rule"
     },
     {
       "label": "Hero pattern: blueberry-darkest bg + Pill + showDot H1",
@@ -1502,9 +1143,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skill_hero_pattern",
-      "community": 0,
-      "norm_label": "hero pattern: blueberry-darkest bg + pill + showdot h1"
+      "community": 9,
+      "norm_label": "hero pattern: blueberry-darkest bg + pill + showdot h1",
+      "id": "skill_hero_pattern"
     },
     {
       "label": "CLAUDE.md \u2014 Design Token System",
@@ -1515,9 +1156,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_design_tokens",
-      "community": 2,
-      "norm_label": "claude.md \u2014 design token system"
+      "community": 71,
+      "norm_label": "claude.md \u2014 design token system",
+      "id": "claude_design_tokens"
     },
     {
       "label": "CLAUDE.md \u2014 SPA Routing via localStorage",
@@ -1528,9 +1169,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_routing",
-      "community": 0,
-      "norm_label": "claude.md \u2014 spa routing via localstorage"
+      "community": 72,
+      "norm_label": "claude.md \u2014 spa routing via localstorage",
+      "id": "claude_routing"
     },
     {
       "label": "Window registration pattern (Object.assign)",
@@ -1541,9 +1182,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_window_registration",
-      "community": 0,
-      "norm_label": "window registration pattern (object.assign)"
+      "community": 73,
+      "norm_label": "window registration pattern (object.assign)",
+      "id": "claude_window_registration"
     },
     {
       "label": "CLAUDE.md \u2014 Zoocasa Widget Integration",
@@ -1554,9 +1195,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_zoocasa_integration",
-      "community": 0,
-      "norm_label": "claude.md \u2014 zoocasa widget integration"
+      "community": 74,
+      "norm_label": "claude.md \u2014 zoocasa widget integration",
+      "id": "claude_zoocasa_integration"
     },
     {
       "label": "Homepage section architecture",
@@ -1567,9 +1208,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_homepage_architecture",
-      "community": 0,
-      "norm_label": "homepage section architecture"
+      "community": 75,
+      "norm_label": "homepage section architecture",
+      "id": "readme_homepage_architecture"
     },
     {
       "label": "Edible color taxonomy",
@@ -1580,9 +1221,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_color_taxonomy",
-      "community": 2,
-      "norm_label": "edible color taxonomy"
+      "community": 76,
+      "norm_label": "edible color taxonomy",
+      "id": "readme_color_taxonomy"
     },
     {
       "label": "Design-to-dev workflow (5 phases)",
@@ -1593,9 +1234,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "workflow_design_to_dev",
       "community": 35,
-      "norm_label": "design-to-dev workflow (5 phases)"
+      "norm_label": "design-to-dev workflow (5 phases)",
+      "id": "workflow_design_to_dev"
     },
     {
       "label": "Rationale: No handoff gap \u2014 design IS the code",
@@ -1606,9 +1247,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "workflow_no_handoff_gap",
       "community": 35,
-      "norm_label": "rationale: no handoff gap \u2014 design is the code"
+      "norm_label": "rationale: no handoff gap \u2014 design is the code",
+      "id": "workflow_no_handoff_gap"
     },
     {
       "label": "Zero-dependency portability (no Node/npm)",
@@ -1619,61 +1260,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "workflow_zero_dependency",
-      "community": 0,
-      "norm_label": "zero-dependency portability (no node/npm)"
-    },
-    {
-      "label": "ui_kits/ratehub_web/index.html \u2014 Original prototype",
-      "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/index.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "uikit_original_index",
-      "community": 0,
-      "norm_label": "ui_kits/ratehub_web/index.html \u2014 original prototype"
-    },
-    {
-      "label": "ui_kits/ratehub_web/index_redesign.html \u2014 Redesign prototype",
-      "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/index_redesign.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "uikit_redesign_index",
-      "community": 0,
-      "norm_label": "ui_kits/ratehub_web/index_redesign.html \u2014 redesign prototype"
-    },
-    {
-      "label": "HeroBanner.jsx (v1, ui_kit)",
-      "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/HeroBanner.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "uikit_hero_banner_v1",
-      "community": 0,
-      "norm_label": "herobanner.jsx (v1, ui_kit)"
-    },
-    {
-      "label": "ProductCategoryGrid.jsx (ui_kit)",
-      "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/ProductCategoryGrid.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "uikit_product_category_grid",
-      "community": 0,
-      "norm_label": "productcategorygrid.jsx (ui_kit)"
+      "community": 18,
+      "norm_label": "zero-dependency portability (no node/npm)",
+      "id": "workflow_zero_dependency"
     },
     {
       "label": "assets/icons/ \u2014 39 SVG icons",
@@ -1684,9 +1273,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "assets_icons",
-      "community": 7,
-      "norm_label": "assets/icons/ \u2014 39 svg icons"
+      "community": 9,
+      "norm_label": "assets/icons/ \u2014 39 svg icons",
+      "id": "assets_icons"
     },
     {
       "label": "assets/brand/ \u2014 background shapes + favicon",
@@ -1697,9 +1286,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "assets_brand",
-      "community": 7,
-      "norm_label": "assets/brand/ \u2014 background shapes + favicon"
+      "community": 77,
+      "norm_label": "assets/brand/ \u2014 background shapes + favicon",
+      "id": "assets_brand"
     },
     {
       "label": "assets/logos/ \u2014 Ratehub/CanWise/MoneySense wordmarks",
@@ -1710,9 +1299,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "assets_logos",
-      "community": 46,
-      "norm_label": "assets/logos/ \u2014 ratehub/canwise/moneysense wordmarks"
+      "community": 78,
+      "norm_label": "assets/logos/ \u2014 ratehub/canwise/moneysense wordmarks",
+      "id": "assets_logos"
     },
     {
       "label": "Gordita font (vendored woff/woff2)",
@@ -1723,100 +1312,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fonts_gordita",
-      "community": 2,
-      "norm_label": "gordita font (vendored woff/woff2)"
-    },
-    {
-      "label": "preview/buttons_primary.html",
-      "file_type": "code",
-      "source_file": "preview/buttons_primary.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "preview_buttons_primary",
-      "community": 7,
-      "norm_label": "preview/buttons_primary.html"
-    },
-    {
-      "label": "preview/buttons_variants.html",
-      "file_type": "code",
-      "source_file": "preview/buttons_variants.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "preview_buttons_variants",
-      "community": 2,
-      "norm_label": "preview/buttons_variants.html"
-    },
-    {
-      "label": "preview/radii.html",
-      "file_type": "code",
-      "source_file": "preview/radii.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "preview_radii",
-      "community": 2,
-      "norm_label": "preview/radii.html"
-    },
-    {
-      "label": "preview/checkmarks_stars.html",
-      "file_type": "code",
-      "source_file": "preview/checkmarks_stars.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "preview_checkmarks_stars",
-      "community": 2,
-      "norm_label": "preview/checkmarks_stars.html"
-    },
-    {
-      "label": "preview/type_display.html",
-      "file_type": "code",
-      "source_file": "preview/type_display.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "preview_type_display",
-      "community": 2,
-      "norm_label": "preview/type_display.html"
-    },
-    {
-      "label": "preview/type_signature_dot.html",
-      "file_type": "code",
-      "source_file": "preview/type_signature_dot.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "preview_type_signature_dot",
-      "community": 7,
-      "norm_label": "preview/type_signature_dot.html"
-    },
-    {
-      "label": "preview/brand_shapes.html",
-      "file_type": "code",
-      "source_file": "preview/brand_shapes.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "preview_brand_shapes",
-      "community": 7,
-      "norm_label": "preview/brand_shapes.html"
+      "community": 34,
+      "norm_label": "gordita font (vendored woff/woff2)",
+      "id": "fonts_gordita"
     },
     {
       "label": "React 18.3.1 (unpkg CDN)",
@@ -1827,9 +1325,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cdn_react",
-      "community": 0,
-      "norm_label": "react 18.3.1 (unpkg cdn)"
+      "community": 18,
+      "norm_label": "react 18.3.1 (unpkg cdn)",
+      "id": "cdn_react"
     },
     {
       "label": "Babel Standalone 7.29.0 (unpkg CDN)",
@@ -1840,9 +1338,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cdn_babel",
-      "community": 0,
-      "norm_label": "babel standalone 7.29.0 (unpkg cdn)"
+      "community": 18,
+      "norm_label": "babel standalone 7.29.0 (unpkg cdn)",
+      "id": "cdn_babel"
     },
     {
       "label": "Zoocasa Home Appraisal Widget",
@@ -1853,9 +1351,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "zoocasa_widget",
-      "community": 0,
-      "norm_label": "zoocasa home appraisal widget"
+      "community": 79,
+      "norm_label": "zoocasa home appraisal widget",
+      "id": "zoocasa_widget"
     },
     {
       "label": "Spacing Scale",
@@ -1866,9 +1364,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spacing_scale",
-      "community": 8,
-      "norm_label": "spacing scale"
+      "community": 5,
+      "norm_label": "spacing scale",
+      "id": "spacing_scale"
     },
     {
       "label": "space-quarter \u2014 4px",
@@ -1879,9 +1377,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spacing_4px",
-      "community": 8,
-      "norm_label": "space-quarter \u2014 4px"
+      "community": 5,
+      "norm_label": "space-quarter \u2014 4px",
+      "id": "spacing_4px"
     },
     {
       "label": "space-half \u2014 8px",
@@ -1892,9 +1390,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spacing_8px",
-      "community": 8,
-      "norm_label": "space-half \u2014 8px"
+      "community": 5,
+      "norm_label": "space-half \u2014 8px",
+      "id": "spacing_8px"
     },
     {
       "label": "space-0_75 \u2014 12px",
@@ -1905,9 +1403,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spacing_12px",
-      "community": 8,
-      "norm_label": "space-0_75 \u2014 12px"
+      "community": 5,
+      "norm_label": "space-0_75 \u2014 12px",
+      "id": "spacing_12px"
     },
     {
       "label": "space-1 \u2014 16px",
@@ -1918,9 +1416,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spacing_16px",
-      "community": 8,
-      "norm_label": "space-1 \u2014 16px"
+      "community": 5,
+      "norm_label": "space-1 \u2014 16px",
+      "id": "spacing_16px"
     },
     {
       "label": "space-1_5 \u2014 24px",
@@ -1931,9 +1429,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spacing_24px",
-      "community": 8,
-      "norm_label": "space-1_5 \u2014 24px"
+      "community": 5,
+      "norm_label": "space-1_5 \u2014 24px",
+      "id": "spacing_24px"
     },
     {
       "label": "space-2 \u2014 32px",
@@ -1944,9 +1442,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spacing_32px",
-      "community": 8,
-      "norm_label": "space-2 \u2014 32px"
+      "community": 5,
+      "norm_label": "space-2 \u2014 32px",
+      "id": "spacing_32px"
     },
     {
       "label": "space-3 \u2014 48px",
@@ -1957,9 +1455,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spacing_48px",
-      "community": 8,
-      "norm_label": "space-3 \u2014 48px"
+      "community": 5,
+      "norm_label": "space-3 \u2014 48px",
+      "id": "spacing_48px"
     },
     {
       "label": "space-4 \u2014 64px",
@@ -1970,9 +1468,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spacing_64px",
-      "community": 8,
-      "norm_label": "space-4 \u2014 64px"
+      "community": 5,
+      "norm_label": "space-4 \u2014 64px",
+      "id": "spacing_64px"
     },
     {
       "label": "space-5 \u2014 80px",
@@ -1983,9 +1481,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spacing_80px",
-      "community": 8,
-      "norm_label": "space-5 \u2014 80px"
+      "community": 5,
+      "norm_label": "space-5 \u2014 80px",
+      "id": "spacing_80px"
     },
     {
       "label": "space-6 \u2014 96px",
@@ -1996,9 +1494,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spacing_96px",
-      "community": 8,
-      "norm_label": "space-6 \u2014 96px"
+      "community": 5,
+      "norm_label": "space-6 \u2014 96px",
+      "id": "spacing_96px"
     },
     {
       "label": "Blueberry color palette (brand primary, teal/cyan)",
@@ -2009,9 +1507,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_blueberry",
       "community": 1,
-      "norm_label": "blueberry color palette (brand primary, teal/cyan)"
+      "norm_label": "blueberry color palette (brand primary, teal/cyan)",
+      "id": "colors_blueberry"
     },
     {
       "label": "blueberry-lightest \u2014 #DBF9FF",
@@ -2022,9 +1520,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_blueberry_lightest",
       "community": 1,
-      "norm_label": "blueberry-lightest \u2014 #dbf9ff"
+      "norm_label": "blueberry-lightest \u2014 #dbf9ff",
+      "id": "colors_blueberry_lightest"
     },
     {
       "label": "blueberry-light \u2014 #A4F1FF",
@@ -2035,9 +1533,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_blueberry_light",
       "community": 1,
-      "norm_label": "blueberry-light \u2014 #a4f1ff"
+      "norm_label": "blueberry-light \u2014 #a4f1ff",
+      "id": "colors_blueberry_light"
     },
     {
       "label": "blueberry \u2014 #00B5D6",
@@ -2048,9 +1546,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_blueberry_base",
-      "community": 1,
-      "norm_label": "blueberry \u2014 #00b5d6"
+      "community": 7,
+      "norm_label": "blueberry \u2014 #00b5d6",
+      "id": "colors_blueberry_base"
     },
     {
       "label": "blueberry-dark \u2014 #00729E",
@@ -2061,9 +1559,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_blueberry_dark",
       "community": 1,
-      "norm_label": "blueberry-dark \u2014 #00729e"
+      "norm_label": "blueberry-dark \u2014 #00729e",
+      "id": "colors_blueberry_dark"
     },
     {
       "label": "blueberry-darkest \u2014 #004F6E",
@@ -2074,9 +1572,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_blueberry_darkest",
       "community": 1,
-      "norm_label": "blueberry-darkest \u2014 #004f6e"
+      "norm_label": "blueberry-darkest \u2014 #004f6e",
+      "id": "colors_blueberry_darkest"
     },
     {
       "label": "Mint color palette (soft growth / success-soft)",
@@ -2087,9 +1585,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_mint",
-      "community": 3,
-      "norm_label": "mint color palette (soft growth / success-soft)"
+      "community": 0,
+      "norm_label": "mint color palette (soft growth / success-soft)",
+      "id": "colors_mint"
     },
     {
       "label": "mint-lightest \u2014 #F5FFFA",
@@ -2100,9 +1598,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_mint_lightest",
-      "community": 3,
-      "norm_label": "mint-lightest \u2014 #f5fffa"
+      "community": 0,
+      "norm_label": "mint-lightest \u2014 #f5fffa",
+      "id": "colors_mint_lightest"
     },
     {
       "label": "mint-light \u2014 #E0FFF5",
@@ -2113,9 +1611,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_mint_light",
-      "community": 3,
-      "norm_label": "mint-light \u2014 #e0fff5"
+      "community": 0,
+      "norm_label": "mint-light \u2014 #e0fff5",
+      "id": "colors_mint_light"
     },
     {
       "label": "mint \u2014 #9FFCDF",
@@ -2126,9 +1624,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_mint_base",
-      "community": 3,
-      "norm_label": "mint \u2014 #9ffcdf"
+      "community": 0,
+      "norm_label": "mint \u2014 #9ffcdf",
+      "id": "colors_mint_base"
     },
     {
       "label": "mint-dark \u2014 #68E9C1",
@@ -2139,9 +1637,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_mint_dark",
-      "community": 3,
-      "norm_label": "mint-dark \u2014 #68e9c1"
+      "community": 0,
+      "norm_label": "mint-dark \u2014 #68e9c1",
+      "id": "colors_mint_dark"
     },
     {
       "label": "mint-darkest \u2014 #3EA592",
@@ -2152,9 +1650,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_mint_darkest",
-      "community": 3,
-      "norm_label": "mint-darkest \u2014 #3ea592"
+      "community": 0,
+      "norm_label": "mint-darkest \u2014 #3ea592",
+      "id": "colors_mint_darkest"
     },
     {
       "label": "Lime color palette (savings / success)",
@@ -2165,9 +1663,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_lime",
-      "community": 4,
-      "norm_label": "lime color palette (savings / success)"
+      "community": 2,
+      "norm_label": "lime color palette (savings / success)",
+      "id": "colors_lime"
     },
     {
       "label": "lime-lightest \u2014 #D3F7E2",
@@ -2178,9 +1676,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_lime_lightest",
-      "community": 4,
-      "norm_label": "lime-lightest \u2014 #d3f7e2"
+      "community": 2,
+      "norm_label": "lime-lightest \u2014 #d3f7e2",
+      "id": "colors_lime_lightest"
     },
     {
       "label": "lime-light \u2014 #A7E8C2",
@@ -2191,9 +1689,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_lime_light",
-      "community": 4,
-      "norm_label": "lime-light \u2014 #a7e8c2"
+      "community": 2,
+      "norm_label": "lime-light \u2014 #a7e8c2",
+      "id": "colors_lime_light"
     },
     {
       "label": "lime \u2014 #4AB879",
@@ -2204,9 +1702,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_lime_base",
-      "community": 4,
-      "norm_label": "lime \u2014 #4ab879"
+      "community": 2,
+      "norm_label": "lime \u2014 #4ab879",
+      "id": "colors_lime_base"
     },
     {
       "label": "lime-dark \u2014 #358255",
@@ -2217,9 +1715,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_lime_dark",
-      "community": 4,
-      "norm_label": "lime-dark \u2014 #358255"
+      "community": 2,
+      "norm_label": "lime-dark \u2014 #358255",
+      "id": "colors_lime_dark"
     },
     {
       "label": "lime-darkest \u2014 #1F5F39",
@@ -2230,9 +1728,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_lime_darkest",
-      "community": 4,
-      "norm_label": "lime-darkest \u2014 #1f5f39"
+      "community": 2,
+      "norm_label": "lime-darkest \u2014 #1f5f39",
+      "id": "colors_lime_darkest"
     },
     {
       "label": "Neutrals (Coconut, Blackberry, Stone)",
@@ -2243,9 +1741,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_neutrals",
-      "community": 1,
-      "norm_label": "neutrals (coconut, blackberry, stone)"
+      "community": 11,
+      "norm_label": "neutrals (coconut, blackberry, stone)",
+      "id": "colors_neutrals"
     },
     {
       "label": "coconut \u2014 #FFFFFF (page bg)",
@@ -2256,9 +1754,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_coconut",
-      "community": 1,
-      "norm_label": "coconut \u2014 #ffffff (page bg)"
+      "community": 11,
+      "norm_label": "coconut \u2014 #ffffff (page bg)",
+      "id": "colors_coconut"
     },
     {
       "label": "blackberry \u2014 #000000 (foreground text)",
@@ -2269,9 +1767,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_blackberry",
-      "community": 1,
-      "norm_label": "blackberry \u2014 #000000 (foreground text)"
+      "community": 11,
+      "norm_label": "blackberry \u2014 #000000 (foreground text)",
+      "id": "colors_blackberry"
     },
     {
       "label": "stone-lightest \u2014 #F5F9FA",
@@ -2282,9 +1780,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_stone_lightest",
-      "community": 1,
-      "norm_label": "stone-lightest \u2014 #f5f9fa"
+      "community": 11,
+      "norm_label": "stone-lightest \u2014 #f5f9fa",
+      "id": "colors_stone_lightest"
     },
     {
       "label": "stone-light \u2014 #E5EFF1",
@@ -2295,9 +1793,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_stone_light",
-      "community": 1,
-      "norm_label": "stone-light \u2014 #e5eff1"
+      "community": 11,
+      "norm_label": "stone-light \u2014 #e5eff1",
+      "id": "colors_stone_light"
     },
     {
       "label": "stone \u2014 #C0CED3",
@@ -2308,9 +1806,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_stone_base",
-      "community": 1,
-      "norm_label": "stone \u2014 #c0ced3"
+      "community": 11,
+      "norm_label": "stone \u2014 #c0ced3",
+      "id": "colors_stone_base"
     },
     {
       "label": "stone-dark \u2014 #A4B4BA",
@@ -2321,9 +1819,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_stone_dark",
-      "community": 1,
-      "norm_label": "stone-dark \u2014 #a4b4ba"
+      "community": 11,
+      "norm_label": "stone-dark \u2014 #a4b4ba",
+      "id": "colors_stone_dark"
     },
     {
       "label": "stone-darkest \u2014 #6A787C",
@@ -2334,9 +1832,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_stone_darkest",
-      "community": 1,
-      "norm_label": "stone-darkest \u2014 #6a787c"
+      "community": 11,
+      "norm_label": "stone-darkest \u2014 #6a787c",
+      "id": "colors_stone_darkest"
     },
     {
       "label": "Yuzu color palette (rewards / highlight)",
@@ -2347,9 +1845,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_yuzu",
-      "community": 3,
-      "norm_label": "yuzu color palette (rewards / highlight)"
+      "community": 0,
+      "norm_label": "yuzu color palette (rewards / highlight)",
+      "id": "colors_yuzu"
     },
     {
       "label": "yuzu-lightest \u2014 #FFF4DA",
@@ -2360,9 +1858,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_yuzu_lightest",
-      "community": 3,
-      "norm_label": "yuzu-lightest \u2014 #fff4da"
+      "community": 0,
+      "norm_label": "yuzu-lightest \u2014 #fff4da",
+      "id": "colors_yuzu_lightest"
     },
     {
       "label": "yuzu \u2014 #FFCC50",
@@ -2373,9 +1871,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_yuzu_base",
-      "community": 3,
-      "norm_label": "yuzu \u2014 #ffcc50"
+      "community": 0,
+      "norm_label": "yuzu \u2014 #ffcc50",
+      "id": "colors_yuzu_base"
     },
     {
       "label": "yuzu-darkest \u2014 #E7A400",
@@ -2386,9 +1884,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_yuzu_darkest",
-      "community": 3,
-      "norm_label": "yuzu-darkest \u2014 #e7a400"
+      "community": 0,
+      "norm_label": "yuzu-darkest \u2014 #e7a400",
+      "id": "colors_yuzu_darkest"
     },
     {
       "label": "Tangerine color palette (warmth / warning)",
@@ -2399,9 +1897,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_tangerine",
       "community": 1,
-      "norm_label": "tangerine color palette (warmth / warning)"
+      "norm_label": "tangerine color palette (warmth / warning)",
+      "id": "colors_tangerine"
     },
     {
       "label": "tangerine-lightest \u2014 #FFE7C8",
@@ -2412,9 +1910,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_tangerine_lightest",
       "community": 1,
-      "norm_label": "tangerine-lightest \u2014 #ffe7c8"
+      "norm_label": "tangerine-lightest \u2014 #ffe7c8",
+      "id": "colors_tangerine_lightest"
     },
     {
       "label": "tangerine \u2014 #FF9300",
@@ -2425,9 +1923,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_tangerine_base",
       "community": 1,
-      "norm_label": "tangerine \u2014 #ff9300"
+      "norm_label": "tangerine \u2014 #ff9300",
+      "id": "colors_tangerine_base"
     },
     {
       "label": "tangerine-dark \u2014 #EA7000",
@@ -2438,9 +1936,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_tangerine_dark",
       "community": 1,
-      "norm_label": "tangerine-dark \u2014 #ea7000"
+      "norm_label": "tangerine-dark \u2014 #ea7000",
+      "id": "colors_tangerine_dark"
     },
     {
       "label": "Watermelon color palette",
@@ -2451,9 +1949,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_watermelon",
-      "community": 3,
-      "norm_label": "watermelon color palette"
+      "community": 0,
+      "norm_label": "watermelon color palette",
+      "id": "colors_watermelon"
     },
     {
       "label": "watermelon \u2014 #FF989B",
@@ -2464,9 +1962,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_watermelon_base",
-      "community": 3,
-      "norm_label": "watermelon \u2014 #ff989b"
+      "community": 0,
+      "norm_label": "watermelon \u2014 #ff989b",
+      "id": "colors_watermelon_base"
     },
     {
       "label": "watermelon-lightest \u2014 #FFEDEF",
@@ -2477,9 +1975,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_watermelon_lightest",
-      "community": 3,
-      "norm_label": "watermelon-lightest \u2014 #ffedef"
+      "community": 0,
+      "norm_label": "watermelon-lightest \u2014 #ffedef",
+      "id": "colors_watermelon_lightest"
     },
     {
       "label": "Strawberry color palette (error / alert)",
@@ -2490,9 +1988,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_strawberry",
-      "community": 1,
-      "norm_label": "strawberry color palette (error / alert)"
+      "community": 7,
+      "norm_label": "strawberry color palette (error / alert)",
+      "id": "colors_strawberry"
     },
     {
       "label": "strawberry \u2014 #F6452C",
@@ -2503,9 +2001,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_strawberry_base",
-      "community": 1,
-      "norm_label": "strawberry \u2014 #f6452c"
+      "community": 7,
+      "norm_label": "strawberry \u2014 #f6452c",
+      "id": "colors_strawberry_base"
     },
     {
       "label": "strawberry-dark \u2014 #D82E15",
@@ -2516,9 +2014,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_strawberry_dark",
-      "community": 1,
-      "norm_label": "strawberry-dark \u2014 #d82e15"
+      "community": 7,
+      "norm_label": "strawberry-dark \u2014 #d82e15",
+      "id": "colors_strawberry_dark"
     },
     {
       "label": "Grape color palette (secondary accent)",
@@ -2529,9 +2027,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_grape",
-      "community": 27,
-      "norm_label": "grape color palette (secondary accent)"
+      "community": 19,
+      "norm_label": "grape color palette (secondary accent)",
+      "id": "colors_grape"
     },
     {
       "label": "grape \u2014 #B969D1",
@@ -2542,9 +2040,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_grape_base",
-      "community": 27,
-      "norm_label": "grape \u2014 #b969d1"
+      "community": 19,
+      "norm_label": "grape \u2014 #b969d1",
+      "id": "colors_grape_base"
     },
     {
       "label": "grape-dark \u2014 #80209C",
@@ -2555,9 +2053,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_grape_dark",
-      "community": 27,
-      "norm_label": "grape-dark \u2014 #80209c"
+      "community": 19,
+      "norm_label": "grape-dark \u2014 #80209c",
+      "id": "colors_grape_dark"
     },
     {
       "label": "Semantic color tokens",
@@ -2568,9 +2066,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "colors_semantic",
       "community": 1,
-      "norm_label": "semantic color tokens"
+      "norm_label": "semantic color tokens",
+      "id": "colors_semantic"
     },
     {
       "label": "--rh-bg-brand \u2014 #004F6E (brand hero bg)",
@@ -2581,9 +2079,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semantic_bg_brand",
       "community": 1,
-      "norm_label": "--rh-bg-brand \u2014 #004f6e (brand hero bg)"
+      "norm_label": "--rh-bg-brand \u2014 #004f6e (brand hero bg)",
+      "id": "semantic_bg_brand"
     },
     {
       "label": "--rh-bg-brand-soft \u2014 #DBF9FF",
@@ -2594,9 +2092,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semantic_bg_brand_soft",
       "community": 1,
-      "norm_label": "--rh-bg-brand-soft \u2014 #dbf9ff"
+      "norm_label": "--rh-bg-brand-soft \u2014 #dbf9ff",
+      "id": "semantic_bg_brand_soft"
     },
     {
       "label": "--rh-success \u2014 #358255",
@@ -2607,9 +2105,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semantic_success",
       "community": 1,
-      "norm_label": "--rh-success \u2014 #358255"
+      "norm_label": "--rh-success \u2014 #358255",
+      "id": "semantic_success"
     },
     {
       "label": "--rh-success-bg \u2014 #D3F7E2",
@@ -2620,9 +2118,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semantic_success_bg",
       "community": 1,
-      "norm_label": "--rh-success-bg \u2014 #d3f7e2"
+      "norm_label": "--rh-success-bg \u2014 #d3f7e2",
+      "id": "semantic_success_bg"
     },
     {
       "label": "--rh-warning \u2014 #EA7000",
@@ -2633,9 +2131,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semantic_warning",
       "community": 1,
-      "norm_label": "--rh-warning \u2014 #ea7000"
+      "norm_label": "--rh-warning \u2014 #ea7000",
+      "id": "semantic_warning"
     },
     {
       "label": "--rh-warning-bg \u2014 #FFE7C8",
@@ -2646,9 +2144,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semantic_warning_bg",
       "community": 1,
-      "norm_label": "--rh-warning-bg \u2014 #ffe7c8"
+      "norm_label": "--rh-warning-bg \u2014 #ffe7c8",
+      "id": "semantic_warning_bg"
     },
     {
       "label": "--rh-error \u2014 #D82E15",
@@ -2659,9 +2157,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semantic_error",
-      "community": 1,
-      "norm_label": "--rh-error \u2014 #d82e15"
+      "community": 7,
+      "norm_label": "--rh-error \u2014 #d82e15",
+      "id": "semantic_error"
     },
     {
       "label": "--rh-error-bg \u2014 #FFEDEF",
@@ -2672,9 +2170,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semantic_error_bg",
-      "community": 3,
-      "norm_label": "--rh-error-bg \u2014 #ffedef"
+      "community": 0,
+      "norm_label": "--rh-error-bg \u2014 #ffedef",
+      "id": "semantic_error_bg"
     },
     {
       "label": "--rh-fg-link \u2014 #00729E (info / link)",
@@ -2685,9 +2183,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semantic_fg_link",
       "community": 1,
-      "norm_label": "--rh-fg-link \u2014 #00729e (info / link)"
+      "norm_label": "--rh-fg-link \u2014 #00729e (info / link)",
+      "id": "semantic_fg_link"
     },
     {
       "label": "--rh-border \u2014 #C0CED3",
@@ -2698,9 +2196,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semantic_border",
       "community": 1,
-      "norm_label": "--rh-border \u2014 #c0ced3"
+      "norm_label": "--rh-border \u2014 #c0ced3",
+      "id": "semantic_border"
     },
     {
       "label": "Elevation / Shadow system",
@@ -2711,9 +2209,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "shadows",
-      "community": 4,
-      "norm_label": "elevation / shadow system"
+      "community": 2,
+      "norm_label": "elevation / shadow system",
+      "id": "shadows"
     },
     {
       "label": "--rh-shadow-xs",
@@ -2724,9 +2222,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "shadows_xs",
-      "community": 4,
-      "norm_label": "--rh-shadow-xs"
+      "community": 2,
+      "norm_label": "--rh-shadow-xs",
+      "id": "shadows_xs"
     },
     {
       "label": "--rh-shadow-s",
@@ -2737,9 +2235,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "shadows_s",
-      "community": 4,
-      "norm_label": "--rh-shadow-s"
+      "community": 2,
+      "norm_label": "--rh-shadow-s",
+      "id": "shadows_s"
     },
     {
       "label": "--rh-shadow-m",
@@ -2750,9 +2248,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "shadows_m",
-      "community": 4,
-      "norm_label": "--rh-shadow-m"
+      "community": 2,
+      "norm_label": "--rh-shadow-m",
+      "id": "shadows_m"
     },
     {
       "label": "--rh-shadow-l",
@@ -2763,9 +2261,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "shadows_l",
-      "community": 4,
-      "norm_label": "--rh-shadow-l"
+      "community": 2,
+      "norm_label": "--rh-shadow-l",
+      "id": "shadows_l"
     },
     {
       "label": "Typography body scale",
@@ -2776,9 +2274,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "type_body",
-      "community": 12,
-      "norm_label": "typography body scale"
+      "community": 10,
+      "norm_label": "typography body scale",
+      "id": "type_body"
     },
     {
       "label": "Body XL \u2014 20px / 1.5 line-height",
@@ -2789,9 +2287,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "type_body_xl",
-      "community": 12,
-      "norm_label": "body xl \u2014 20px / 1.5 line-height"
+      "community": 10,
+      "norm_label": "body xl \u2014 20px / 1.5 line-height",
+      "id": "type_body_xl"
     },
     {
       "label": "Body L \u2014 18px / 1.5 line-height",
@@ -2802,9 +2300,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "type_body_l",
-      "community": 12,
-      "norm_label": "body l \u2014 18px / 1.5 line-height"
+      "community": 10,
+      "norm_label": "body l \u2014 18px / 1.5 line-height",
+      "id": "type_body_l"
     },
     {
       "label": "Body M \u2014 16px / 1.5 line-height (default)",
@@ -2815,9 +2313,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "type_body_m",
-      "community": 12,
-      "norm_label": "body m \u2014 16px / 1.5 line-height (default)"
+      "community": 10,
+      "norm_label": "body m \u2014 16px / 1.5 line-height (default)",
+      "id": "type_body_m"
     },
     {
       "label": "Body S \u2014 14px / 1.5 line-height",
@@ -2828,9 +2326,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "type_body_s",
-      "community": 12,
-      "norm_label": "body s \u2014 14px / 1.5 line-height"
+      "community": 10,
+      "norm_label": "body s \u2014 14px / 1.5 line-height",
+      "id": "type_body_s"
     },
     {
       "label": "Body XS \u2014 12px / 1.5 line-height",
@@ -2841,9 +2339,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "type_body_xs",
-      "community": 12,
-      "norm_label": "body xs \u2014 12px / 1.5 line-height"
+      "community": 10,
+      "norm_label": "body xs \u2014 12px / 1.5 line-height",
+      "id": "type_body_xs"
     },
     {
       "label": "Gordita 400 regular",
@@ -2854,9 +2352,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "type_weight_regular",
-      "community": 12,
-      "norm_label": "gordita 400 regular"
+      "community": 10,
+      "norm_label": "gordita 400 regular",
+      "id": "type_weight_regular"
     },
     {
       "label": "Gordita 500 medium",
@@ -2867,9 +2365,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "type_weight_medium",
-      "community": 12,
-      "norm_label": "gordita 500 medium"
+      "community": 10,
+      "norm_label": "gordita 500 medium",
+      "id": "type_weight_medium"
     },
     {
       "label": "Gordita 700 bold",
@@ -2880,9 +2378,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "type_weight_bold",
-      "community": 12,
-      "norm_label": "gordita 700 bold"
+      "community": 10,
+      "norm_label": "gordita 700 bold",
+      "id": "type_weight_bold"
     },
     {
       "label": "Form input component patterns",
@@ -2893,9 +2391,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "form_inputs",
-      "community": 1,
-      "norm_label": "form input component patterns"
+      "community": 7,
+      "norm_label": "form input component patterns",
+      "id": "form_inputs"
     },
     {
       "label": "Input default state \u2014 border stone, bg white, 15px",
@@ -2906,9 +2404,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "form_input_default",
-      "community": 1,
-      "norm_label": "input default state \u2014 border stone, bg white, 15px"
+      "community": 7,
+      "norm_label": "input default state \u2014 border stone, bg white, 15px",
+      "id": "form_input_default"
     },
     {
       "label": "Input focus state \u2014 border blueberry, shadow-focus ring",
@@ -2919,9 +2417,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "form_input_focus",
-      "community": 1,
-      "norm_label": "input focus state \u2014 border blueberry, shadow-focus ring"
+      "community": 7,
+      "norm_label": "input focus state \u2014 border blueberry, shadow-focus ring",
+      "id": "form_input_focus"
     },
     {
       "label": "Input error state \u2014 border rh-error red",
@@ -2932,9 +2430,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "form_input_error",
-      "community": 1,
-      "norm_label": "input error state \u2014 border rh-error red"
+      "community": 7,
+      "norm_label": "input error state \u2014 border rh-error red",
+      "id": "form_input_error"
     },
     {
       "label": "Input disabled state \u2014 bg stone-lightest, not-allowed cursor",
@@ -2945,9 +2443,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "form_input_disabled",
-      "community": 1,
-      "norm_label": "input disabled state \u2014 bg stone-lightest, not-allowed cursor"
+      "community": 7,
+      "norm_label": "input disabled state \u2014 bg stone-lightest, not-allowed cursor",
+      "id": "form_input_disabled"
     },
     {
       "label": "Pills, tags and badges component",
@@ -2958,9 +2456,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pills_tags",
-      "community": 3,
-      "norm_label": "pills, tags and badges component"
+      "community": 0,
+      "norm_label": "pills, tags and badges component",
+      "id": "pills_tags"
     },
     {
       "label": "Pill lime \u2014 bg lime-lightest, text lime-darkest (best rate)",
@@ -2971,9 +2469,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pill_lime",
-      "community": 4,
-      "norm_label": "pill lime \u2014 bg lime-lightest, text lime-darkest (best rate)"
+      "community": 2,
+      "norm_label": "pill lime \u2014 bg lime-lightest, text lime-darkest (best rate)",
+      "id": "pill_lime"
     },
     {
       "label": "Pill mint \u2014 bg mint-light, text mint-darkest (featured)",
@@ -2984,9 +2482,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pill_mint",
-      "community": 3,
-      "norm_label": "pill mint \u2014 bg mint-light, text mint-darkest (featured)"
+      "community": 0,
+      "norm_label": "pill mint \u2014 bg mint-light, text mint-darkest (featured)",
+      "id": "pill_mint"
     },
     {
       "label": "Pill yuzu \u2014 bg yuzu-lightest, text yuzu-darkest (rewards)",
@@ -2997,9 +2495,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pill_yuzu",
-      "community": 3,
-      "norm_label": "pill yuzu \u2014 bg yuzu-lightest, text yuzu-darkest (rewards)"
+      "community": 0,
+      "norm_label": "pill yuzu \u2014 bg yuzu-lightest, text yuzu-darkest (rewards)",
+      "id": "pill_yuzu"
     },
     {
       "label": "Pill blueberry \u2014 bg blueberry-lightest, text blueberry-darkest (new)",
@@ -3010,9 +2508,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pill_berry",
       "community": 1,
-      "norm_label": "pill blueberry \u2014 bg blueberry-lightest, text blueberry-darkest (new)"
+      "norm_label": "pill blueberry \u2014 bg blueberry-lightest, text blueberry-darkest (new)",
+      "id": "pill_berry"
     },
     {
       "label": "Pill stone \u2014 bg stone-light, text stone-darkest (updated daily)",
@@ -3023,9 +2521,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pill_stone",
-      "community": 3,
-      "norm_label": "pill stone \u2014 bg stone-light, text stone-darkest (updated daily)"
+      "community": 0,
+      "norm_label": "pill stone \u2014 bg stone-light, text stone-darkest (updated daily)",
+      "id": "pill_stone"
     },
     {
       "label": "Pill error \u2014 bg error-bg, text error (rate change alert)",
@@ -3036,9 +2534,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pill_error",
-      "community": 3,
-      "norm_label": "pill error \u2014 bg error-bg, text error (rate change alert)"
+      "community": 0,
+      "norm_label": "pill error \u2014 bg error-bg, text error (rate change alert)",
+      "id": "pill_error"
     },
     {
       "label": "Tag \u2014 border stone, border-radius full, lowercase, 11px",
@@ -3049,9 +2547,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tag_component",
-      "community": 3,
-      "norm_label": "tag \u2014 border stone, border-radius full, lowercase, 11px"
+      "community": 0,
+      "norm_label": "tag \u2014 border stone, border-radius full, lowercase, 11px",
+      "id": "tag_component"
     },
     {
       "label": "Icon library \u2014 circle-in-circle SVG style, 30 icons",
@@ -3062,9 +2560,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icons_library",
-      "community": 4,
-      "norm_label": "icon library \u2014 circle-in-circle svg style, 30 icons"
+      "community": 2,
+      "norm_label": "icon library \u2014 circle-in-circle svg style, 30 icons",
+      "id": "icons_library"
     },
     {
       "label": "Category chooser component \u2014 6 product tiles",
@@ -3075,9 +2573,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "category_chooser",
-      "community": 4,
-      "norm_label": "category chooser component \u2014 6 product tiles"
+      "community": 2,
+      "norm_label": "category chooser component \u2014 6 product tiles",
+      "id": "category_chooser"
     },
     {
       "label": "Mortgage rate row component",
@@ -3088,9 +2586,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rate_row",
-      "community": 4,
-      "norm_label": "mortgage rate row component"
+      "community": 2,
+      "norm_label": "mortgage rate row component",
+      "id": "rate_row"
     },
     {
       "label": "Ratehub brand logo library",
@@ -3101,9 +2599,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "logos_library",
       "community": 1,
-      "norm_label": "ratehub brand logo library"
+      "norm_label": "ratehub brand logo library",
+      "id": "logos_library"
     },
     {
       "label": "Primary CTA button \u2014 #2D6E8A background, desaturated blueberry",
@@ -3114,9 +2612,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cta_button_primary",
-      "community": 4,
-      "norm_label": "primary cta button \u2014 #2d6e8a background, desaturated blueberry"
+      "community": 2,
+      "norm_label": "primary cta button \u2014 #2d6e8a background, desaturated blueberry",
+      "id": "cta_button_primary"
     },
     {
       "label": "Arrow Left \u2014 directional navigation arrow pointing left, circle-in-circle style, stroked, 32x32 viewBox",
@@ -3127,9 +2625,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_arrow_left",
-      "community": 16,
-      "norm_label": "arrow left \u2014 directional navigation arrow pointing left, circle-in-circle style, stroked, 32x32 viewbox"
+      "community": 14,
+      "norm_label": "arrow left \u2014 directional navigation arrow pointing left, circle-in-circle style, stroked, 32x32 viewbox",
+      "id": "icon_arrow_left"
     },
     {
       "label": "Arrow Right \u2014 directional navigation arrow pointing right, circle-in-circle style, stroked, 32x32 viewBox",
@@ -3140,9 +2638,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_arrow_right",
-      "community": 16,
-      "norm_label": "arrow right \u2014 directional navigation arrow pointing right, circle-in-circle style, stroked, 32x32 viewbox"
+      "community": 14,
+      "norm_label": "arrow right \u2014 directional navigation arrow pointing right, circle-in-circle style, stroked, 32x32 viewbox",
+      "id": "icon_arrow_right"
     },
     {
       "label": "Award \u2014 medal/ribbon badge with circle top and banner tails, stroked, 62x62 viewBox",
@@ -3153,9 +2651,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_award",
       "community": 36,
-      "norm_label": "award \u2014 medal/ribbon badge with circle top and banner tails, stroked, 62x62 viewbox"
+      "norm_label": "award \u2014 medal/ribbon badge with circle top and banner tails, stroked, 62x62 viewbox",
+      "id": "icon_award"
     },
     {
       "label": "Bar Chart \u2014 three vertical bars of ascending height inside circle, stroked, 62x62 viewBox",
@@ -3166,9 +2664,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_bar_chart",
-      "community": 14,
-      "norm_label": "bar chart \u2014 three vertical bars of ascending height inside circle, stroked, 62x62 viewbox"
+      "community": 13,
+      "norm_label": "bar chart \u2014 three vertical bars of ascending height inside circle, stroked, 62x62 viewbox",
+      "id": "icon_bar_chart"
     },
     {
       "label": "Calculator \u2014 rectangular body with button grid (plus/minus/equals rows) inside circle, stroked, 62x62 viewBox",
@@ -3179,9 +2677,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_calculator",
-      "community": 14,
-      "norm_label": "calculator \u2014 rectangular body with button grid (plus/minus/equals rows) inside circle, stroked, 62x62 viewbox"
+      "community": 13,
+      "norm_label": "calculator \u2014 rectangular body with button grid (plus/minus/equals rows) inside circle, stroked, 62x62 viewbox",
+      "id": "icon_calculator"
     },
     {
       "label": "Car \u2014 automobile with wheels, body, and windows inside circle, stroked, 62x62 viewBox",
@@ -3192,9 +2690,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_car",
-      "community": 14,
-      "norm_label": "car \u2014 automobile with wheels, body, and windows inside circle, stroked, 62x62 viewbox"
+      "community": 13,
+      "norm_label": "car \u2014 automobile with wheels, body, and windows inside circle, stroked, 62x62 viewbox",
+      "id": "icon_car"
     },
     {
       "label": "Checkmark \u2014 tick/check path inside circle indicating success or confirmation, stroked, 62x62 viewBox",
@@ -3205,9 +2703,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_checkmark",
       "community": 37,
-      "norm_label": "checkmark \u2014 tick/check path inside circle indicating success or confirmation, stroked, 62x62 viewbox"
+      "norm_label": "checkmark \u2014 tick/check path inside circle indicating success or confirmation, stroked, 62x62 viewbox",
+      "id": "icon_checkmark"
     },
     {
       "label": "Chevron Down \u2014 downward-pointing V-chevron inside circle for expand/dropdown, stroked, 62x62 viewBox",
@@ -3218,9 +2716,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_chevron_down",
       "community": 38,
-      "norm_label": "chevron down \u2014 downward-pointing v-chevron inside circle for expand/dropdown, stroked, 62x62 viewbox"
+      "norm_label": "chevron down \u2014 downward-pointing v-chevron inside circle for expand/dropdown, stroked, 62x62 viewbox",
+      "id": "icon_chevron_down"
     },
     {
       "label": "Chevron Left \u2014 leftward-pointing V-chevron inside circle for previous/back, stroked, 62x62 viewBox",
@@ -3231,9 +2729,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_chevron_left",
-      "community": 16,
-      "norm_label": "chevron left \u2014 leftward-pointing v-chevron inside circle for previous/back, stroked, 62x62 viewbox"
+      "community": 14,
+      "norm_label": "chevron left \u2014 leftward-pointing v-chevron inside circle for previous/back, stroked, 62x62 viewbox",
+      "id": "icon_chevron_left"
     },
     {
       "label": "Chevron Right \u2014 rightward-pointing V-chevron inside circle for next/forward, stroked, 62x62 viewBox",
@@ -3244,9 +2742,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_chevron_right",
-      "community": 16,
-      "norm_label": "chevron right \u2014 rightward-pointing v-chevron inside circle for next/forward, stroked, 62x62 viewbox"
+      "community": 14,
+      "norm_label": "chevron right \u2014 rightward-pointing v-chevron inside circle for next/forward, stroked, 62x62 viewbox",
+      "id": "icon_chevron_right"
     },
     {
       "label": "Chevron Up \u2014 upward-pointing V-chevron inside circle for collapse/scroll-up, stroked, 62x62 viewBox",
@@ -3257,9 +2755,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_chevron_up",
       "community": 38,
-      "norm_label": "chevron up \u2014 upward-pointing v-chevron inside circle for collapse/scroll-up, stroked, 62x62 viewbox"
+      "norm_label": "chevron up \u2014 upward-pointing v-chevron inside circle for collapse/scroll-up, stroked, 62x62 viewbox",
+      "id": "icon_chevron_up"
     },
     {
       "label": "Conversation \u2014 two overlapping speech bubbles inside circle for chat/support, stroked, 62x62 viewBox",
@@ -3270,9 +2768,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_conversation",
-      "community": 28,
-      "norm_label": "conversation \u2014 two overlapping speech bubbles inside circle for chat/support, stroked, 62x62 viewbox"
+      "community": 20,
+      "norm_label": "conversation \u2014 two overlapping speech bubbles inside circle for chat/support, stroked, 62x62 viewbox",
+      "id": "icon_conversation"
     },
     {
       "label": "Credit Card \u2014 rectangular card with stripe lines inside circle, stroked, 62x62 viewBox",
@@ -3283,9 +2781,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_credit_card",
-      "community": 14,
-      "norm_label": "credit card \u2014 rectangular card with stripe lines inside circle, stroked, 62x62 viewbox"
+      "community": 13,
+      "norm_label": "credit card \u2014 rectangular card with stripe lines inside circle, stroked, 62x62 viewbox",
+      "id": "icon_credit_card"
     },
     {
       "label": "Dollar \u2014 currency dollar sign with vertical line inside circle, stroked, 62x62 viewBox",
@@ -3296,9 +2794,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_dollar",
-      "community": 14,
-      "norm_label": "dollar \u2014 currency dollar sign with vertical line inside circle, stroked, 62x62 viewbox"
+      "community": 13,
+      "norm_label": "dollar \u2014 currency dollar sign with vertical line inside circle, stroked, 62x62 viewbox",
+      "id": "icon_dollar"
     },
     {
       "label": "Gift \u2014 wrapped present box with ribbon bow inside circle for rewards/promotions, stroked, 62x62 viewBox",
@@ -3309,9 +2807,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_gift",
-      "community": 14,
-      "norm_label": "gift \u2014 wrapped present box with ribbon bow inside circle for rewards/promotions, stroked, 62x62 viewbox"
+      "community": 13,
+      "norm_label": "gift \u2014 wrapped present box with ribbon bow inside circle for rewards/promotions, stroked, 62x62 viewbox",
+      "id": "icon_gift"
     },
     {
       "label": "Heart \u2014 heart shape with two upper arcs inside circle for favourites/saved, stroked, 62x62 viewBox",
@@ -3322,9 +2820,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_heart",
       "community": 36,
-      "norm_label": "heart \u2014 heart shape with two upper arcs inside circle for favourites/saved, stroked, 62x62 viewbox"
+      "norm_label": "heart \u2014 heart shape with two upper arcs inside circle for favourites/saved, stroked, 62x62 viewbox",
+      "id": "icon_heart"
     },
     {
       "label": "House \u2014 home silhouette with roof, walls and door inside circle for real estate/mortgages, stroked, 62x62 viewBox",
@@ -3335,9 +2833,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_house",
-      "community": 14,
-      "norm_label": "house \u2014 home silhouette with roof, walls and door inside circle for real estate/mortgages, stroked, 62x62 viewbox"
+      "community": 13,
+      "norm_label": "house \u2014 home silhouette with roof, walls and door inside circle for real estate/mortgages, stroked, 62x62 viewbox",
+      "id": "icon_house"
     },
     {
       "label": "Light Bulb \u2014 bulb with filament detail and bracket inside circle for ideas/tips, stroked, 62x62 viewBox",
@@ -3348,9 +2846,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_light_bulb",
-      "community": 28,
-      "norm_label": "light bulb \u2014 bulb with filament detail and bracket inside circle for ideas/tips, stroked, 62x62 viewbox"
+      "community": 20,
+      "norm_label": "light bulb \u2014 bulb with filament detail and bracket inside circle for ideas/tips, stroked, 62x62 viewbox",
+      "id": "icon_light_bulb"
     },
     {
       "label": "Lightning \u2014 two-segment zigzag bolt path inside circle for energy/speed/power, stroked, 62x62 viewBox",
@@ -3361,9 +2859,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_lightning",
-      "community": 28,
-      "norm_label": "lightning \u2014 two-segment zigzag bolt path inside circle for energy/speed/power, stroked, 62x62 viewbox"
+      "community": 20,
+      "norm_label": "lightning \u2014 two-segment zigzag bolt path inside circle for energy/speed/power, stroked, 62x62 viewbox",
+      "id": "icon_lightning"
     },
     {
       "label": "Lock \u2014 padlock with shackle arc and keyhole circle inside circle for security/privacy, stroked, 62x62 viewBox",
@@ -3374,9 +2872,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_lock",
       "community": 37,
-      "norm_label": "lock \u2014 padlock with shackle arc and keyhole circle inside circle for security/privacy, stroked, 62x62 viewbox"
+      "norm_label": "lock \u2014 padlock with shackle arc and keyhole circle inside circle for security/privacy, stroked, 62x62 viewbox",
+      "id": "icon_lock"
     },
     {
       "label": "Map Pin Icon",
@@ -3394,9 +2892,9 @@
         "semantic_category": "navigation",
         "purpose": "Location or map marker"
       },
-      "id": "icon_map_pin",
-      "community": 30,
-      "norm_label": "map pin icon"
+      "community": 22,
+      "norm_label": "map pin icon",
+      "id": "icon_map_pin"
     },
     {
       "label": "Maple Leaf Icon",
@@ -3414,9 +2912,9 @@
         "semantic_category": "brand",
         "purpose": "Canadian identity / national symbol"
       },
-      "id": "icon_maple_leaf",
       "community": 39,
-      "norm_label": "maple leaf icon"
+      "norm_label": "maple leaf icon",
+      "id": "icon_maple_leaf"
     },
     {
       "label": "Minus Icon",
@@ -3434,9 +2932,9 @@
         "semantic_category": "ui_control",
         "purpose": "Decrease, collapse, or remove action"
       },
-      "id": "icon_minus",
-      "community": 17,
-      "norm_label": "minus icon"
+      "community": 16,
+      "norm_label": "minus icon",
+      "id": "icon_minus"
     },
     {
       "label": "Phone Icon",
@@ -3454,9 +2952,9 @@
         "semantic_category": "communication",
         "purpose": "Phone call or contact"
       },
-      "id": "icon_phone",
-      "community": 29,
-      "norm_label": "phone icon"
+      "community": 21,
+      "norm_label": "phone icon",
+      "id": "icon_phone"
     },
     {
       "label": "Piggy Bank Icon",
@@ -3474,9 +2972,9 @@
         "semantic_category": "financial",
         "purpose": "Savings, banking, or money storage"
       },
-      "id": "icon_piggy",
-      "community": 18,
-      "norm_label": "piggy bank icon"
+      "community": 15,
+      "norm_label": "piggy bank icon",
+      "id": "icon_piggy"
     },
     {
       "label": "Airplane / Travel Icon",
@@ -3494,9 +2992,9 @@
         "semantic_category": "travel_insurance",
         "purpose": "Travel, flight, or travel insurance"
       },
-      "id": "icon_plane",
-      "community": 31,
-      "norm_label": "airplane / travel icon"
+      "community": 23,
+      "norm_label": "airplane / travel icon",
+      "id": "icon_plane"
     },
     {
       "label": "Plus Icon",
@@ -3514,9 +3012,9 @@
         "semantic_category": "ui_control",
         "purpose": "Add, expand, or increase action"
       },
-      "id": "icon_plus",
-      "community": 17,
-      "norm_label": "plus icon"
+      "community": 16,
+      "norm_label": "plus icon",
+      "id": "icon_plus"
     },
     {
       "label": "Question Mark Icon",
@@ -3534,9 +3032,9 @@
         "semantic_category": "ui_control",
         "purpose": "Help, tooltip, or FAQ"
       },
-      "id": "icon_question_mark",
-      "community": 29,
-      "norm_label": "question mark icon"
+      "community": 21,
+      "norm_label": "question mark icon",
+      "id": "icon_question_mark"
     },
     {
       "label": "Ratehub Brand Icon",
@@ -3554,9 +3052,9 @@
         "semantic_category": "brand",
         "purpose": "Ratehub.ca brand mark / logo icon"
       },
-      "id": "icon_ratehub",
       "community": 39,
-      "norm_label": "ratehub brand icon"
+      "norm_label": "ratehub brand icon",
+      "id": "icon_ratehub"
     },
     {
       "label": "Refresh / Reload Icon",
@@ -3574,9 +3072,9 @@
         "semantic_category": "ui_control",
         "purpose": "Refresh, reload, or update"
       },
-      "id": "icon_refresh",
-      "community": 17,
-      "norm_label": "refresh / reload icon"
+      "community": 16,
+      "norm_label": "refresh / reload icon",
+      "id": "icon_refresh"
     },
     {
       "label": "Search Icon (Blue)",
@@ -3594,9 +3092,9 @@
         "semantic_category": "navigation",
         "purpose": "Search input trigger (compact, branded blue variant)"
       },
-      "id": "icon_search_blue",
-      "community": 30,
-      "norm_label": "search icon (blue)"
+      "community": 22,
+      "norm_label": "search icon (blue)",
+      "id": "icon_search_blue"
     },
     {
       "label": "Search Icon",
@@ -3614,9 +3112,9 @@
         "semantic_category": "navigation",
         "purpose": "Search"
       },
-      "id": "icon_search",
-      "community": 30,
-      "norm_label": "search icon"
+      "community": 22,
+      "norm_label": "search icon",
+      "id": "icon_search"
     },
     {
       "label": "Shield Icon",
@@ -3634,9 +3132,9 @@
         "semantic_category": "insurance",
         "purpose": "Protection, insurance, or security"
       },
-      "id": "icon_shield",
-      "community": 31,
-      "norm_label": "shield icon"
+      "community": 23,
+      "norm_label": "shield icon",
+      "id": "icon_shield"
     },
     {
       "label": "Speech Bubble Icon",
@@ -3654,9 +3152,9 @@
         "semantic_category": "communication",
         "purpose": "Chat, message, or customer support"
       },
-      "id": "icon_speech_bubble",
-      "community": 29,
-      "norm_label": "speech bubble icon"
+      "community": 21,
+      "norm_label": "speech bubble icon",
+      "id": "icon_speech_bubble"
     },
     {
       "label": "Star / Rating Icon",
@@ -3674,9 +3172,9 @@
         "semantic_category": "rating_social_proof",
         "purpose": "Rating, favourite, or award"
       },
-      "id": "icon_star",
       "community": 40,
-      "norm_label": "star / rating icon"
+      "norm_label": "star / rating icon",
+      "id": "icon_star"
     },
     {
       "label": "Trending / Chart Icon",
@@ -3694,9 +3192,9 @@
         "semantic_category": "financial",
         "purpose": "Rate trends, market movement, or analytics"
       },
-      "id": "icon_trending",
-      "community": 18,
-      "norm_label": "trending / chart icon"
+      "community": 15,
+      "norm_label": "trending / chart icon",
+      "id": "icon_trending"
     },
     {
       "label": "Trophy Icon",
@@ -3714,9 +3212,9 @@
         "semantic_category": "rating_social_proof",
         "purpose": "Award, best-in-class, or achievement"
       },
-      "id": "icon_trophy",
       "community": 40,
-      "norm_label": "trophy icon"
+      "norm_label": "trophy icon",
+      "id": "icon_trophy"
     },
     {
       "label": "Umbrella Icon",
@@ -3734,9 +3232,9 @@
         "semantic_category": "insurance",
         "purpose": "Insurance coverage or protection"
       },
-      "id": "icon_umbrella",
-      "community": 31,
-      "norm_label": "umbrella icon"
+      "community": 23,
+      "norm_label": "umbrella icon",
+      "id": "icon_umbrella"
     },
     {
       "label": "User / Person Icon",
@@ -3754,9 +3252,9 @@
         "semantic_category": "account",
         "purpose": "User profile, sign-in, or account"
       },
-      "id": "icon_user",
-      "community": 18,
-      "norm_label": "user / person icon"
+      "community": 15,
+      "norm_label": "user / person icon",
+      "id": "icon_user"
     },
     {
       "label": "Wallet Icon",
@@ -3774,9 +3272,9 @@
         "semantic_category": "financial",
         "purpose": "Payment, credit cards, or personal finance"
       },
-      "id": "icon_wallet",
-      "community": 18,
-      "norm_label": "wallet icon"
+      "community": 15,
+      "norm_label": "wallet icon",
+      "id": "icon_wallet"
     },
     {
       "label": "Close / X Icon",
@@ -3794,9 +3292,9 @@
         "semantic_category": "ui_control",
         "purpose": "Close, dismiss, or cancel action"
       },
-      "id": "icon_x",
-      "community": 17,
-      "norm_label": "close / x icon"
+      "community": 16,
+      "norm_label": "close / x icon",
+      "id": "icon_x"
     },
     {
       "label": "Background Circle Brand Shape",
@@ -3817,9 +3315,9 @@
         "radius": 1296,
         "purpose": "decorative background shape"
       },
-      "id": "brand_background_circle",
-      "community": 6,
-      "norm_label": "background circle brand shape"
+      "community": 4,
+      "norm_label": "background circle brand shape",
+      "id": "brand_background_circle"
     },
     {
       "label": "Two Dots Brand Shape",
@@ -3843,9 +3341,9 @@
         "circle_2_radius": 198,
         "purpose": "decorative brand dots / accent shapes"
       },
-      "id": "brand_two_dots",
-      "community": 6,
-      "norm_label": "two dots brand shape"
+      "community": 4,
+      "norm_label": "two dots brand shape",
+      "id": "brand_two_dots"
     },
     {
       "label": "Yuzu Light Color (#FDE4A7)",
@@ -3860,9 +3358,9 @@
         "hex": "#FDE4A7",
         "role": "brand accent dot 1 \u2014 yuzu/yellow tint"
       },
-      "id": "color_yuzu_light",
-      "community": 6,
-      "norm_label": "yuzu light color (#fde4a7)"
+      "community": 4,
+      "norm_label": "yuzu light color (#fde4a7)",
+      "id": "color_yuzu_light"
     },
     {
       "label": "Mint Light Color (rgb(159,252,223))",
@@ -3878,9 +3376,9 @@
         "hex_approx": "#9FFCDF",
         "role": "brand accent dot 2 \u2014 mint/cyan tint"
       },
-      "id": "color_mint_light",
-      "community": 6,
-      "norm_label": "mint light color (rgb(159,252,223))"
+      "community": 4,
+      "norm_label": "mint light color (rgb(159,252,223))",
+      "id": "color_mint_light"
     },
     {
       "label": "Stone Lightest Color (#f5f9fa)",
@@ -3895,9 +3393,9 @@
         "hex": "#f5f9fa",
         "role": "background circle fill \u2014 stone/off-white neutral"
       },
-      "id": "color_stone_lightest",
-      "community": 6,
-      "norm_label": "stone lightest color (#f5f9fa)"
+      "community": 4,
+      "norm_label": "stone lightest color (#f5f9fa)",
+      "id": "color_stone_lightest"
     },
     {
       "label": "CanWise Logo (Light / White variant)",
@@ -3920,9 +3418,9 @@
         "has_wordmark": true,
         "icon_style": "organic/botanical leaf motif"
       },
-      "id": "logo_canwise_light",
-      "community": 6,
-      "norm_label": "canwise logo (light / white variant)"
+      "community": 4,
+      "norm_label": "canwise logo (light / white variant)",
+      "id": "logo_canwise_light"
     },
     {
       "label": "CanWise Brand",
@@ -3936,9 +3434,9 @@
       "properties": {
         "description": "CanWise \u2014 mortgage lending sub-brand / partner of Ratehub.ca"
       },
-      "id": "brand_canwise",
-      "community": 6,
-      "norm_label": "canwise brand"
+      "community": 4,
+      "norm_label": "canwise brand",
+      "id": "brand_canwise"
     },
     {
       "label": "MoneySense Logo (Light / White variant)",
@@ -3960,9 +3458,9 @@
         "has_icon": false,
         "has_wordmark": true
       },
-      "id": "logo_moneysense_light",
       "community": 41,
-      "norm_label": "moneysense logo (light / white variant)"
+      "norm_label": "moneysense logo (light / white variant)",
+      "id": "logo_moneysense_light"
     },
     {
       "label": "MoneySense Brand",
@@ -3976,9 +3474,9 @@
       "properties": {
         "description": "MoneySense \u2014 Canadian personal finance media brand; appears as press mention in Ratehub FeaturedIn strip"
       },
-      "id": "brand_moneysense",
       "community": 41,
-      "norm_label": "moneysense brand"
+      "norm_label": "moneysense brand",
+      "id": "brand_moneysense"
     },
     {
       "label": "Ratehub Full Logo (Dark / Black variant)",
@@ -4001,9 +3499,9 @@
         "has_wordmark": true,
         "letterforms": "ratehub \u2014 lowercase sans-serif wordmark with dot accent on 'i' in ratehub"
       },
-      "id": "logo_ratehub_full_dark",
-      "community": 6,
-      "norm_label": "ratehub full logo (dark / black variant)"
+      "community": 4,
+      "norm_label": "ratehub full logo (dark / black variant)",
+      "id": "logo_ratehub_full_dark"
     },
     {
       "label": "Ratehub Full Logo (Light / White variant)",
@@ -4027,9 +3525,9 @@
         "path_identical_to": "logo_ratehub_full_dark",
         "note": "Identical path data to dark variant; only fill differs"
       },
-      "id": "logo_ratehub_full_light",
-      "community": 6,
-      "norm_label": "ratehub full logo (light / white variant)"
+      "community": 4,
+      "norm_label": "ratehub full logo (light / white variant)",
+      "id": "logo_ratehub_full_light"
     },
     {
       "label": "Ratehub Lettermark Logo (Dark / Black variant)",
@@ -4052,9 +3550,9 @@
         "has_wordmark": false,
         "icon_description": "Letterform combining vertical stroke (I/l) and raised circle dot \u2014 stylised 'rh' or abstract 'i' with dot"
       },
-      "id": "logo_ratehub_lettermark_dark",
-      "community": 6,
-      "norm_label": "ratehub lettermark logo (dark / black variant)"
+      "community": 4,
+      "norm_label": "ratehub lettermark logo (dark / black variant)",
+      "id": "logo_ratehub_lettermark_dark"
     },
     {
       "label": "Ratehub Lettermark Logo (Light / White variant)",
@@ -4078,9 +3576,9 @@
         "path_identical_to": "logo_ratehub_lettermark_dark",
         "note": "Identical path data to dark variant; only fill differs"
       },
-      "id": "logo_ratehub_lettermark_light",
-      "community": 6,
-      "norm_label": "ratehub lettermark logo (light / white variant)"
+      "community": 4,
+      "norm_label": "ratehub lettermark logo (light / white variant)",
+      "id": "logo_ratehub_lettermark_light"
     },
     {
       "label": "Ratehub Insurance Logo (Light / White variant)",
@@ -4105,9 +3603,9 @@
         "icon_radius": 9.95116,
         "sub_brand": "insurance"
       },
-      "id": "logo_rh_insurance_light",
-      "community": 6,
-      "norm_label": "ratehub insurance logo (light / white variant)"
+      "community": 4,
+      "norm_label": "ratehub insurance logo (light / white variant)",
+      "id": "logo_rh_insurance_light"
     },
     {
       "label": "Ratehub Brand",
@@ -4121,9 +3619,9 @@
       "properties": {
         "description": "Ratehub.ca \u2014 Canada's #1 financial comparison platform; primary brand with full wordmark, lettermark, and product sub-brand variants"
       },
-      "id": "brand_ratehub",
-      "community": 6,
-      "norm_label": "ratehub brand"
+      "community": 4,
+      "norm_label": "ratehub brand",
+      "id": "brand_ratehub"
     },
     {
       "label": "Ratehub Insurance Sub-brand",
@@ -4137,9 +3635,9 @@
       "properties": {
         "description": "Ratehub Insurance \u2014 insurance product vertical under Ratehub brand umbrella"
       },
-      "id": "brand_ratehub_insurance",
-      "community": 6,
-      "norm_label": "ratehub insurance sub-brand"
+      "community": 4,
+      "norm_label": "ratehub insurance sub-brand",
+      "id": "brand_ratehub_insurance"
     },
     {
       "label": "Ratehub.ca Homepage Screenshot",
@@ -4150,9 +3648,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "upload_screenshot_homepage",
-      "community": 9,
-      "norm_label": "ratehub.ca homepage screenshot"
+      "community": 6,
+      "norm_label": "ratehub.ca homepage screenshot",
+      "id": "upload_screenshot_homepage"
     },
     {
       "label": "Hero Section \u2014 'The best rates live here.' with 3.35% rate callout",
@@ -4163,9 +3661,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "upload_screenshot_hero",
-      "community": 9,
-      "norm_label": "hero section \u2014 'the best rates live here.' with 3.35% rate callout"
+      "community": 6,
+      "norm_label": "hero section \u2014 'the best rates live here.' with 3.35% rate callout",
+      "id": "upload_screenshot_hero"
     },
     {
       "label": "Main Navigation \u2014 ratehub.ca logo + Mortgages, Credit Cards, Banking, Loans, Investing, Insurance, Blog",
@@ -4176,9 +3674,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "upload_screenshot_nav",
-      "community": 9,
-      "norm_label": "main navigation \u2014 ratehub.ca logo + mortgages, credit cards, banking, loans, investing, insurance, blog"
+      "community": 6,
+      "norm_label": "main navigation \u2014 ratehub.ca logo + mortgages, credit cards, banking, loans, investing, insurance, blog",
+      "id": "upload_screenshot_nav"
     },
     {
       "label": "Multi-brand Top Bar \u2014 MoneySense, ratehub.ca, CanWise, Insurance logos",
@@ -4189,9 +3687,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "upload_screenshot_topbar",
-      "community": 9,
-      "norm_label": "multi-brand top bar \u2014 moneysense, ratehub.ca, canwise, insurance logos"
+      "community": 6,
+      "norm_label": "multi-brand top bar \u2014 moneysense, ratehub.ca, canwise, insurance logos",
+      "id": "upload_screenshot_topbar"
     },
     {
       "label": "CTA Cards \u2014 'I'm buying a home' and 'I'm renewing/refinancing' with teal icons",
@@ -4202,9 +3700,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "upload_screenshot_cta_cards",
-      "community": 9,
-      "norm_label": "cta cards \u2014 'i'm buying a home' and 'i'm renewing/refinancing' with teal icons"
+      "community": 6,
+      "norm_label": "cta cards \u2014 'i'm buying a home' and 'i'm renewing/refinancing' with teal icons",
+      "id": "upload_screenshot_cta_cards"
     },
     {
       "label": "Product Category Strip \u2014 Mortgages, Credit Cards, Banking, Investing, Insurance icon tiles",
@@ -4215,9 +3713,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "upload_screenshot_product_strip",
-      "community": 9,
-      "norm_label": "product category strip \u2014 mortgages, credit cards, banking, investing, insurance icon tiles"
+      "community": 6,
+      "norm_label": "product category strip \u2014 mortgages, credit cards, banking, investing, insurance icon tiles",
+      "id": "upload_screenshot_product_strip"
     },
     {
       "label": "Ratehub.ca Brand \u2014 Canada's financial comparison platform",
@@ -4228,9 +3726,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_ratehub_brand",
-      "community": 9,
-      "norm_label": "ratehub.ca brand \u2014 canada's financial comparison platform"
+      "community": 6,
+      "norm_label": "ratehub.ca brand \u2014 canada's financial comparison platform",
+      "id": "concept_ratehub_brand"
     },
     {
       "label": "Featured Rate Display \u2014 3.35%* 5-year variable mortgage rate",
@@ -4241,9 +3739,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_rate_display",
-      "community": 9,
-      "norm_label": "featured rate display \u2014 3.35%* 5-year variable mortgage rate"
+      "community": 6,
+      "norm_label": "featured rate display \u2014 3.35%* 5-year variable mortgage rate",
+      "id": "concept_rate_display"
     },
     {
       "label": "Hero Design Pattern \u2014 centered headline with brand dot, rate highlight, value prop, dual CTA cards",
@@ -4254,9 +3752,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_hero_design",
-      "community": 9,
-      "norm_label": "hero design pattern \u2014 centered headline with brand dot, rate highlight, value prop, dual cta cards"
+      "community": 6,
+      "norm_label": "hero design pattern \u2014 centered headline with brand dot, rate highlight, value prop, dual cta cards",
+      "id": "concept_hero_design"
     },
     {
       "label": "Multi-brand Navigation Bar \u2014 black top bar linking CanWise, MoneySense, Insurance sub-brands",
@@ -4267,9 +3765,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_multi_brand_nav",
-      "community": 9,
-      "norm_label": "multi-brand navigation bar \u2014 black top bar linking canwise, moneysense, insurance sub-brands"
+      "community": 6,
+      "norm_label": "multi-brand navigation bar \u2014 black top bar linking canwise, moneysense, insurance sub-brands",
+      "id": "concept_multi_brand_nav"
     },
     {
       "label": "Icon Tile Pattern \u2014 teal-outlined icons above product category labels in card grid",
@@ -4280,9 +3778,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_icon_tiles",
-      "community": 9,
-      "norm_label": "icon tile pattern \u2014 teal-outlined icons above product category labels in card grid"
+      "community": 6,
+      "norm_label": "icon tile pattern \u2014 teal-outlined icons above product category labels in card grid",
+      "id": "concept_icon_tiles"
     },
     {
       "label": "UI Kit \u2014 Homepage Screenshot",
@@ -4295,9 +3793,9 @@
       "contributor": null,
       "description": "High-fidelity screenshot of the Ratehub.ca homepage showing the sticky navigation bar and hero section with dark blueberry background.",
       "confidence_score": 1.0,
-      "id": "ui_kit_home_screenshot",
-      "community": 5,
-      "norm_label": "ui kit \u2014 homepage screenshot"
+      "community": 3,
+      "norm_label": "ui kit \u2014 homepage screenshot",
+      "id": "ui_kit_home_screenshot"
     },
     {
       "label": "Navigation Bar",
@@ -4310,9 +3808,9 @@
       "contributor": null,
       "description": "Sticky white navigation bar. Left: 'ratehub.ca' wordmark in dark text. Centre: 6 product nav links \u2014 Mortgages, Credit cards, Banking, Insurance, Investing, Tools & calculators. Right: language switcher (En / Fr) and 'Sign in' CTA button with rounded pill shape and dark fill.",
       "confidence_score": 1.0,
-      "id": "ui_kit_nav",
-      "community": 5,
-      "norm_label": "navigation bar"
+      "community": 3,
+      "norm_label": "navigation bar",
+      "id": "ui_kit_nav"
     },
     {
       "label": "ratehub.ca Wordmark",
@@ -4325,9 +3823,9 @@
       "contributor": null,
       "description": "Ratehub.ca logotype rendered in dark blackberry text. No icon/symbol \u2014 text-only wordmark.",
       "confidence_score": 1.0,
-      "id": "ui_kit_nav_wordmark",
-      "community": 5,
-      "norm_label": "ratehub.ca wordmark"
+      "community": 3,
+      "norm_label": "ratehub.ca wordmark",
+      "id": "ui_kit_nav_wordmark"
     },
     {
       "label": "Primary Navigation Links",
@@ -4340,9 +3838,9 @@
       "contributor": null,
       "description": "Six horizontal nav items in sentence case: Mortgages, Credit cards, Banking, Insurance, Investing, Tools & calculators. Rendered in medium-weight sans-serif (Gordita). No underline in default state.",
       "confidence_score": 1.0,
-      "id": "ui_kit_nav_links",
-      "community": 5,
-      "norm_label": "primary navigation links"
+      "community": 3,
+      "norm_label": "primary navigation links",
+      "id": "ui_kit_nav_links"
     },
     {
       "label": "Sign In Button (Nav)",
@@ -4355,9 +3853,9 @@
       "contributor": null,
       "description": "Pill-shaped 'Sign in' button with dark fill (desaturated blueberry ~#2d6e8a) and white label. Sits to the right of the En/Fr language toggle.",
       "confidence_score": 1.0,
-      "id": "ui_kit_nav_signin_button",
-      "community": 5,
-      "norm_label": "sign in button (nav)"
+      "community": 3,
+      "norm_label": "sign in button (nav)",
+      "id": "ui_kit_nav_signin_button"
     },
     {
       "label": "Language Switcher (En / Fr)",
@@ -4370,9 +3868,9 @@
       "contributor": null,
       "description": "Compact text toggle showing 'En \u00b7 Fr' separated by a dot. Allows switching between English and French site versions.",
       "confidence_score": 1.0,
-      "id": "ui_kit_nav_language_switcher",
-      "community": 5,
-      "norm_label": "language switcher (en / fr)"
+      "community": 3,
+      "norm_label": "language switcher (en / fr)",
+      "id": "ui_kit_nav_language_switcher"
     },
     {
       "label": "Hero Section",
@@ -4385,9 +3883,9 @@
       "contributor": null,
       "description": "Full-bleed hero section with deep blueberry-darkest background (#0d2d3a range). Contains a large decorative circle/blob shape on the right side in a slightly lighter teal. Left column holds eyebrow pill, H1 headline, descriptor paragraph. Right side holds the decorative brand shape.",
       "confidence_score": 1.0,
-      "id": "ui_kit_hero_section",
-      "community": 5,
-      "norm_label": "hero section"
+      "community": 3,
+      "norm_label": "hero section",
+      "id": "ui_kit_hero_section"
     },
     {
       "label": "Hero Eyebrow Pill \u2014 MoneySense Award",
@@ -4400,9 +3898,9 @@
       "contributor": null,
       "description": "Small rounded pill/badge with light background. Contains a trophy emoji icon followed by 'MoneySense \u2014 Best Rate Platform 2024' in small body text. Used as social-proof eyebrow above the H1.",
       "confidence_score": 1.0,
-      "id": "ui_kit_hero_eyebrow_pill",
-      "community": 5,
-      "norm_label": "hero eyebrow pill \u2014 moneysense award"
+      "community": 3,
+      "norm_label": "hero eyebrow pill \u2014 moneysense award",
+      "id": "ui_kit_hero_eyebrow_pill"
     },
     {
       "label": "Hero H1 Headline",
@@ -4415,9 +3913,9 @@
       "contributor": null,
       "description": "Large display headline: \"Canada's smartest way to compare mortgages\" in white Gordita Bold. Sentence case. Very large font (~52px desktop). Spans 3 lines. The period after 'mortgages' is styled with the brand cyan dot (.showDot::after CSS pseudo-element).",
       "confidence_score": 1.0,
-      "id": "ui_kit_hero_h1",
-      "community": 5,
-      "norm_label": "hero h1 headline"
+      "community": 3,
+      "norm_label": "hero h1 headline",
+      "id": "ui_kit_hero_h1"
     },
     {
       "label": "Hero Descriptor Paragraph",
@@ -4430,9 +3928,9 @@
       "contributor": null,
       "description": "Supporting body copy in white/light text: 'Compare rates from 30+ lenders. Save up to $13,384 over your first 5 years \u2014 no obligation, no fees.' Numbers in Canadian format. Sentence case. Medium weight Gordita.",
       "confidence_score": 1.0,
-      "id": "ui_kit_hero_descriptor",
-      "community": 5,
-      "norm_label": "hero descriptor paragraph"
+      "community": 3,
+      "norm_label": "hero descriptor paragraph",
+      "id": "ui_kit_hero_descriptor"
     },
     {
       "label": "Hero Decorative Brand Shape",
@@ -4445,9 +3943,9 @@
       "contributor": null,
       "description": "Large circular/organic shape in slightly lighter teal/blueberry tone positioned to the right of the hero text. Acts as a background design element from the brand shapes asset library (assets/brand/). No gradient \u2014 flat tone on tone.",
       "confidence_score": 0.9,
-      "id": "ui_kit_hero_brand_shape",
-      "community": 5,
-      "norm_label": "hero decorative brand shape"
+      "community": 3,
+      "norm_label": "hero decorative brand shape",
+      "id": "ui_kit_hero_brand_shape"
     },
     {
       "label": "Hero Progressive Tab Form",
@@ -4460,9 +3958,9 @@
       "contributor": null,
       "description": "4-tab progressive form component (HeroBannerV2.jsx) \u2014 tabs for Mortgages, Credit Cards, Banking, Insurance. Not fully visible in the cropped screenshot but present in the hero layout based on codebase.",
       "confidence_score": 0.7,
-      "id": "ui_kit_hero_tab_form",
-      "community": 5,
-      "norm_label": "hero progressive tab form"
+      "community": 3,
+      "norm_label": "hero progressive tab form",
+      "id": "ui_kit_hero_tab_form"
     },
     {
       "label": "Color Token \u2014 blueberry-darkest (Hero BG)",
@@ -4475,9 +3973,9 @@
       "contributor": null,
       "description": "The hero section background uses --rh-blueberry-darkest, a very deep navy-teal. The decorative shape uses a slightly lighter shade of the same hue family, maintaining a tone-on-tone feel with no gradient.",
       "confidence_score": 1.0,
-      "id": "ui_kit_color_blueberry_darkest",
-      "community": 5,
-      "norm_label": "color token \u2014 blueberry-darkest (hero bg)"
+      "community": 3,
+      "norm_label": "color token \u2014 blueberry-darkest (hero bg)",
+      "id": "ui_kit_color_blueberry_darkest"
     },
     {
       "label": "Typography \u2014 Gordita Typeface",
@@ -4490,9 +3988,9 @@
       "contributor": null,
       "description": "All text across nav and hero uses Gordita. Nav items use weight 500 (medium). Hero H1 uses weight 700 (bold). Descriptor uses weight 400 (regular). Sentence case throughout \u2014 no all-caps.",
       "confidence_score": 1.0,
-      "id": "ui_kit_typography_gordita",
-      "community": 5,
-      "norm_label": "typography \u2014 gordita typeface"
+      "community": 3,
+      "norm_label": "typography \u2014 gordita typeface",
+      "id": "ui_kit_typography_gordita"
     },
     {
       "label": "Pill / Badge Component",
@@ -4505,9 +4003,9 @@
       "contributor": null,
       "description": "Reusable Pill primitive (src/components.jsx) used as hero eyebrow. Light neutral background, full border-radius, small padded text. Supports inline icons/emoji.",
       "confidence_score": 1.0,
-      "id": "ui_kit_pill_component",
-      "community": 5,
-      "norm_label": "pill / badge component"
+      "community": 3,
+      "norm_label": "pill / badge component",
+      "id": "ui_kit_pill_component"
     },
     {
       "label": "Ratehub Favicon 32x32",
@@ -4524,9 +4022,9 @@
         "#FFFFFF (white letterform)"
       ],
       "confidence_score": 1.0,
-      "id": "brand_favicon",
       "community": 42,
-      "norm_label": "ratehub favicon 32x32"
+      "norm_label": "ratehub favicon 32x32",
+      "id": "brand_favicon"
     },
     {
       "label": "Ratehub R Logo 300x300",
@@ -4543,9 +4041,9 @@
         "#FFFFFF (white shapes)"
       ],
       "confidence_score": 1.0,
-      "id": "brand_r_logo",
       "community": 42,
-      "norm_label": "ratehub r logo 300x300"
+      "norm_label": "ratehub r logo 300x300",
+      "id": "brand_r_logo"
     }
   ],
   "links": [
@@ -4559,18 +4057,6 @@
       "_tgt": "header_header",
       "source": "ui_kits_ratehub_web_header_jsx",
       "target": "header_header",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/Header.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_src": "src_header_jsx",
-      "_tgt": "header_header",
-      "source": "header_header",
-      "target": "src_header_jsx",
       "confidence_score": 1.0
     },
     {
@@ -4672,114 +4158,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/components.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_src": "src_components_jsx",
-      "_tgt": "components_button",
-      "source": "components_button",
-      "target": "src_components_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components.jsx",
-      "source_location": "L51",
-      "weight": 1.0,
-      "_src": "src_components_jsx",
-      "_tgt": "components_anchor",
-      "source": "components_anchor",
-      "target": "src_components_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components.jsx",
-      "source_location": "L75",
-      "weight": 1.0,
-      "_src": "src_components_jsx",
-      "_tgt": "components_pill",
-      "source": "components_pill",
-      "target": "src_components_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components.jsx",
-      "source_location": "L100",
-      "weight": 1.0,
-      "_src": "src_components_jsx",
-      "_tgt": "components_icon",
-      "source": "components_icon",
-      "target": "src_components_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components.jsx",
-      "source_location": "L106",
-      "weight": 1.0,
-      "_src": "src_components_jsx",
-      "_tgt": "components_card",
-      "source": "components_card",
-      "target": "src_components_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components.jsx",
-      "source_location": "L118",
-      "weight": 1.0,
-      "_src": "src_components_jsx",
-      "_tgt": "components_input",
-      "source": "components_input",
-      "target": "src_components_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components.jsx",
-      "source_location": "L154",
-      "weight": 1.0,
-      "_src": "src_components_jsx",
-      "_tgt": "components_select",
-      "source": "components_select",
-      "target": "src_components_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components.jsx",
-      "source_location": "L178",
-      "weight": 1.0,
-      "_src": "src_components_jsx",
-      "_tgt": "components_checkbullet",
-      "source": "components_checkbullet",
-      "target": "src_components_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "ui_kits/ratehub_web/ProductCategoryGrid.jsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_src": "ui_kits_ratehub_web_productcategorygrid_jsx",
-      "_tgt": "productcategorygrid_productcategorygrid",
-      "source": "ui_kits_ratehub_web_productcategorygrid_jsx",
-      "target": "productcategorygrid_productcategorygrid",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "ui_kits/ratehub_web/SavingsShowcase.jsx",
       "source_location": "L1",
       "weight": 1.0,
@@ -4787,18 +4165,6 @@
       "_tgt": "savingsshowcase_savingsshowcase",
       "source": "ui_kits_ratehub_web_savingsshowcase_jsx",
       "target": "savingsshowcase_savingsshowcase",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/SavingsShowcase.jsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_src": "src_savingsshowcase_jsx",
-      "_tgt": "savingsshowcase_savingsshowcase",
-      "source": "savingsshowcase_savingsshowcase",
-      "target": "src_savingsshowcase_jsx",
       "confidence_score": 1.0
     },
     {
@@ -4814,28 +4180,16 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/Footer.jsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_src": "src_footer_jsx",
-      "_tgt": "footer_footer",
-      "source": "footer_footer",
-      "target": "src_footer_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "ui_kits/ratehub_web/HeroBanner.jsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_src": "ui_kits_ratehub_web_herobanner_jsx",
-      "_tgt": "herobanner_herobanner",
-      "source": "ui_kits_ratehub_web_herobanner_jsx",
-      "target": "herobanner_herobanner",
-      "confidence_score": 1.0
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "ui_kits/ratehub_web/",
+      "source_location": null,
+      "weight": 0.8,
+      "_src": "src_hero_banner_v2",
+      "_tgt": "uikit_hero_banner_v1",
+      "source": "uikit_hero_banner_v1",
+      "target": "src_hero_banner_v2"
     },
     {
       "relation": "contains",
@@ -4847,18 +4201,6 @@
       "_tgt": "mortgageratetable_mortgageratetable",
       "source": "ui_kits_ratehub_web_mortgageratetable_jsx",
       "target": "mortgageratetable_mortgageratetable",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/MortgageRateTable.jsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_src": "src_mortgageratetable_jsx",
-      "_tgt": "mortgageratetable_mortgageratetable",
-      "source": "mortgageratetable_mortgageratetable",
-      "target": "src_mortgageratetable_jsx",
       "confidence_score": 1.0
     },
     {
@@ -4888,30 +4230,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/TrustStrip.jsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_src": "src_truststrip_jsx",
-      "_tgt": "truststrip_truststrip",
-      "source": "truststrip_truststrip",
-      "target": "src_truststrip_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/TrustStrip.jsx",
-      "source_location": "L22",
-      "weight": 1.0,
-      "_src": "src_truststrip_jsx",
-      "_tgt": "truststrip_awardstrip",
-      "source": "truststrip_awardstrip",
-      "target": "src_truststrip_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "ui_kits/ratehub_web/CardFinder.jsx",
       "source_location": "L1",
       "weight": 1.0,
@@ -4919,18 +4237,6 @@
       "_tgt": "cardfinder_cardfinder",
       "source": "ui_kits_ratehub_web_cardfinder_jsx",
       "target": "cardfinder_cardfinder",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/CardFinder.jsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_src": "src_cardfinder_jsx",
-      "_tgt": "cardfinder_cardfinder",
-      "source": "cardfinder_cardfinder",
-      "target": "src_cardfinder_jsx",
       "confidence_score": 1.0
     },
     {
@@ -5008,78 +4314,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/HeroBannerV2.jsx",
-      "source_location": "L57",
-      "weight": 1.0,
-      "_src": "src_herobannerv2_jsx",
-      "_tgt": "herobannerv2_pulsebutton",
-      "source": "herobannerv2_pulsebutton",
-      "target": "src_herobannerv2_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/HeroBannerV2.jsx",
-      "source_location": "L84",
-      "weight": 1.0,
-      "_src": "src_herobannerv2_jsx",
-      "_tgt": "herobannerv2_stepdots",
-      "source": "herobannerv2_stepdots",
-      "target": "src_herobannerv2_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/HeroBannerV2.jsx",
-      "source_location": "L119",
-      "weight": 1.0,
-      "_src": "src_herobannerv2_jsx",
-      "_tgt": "herobannerv2_optionbtn",
-      "source": "herobannerv2_optionbtn",
-      "target": "src_herobannerv2_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/HeroBannerV2.jsx",
-      "source_location": "L134",
-      "weight": 1.0,
-      "_src": "src_herobannerv2_jsx",
-      "_tgt": "herobannerv2_stepinput",
-      "source": "herobannerv2_stepinput",
-      "target": "src_herobannerv2_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/HeroBannerV2.jsx",
-      "source_location": "L157",
-      "weight": 1.0,
-      "_src": "src_herobannerv2_jsx",
-      "_tgt": "herobannerv2_provinceselect",
-      "source": "herobannerv2_provinceselect",
-      "target": "src_herobannerv2_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/HeroBannerV2.jsx",
-      "source_location": "L175",
-      "weight": 1.0,
-      "_src": "src_herobannerv2_jsx",
-      "_tgt": "herobannerv2_herobannerv2",
-      "source": "herobannerv2_herobannerv2",
-      "target": "src_herobannerv2_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "ui_kits/ratehub_web/FeaturedIn.jsx",
       "source_location": "L4",
       "weight": 1.0,
@@ -5087,18 +4321,6 @@
       "_tgt": "featuredin_featuredin",
       "source": "ui_kits_ratehub_web_featuredin_jsx",
       "target": "featuredin_featuredin",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/FeaturedIn.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_src": "src_featuredin_jsx",
-      "_tgt": "featuredin_featuredin",
-      "source": "featuredin_featuredin",
-      "target": "src_featuredin_jsx",
       "confidence_score": 1.0
     },
     {
@@ -5116,18 +4338,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/EducationStrip.jsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_src": "src_educationstrip_jsx",
-      "_tgt": "educationstrip_educationstrip",
-      "source": "educationstrip_educationstrip",
-      "target": "src_educationstrip_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "ui_kits/ratehub_web/MortgageCalculator.jsx",
       "source_location": "L4",
       "weight": 1.0,
@@ -5136,738 +4346,6 @@
       "source": "ui_kits_ratehub_web_mortgagecalculator_jsx",
       "target": "mortgagecalculator_mortgagecalculator",
       "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/MortgageCalculator.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_src": "src_mortgagecalculator_jsx",
-      "_tgt": "mortgagecalculator_mortgagecalculator",
-      "source": "mortgagecalculator_mortgagecalculator",
-      "target": "src_mortgagecalculator_jsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L79",
-      "weight": 1.0,
-      "_src": "src_membersdashboard_jsx",
-      "_tgt": "membersdashboard_fmtcad",
-      "source": "src_membersdashboard_jsx",
-      "target": "membersdashboard_fmtcad",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L80",
-      "weight": 1.0,
-      "_src": "src_membersdashboard_jsx",
-      "_tgt": "membersdashboard_fmtdate",
-      "source": "src_membersdashboard_jsx",
-      "target": "membersdashboard_fmtdate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L81",
-      "weight": 1.0,
-      "_src": "src_membersdashboard_jsx",
-      "_tgt": "membersdashboard_propline",
-      "source": "src_membersdashboard_jsx",
-      "target": "membersdashboard_propline",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L84",
-      "weight": 1.0,
-      "_src": "src_membersdashboard_jsx",
-      "_tgt": "membersdashboard_sectionlabel",
-      "source": "src_membersdashboard_jsx",
-      "target": "membersdashboard_sectionlabel",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L91",
-      "weight": 1.0,
-      "_src": "src_membersdashboard_jsx",
-      "_tgt": "membersdashboard_statcell",
-      "source": "src_membersdashboard_jsx",
-      "target": "membersdashboard_statcell",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L100",
-      "weight": 1.0,
-      "_src": "src_membersdashboard_jsx",
-      "_tgt": "membersdashboard_detailrow",
-      "source": "src_membersdashboard_jsx",
-      "target": "membersdashboard_detailrow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L108",
-      "weight": 1.0,
-      "_src": "src_membersdashboard_jsx",
-      "_tgt": "membersdashboard_progressbar",
-      "source": "src_membersdashboard_jsx",
-      "target": "membersdashboard_progressbar",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L115",
-      "weight": 1.0,
-      "_src": "src_membersdashboard_jsx",
-      "_tgt": "membersdashboard_membersdashboard",
-      "source": "src_membersdashboard_jsx",
-      "target": "membersdashboard_membersdashboard",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L182",
-      "weight": 1.0,
-      "_src": "membersdashboard_membersdashboard",
-      "_tgt": "membersdashboard_fmtcad",
-      "source": "membersdashboard_fmtcad",
-      "target": "membersdashboard_membersdashboard",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L195",
-      "weight": 1.0,
-      "_src": "membersdashboard_membersdashboard",
-      "_tgt": "membersdashboard_fmtdate",
-      "source": "membersdashboard_fmtdate",
-      "target": "membersdashboard_membersdashboard",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": "L176",
-      "weight": 1.0,
-      "_src": "membersdashboard_membersdashboard",
-      "_tgt": "membersdashboard_propline",
-      "source": "membersdashboard_propline",
-      "target": "membersdashboard_membersdashboard",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/HomeValueEstimator.jsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "_src": "src_homevalueestimator_jsx",
-      "_tgt": "homevalueestimator_homevalueestimator",
-      "source": "src_homevalueestimator_jsx",
-      "target": "homevalueestimator_homevalueestimator",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "src_components",
-      "source": "index_app",
-      "target": "src_components"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "src_header",
-      "source": "index_app",
-      "target": "src_header"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "src_footer",
-      "source": "index_app",
-      "target": "src_footer"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "src_hero_banner_v2",
-      "source": "index_app",
-      "target": "src_hero_banner_v2"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "src_mortgage_calculator",
-      "source": "index_app",
-      "target": "src_mortgage_calculator"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "src_mortgage_rate_table",
-      "source": "index_app",
-      "target": "src_mortgage_rate_table"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "src_card_finder",
-      "source": "index_app",
-      "target": "src_card_finder"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "src_savings_showcase",
-      "source": "index_app",
-      "target": "src_savings_showcase"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "src_trust_strip",
-      "source": "index_app",
-      "target": "src_trust_strip"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "src_education_strip",
-      "source": "index_app",
-      "target": "src_education_strip"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "src_featured_in",
-      "source": "index_app",
-      "target": "src_featured_in"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "src_home_value_estimator",
-      "source": "index_app",
-      "target": "src_home_value_estimator"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "src_members_dashboard",
-      "source": "index_app",
-      "target": "src_members_dashboard"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "index_product_category_grid_v2",
-      "source": "index_app",
-      "target": "index_product_category_grid_v2"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "index_insurance_preview",
-      "source": "index_app",
-      "target": "index_insurance_preview"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "index_investing_preview",
-      "source": "index_app",
-      "target": "index_investing_preview"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "index_award_strip",
-      "source": "index_app",
-      "target": "index_award_strip"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "index_password_gate",
-      "source": "index_app",
-      "target": "index_password_gate"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "cdn_react",
-      "source": "index_app",
-      "target": "cdn_react"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "cdn_babel",
-      "source": "index_app",
-      "target": "cdn_babel"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "colors_and_type",
-      "source": "index_app",
-      "target": "colors_and_type"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "index_responsive_grid_classes",
-      "source": "index_app",
-      "target": "index_responsive_grid_classes"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_app",
-      "_tgt": "index_mobile_nav",
-      "source": "index_app",
-      "target": "index_mobile_nav"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "claude_routing",
-      "_tgt": "index_app",
-      "source": "index_app",
-      "target": "claude_routing"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_product_category_grid_v2",
-      "_tgt": "src_icon",
-      "source": "index_product_category_grid_v2",
-      "target": "src_icon"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_product_category_grid_v2",
-      "_tgt": "src_pill",
-      "source": "index_product_category_grid_v2",
-      "target": "src_pill"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_product_category_grid_v2",
-      "_tgt": "src_anchor",
-      "source": "index_product_category_grid_v2",
-      "target": "src_anchor"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "readme_homepage_architecture",
-      "_tgt": "index_product_category_grid_v2",
-      "source": "index_product_category_grid_v2",
-      "target": "readme_homepage_architecture"
-    },
-    {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
-      "source_file": "ui_kits/ratehub_web/index_redesign.html",
-      "source_location": null,
-      "weight": 0.9,
-      "_src": "uikit_redesign_index",
-      "_tgt": "index_product_category_grid_v2",
-      "source": "index_product_category_grid_v2",
-      "target": "uikit_redesign_index"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "ui_kits/ratehub_web/",
-      "source_location": null,
-      "weight": 0.8,
-      "_src": "uikit_product_category_grid",
-      "_tgt": "index_product_category_grid_v2",
-      "source": "index_product_category_grid_v2",
-      "target": "uikit_product_category_grid"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_insurance_preview",
-      "_tgt": "src_button",
-      "source": "index_insurance_preview",
-      "target": "src_button"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_insurance_preview",
-      "_tgt": "src_card",
-      "source": "index_insurance_preview",
-      "target": "src_card"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_insurance_preview",
-      "_tgt": "src_icon",
-      "source": "index_insurance_preview",
-      "target": "src_icon"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_insurance_preview",
-      "_tgt": "src_pill",
-      "source": "index_insurance_preview",
-      "target": "src_pill"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_investing_preview",
-      "_tgt": "src_card",
-      "source": "index_investing_preview",
-      "target": "src_card"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_investing_preview",
-      "_tgt": "src_icon",
-      "source": "index_investing_preview",
-      "target": "src_icon"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_investing_preview",
-      "_tgt": "src_pill",
-      "source": "index_investing_preview",
-      "target": "src_pill"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_investing_preview",
-      "_tgt": "src_button",
-      "source": "index_investing_preview",
-      "target": "src_button"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_investing_preview",
-      "_tgt": "src_anchor",
-      "source": "index_investing_preview",
-      "target": "src_anchor"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_award_strip",
-      "_tgt": "src_icon",
-      "source": "index_award_strip",
-      "target": "src_icon"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_insurance_page",
-      "_tgt": "src_trust_strip",
-      "source": "index_insurance_page",
-      "target": "src_trust_strip"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_insurance_page",
-      "_tgt": "src_pill",
-      "source": "index_insurance_page",
-      "target": "src_pill"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "index_insurance_page",
-      "_tgt": "src_button",
-      "source": "index_insurance_page",
-      "target": "src_button"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "claude_window_registration",
-      "_tgt": "src_components",
-      "source": "src_components",
-      "target": "claude_window_registration"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SKILL.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "skill_hero_pattern",
-      "_tgt": "src_button",
-      "source": "src_button",
-      "target": "skill_hero_pattern"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "preview/buttons_primary.html",
-      "source_location": null,
-      "weight": 0.85,
-      "_src": "preview_buttons_primary",
-      "_tgt": "src_button",
-      "source": "src_button",
-      "target": "preview_buttons_primary"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "preview/buttons_variants.html",
-      "source_location": null,
-      "weight": 0.85,
-      "_src": "preview_buttons_variants",
-      "_tgt": "src_button",
-      "source": "src_button",
-      "target": "preview_buttons_variants"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SKILL.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "skill_hero_pattern",
-      "_tgt": "src_pill",
-      "source": "src_pill",
-      "target": "skill_hero_pattern"
     },
     {
       "relation": "references",
@@ -5882,340 +4360,16 @@
       "target": "assets_icons"
     },
     {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "preview/checkmarks_stars.html",
-      "source_location": null,
-      "weight": 0.8,
-      "_src": "preview_checkmarks_stars",
-      "_tgt": "src_checkbullet",
-      "source": "src_checkbullet",
-      "target": "preview_checkmarks_stars"
-    },
-    {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/src/HomeValueEstimator.jsx",
+      "source_location": "L9",
       "weight": 1.0,
-      "_src": "readme_homepage_architecture",
-      "_tgt": "src_hero_banner_v2",
-      "source": "src_hero_banner_v2",
-      "target": "readme_homepage_architecture"
-    },
-    {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
-      "source_file": "ui_kits/ratehub_web/index_redesign.html",
-      "source_location": null,
-      "weight": 0.9,
-      "_src": "uikit_redesign_index",
-      "_tgt": "src_hero_banner_v2",
-      "source": "src_hero_banner_v2",
-      "target": "uikit_redesign_index"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "ui_kits/ratehub_web/",
-      "source_location": null,
-      "weight": 0.8,
-      "_src": "uikit_hero_banner_v1",
-      "_tgt": "src_hero_banner_v2",
-      "source": "src_hero_banner_v2",
-      "target": "uikit_hero_banner_v1"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "readme_homepage_architecture",
-      "_tgt": "src_mortgage_rate_table",
-      "source": "src_mortgage_rate_table",
-      "target": "readme_homepage_architecture"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/HomeValueEstimator.jsx",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "src_home_value_estimator",
-      "_tgt": "zoocasa_widget",
-      "source": "src_home_value_estimator",
-      "target": "zoocasa_widget"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "claude_zoocasa_integration",
-      "_tgt": "src_home_value_estimator",
-      "source": "src_home_value_estimator",
-      "target": "claude_zoocasa_integration"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "colors_and_type.css",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "colors_and_type",
-      "_tgt": "token_color_blueberry",
-      "source": "colors_and_type",
-      "target": "token_color_blueberry"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "colors_and_type.css",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "colors_and_type",
-      "_tgt": "token_color_lime",
-      "source": "colors_and_type",
-      "target": "token_color_lime"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "colors_and_type.css",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "colors_and_type",
-      "_tgt": "token_color_mint",
-      "source": "colors_and_type",
-      "target": "token_color_mint"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "colors_and_type.css",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "colors_and_type",
-      "_tgt": "token_color_yuzu",
-      "source": "colors_and_type",
-      "target": "token_color_yuzu"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "colors_and_type.css",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "colors_and_type",
-      "_tgt": "token_color_stone",
-      "source": "colors_and_type",
-      "target": "token_color_stone"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "colors_and_type.css",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "colors_and_type",
-      "_tgt": "token_color_coconut",
-      "source": "colors_and_type",
-      "target": "token_color_coconut"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "colors_and_type.css",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "colors_and_type",
-      "_tgt": "token_color_blackberry",
-      "source": "colors_and_type",
-      "target": "token_color_blackberry"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "colors_and_type.css",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "colors_and_type",
-      "_tgt": "token_typography",
-      "source": "colors_and_type",
-      "target": "token_typography"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "colors_and_type.css",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "colors_and_type",
-      "_tgt": "token_spacing",
-      "source": "colors_and_type",
-      "target": "token_spacing"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "colors_and_type.css",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "colors_and_type",
-      "_tgt": "token_radii",
-      "source": "colors_and_type",
-      "target": "token_radii"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "colors_and_type.css",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "colors_and_type",
-      "_tgt": "token_shadows",
-      "source": "colors_and_type",
-      "target": "token_shadows"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "colors_and_type.css",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "colors_and_type",
-      "_tgt": "token_motion",
-      "source": "colors_and_type",
-      "target": "token_motion"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "claude_design_tokens",
-      "_tgt": "colors_and_type",
-      "source": "colors_and_type",
-      "target": "claude_design_tokens"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "readme_color_taxonomy",
-      "_tgt": "colors_and_type",
-      "source": "colors_and_type",
-      "target": "readme_color_taxonomy"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "ui_kits/ratehub_web/index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "uikit_original_index",
-      "_tgt": "colors_and_type",
-      "source": "colors_and_type",
-      "target": "uikit_original_index"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "ui_kits/ratehub_web/index_redesign.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "uikit_redesign_index",
-      "_tgt": "colors_and_type",
-      "source": "colors_and_type",
-      "target": "uikit_redesign_index"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "preview/buttons_primary.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "preview_buttons_primary",
-      "_tgt": "colors_and_type",
-      "source": "colors_and_type",
-      "target": "preview_buttons_primary"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "preview/buttons_variants.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "preview_buttons_variants",
-      "_tgt": "colors_and_type",
-      "source": "colors_and_type",
-      "target": "preview_buttons_variants"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "preview/radii.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "preview_radii",
-      "_tgt": "colors_and_type",
-      "source": "colors_and_type",
-      "target": "preview_radii"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "preview/checkmarks_stars.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "preview_checkmarks_stars",
-      "_tgt": "colors_and_type",
-      "source": "colors_and_type",
-      "target": "preview_checkmarks_stars"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "preview/type_display.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "preview_type_display",
-      "_tgt": "colors_and_type",
-      "source": "colors_and_type",
-      "target": "preview_type_display"
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_src_homevalueestimator_jsx",
+      "_tgt": "homevalueestimator_homevalueestimator",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_src_homevalueestimator_jsx",
+      "target": "homevalueestimator_homevalueestimator",
+      "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
@@ -6224,8 +4378,8 @@
       "source_file": "SKILL.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "skill_primary_cta",
-      "_tgt": "token_color_blueberry",
+      "_src": "token_color_blueberry",
+      "_tgt": "skill_primary_cta",
       "source": "token_color_blueberry",
       "target": "skill_primary_cta"
     },
@@ -6236,8 +4390,8 @@
       "source_file": "SKILL.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "skill_show_dot",
-      "_tgt": "token_color_blueberry",
+      "_src": "token_color_blueberry",
+      "_tgt": "skill_show_dot",
       "source": "token_color_blueberry",
       "target": "skill_show_dot"
     },
@@ -6248,34 +4402,10 @@
       "source_file": "SKILL.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "skill_hero_pattern",
-      "_tgt": "token_color_blueberry",
+      "_src": "token_color_blueberry",
+      "_tgt": "skill_hero_pattern",
       "source": "token_color_blueberry",
       "target": "skill_hero_pattern"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "preview/type_signature_dot.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "preview_type_signature_dot",
-      "_tgt": "token_color_blueberry",
-      "source": "token_color_blueberry",
-      "target": "preview_type_signature_dot"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "preview/brand_shapes.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "preview_brand_shapes",
-      "_tgt": "token_color_blueberry",
-      "source": "token_color_blueberry",
-      "target": "preview_brand_shapes"
     },
     {
       "relation": "references",
@@ -6288,30 +4418,6 @@
       "_tgt": "fonts_gordita",
       "source": "token_typography",
       "target": "fonts_gordita"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "preview/type_display.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "preview_type_display",
-      "_tgt": "token_typography",
-      "source": "token_typography",
-      "target": "preview_type_display"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "preview/radii.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "preview_radii",
-      "_tgt": "token_radii",
-      "source": "token_radii",
-      "target": "preview_radii"
     },
     {
       "relation": "implements",
@@ -6374,30 +4480,6 @@
       "target": "skill_hero_pattern"
     },
     {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "preview/buttons_primary.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "preview_buttons_primary",
-      "_tgt": "skill_primary_cta",
-      "source": "skill_primary_cta",
-      "target": "preview_buttons_primary"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "preview/type_signature_dot.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "preview_type_signature_dot",
-      "_tgt": "skill_show_dot",
-      "source": "skill_show_dot",
-      "target": "preview_type_signature_dot"
-    },
-    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -6416,8 +4498,8 @@
       "source_file": "DESIGN-SYSTEM-WORKFLOW-GUIDE.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "workflow_no_handoff_gap",
-      "_tgt": "workflow_design_to_dev",
+      "_src": "workflow_design_to_dev",
+      "_tgt": "workflow_no_handoff_gap",
       "source": "workflow_design_to_dev",
       "target": "workflow_no_handoff_gap"
     },
@@ -6444,78 +4526,6 @@
       "_tgt": "cdn_babel",
       "source": "workflow_zero_dependency",
       "target": "cdn_babel"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "ui_kits/ratehub_web/index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "uikit_original_index",
-      "_tgt": "cdn_react",
-      "source": "uikit_original_index",
-      "target": "cdn_react"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "ui_kits/ratehub_web/index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "uikit_original_index",
-      "_tgt": "cdn_babel",
-      "source": "uikit_original_index",
-      "target": "cdn_babel"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "ui_kits/ratehub_web/index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "uikit_original_index",
-      "_tgt": "uikit_hero_banner_v1",
-      "source": "uikit_original_index",
-      "target": "uikit_hero_banner_v1"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "ui_kits/ratehub_web/index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "uikit_original_index",
-      "_tgt": "uikit_product_category_grid",
-      "source": "uikit_original_index",
-      "target": "uikit_product_category_grid"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "ui_kits/ratehub_web/index_redesign.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "uikit_redesign_index",
-      "_tgt": "cdn_react",
-      "source": "uikit_redesign_index",
-      "target": "cdn_react"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "preview/brand_shapes.html",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "preview_brand_shapes",
-      "_tgt": "assets_brand",
-      "source": "assets_brand",
-      "target": "preview_brand_shapes"
     },
     {
       "relation": "references",
@@ -6704,8 +4714,8 @@
       "source_file": "preview/pills_tags.html",
       "source_location": null,
       "weight": 1.0,
-      "_src": "pill_berry",
-      "_tgt": "colors_blueberry_lightest",
+      "_src": "colors_blueberry_lightest",
+      "_tgt": "pill_berry",
       "source": "colors_blueberry_lightest",
       "target": "pill_berry"
     },
@@ -6716,8 +4726,8 @@
       "source_file": "preview/form_inputs.html",
       "source_location": null,
       "weight": 1.0,
-      "_src": "form_input_focus",
-      "_tgt": "colors_blueberry_base",
+      "_src": "colors_blueberry_base",
+      "_tgt": "form_input_focus",
       "source": "colors_blueberry_base",
       "target": "form_input_focus"
     },
@@ -6728,8 +4738,8 @@
       "source_file": "preview/colors_semantic.html",
       "source_location": null,
       "weight": 0.9,
-      "_src": "semantic_fg_link",
-      "_tgt": "colors_blueberry_dark",
+      "_src": "colors_blueberry_dark",
+      "_tgt": "semantic_fg_link",
       "source": "colors_blueberry_dark",
       "target": "semantic_fg_link"
     },
@@ -6740,8 +4750,8 @@
       "source_file": "preview/colors_semantic.html",
       "source_location": null,
       "weight": 0.9,
-      "_src": "semantic_bg_brand",
-      "_tgt": "colors_blueberry_darkest",
+      "_src": "colors_blueberry_darkest",
+      "_tgt": "semantic_bg_brand",
       "source": "colors_blueberry_darkest",
       "target": "semantic_bg_brand"
     },
@@ -6752,8 +4762,8 @@
       "source_file": "preview/rate_row.html",
       "source_location": null,
       "weight": 0.85,
-      "_src": "cta_button_primary",
-      "_tgt": "colors_blueberry_darkest",
+      "_src": "colors_blueberry_darkest",
+      "_tgt": "cta_button_primary",
       "source": "colors_blueberry_darkest",
       "target": "cta_button_primary"
     },
@@ -6764,8 +4774,8 @@
       "source_file": "preview/logos.html",
       "source_location": null,
       "weight": 1.0,
-      "_src": "logos_library",
-      "_tgt": "colors_blueberry_darkest",
+      "_src": "colors_blueberry_darkest",
+      "_tgt": "logos_library",
       "source": "colors_blueberry_darkest",
       "target": "logos_library"
     },
@@ -6836,8 +4846,8 @@
       "source_file": "preview/pills_tags.html",
       "source_location": null,
       "weight": 1.0,
-      "_src": "pill_mint",
-      "_tgt": "colors_mint_light",
+      "_src": "colors_mint_light",
+      "_tgt": "pill_mint",
       "source": "colors_mint_light",
       "target": "pill_mint"
     },
@@ -6908,8 +4918,8 @@
       "source_file": "preview/pills_tags.html",
       "source_location": null,
       "weight": 1.0,
-      "_src": "pill_lime",
-      "_tgt": "colors_lime_lightest",
+      "_src": "colors_lime_lightest",
+      "_tgt": "pill_lime",
       "source": "colors_lime_lightest",
       "target": "pill_lime"
     },
@@ -6920,8 +4930,8 @@
       "source_file": "preview/colors_semantic.html",
       "source_location": null,
       "weight": 0.9,
-      "_src": "semantic_success",
-      "_tgt": "colors_lime_dark",
+      "_src": "colors_lime_dark",
+      "_tgt": "semantic_success",
       "source": "colors_lime_dark",
       "target": "semantic_success"
     },
@@ -7016,8 +5026,8 @@
       "source_file": "preview/colors_semantic.html",
       "source_location": null,
       "weight": 0.9,
-      "_src": "semantic_border",
-      "_tgt": "colors_stone_base",
+      "_src": "colors_stone_base",
+      "_tgt": "semantic_border",
       "source": "colors_stone_base",
       "target": "semantic_border"
     },
@@ -7064,8 +5074,8 @@
       "source_file": "preview/pills_tags.html",
       "source_location": null,
       "weight": 1.0,
-      "_src": "pill_yuzu",
-      "_tgt": "colors_yuzu_lightest",
+      "_src": "colors_yuzu_lightest",
+      "_tgt": "pill_yuzu",
       "source": "colors_yuzu_lightest",
       "target": "pill_yuzu"
     },
@@ -7112,8 +5122,8 @@
       "source_file": "preview/colors_semantic.html",
       "source_location": null,
       "weight": 0.9,
-      "_src": "semantic_warning_bg",
-      "_tgt": "colors_tangerine_lightest",
+      "_src": "colors_tangerine_lightest",
+      "_tgt": "semantic_warning_bg",
       "source": "colors_tangerine_lightest",
       "target": "semantic_warning_bg"
     },
@@ -7124,8 +5134,8 @@
       "source_file": "preview/colors_semantic.html",
       "source_location": null,
       "weight": 0.9,
-      "_src": "semantic_warning",
-      "_tgt": "colors_tangerine_dark",
+      "_src": "colors_tangerine_dark",
+      "_tgt": "semantic_warning",
       "source": "colors_tangerine_dark",
       "target": "semantic_warning"
     },
@@ -7160,8 +5170,8 @@
       "source_file": "preview/colors_semantic.html",
       "source_location": null,
       "weight": 0.8,
-      "_src": "semantic_error_bg",
-      "_tgt": "colors_watermelon_lightest",
+      "_src": "colors_watermelon_lightest",
+      "_tgt": "semantic_error_bg",
       "source": "colors_watermelon_lightest",
       "target": "semantic_error_bg"
     },
@@ -7196,8 +5206,8 @@
       "source_file": "preview/colors_semantic.html",
       "source_location": null,
       "weight": 0.9,
-      "_src": "semantic_error",
-      "_tgt": "colors_strawberry_dark",
+      "_src": "colors_strawberry_dark",
+      "_tgt": "semantic_error",
       "source": "colors_strawberry_dark",
       "target": "semantic_error"
     },
@@ -7352,8 +5362,8 @@
       "source_file": "preview/form_inputs.html",
       "source_location": null,
       "weight": 1.0,
-      "_src": "form_input_error",
-      "_tgt": "semantic_error",
+      "_src": "semantic_error",
+      "_tgt": "form_input_error",
       "source": "semantic_error",
       "target": "form_input_error"
     },
@@ -7364,8 +5374,8 @@
       "source_file": "preview/pills_tags.html",
       "source_location": null,
       "weight": 1.0,
-      "_src": "pill_error",
-      "_tgt": "semantic_error_bg",
+      "_src": "semantic_error_bg",
+      "_tgt": "pill_error",
       "source": "semantic_error_bg",
       "target": "pill_error"
     },
@@ -7424,8 +5434,8 @@
       "source_file": "preview/rate_row.html",
       "source_location": null,
       "weight": 1.0,
-      "_src": "rate_row",
-      "_tgt": "shadows_xs",
+      "_src": "shadows_xs",
+      "_tgt": "rate_row",
       "source": "shadows_xs",
       "target": "rate_row"
     },
@@ -7436,8 +5446,8 @@
       "source_file": "preview/category_chooser.html",
       "source_location": null,
       "weight": 1.0,
-      "_src": "category_chooser",
-      "_tgt": "shadows_s",
+      "_src": "shadows_s",
+      "_tgt": "category_chooser",
       "source": "shadows_s",
       "target": "category_chooser"
     },
@@ -7676,8 +5686,8 @@
       "source_file": "preview/rate_row.html",
       "source_location": null,
       "weight": 0.8,
-      "_src": "rate_row",
-      "_tgt": "pill_lime",
+      "_src": "pill_lime",
+      "_tgt": "rate_row",
       "source": "pill_lime",
       "target": "rate_row"
     },
@@ -7688,8 +5698,8 @@
       "source_file": "preview/category_chooser.html",
       "source_location": null,
       "weight": 1.0,
-      "_src": "category_chooser",
-      "_tgt": "icons_library",
+      "_src": "icons_library",
+      "_tgt": "category_chooser",
       "source": "icons_library",
       "target": "category_chooser"
     },
@@ -7760,8 +5770,8 @@
       "source_file": "assets/icons/dollar.svg",
       "source_location": null,
       "weight": 0.8,
-      "_src": "icon_dollar",
-      "_tgt": "icon_bar_chart",
+      "_src": "icon_bar_chart",
+      "_tgt": "icon_dollar",
       "source": "icon_bar_chart",
       "target": "icon_dollar"
     },
@@ -7772,8 +5782,8 @@
       "source_file": "assets/icons/dollar.svg",
       "source_location": null,
       "weight": 0.85,
-      "_src": "icon_dollar",
-      "_tgt": "icon_calculator",
+      "_src": "icon_calculator",
+      "_tgt": "icon_dollar",
       "source": "icon_calculator",
       "target": "icon_dollar"
     },
@@ -7784,8 +5794,8 @@
       "source_file": "assets/icons/house.svg",
       "source_location": null,
       "weight": 0.8,
-      "_src": "icon_house",
-      "_tgt": "icon_calculator",
+      "_src": "icon_calculator",
+      "_tgt": "icon_house",
       "source": "icon_calculator",
       "target": "icon_house"
     },
@@ -7808,8 +5818,8 @@
       "source_file": "assets/icons/lock.svg",
       "source_location": null,
       "weight": 0.7,
-      "_src": "icon_lock",
-      "_tgt": "icon_checkmark",
+      "_src": "icon_checkmark",
+      "_tgt": "icon_lock",
       "source": "icon_checkmark",
       "target": "icon_lock"
     },
@@ -7820,8 +5830,8 @@
       "source_file": "assets/icons/chevron-up.svg",
       "source_location": null,
       "weight": 1.0,
-      "_src": "icon_chevron_up",
-      "_tgt": "icon_chevron_down",
+      "_src": "icon_chevron_down",
+      "_tgt": "icon_chevron_up",
       "source": "icon_chevron_down",
       "target": "icon_chevron_up"
     },
@@ -7844,8 +5854,8 @@
       "source_file": "assets/icons/light-bulb.svg",
       "source_location": null,
       "weight": 0.65,
-      "_src": "icon_light_bulb",
-      "_tgt": "icon_conversation",
+      "_src": "icon_conversation",
+      "_tgt": "icon_light_bulb",
       "source": "icon_conversation",
       "target": "icon_light_bulb"
     },
@@ -7856,8 +5866,8 @@
       "source_file": "assets/icons/dollar.svg",
       "source_location": null,
       "weight": 0.9,
-      "_src": "icon_dollar",
-      "_tgt": "icon_credit_card",
+      "_src": "icon_credit_card",
+      "_tgt": "icon_dollar",
       "source": "icon_credit_card",
       "target": "icon_dollar"
     },
@@ -7880,8 +5890,8 @@
       "source_file": "assets/icons/lightning.svg",
       "source_location": null,
       "weight": 0.7,
-      "_src": "icon_lightning",
-      "_tgt": "icon_light_bulb",
+      "_src": "icon_light_bulb",
+      "_tgt": "icon_lightning",
       "source": "icon_light_bulb",
       "target": "icon_lightning"
     },
@@ -7928,8 +5938,8 @@
       "source_file": "assets/icons/",
       "source_location": null,
       "weight": 0.8,
-      "_src": "icon_speech_bubble",
-      "_tgt": "icon_phone",
+      "_src": "icon_phone",
+      "_tgt": "icon_speech_bubble",
       "source": "icon_phone",
       "target": "icon_speech_bubble"
     },
@@ -7988,8 +5998,8 @@
       "source_file": "assets/icons/",
       "source_location": null,
       "weight": 0.7,
-      "_src": "icon_x",
-      "_tgt": "icon_refresh",
+      "_src": "icon_refresh",
+      "_tgt": "icon_x",
       "source": "icon_refresh",
       "target": "icon_x"
     },
@@ -8000,8 +6010,8 @@
       "source_file": "assets/icons/",
       "source_location": null,
       "weight": 1.0,
-      "_src": "icon_search",
-      "_tgt": "icon_search_blue",
+      "_src": "icon_search_blue",
+      "_tgt": "icon_search",
       "source": "icon_search_blue",
       "target": "icon_search"
     },
@@ -8036,8 +6046,8 @@
       "source_file": "assets/icons/",
       "source_location": null,
       "weight": 0.7,
-      "_src": "icon_wallet",
-      "_tgt": "icon_trending",
+      "_src": "icon_trending",
+      "_tgt": "icon_wallet",
       "source": "icon_trending",
       "target": "icon_wallet"
     },
@@ -8248,8 +6258,8 @@
       "source_location": null,
       "weight": 0.9,
       "notes": "rh_insurance_light embeds the Ratehub lettermark icon as its badge component",
-      "_src": "logo_rh_insurance_light",
-      "_tgt": "logo_ratehub_lettermark_light",
+      "_src": "logo_ratehub_lettermark_light",
+      "_tgt": "logo_rh_insurance_light",
       "source": "logo_ratehub_lettermark_light",
       "target": "logo_rh_insurance_light"
     },
@@ -8285,8 +6295,8 @@
       "source_location": null,
       "weight": 1.0,
       "notes": "Insurance sub-brand is a product vertical under the Ratehub parent brand",
-      "_src": "brand_ratehub_insurance",
-      "_tgt": "brand_ratehub",
+      "_src": "brand_ratehub",
+      "_tgt": "brand_ratehub_insurance",
       "source": "brand_ratehub",
       "target": "brand_ratehub_insurance"
     },
@@ -8441,8 +6451,8 @@
       "source_file": "uploads/pasted-1776605484990-0.png",
       "source_location": null,
       "weight": 1.0,
-      "_src": "concept_hero_design",
-      "_tgt": "concept_ratehub_brand",
+      "_src": "concept_ratehub_brand",
+      "_tgt": "concept_hero_design",
       "source": "concept_ratehub_brand",
       "target": "concept_hero_design"
     },
@@ -8453,8 +6463,8 @@
       "source_file": "uploads/pasted-1776605484990-0.png",
       "source_location": null,
       "weight": 1.0,
-      "_src": "concept_rate_display",
-      "_tgt": "concept_ratehub_brand",
+      "_src": "concept_ratehub_brand",
+      "_tgt": "concept_rate_display",
       "source": "concept_ratehub_brand",
       "target": "concept_rate_display"
     },
@@ -8658,8 +6668,8 @@
       "source_location": null,
       "weight": 1.0,
       "note": "The 300x300 r_logo is the canonical source asset from which the 32x32 favicon is derived. The r_logo explicitly deconstructs the letterform into a vertical-bar stem plus a floating circle dot \u2014 the same two elements compressed into the favicon's circular container.",
-      "_src": "brand_r_logo",
-      "_tgt": "brand_favicon",
+      "_src": "brand_favicon",
+      "_tgt": "brand_r_logo",
       "source": "brand_favicon",
       "target": "brand_r_logo"
     }
