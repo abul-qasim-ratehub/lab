@@ -7,22 +7,22 @@
   font-family: 'Gordita';
   font-weight: 400;
   font-display: swap;
-  src: url('./fonts/Gordita-regular.woff2') format('woff2'),
-       url('./fonts/Gordita-regular.woff') format('woff');
+  src: url('/fonts/Gordita-regular.woff2') format('woff2'),
+       url('/fonts/Gordita-regular.woff') format('woff');
 }
 @font-face {
   font-family: 'Gordita';
   font-weight: 500;
   font-display: swap;
-  src: url('./fonts/Gordita-medium.woff2') format('woff2'),
-       url('./fonts/Gordita-medium.woff') format('woff');
+  src: url('/fonts/Gordita-medium.woff2') format('woff2'),
+       url('/fonts/Gordita-medium.woff') format('woff');
 }
 @font-face {
   font-family: 'Gordita';
   font-weight: 700;
   font-display: swap;
-  src: url('./fonts/Gordita-bold.woff2') format('woff2'),
-       url('./fonts/Gordita-bold.woff') format('woff');
+  src: url('/fonts/Gordita-bold.woff2') format('woff2'),
+       url('/fonts/Gordita-bold.woff') format('woff');
 }
 
 :root {
