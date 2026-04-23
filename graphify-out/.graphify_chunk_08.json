@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "id": "brand_favicon",
+      "label": "Ratehub Favicon 32x32",
+      "file_type": "image",
+      "source_file": "assets/brand/favicon-32x32.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "A 32x32 pixel favicon featuring the Ratehub 'r' logomark — a lowercase sans-serif 'r' glyph rendered in white on a solid black circular background. The circle is fully filled black, giving the mark a compact, icon-safe silhouette. The letterform is bold and geometric with a rounded terminal, consistent with the Gordita typeface used in the broader Ratehub brand. This is the tab/browser icon representation of the brand.",
+      "colors": ["#000000 (black background)", "#FFFFFF (white letterform)"],
+      "confidence_score": 1.0
+    },
+    {
+      "id": "brand_r_logo",
+      "label": "Ratehub R Logo 300x300",
+      "file_type": "image",
+      "source_file": "assets/logos/r_logo_300x300.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "A 300x300 pixel square logomark for Ratehub featuring the iconic 'r.' brand symbol on a solid black background. The mark consists of two white geometric shapes: (1) a tall vertical rectangle representing the stem of a lowercase 'r', and (2) a filled circle positioned to the upper-right of the stem, referencing both the arc of the letter 'r' and the brand's signature punctuation dot (the 'showDot' cyan period concept rendered here in monochrome). Together these two shapes — a rectangle and a circle — form a minimalist, abstract 'r' that is instantly recognisable. The composition is clean, high-contrast, and works at all sizes. This is the primary square logomark used for app icons, social profiles, and large-format brand placements.",
+      "colors": ["#000000 (black background)", "#FFFFFF (white shapes)"],
+      "confidence_score": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "brand_favicon",
+      "target": "brand_r_logo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/brand/favicon-32x32.png",
+      "source_location": null,
+      "weight": 1.0,
+      "note": "The favicon is a scaled-down circular crop of the same 'r' letterform brand mark seen in the 300x300 logo. Both share identical white-on-black monochrome treatment and the same geometric Gordita-style 'r' glyph. The favicon adapts the logomark to a circular container for browser/tab use."
+    },
+    {
+      "source": "brand_r_logo",
+      "target": "brand_favicon",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/logos/r_logo_300x300.png",
+      "source_location": null,
+      "weight": 1.0,
+      "note": "The 300x300 r_logo is the canonical source asset from which the 32x32 favicon is derived. The r_logo explicitly deconstructs the letterform into a vertical-bar stem plus a floating circle dot — the same two elements compressed into the favicon's circular container."
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

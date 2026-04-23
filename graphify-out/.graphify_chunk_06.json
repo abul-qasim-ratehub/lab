@@ -1,0 +1,270 @@
+{
+  "nodes": [
+    {
+      "id": "upload_screenshot_homepage",
+      "label": "Ratehub.ca Homepage Screenshot",
+      "file_type": "image",
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "upload_screenshot_hero",
+      "label": "Hero Section — 'The best rates live here.' with 3.35% rate callout",
+      "file_type": "image",
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "upload_screenshot_nav",
+      "label": "Main Navigation — ratehub.ca logo + Mortgages, Credit Cards, Banking, Loans, Investing, Insurance, Blog",
+      "file_type": "image",
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "upload_screenshot_topbar",
+      "label": "Multi-brand Top Bar — MoneySense, ratehub.ca, CanWise, Insurance logos",
+      "file_type": "image",
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "upload_screenshot_cta_cards",
+      "label": "CTA Cards — 'I'm buying a home' and 'I'm renewing/refinancing' with teal icons",
+      "file_type": "image",
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "upload_screenshot_product_strip",
+      "label": "Product Category Strip — Mortgages, Credit Cards, Banking, Investing, Insurance icon tiles",
+      "file_type": "image",
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_ratehub_brand",
+      "label": "Ratehub.ca Brand — Canada's financial comparison platform",
+      "file_type": "image",
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_rate_display",
+      "label": "Featured Rate Display — 3.35%* 5-year variable mortgage rate",
+      "file_type": "image",
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_hero_design",
+      "label": "Hero Design Pattern — centered headline with brand dot, rate highlight, value prop, dual CTA cards",
+      "file_type": "image",
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_multi_brand_nav",
+      "label": "Multi-brand Navigation Bar — black top bar linking CanWise, MoneySense, Insurance sub-brands",
+      "file_type": "image",
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_icon_tiles",
+      "label": "Icon Tile Pattern — teal-outlined icons above product category labels in card grid",
+      "file_type": "image",
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "upload_screenshot_homepage",
+      "target": "upload_screenshot_hero",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "upload_screenshot_homepage",
+      "target": "upload_screenshot_nav",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "upload_screenshot_homepage",
+      "target": "upload_screenshot_topbar",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "upload_screenshot_homepage",
+      "target": "upload_screenshot_cta_cards",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "upload_screenshot_homepage",
+      "target": "upload_screenshot_product_strip",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "upload_screenshot_hero",
+      "target": "concept_hero_design",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "upload_screenshot_hero",
+      "target": "concept_rate_display",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "upload_screenshot_cta_cards",
+      "target": "concept_icon_tiles",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "upload_screenshot_product_strip",
+      "target": "concept_icon_tiles",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "upload_screenshot_topbar",
+      "target": "concept_multi_brand_nav",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "upload_screenshot_nav",
+      "target": "concept_ratehub_brand",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "concept_ratehub_brand",
+      "target": "concept_multi_brand_nav",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "concept_hero_design",
+      "target": "concept_ratehub_brand",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "concept_rate_display",
+      "target": "concept_ratehub_brand",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "uploads/pasted-1776605484990-0.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,493 @@
+{
+  "nodes": [
+    {
+      "id": "icon_arrow_left",
+      "label": "Arrow Left — directional navigation arrow pointing left, circle-in-circle style, stroked, 32x32 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/arrow-left.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_arrow_right",
+      "label": "Arrow Right — directional navigation arrow pointing right, circle-in-circle style, stroked, 32x32 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/arrow-right.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_award",
+      "label": "Award — medal/ribbon badge with circle top and banner tails, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/award.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_bar_chart",
+      "label": "Bar Chart — three vertical bars of ascending height inside circle, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/bar-chart.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_calculator",
+      "label": "Calculator — rectangular body with button grid (plus/minus/equals rows) inside circle, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/calculator.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_car",
+      "label": "Car — automobile with wheels, body, and windows inside circle, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/car.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_checkmark",
+      "label": "Checkmark — tick/check path inside circle indicating success or confirmation, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/checkmark.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_chevron_down",
+      "label": "Chevron Down — downward-pointing V-chevron inside circle for expand/dropdown, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/chevron-down.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_chevron_left",
+      "label": "Chevron Left — leftward-pointing V-chevron inside circle for previous/back, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/chevron-left.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_chevron_right",
+      "label": "Chevron Right — rightward-pointing V-chevron inside circle for next/forward, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/chevron-right.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_chevron_up",
+      "label": "Chevron Up — upward-pointing V-chevron inside circle for collapse/scroll-up, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/chevron-up.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_conversation",
+      "label": "Conversation — two overlapping speech bubbles inside circle for chat/support, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/conversation.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_credit_card",
+      "label": "Credit Card — rectangular card with stripe lines inside circle, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/credit-card.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_dollar",
+      "label": "Dollar — currency dollar sign with vertical line inside circle, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/dollar.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_gift",
+      "label": "Gift — wrapped present box with ribbon bow inside circle for rewards/promotions, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/gift.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_heart",
+      "label": "Heart — heart shape with two upper arcs inside circle for favourites/saved, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/heart.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_house",
+      "label": "House — home silhouette with roof, walls and door inside circle for real estate/mortgages, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/house.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_light_bulb",
+      "label": "Light Bulb — bulb with filament detail and bracket inside circle for ideas/tips, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/light-bulb.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_lightning",
+      "label": "Lightning — two-segment zigzag bolt path inside circle for energy/speed/power, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/lightning.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_lock",
+      "label": "Lock — padlock with shackle arc and keyhole circle inside circle for security/privacy, stroked, 62x62 viewBox",
+      "file_type": "image",
+      "source_file": "assets/icons/lock.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "icon_arrow_left",
+      "target": "icon_arrow_right",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/icons/arrow-left.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "icon_chevron_left",
+      "target": "icon_chevron_right",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/icons/chevron-left.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "icon_chevron_up",
+      "target": "icon_chevron_down",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/icons/chevron-up.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "icon_arrow_left",
+      "target": "icon_chevron_left",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "assets/icons/arrow-left.svg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "icon_arrow_right",
+      "target": "icon_chevron_right",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "assets/icons/arrow-right.svg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "icon_dollar",
+      "target": "icon_credit_card",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "assets/icons/dollar.svg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "icon_dollar",
+      "target": "icon_bar_chart",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "assets/icons/dollar.svg",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "icon_dollar",
+      "target": "icon_calculator",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "assets/icons/dollar.svg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "icon_credit_card",
+      "target": "icon_gift",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "assets/icons/credit-card.svg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "icon_house",
+      "target": "icon_calculator",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "assets/icons/house.svg",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "icon_lock",
+      "target": "icon_checkmark",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "assets/icons/lock.svg",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "icon_light_bulb",
+      "target": "icon_conversation",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "assets/icons/light-bulb.svg",
+      "source_location": null,
+      "weight": 0.65
+    },
+    {
+      "source": "icon_award",
+      "target": "icon_heart",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "assets/icons/award.svg",
+      "source_location": null,
+      "weight": 0.65
+    },
+    {
+      "source": "icon_lightning",
+      "target": "icon_light_bulb",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "assets/icons/lightning.svg",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "icon_car",
+      "target": "icon_house",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "assets/icons/car.svg",
+      "source_location": null,
+      "weight": 0.7
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hyperedge_navigation_icons",
+      "label": "Navigation Icons",
+      "nodes": [
+        "icon_arrow_left",
+        "icon_arrow_right",
+        "icon_chevron_down",
+        "icon_chevron_left",
+        "icon_chevron_right",
+        "icon_chevron_up"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/icons/"
+    },
+    {
+      "id": "hyperedge_financial_icons",
+      "label": "Financial Icons",
+      "nodes": [
+        "icon_bar_chart",
+        "icon_calculator",
+        "icon_credit_card",
+        "icon_dollar",
+        "icon_gift",
+        "icon_award"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "assets/icons/"
+    },
+    {
+      "id": "hyperedge_real_estate_insurance_icons",
+      "label": "Real Estate and Insurance Icons",
+      "nodes": [
+        "icon_house",
+        "icon_car",
+        "icon_lock"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "assets/icons/"
+    },
+    {
+      "id": "hyperedge_ui_action_icons",
+      "label": "UI Action Icons",
+      "nodes": [
+        "icon_checkmark",
+        "icon_heart",
+        "icon_lock",
+        "icon_conversation"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "assets/icons/"
+    },
+    {
+      "id": "hyperedge_ideas_and_engagement_icons",
+      "label": "Ideas and Engagement Icons",
+      "nodes": [
+        "icon_light_bulb",
+        "icon_lightning",
+        "icon_conversation",
+        "icon_heart"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "assets/icons/"
+    },
+    {
+      "id": "hyperedge_circle_in_circle_style",
+      "label": "Circle-in-Circle Style Icons (62x62)",
+      "nodes": [
+        "icon_award",
+        "icon_bar_chart",
+        "icon_calculator",
+        "icon_car",
+        "icon_checkmark",
+        "icon_chevron_down",
+        "icon_chevron_left",
+        "icon_chevron_right",
+        "icon_chevron_up",
+        "icon_conversation",
+        "icon_credit_card",
+        "icon_dollar",
+        "icon_gift",
+        "icon_heart",
+        "icon_house",
+        "icon_light_bulb",
+        "icon_lightning",
+        "icon_lock"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/icons/"
+    },
+    {
+      "id": "hyperedge_small_circle_style",
+      "label": "Circle-in-Circle Style Icons (32x32 viewBox)",
+      "nodes": [
+        "icon_arrow_left",
+        "icon_arrow_right"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/icons/"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

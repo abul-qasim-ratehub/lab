@@ -1,0 +1,577 @@
+{
+  "nodes": [
+    {
+      "id": "brand_background_circle",
+      "label": "Background Circle Brand Shape",
+      "file_type": "image",
+      "source_file": "assets/brand/background-circle.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "properties": {
+        "shape": "circle",
+        "width": 2600,
+        "height": 2600,
+        "fill_color": "#f5f9fa",
+        "cx": 1300,
+        "cy": 1300,
+        "radius": 1296,
+        "purpose": "decorative background shape"
+      }
+    },
+    {
+      "id": "brand_two_dots",
+      "label": "Two Dots Brand Shape",
+      "file_type": "image",
+      "source_file": "assets/brand/two-dots.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "properties": {
+        "shapes": "two circles",
+        "viewBox": "0 0 580 892",
+        "circle_1_fill": "#FDE4A7",
+        "circle_1_cx": 205.5,
+        "circle_1_cy": 249.5,
+        "circle_1_radius": 220.5,
+        "circle_2_fill": "rgb(159,252,223)",
+        "circle_2_cx": 367,
+        "circle_2_cy": 723,
+        "circle_2_radius": 198,
+        "purpose": "decorative brand dots / accent shapes"
+      }
+    },
+    {
+      "id": "color_yuzu_light",
+      "label": "Yuzu Light Color (#FDE4A7)",
+      "file_type": "token",
+      "source_file": "assets/brand/two-dots.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "properties": {
+        "hex": "#FDE4A7",
+        "role": "brand accent dot 1 — yuzu/yellow tint"
+      }
+    },
+    {
+      "id": "color_mint_light",
+      "label": "Mint Light Color (rgb(159,252,223))",
+      "file_type": "token",
+      "source_file": "assets/brand/two-dots.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "properties": {
+        "rgb": "rgb(159,252,223)",
+        "hex_approx": "#9FFCDF",
+        "role": "brand accent dot 2 — mint/cyan tint"
+      }
+    },
+    {
+      "id": "color_stone_lightest",
+      "label": "Stone Lightest Color (#f5f9fa)",
+      "file_type": "token",
+      "source_file": "assets/brand/background-circle.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "properties": {
+        "hex": "#f5f9fa",
+        "role": "background circle fill — stone/off-white neutral"
+      }
+    },
+    {
+      "id": "logo_canwise_light",
+      "label": "CanWise Logo (Light / White variant)",
+      "file_type": "image",
+      "source_file": "assets/logos/canwise_light.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "properties": {
+        "brand": "CanWise",
+        "variant": "light",
+        "fill_color": "white",
+        "width": 101,
+        "height": 31,
+        "viewBox": "0 0 101 31",
+        "description": "CanWise wordmark with maple-leaf-style organic icon on left, text 'CanWise' to the right, all in white for use on dark backgrounds",
+        "has_icon": true,
+        "has_wordmark": true,
+        "icon_style": "organic/botanical leaf motif"
+      }
+    },
+    {
+      "id": "brand_canwise",
+      "label": "CanWise Brand",
+      "file_type": "concept",
+      "source_file": "assets/logos/canwise_light.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "properties": {
+        "description": "CanWise — mortgage lending sub-brand / partner of Ratehub.ca"
+      }
+    },
+    {
+      "id": "logo_moneysense_light",
+      "label": "MoneySense Logo (Light / White variant)",
+      "file_type": "image",
+      "source_file": "assets/logos/moneysense_light.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "properties": {
+        "brand": "MoneySense",
+        "variant": "light",
+        "fill_color": "white (#fff)",
+        "width": 81,
+        "height": 16,
+        "viewBox": "0 0 81 16",
+        "description": "MoneySense wordmark in white — press/media logo used in FeaturedIn strip",
+        "has_icon": false,
+        "has_wordmark": true
+      }
+    },
+    {
+      "id": "brand_moneysense",
+      "label": "MoneySense Brand",
+      "file_type": "concept",
+      "source_file": "assets/logos/moneysense_light.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "properties": {
+        "description": "MoneySense — Canadian personal finance media brand; appears as press mention in Ratehub FeaturedIn strip"
+      }
+    },
+    {
+      "id": "logo_ratehub_full_dark",
+      "label": "Ratehub Full Logo (Dark / Black variant)",
+      "file_type": "image",
+      "source_file": "assets/logos/ratehub_full_dark.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "properties": {
+        "brand": "Ratehub",
+        "variant": "full_dark",
+        "fill_color": "#000 (black)",
+        "width": 150.683,
+        "height": 24,
+        "viewBox": "0 0 584.61 93.11",
+        "description": "Full Ratehub wordmark in black — for use on light/white backgrounds",
+        "has_icon": false,
+        "has_wordmark": true,
+        "letterforms": "ratehub — lowercase sans-serif wordmark with dot accent on 'i' in ratehub"
+      }
+    },
+    {
+      "id": "logo_ratehub_full_light",
+      "label": "Ratehub Full Logo (Light / White variant)",
+      "file_type": "image",
+      "source_file": "assets/logos/ratehub_full_light.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "properties": {
+        "brand": "Ratehub",
+        "variant": "full_light",
+        "fill_color": "#fff (white)",
+        "width": 150.683,
+        "height": 24,
+        "viewBox": "0 0 584.61 93.11",
+        "description": "Full Ratehub wordmark in white — for use on dark/coloured backgrounds",
+        "has_icon": false,
+        "has_wordmark": true,
+        "path_identical_to": "logo_ratehub_full_dark",
+        "note": "Identical path data to dark variant; only fill differs"
+      }
+    },
+    {
+      "id": "logo_ratehub_lettermark_dark",
+      "label": "Ratehub Lettermark Logo (Dark / Black variant)",
+      "file_type": "image",
+      "source_file": "assets/logos/ratehub_lettermark_dark.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "properties": {
+        "brand": "Ratehub",
+        "variant": "lettermark_dark",
+        "fill_color": "#000 (black)",
+        "width": 21,
+        "height": 21,
+        "viewBox": "0 0 54.32 70.94",
+        "description": "Ratehub lettermark (rh monogram / icon mark) in black — compact symbol with vertical bar and circular dot",
+        "has_icon": true,
+        "has_wordmark": false,
+        "icon_description": "Letterform combining vertical stroke (I/l) and raised circle dot — stylised 'rh' or abstract 'i' with dot"
+      }
+    },
+    {
+      "id": "logo_ratehub_lettermark_light",
+      "label": "Ratehub Lettermark Logo (Light / White variant)",
+      "file_type": "image",
+      "source_file": "assets/logos/ratehub_lettermark_light.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "properties": {
+        "brand": "Ratehub",
+        "variant": "lettermark_light",
+        "fill_color": "#fff (white)",
+        "width": 21,
+        "height": 21,
+        "viewBox": "0 0 54.32 70.94",
+        "description": "Ratehub lettermark (rh monogram / icon mark) in white — compact symbol for use on dark backgrounds",
+        "has_icon": true,
+        "has_wordmark": false,
+        "path_identical_to": "logo_ratehub_lettermark_dark",
+        "note": "Identical path data to dark variant; only fill differs"
+      }
+    },
+    {
+      "id": "logo_rh_insurance_light",
+      "label": "Ratehub Insurance Logo (Light / White variant)",
+      "file_type": "image",
+      "source_file": "assets/logos/rh_insurance_light.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "properties": {
+        "brand": "Ratehub Insurance",
+        "variant": "light",
+        "width": 82,
+        "height": 20,
+        "viewBox": "0 0 82 20",
+        "description": "Ratehub Insurance combination mark: circular 'rh' lettermark badge on left (white circle with black lettermark inside), followed by 'insurance' wordmark text in white",
+        "has_icon": true,
+        "has_wordmark": true,
+        "icon_fill": "white circle background with black letterform paths",
+        "wordmark_fill": "white",
+        "icon_radius": 9.95116,
+        "sub_brand": "insurance"
+      }
+    },
+    {
+      "id": "brand_ratehub",
+      "label": "Ratehub Brand",
+      "file_type": "concept",
+      "source_file": "assets/logos/",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "properties": {
+        "description": "Ratehub.ca — Canada's #1 financial comparison platform; primary brand with full wordmark, lettermark, and product sub-brand variants"
+      }
+    },
+    {
+      "id": "brand_ratehub_insurance",
+      "label": "Ratehub Insurance Sub-brand",
+      "file_type": "concept",
+      "source_file": "assets/logos/rh_insurance_light.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "properties": {
+        "description": "Ratehub Insurance — insurance product vertical under Ratehub brand umbrella"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "logo_ratehub_full_dark",
+      "target": "logo_ratehub_full_light",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/logos/",
+      "source_location": null,
+      "weight": 1.0,
+      "notes": "Identical SVG path; only fill attribute differs (#000 vs #fff)"
+    },
+    {
+      "source": "logo_ratehub_lettermark_dark",
+      "target": "logo_ratehub_lettermark_light",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/logos/",
+      "source_location": null,
+      "weight": 1.0,
+      "notes": "Identical SVG path; only fill attribute differs (#000 vs #fff)"
+    },
+    {
+      "source": "logo_ratehub_full_dark",
+      "target": "logo_ratehub_lettermark_dark",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/logos/",
+      "source_location": null,
+      "weight": 1.0,
+      "notes": "Both represent the Ratehub brand; full wordmark vs compact lettermark"
+    },
+    {
+      "source": "logo_ratehub_full_light",
+      "target": "logo_ratehub_lettermark_light",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/logos/",
+      "source_location": null,
+      "weight": 1.0,
+      "notes": "Light/white variants — full wordmark vs compact lettermark"
+    },
+    {
+      "source": "logo_rh_insurance_light",
+      "target": "brand_ratehub_insurance",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/logos/rh_insurance_light.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "logo_rh_insurance_light",
+      "target": "logo_ratehub_lettermark_light",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "assets/logos/rh_insurance_light.svg",
+      "source_location": null,
+      "weight": 0.9,
+      "notes": "rh_insurance_light embeds the Ratehub lettermark icon as its badge component"
+    },
+    {
+      "source": "brand_ratehub_insurance",
+      "target": "brand_ratehub",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "assets/logos/rh_insurance_light.svg",
+      "source_location": null,
+      "weight": 1.0,
+      "notes": "Insurance sub-brand is a product vertical under the Ratehub parent brand"
+    },
+    {
+      "source": "logo_ratehub_full_dark",
+      "target": "brand_ratehub",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/logos/ratehub_full_dark.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "logo_ratehub_full_light",
+      "target": "brand_ratehub",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/logos/ratehub_full_light.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "logo_ratehub_lettermark_dark",
+      "target": "brand_ratehub",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/logos/ratehub_lettermark_dark.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "logo_ratehub_lettermark_light",
+      "target": "brand_ratehub",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/logos/ratehub_lettermark_light.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "logo_canwise_light",
+      "target": "brand_canwise",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/logos/canwise_light.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "logo_moneysense_light",
+      "target": "brand_moneysense",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/logos/moneysense_light.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "brand_canwise",
+      "target": "brand_ratehub",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "assets/logos/canwise_light.svg",
+      "source_location": null,
+      "weight": 0.85,
+      "notes": "CanWise is a mortgage lending partner/sub-brand associated with Ratehub.ca"
+    },
+    {
+      "source": "brand_two_dots",
+      "target": "color_yuzu_light",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/brand/two-dots.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "brand_two_dots",
+      "target": "color_mint_light",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/brand/two-dots.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "brand_background_circle",
+      "target": "color_stone_lightest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/brand/background-circle.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "brand_background_circle",
+      "target": "brand_ratehub",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "assets/brand/background-circle.svg",
+      "source_location": null,
+      "weight": 0.8,
+      "notes": "Decorative brand shape used as background element in Ratehub design system"
+    },
+    {
+      "source": "brand_two_dots",
+      "target": "brand_ratehub",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "assets/brand/two-dots.svg",
+      "source_location": null,
+      "weight": 0.8,
+      "notes": "Decorative brand accent dots used within Ratehub design system visual language"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "ratehub_logo_system",
+      "label": "Ratehub Logo System",
+      "nodes": [
+        "logo_ratehub_full_dark",
+        "logo_ratehub_full_light",
+        "logo_ratehub_lettermark_dark",
+        "logo_ratehub_lettermark_light"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/logos/"
+    },
+    {
+      "id": "ratehub_brand_shapes",
+      "label": "Ratehub Brand Shape System",
+      "nodes": [
+        "brand_background_circle",
+        "brand_two_dots",
+        "color_yuzu_light",
+        "color_mint_light",
+        "color_stone_lightest"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/brand/"
+    },
+    {
+      "id": "ratehub_partner_logos",
+      "label": "Ratehub Partner and Press Logos",
+      "nodes": [
+        "logo_canwise_light",
+        "logo_moneysense_light",
+        "logo_rh_insurance_light"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "assets/logos/"
+    },
+    {
+      "id": "all_light_variant_logos",
+      "label": "All Light (White) Logo Variants",
+      "nodes": [
+        "logo_ratehub_full_light",
+        "logo_ratehub_lettermark_light",
+        "logo_canwise_light",
+        "logo_moneysense_light",
+        "logo_rh_insurance_light"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/logos/"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

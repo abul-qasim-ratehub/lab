@@ -1,10 +1,10 @@
-// HomeValueEstimator — Zoocasa home appraisal widget integration
-// Loads the Zoocasa SDK, renders the widget, and listens for estimate results
+const ZOOCASA_CLIENT_ID = 'test123'; // QA client ID per Zoocasa email
+const ZOOCASA_SCRIPT_SRC = `https://zoocasa-next-git-widget-iframe-auto-resize-zoocasa.vercel.app/widget/home-appraisal.js?clientId=${ZOOCASA_CLIENT_ID}`;
+// ^ NOTE: for QA only. Swap back to https://www.zoocasa.com/widget/home-appraisal.js + 'ratehub-mortgage' for prod once they roll the change out.
 
-const ZOOCASA_CLIENT_ID = 'ratehub-mortgage';
-const ZOOCASA_SCRIPT_SRC = `https://www.zoocasa.com/widget/home-appraisal.js?clientId=${ZOOCASA_CLIENT_ID}`;
 const ZOOCASA_CONTAINER_ID = 'zoocasa-appraisal';
-const ZOOCASA_ORIGIN = 'https://www.zoocasa.com';
+const ZOOCASA_ORIGIN = 'https://zoocasa-next-git-widget-iframe-auto-resize-zoocasa.vercel.app';
+// ^ QA origin. Revert to 'https://www.zoocasa.com' for prod.
 
 const HomeValueEstimator = ({ onNavigate }) => {
   const [estimate, setEstimate] = React.useState(null);
@@ -16,7 +16,7 @@ const HomeValueEstimator = ({ onNavigate }) => {
       script = document.createElement('script');
       script.src = ZOOCASA_SCRIPT_SRC;
       script.async = true;
-      script.onload = () => { setWidgetReady(true); };
+      script.onload = () => setWidgetReady(true);
       document.head.appendChild(script);
     } else {
       setWidgetReady(true);
@@ -28,6 +28,7 @@ const HomeValueEstimator = ({ onNavigate }) => {
       if (event.data.type === 'zoocasa:estimate:complete') {
         setEstimate(event.data.data);
       }
+      // No manual resize handling — the SDK manages iframe height itself.
     };
 
     window.addEventListener('message', handleMessage);
@@ -42,8 +43,8 @@ const HomeValueEstimator = ({ onNavigate }) => {
   React.useEffect(() => {
     if (widgetReady && window.ZoocasaAppraisal) {
       window.ZoocasaAppraisal.render(`#${ZOOCASA_CONTAINER_ID}`, {
-        height: '800px',
-        width: '100%',
+        minHeight: 420,
+        width: '80%',
       });
     }
   }, [widgetReady]);
@@ -53,29 +54,8 @@ const HomeValueEstimator = ({ onNavigate }) => {
   return (
     <div>
       {/* Hero */}
-      <div className="rh-hero-section" style={{ background: 'var(--rh-blueberry-darkest)', color: '#fff', padding: '72px 28px' }}>
-        <div style={{ maxWidth: 1280, margin: '0 auto' }}>
-          <Pill tone="yuzu" icon={<Icon name="house" size={14} color="var(--rh-yuzu-darkest)" />}>Home value</Pill>
-          <h1 className="showDot rh-hero-h1" style={{ fontSize: 52, fontWeight: 700, margin: '18px 0 14px', letterSpacing: '-0.025em', lineHeight: 1.08 }}>
-            How much is your home worth
-          </h1>
-          <p style={{ fontSize: 17, opacity: .88, maxWidth: 540, margin: '0 0 32px', lineHeight: 1.65 }}>
-            Get a free, instant home value estimate powered by Zoocasa. Enter your address and property details to see what your home could sell for today.
-          </p>
-          <div className="rh-flex-wrap" style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-            <Button size="l" variant="coconut" onClick={() => {
-              const el = document.getElementById(ZOOCASA_CONTAINER_ID);
-              if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }}>Get my estimate →</Button>
-            <Button size="l" variant="ghost" style={{ color: '#fff', borderColor: 'rgba(255,255,255,0.3)' }} onClick={() => onNavigate('mortgages')}>
-              Compare mortgage rates
-            </Button>
-          </div>
-        </div>
-      </div>
-
       {/* Value props */}
-      <section className="rh-section" style={{ padding: '48px 28px 0', maxWidth: 1280, margin: '0 auto' }}>
+      {/* <section className="rh-section" style={{ padding: '48px 28px 0', maxWidth: 1280, margin: '0 auto' }}>
         <div className="rh-grid-4" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 20 }}>
           {[
             { icon: 'house',      title: 'Instant estimate', desc: 'Get a data-driven home value estimate in seconds.' },
@@ -98,7 +78,7 @@ const HomeValueEstimator = ({ onNavigate }) => {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       <hr className="rh-section-divider" style={{ maxWidth: 1280, margin: '0 auto' }} />
 
@@ -111,15 +91,13 @@ const HomeValueEstimator = ({ onNavigate }) => {
           </p>
         </div>
 
-        <Card style={{ padding: 0, overflow: 'hidden' }}>
-          <div id={ZOOCASA_CONTAINER_ID} style={{ minHeight: 600 }}>
-            {!widgetReady && (
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: 400, color: 'var(--rh-stone-darkest)', fontSize: 15 }}>
-                Loading home value estimator...
-              </div>
-            )}
-          </div>
-        </Card>
+        <div id={ZOOCASA_CONTAINER_ID} style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+          {!widgetReady && (
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: 400, color: 'var(--rh-stone-darkest)', fontSize: 15, width: '100%' }}>
+              Loading home value estimator...
+            </div>
+          )}
+        </div>
 
         {/* Estimate result display */}
         {estimate && (

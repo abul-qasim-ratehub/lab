@@ -1,0 +1,615 @@
+{
+  "nodes": [
+    {
+      "id": "icon_map_pin",
+      "label": "Map Pin Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/map-pin.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle-in-circle container with teardrop pin and inner circle",
+        "semantic_category": "navigation",
+        "purpose": "Location or map marker"
+      }
+    },
+    {
+      "id": "icon_maple_leaf",
+      "label": "Maple Leaf Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/maple-leaf.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with complex maple leaf path and central vertical line",
+        "semantic_category": "brand",
+        "purpose": "Canadian identity / national symbol"
+      }
+    },
+    {
+      "id": "icon_minus",
+      "label": "Minus Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/minus.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with horizontal line",
+        "semantic_category": "ui_control",
+        "purpose": "Decrease, collapse, or remove action"
+      }
+    },
+    {
+      "id": "icon_phone",
+      "label": "Phone Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/phone.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with telephone handset path",
+        "semantic_category": "communication",
+        "purpose": "Phone call or contact"
+      }
+    },
+    {
+      "id": "icon_piggy",
+      "label": "Piggy Bank Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/piggy.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with pig snout, ear, eye, and coin slot details",
+        "semantic_category": "financial",
+        "purpose": "Savings, banking, or money storage"
+      }
+    },
+    {
+      "id": "icon_plane",
+      "label": "Airplane / Travel Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/plane.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with airplane and wing polyline paths",
+        "semantic_category": "travel_insurance",
+        "purpose": "Travel, flight, or travel insurance"
+      }
+    },
+    {
+      "id": "icon_plus",
+      "label": "Plus Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/plus.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with crossed vertical and horizontal lines forming plus",
+        "semantic_category": "ui_control",
+        "purpose": "Add, expand, or increase action"
+      }
+    },
+    {
+      "id": "icon_question_mark",
+      "label": "Question Mark Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/question-mark.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with question mark curve and filled dot",
+        "semantic_category": "ui_control",
+        "purpose": "Help, tooltip, or FAQ"
+      }
+    },
+    {
+      "id": "icon_ratehub",
+      "label": "Ratehub Brand Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/ratehub.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with R letterform (rectangle + circle forming stylised R logo)",
+        "semantic_category": "brand",
+        "purpose": "Ratehub.ca brand mark / logo icon"
+      }
+    },
+    {
+      "id": "icon_refresh",
+      "label": "Refresh / Reload Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/refresh.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with two arc paths forming circular arrows with arrowhead indicators",
+        "semantic_category": "ui_control",
+        "purpose": "Refresh, reload, or update"
+      }
+    },
+    {
+      "id": "icon_search_blue",
+      "label": "Search Icon (Blue)",
+      "file_type": "image",
+      "source_file": "assets/icons/search-icon-blue.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "19x19",
+        "shape": "small magnifying glass with circle and diagonal line, explicit blue stroke #004F6E, no outer circle container",
+        "semantic_category": "navigation",
+        "purpose": "Search input trigger (compact, branded blue variant)"
+      }
+    },
+    {
+      "id": "icon_search",
+      "label": "Search Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/search.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with inner circle and diagonal line forming magnifying glass (uses non-standard IconSearch.Outline element)",
+        "semantic_category": "navigation",
+        "purpose": "Search"
+      }
+    },
+    {
+      "id": "icon_shield",
+      "label": "Shield Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/shield.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with shield shape, cross bar, and upward tab detail",
+        "semantic_category": "insurance",
+        "purpose": "Protection, insurance, or security"
+      }
+    },
+    {
+      "id": "icon_speech_bubble",
+      "label": "Speech Bubble Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/speech-bubble.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with rounded rectangle chat bubble with tail and three horizontal content lines",
+        "semantic_category": "communication",
+        "purpose": "Chat, message, or customer support"
+      }
+    },
+    {
+      "id": "icon_star",
+      "label": "Star / Rating Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/star.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with five-pointed star path",
+        "semantic_category": "rating_social_proof",
+        "purpose": "Rating, favourite, or award"
+      }
+    },
+    {
+      "id": "icon_trending",
+      "label": "Trending / Chart Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/trending.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with upward trending line connecting four data points",
+        "semantic_category": "financial",
+        "purpose": "Rate trends, market movement, or analytics"
+      }
+    },
+    {
+      "id": "icon_trophy",
+      "label": "Trophy Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/trophy.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with trophy cup, handles, stem, and base",
+        "semantic_category": "rating_social_proof",
+        "purpose": "Award, best-in-class, or achievement"
+      }
+    },
+    {
+      "id": "icon_umbrella",
+      "label": "Umbrella Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/umbrella.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with umbrella canopy, handle curve, and central post",
+        "semantic_category": "insurance",
+        "purpose": "Insurance coverage or protection"
+      }
+    },
+    {
+      "id": "icon_user",
+      "label": "User / Person Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/user.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with head circle and shoulder arc representing a person",
+        "semantic_category": "account",
+        "purpose": "User profile, sign-in, or account"
+      }
+    },
+    {
+      "id": "icon_wallet",
+      "label": "Wallet Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/wallet.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with wallet rectangle, flap, and coin pocket circle",
+        "semantic_category": "financial",
+        "purpose": "Payment, credit cards, or personal finance"
+      }
+    },
+    {
+      "id": "icon_x",
+      "label": "Close / X Icon",
+      "file_type": "image",
+      "source_file": "assets/icons/x.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "meta": {
+        "visual_style": "stroked",
+        "size": "62x62",
+        "shape": "circle container with two diagonal crossing lines forming X",
+        "semantic_category": "ui_control",
+        "purpose": "Close, dismiss, or cancel action"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "icon_minus",
+      "target": "icon_plus",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/icons/",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "icon_plus",
+      "target": "icon_x",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "assets/icons/",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "icon_x",
+      "target": "icon_refresh",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "assets/icons/",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "icon_search",
+      "target": "icon_search_blue",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/icons/",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "icon_shield",
+      "target": "icon_umbrella",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "assets/icons/",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "icon_piggy",
+      "target": "icon_wallet",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "assets/icons/",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "icon_wallet",
+      "target": "icon_trending",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "assets/icons/",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "icon_star",
+      "target": "icon_trophy",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "assets/icons/",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "icon_speech_bubble",
+      "target": "icon_phone",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "assets/icons/",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "icon_maple_leaf",
+      "target": "icon_ratehub",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "assets/icons/",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "icon_map_pin",
+      "target": "icon_search",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "assets/icons/",
+      "source_location": null,
+      "weight": 0.65
+    },
+    {
+      "source": "icon_plane",
+      "target": "icon_shield",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "assets/icons/",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "icon_question_mark",
+      "target": "icon_speech_bubble",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "assets/icons/",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "icon_user",
+      "target": "icon_wallet",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "assets/icons/",
+      "source_location": null,
+      "weight": 0.65
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hyperedge_financial_icons",
+      "label": "Financial Icons",
+      "nodes": ["icon_piggy", "icon_wallet", "icon_trending"],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "assets/icons/"
+    },
+    {
+      "id": "hyperedge_insurance_icons",
+      "label": "Insurance Icons",
+      "nodes": ["icon_shield", "icon_umbrella", "icon_plane"],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "assets/icons/"
+    },
+    {
+      "id": "hyperedge_ui_control_icons",
+      "label": "UI Control Icons",
+      "nodes": ["icon_minus", "icon_plus", "icon_x", "icon_refresh", "icon_question_mark"],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.92,
+      "source_file": "assets/icons/"
+    },
+    {
+      "id": "hyperedge_navigation_icons",
+      "label": "Navigation Icons",
+      "nodes": ["icon_map_pin", "icon_search", "icon_search_blue"],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "assets/icons/"
+    },
+    {
+      "id": "hyperedge_brand_icons",
+      "label": "Brand Icons",
+      "nodes": ["icon_ratehub", "icon_maple_leaf"],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/icons/"
+    },
+    {
+      "id": "hyperedge_communication_icons",
+      "label": "Communication Icons",
+      "nodes": ["icon_phone", "icon_speech_bubble"],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "assets/icons/"
+    },
+    {
+      "id": "hyperedge_account_icons",
+      "label": "Account & Identity Icons",
+      "nodes": ["icon_user"],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "assets/icons/"
+    },
+    {
+      "id": "hyperedge_rating_social_proof_icons",
+      "label": "Rating & Social Proof Icons",
+      "nodes": ["icon_star", "icon_trophy"],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "assets/icons/"
+    },
+    {
+      "id": "hyperedge_circle_container_style",
+      "label": "Circle-in-Circle Style Icons (62x62)",
+      "nodes": [
+        "icon_map_pin", "icon_maple_leaf", "icon_minus", "icon_phone",
+        "icon_piggy", "icon_plane", "icon_plus", "icon_question_mark",
+        "icon_ratehub", "icon_refresh", "icon_search", "icon_shield",
+        "icon_speech_bubble", "icon_star", "icon_trending", "icon_trophy",
+        "icon_umbrella", "icon_user", "icon_wallet", "icon_x"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/icons/"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

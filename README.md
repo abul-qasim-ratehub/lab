@@ -191,4 +191,46 @@ Footer
 
 ---
 
+## AI knowledge graph (graphify)
+
+This repo has a pre-built knowledge graph at `graphify-out/` that Claude Code uses automatically.
+
+| File | Description |
+|---|---|
+| `graphify-out/graph.json` | Queryable graph — 320 nodes, 342 edges across the full codebase |
+| `graphify-out/graph.html` | Interactive visualisation — open in any browser |
+| `graphify-out/GRAPH_REPORT.md` | Audit report: god nodes, surprising connections, suggested questions |
+
+### What it does
+
+Claude reads the graph instead of re-reading every file from scratch each session. ~50x fewer tokens per query. The graph covers components, design tokens, icons, brand assets, preview pages, and the relationships between all of them.
+
+### Staying current
+
+A post-commit git hook is installed — the graph auto-updates after every `git commit`. No manual step needed for code changes.
+
+For larger changes (new components, restructured files), force a full refresh:
+
+```bash
+/graphify . --update
+```
+
+### Setup on a new machine
+
+```bash
+pip install graphifyy
+graphify install       # register /graphify skill in Claude Code globally
+graphify hook install  # re-install the post-commit hook
+```
+
+### Querying the graph in Claude Code
+
+```
+/graphify query "what components use the blueberry color token?"
+/graphify path "HeroBannerV2" "colors_and_type.css"
+/graphify explain "ProductCategoryGridV2"
+```
+
+---
+
 *Built as a design system reference and prototype. Not affiliated with Ratehub Inc.*
