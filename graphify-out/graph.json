@@ -4186,8 +4186,8 @@
       "source_file": "ui_kits/ratehub_web/",
       "source_location": null,
       "weight": 0.8,
-      "_src": "src_hero_banner_v2",
-      "_tgt": "uikit_hero_banner_v1",
+      "_src": "uikit_hero_banner_v1",
+      "_tgt": "src_hero_banner_v2",
       "source": "uikit_hero_banner_v1",
       "target": "src_hero_banner_v2"
     },
