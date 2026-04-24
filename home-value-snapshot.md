@@ -1,0 +1,8 @@
+- generic:
+  - alert [ref=e1]
+  - dialog "Access required" [ref=e2]:
+    - generic [ref=e3]:
+      - img [ref=e4]
+      - generic [ref=e7]:
+        - textbox "Enter password" [active] [ref=e8]
+        - button "Continue" [ref=e9] [cursor=pointer]
