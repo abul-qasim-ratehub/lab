@@ -14,6 +14,8 @@ const PATH_BY_ID = {
   tools: '/tools',
   'home-value': '/home-value',
   members: '/members',
+  'design-system': '/design-system',
+  affiliates: '/affiliates',
 };
 
 const ID_BY_PATH = Object.fromEntries(Object.entries(PATH_BY_ID).map(([k, v]) => [v, k]));
