@@ -308,21 +308,210 @@
   },
   "nodes": [
     {
+      "label": "next.config.mjs",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/next.config.mjs",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_next_config_mjs",
+      "community": 61,
+      "norm_label": "next.config.mjs"
+    },
+    {
+      "label": "layout.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/layout.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_app_layout_jsx",
+      "community": 36,
+      "norm_label": "layout.jsx"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/layout.jsx",
+      "source_location": "L22",
+      "id": "layout_rootlayout",
+      "community": 36,
+      "norm_label": "rootlayout()"
+    },
+    {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/page.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_app_page_jsx",
+      "community": 9,
+      "norm_label": "page.jsx"
+    },
+    {
+      "label": "HomePage()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/page.jsx",
+      "source_location": "L18",
+      "id": "page_homepage",
+      "community": 9,
+      "norm_label": "homepage()"
+    },
+    {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/tools/page.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_app_tools_page_jsx",
+      "community": 9,
+      "norm_label": "page.jsx"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/insurance/page.jsx",
+      "source_location": "L6",
+      "id": "page_page",
+      "community": 9,
+      "norm_label": "page()"
+    },
+    {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/investing/page.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_app_investing_page_jsx",
+      "community": 9,
+      "norm_label": "page.jsx"
+    },
+    {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/cards/page.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_app_cards_page_jsx",
+      "community": 37,
+      "norm_label": "page.jsx"
+    },
+    {
+      "label": "CardsPage()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/cards/page.jsx",
+      "source_location": "L8",
+      "id": "page_cardspage",
+      "community": 37,
+      "norm_label": "cardspage()"
+    },
+    {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/home-value/page.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_app_home_value_page_jsx",
+      "community": 9,
+      "norm_label": "page.jsx"
+    },
+    {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/banking/page.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_app_banking_page_jsx",
+      "community": 38,
+      "norm_label": "page.jsx"
+    },
+    {
+      "label": "BankingPage()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/banking/page.jsx",
+      "source_location": "L8",
+      "id": "page_bankingpage",
+      "community": 38,
+      "norm_label": "bankingpage()"
+    },
+    {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/mortgages/page.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_app_mortgages_page_jsx",
+      "community": 39,
+      "norm_label": "page.jsx"
+    },
+    {
+      "label": "MortgagesPage()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/mortgages/page.jsx",
+      "source_location": "L10",
+      "id": "page_mortgagespage",
+      "community": 39,
+      "norm_label": "mortgagespage()"
+    },
+    {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/affiliates/page.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_app_affiliates_page_jsx",
+      "community": 40,
+      "norm_label": "page.jsx"
+    },
+    {
+      "label": "AffiliatesPage()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/affiliates/page.jsx",
+      "source_location": "L5",
+      "id": "page_affiliatespage",
+      "community": 40,
+      "norm_label": "affiliatespage()"
+    },
+    {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/members/page.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_app_members_page_jsx",
+      "community": 9,
+      "norm_label": "page.jsx"
+    },
+    {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/insurance/page.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_app_insurance_page_jsx",
+      "community": 9,
+      "norm_label": "page.jsx"
+    },
+    {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/design-system/page.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_app_design_system_page_jsx",
+      "community": 41,
+      "norm_label": "page.jsx"
+    },
+    {
+      "label": "DesignSystemPage()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/design-system/page.jsx",
+      "source_location": "L5",
+      "id": "page_designsystempage",
+      "community": 41,
+      "norm_label": "designsystempage()"
+    },
+    {
       "label": "Header.jsx",
       "file_type": "code",
       "source_file": "ui_kits/ratehub_web/Header.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_header_jsx",
-      "community": 24,
+      "community": 17,
       "norm_label": "header.jsx"
     },
     {
       "label": "Header()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/Header.jsx",
-      "source_location": "L1",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/Header.jsx",
+      "source_location": "L8",
       "id": "header_header",
-      "community": 24,
+      "community": 17,
       "norm_label": "header()"
     },
     {
@@ -331,79 +520,79 @@
       "source_file": "ui_kits/ratehub_web/components.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_components_jsx",
-      "community": 8,
+      "community": 7,
       "norm_label": "components.jsx"
     },
     {
       "label": "Button()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/components.jsx",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/components.jsx",
       "source_location": "L4",
       "id": "components_button",
-      "community": 8,
+      "community": 7,
       "norm_label": "button()"
     },
     {
       "label": "Anchor()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/components.jsx",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/components.jsx",
       "source_location": "L51",
       "id": "components_anchor",
-      "community": 8,
+      "community": 7,
       "norm_label": "anchor()"
     },
     {
       "label": "Pill()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/components.jsx",
-      "source_location": "L74",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/components.jsx",
+      "source_location": "L75",
       "id": "components_pill",
-      "community": 8,
+      "community": 7,
       "norm_label": "pill()"
     },
     {
       "label": "Icon()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/components.jsx",
-      "source_location": "L98",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/components.jsx",
+      "source_location": "L100",
       "id": "components_icon",
-      "community": 8,
+      "community": 7,
       "norm_label": "icon()"
     },
     {
       "label": "Card()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/components.jsx",
-      "source_location": "L104",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/components.jsx",
+      "source_location": "L106",
       "id": "components_card",
-      "community": 8,
+      "community": 7,
       "norm_label": "card()"
     },
     {
       "label": "Input()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/components.jsx",
-      "source_location": "L115",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/components.jsx",
+      "source_location": "L118",
       "id": "components_input",
-      "community": 8,
+      "community": 7,
       "norm_label": "input()"
     },
     {
       "label": "Select()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/components.jsx",
-      "source_location": "L151",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/components.jsx",
+      "source_location": "L154",
       "id": "components_select",
-      "community": 8,
+      "community": 7,
       "norm_label": "select()"
     },
     {
       "label": "CheckBullet()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/components.jsx",
-      "source_location": "L175",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/components.jsx",
+      "source_location": "L178",
       "id": "components_checkbullet",
-      "community": 8,
+      "community": 7,
       "norm_label": "checkbullet()"
     },
     {
@@ -416,7 +605,7 @@
       "author": null,
       "contributor": null,
       "id": "uikit_product_category_grid",
-      "community": 43,
+      "community": 62,
       "norm_label": "productcategorygrid.jsx (ui_kit)"
     },
     {
@@ -425,16 +614,16 @@
       "source_file": "ui_kits/ratehub_web/SavingsShowcase.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_savingsshowcase_jsx",
-      "community": 25,
+      "community": 18,
       "norm_label": "savingsshowcase.jsx"
     },
     {
       "label": "SavingsShowcase()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/SavingsShowcase.jsx",
-      "source_location": "L1",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/SavingsShowcase.jsx",
+      "source_location": "L5",
       "id": "savingsshowcase_savingsshowcase",
-      "community": 25,
+      "community": 18,
       "norm_label": "savingsshowcase()"
     },
     {
@@ -443,16 +632,16 @@
       "source_file": "ui_kits/ratehub_web/Footer.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_footer_jsx",
-      "community": 26,
+      "community": 19,
       "norm_label": "footer.jsx"
     },
     {
       "label": "Footer()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/Footer.jsx",
-      "source_location": "L1",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/Footer.jsx",
+      "source_location": "L5",
       "id": "footer_footer",
-      "community": 26,
+      "community": 19,
       "norm_label": "footer()"
     },
     {
@@ -465,7 +654,7 @@
       "author": null,
       "contributor": null,
       "id": "uikit_hero_banner_v1",
-      "community": 33,
+      "community": 63,
       "norm_label": "herobanner.jsx (v1, ui_kit)"
     },
     {
@@ -474,16 +663,16 @@
       "source_file": "ui_kits/ratehub_web/MortgageRateTable.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_mortgageratetable_jsx",
-      "community": 27,
+      "community": 20,
       "norm_label": "mortgageratetable.jsx"
     },
     {
       "label": "MortgageRateTable()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/MortgageRateTable.jsx",
-      "source_location": "L1",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MortgageRateTable.jsx",
+      "source_location": "L6",
       "id": "mortgageratetable_mortgageratetable",
-      "community": 27,
+      "community": 20,
       "norm_label": "mortgageratetable()"
     },
     {
@@ -492,25 +681,25 @@
       "source_file": "ui_kits/ratehub_web/TrustStrip.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_truststrip_jsx",
-      "community": 17,
+      "community": 16,
       "norm_label": "truststrip.jsx"
     },
     {
       "label": "TrustStrip()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/TrustStrip.jsx",
-      "source_location": "L1",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/TrustStrip.jsx",
+      "source_location": "L5",
       "id": "truststrip_truststrip",
-      "community": 17,
+      "community": 16,
       "norm_label": "truststrip()"
     },
     {
       "label": "AwardStrip()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/TrustStrip.jsx",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/TrustStrip.jsx",
       "source_location": "L22",
       "id": "truststrip_awardstrip",
-      "community": 17,
+      "community": 16,
       "norm_label": "awardstrip()"
     },
     {
@@ -519,16 +708,16 @@
       "source_file": "ui_kits/ratehub_web/CardFinder.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_cardfinder_jsx",
-      "community": 28,
+      "community": 21,
       "norm_label": "cardfinder.jsx"
     },
     {
       "label": "CardFinder()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/CardFinder.jsx",
-      "source_location": "L1",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/CardFinder.jsx",
+      "source_location": "L5",
       "id": "cardfinder_cardfinder",
-      "community": 28,
+      "community": 21,
       "norm_label": "cardfinder()"
     },
     {
@@ -537,61 +726,61 @@
       "source_file": "ui_kits/ratehub_web/HeroBannerV2.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_herobannerv2_jsx",
-      "community": 12,
+      "community": 11,
       "norm_label": "herobannerv2.jsx"
     },
     {
       "label": "PulseButton()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/HeroBannerV2.jsx",
-      "source_location": "L62",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/HeroBannerV2.jsx",
+      "source_location": "L9",
       "id": "herobannerv2_pulsebutton",
-      "community": 12,
+      "community": 11,
       "norm_label": "pulsebutton()"
     },
     {
       "label": "StepDots()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/HeroBannerV2.jsx",
-      "source_location": "L86",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/HeroBannerV2.jsx",
+      "source_location": "L36",
       "id": "herobannerv2_stepdots",
-      "community": 12,
+      "community": 11,
       "norm_label": "stepdots()"
     },
     {
       "label": "OptionBtn()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/HeroBannerV2.jsx",
-      "source_location": "L124",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/HeroBannerV2.jsx",
+      "source_location": "L71",
       "id": "herobannerv2_optionbtn",
-      "community": 12,
+      "community": 11,
       "norm_label": "optionbtn()"
     },
     {
       "label": "StepInput()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/HeroBannerV2.jsx",
-      "source_location": "L140",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/HeroBannerV2.jsx",
+      "source_location": "L86",
       "id": "herobannerv2_stepinput",
-      "community": 12,
+      "community": 11,
       "norm_label": "stepinput()"
     },
     {
       "label": "ProvinceSelect()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/HeroBannerV2.jsx",
-      "source_location": "L164",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/HeroBannerV2.jsx",
+      "source_location": "L109",
       "id": "herobannerv2_provinceselect",
-      "community": 12,
+      "community": 11,
       "norm_label": "provinceselect()"
     },
     {
       "label": "HeroBannerV2()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/HeroBannerV2.jsx",
-      "source_location": "L183",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/HeroBannerV2.jsx",
+      "source_location": "L127",
       "id": "herobannerv2_herobannerv2",
-      "community": 12,
+      "community": 11,
       "norm_label": "herobannerv2()"
     },
     {
@@ -600,16 +789,16 @@
       "source_file": "ui_kits/ratehub_web/FeaturedIn.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_featuredin_jsx",
-      "community": 29,
+      "community": 22,
       "norm_label": "featuredin.jsx"
     },
     {
       "label": "FeaturedIn()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/FeaturedIn.jsx",
-      "source_location": "L4",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/FeaturedIn.jsx",
+      "source_location": "L7",
       "id": "featuredin_featuredin",
-      "community": 29,
+      "community": 22,
       "norm_label": "featuredin()"
     },
     {
@@ -618,16 +807,16 @@
       "source_file": "ui_kits/ratehub_web/EducationStrip.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_educationstrip_jsx",
-      "community": 30,
+      "community": 23,
       "norm_label": "educationstrip.jsx"
     },
     {
       "label": "EducationStrip()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/EducationStrip.jsx",
-      "source_location": "L1",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/EducationStrip.jsx",
+      "source_location": "L5",
       "id": "educationstrip_educationstrip",
-      "community": 30,
+      "community": 23,
       "norm_label": "educationstrip()"
     },
     {
@@ -636,220 +825,169 @@
       "source_file": "ui_kits/ratehub_web/MortgageCalculator.jsx",
       "source_location": "L1",
       "id": "ui_kits_ratehub_web_mortgagecalculator_jsx",
-      "community": 31,
+      "community": 24,
       "norm_label": "mortgagecalculator.jsx"
     },
     {
       "label": "MortgageCalculator()",
       "file_type": "code",
-      "source_file": "ui_kits/ratehub_web/MortgageCalculator.jsx",
-      "source_location": "L4",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MortgageCalculator.jsx",
+      "source_location": "L8",
       "id": "mortgagecalculator_mortgagecalculator",
-      "community": 31,
+      "community": 24,
       "norm_label": "mortgagecalculator()"
     },
     {
-      "label": "Header.jsx \u2014 Sticky nav",
+      "label": "Header.jsx",
       "file_type": "code",
-      "source_file": "src/Header.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_header",
-      "community": 44,
-      "norm_label": "header.jsx \u2014 sticky nav"
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/Header.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_header_jsx",
+      "community": 17,
+      "norm_label": "header.jsx"
     },
     {
-      "label": "src/components.jsx \u2014 Primitives",
+      "label": "components.jsx",
       "file_type": "code",
-      "source_file": "src/components.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_components",
-      "community": 45,
-      "norm_label": "src/components.jsx \u2014 primitives"
-    },
-    {
-      "label": "Button component",
-      "file_type": "code",
-      "source_file": "src/components.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_button",
-      "community": 46,
-      "norm_label": "button component"
-    },
-    {
-      "label": "Pill component",
-      "file_type": "code",
-      "source_file": "src/components.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_pill",
-      "community": 47,
-      "norm_label": "pill component"
-    },
-    {
-      "label": "Icon component",
-      "file_type": "code",
-      "source_file": "src/components.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_icon",
-      "community": 9,
-      "norm_label": "icon component"
-    },
-    {
-      "label": "Card component",
-      "file_type": "code",
-      "source_file": "src/components.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_card",
-      "community": 48,
-      "norm_label": "card component"
-    },
-    {
-      "label": "Input component",
-      "file_type": "code",
-      "source_file": "src/components.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_input",
-      "community": 49,
-      "norm_label": "input component"
-    },
-    {
-      "label": "Anchor component",
-      "file_type": "code",
-      "source_file": "src/components.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_anchor",
-      "community": 50,
-      "norm_label": "anchor component"
-    },
-    {
-      "label": "CheckBullet component",
-      "file_type": "code",
-      "source_file": "src/components.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_checkbullet",
-      "community": 51,
-      "norm_label": "checkbullet component"
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/components.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_components_jsx",
+      "community": 7,
+      "norm_label": "components.jsx"
     },
     {
       "label": "MembersDashboard.jsx",
       "file_type": "code",
-      "source_file": "src/MembersDashboard.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_members_dashboard",
-      "community": 52,
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/MembersDashboard.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_membersdashboard_jsx",
+      "community": 8,
       "norm_label": "membersdashboard.jsx"
+    },
+    {
+      "label": "fmtCad()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L59",
+      "id": "membersdashboard_fmtcad",
+      "community": 8,
+      "norm_label": "fmtcad()"
+    },
+    {
+      "label": "fmtDate()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L60",
+      "id": "membersdashboard_fmtdate",
+      "community": 8,
+      "norm_label": "fmtdate()"
+    },
+    {
+      "label": "propLine()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L61",
+      "id": "membersdashboard_propline",
+      "community": 8,
+      "norm_label": "propline()"
+    },
+    {
+      "label": "SectionLabel()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L63",
+      "id": "membersdashboard_sectionlabel",
+      "community": 8,
+      "norm_label": "sectionlabel()"
+    },
+    {
+      "label": "StatCell()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L69",
+      "id": "membersdashboard_statcell",
+      "community": 8,
+      "norm_label": "statcell()"
+    },
+    {
+      "label": "DetailRow()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L77",
+      "id": "membersdashboard_detailrow",
+      "community": 8,
+      "norm_label": "detailrow()"
+    },
+    {
+      "label": "ProgressBar()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L84",
+      "id": "membersdashboard_progressbar",
+      "community": 8,
+      "norm_label": "progressbar()"
+    },
+    {
+      "label": "MembersDashboard()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L90",
+      "id": "membersdashboard_membersdashboard",
+      "community": 8,
+      "norm_label": "membersdashboard()"
     },
     {
       "label": "SavingsShowcase.jsx",
       "file_type": "code",
-      "source_file": "src/SavingsShowcase.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_savings_showcase",
-      "community": 53,
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/SavingsShowcase.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_savingsshowcase_jsx",
+      "community": 18,
       "norm_label": "savingsshowcase.jsx"
     },
     {
       "label": "Footer.jsx",
       "file_type": "code",
-      "source_file": "src/Footer.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_footer",
-      "community": 54,
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/Footer.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_footer_jsx",
+      "community": 19,
       "norm_label": "footer.jsx"
     },
     {
       "label": "MortgageRateTable.jsx",
       "file_type": "code",
-      "source_file": "src/MortgageRateTable.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_mortgage_rate_table",
-      "community": 55,
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/MortgageRateTable.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_mortgageratetable_jsx",
+      "community": 20,
       "norm_label": "mortgageratetable.jsx"
     },
     {
       "label": "TrustStrip.jsx",
       "file_type": "code",
-      "source_file": "src/TrustStrip.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_trust_strip",
-      "community": 56,
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/TrustStrip.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_truststrip_jsx",
+      "community": 16,
       "norm_label": "truststrip.jsx"
     },
     {
       "label": "CardFinder.jsx",
       "file_type": "code",
-      "source_file": "src/CardFinder.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_card_finder",
-      "community": 57,
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/CardFinder.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_cardfinder_jsx",
+      "community": 21,
       "norm_label": "cardfinder.jsx"
     },
     {
       "label": "HomeValueEstimator.jsx",
       "file_type": "code",
-      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/src/HomeValueEstimator.jsx",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/HomeValueEstimator.jsx",
       "source_location": "L1",
-      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_src_homevalueestimator_jsx",
-      "community": 32,
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_homevalueestimator_jsx",
+      "community": 25,
       "norm_label": "homevalueestimator.jsx"
     },
     {
@@ -858,60 +996,467 @@
       "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/src/HomeValueEstimator.jsx",
       "source_location": "L9",
       "id": "homevalueestimator_homevalueestimator",
-      "community": 32,
+      "community": 25,
       "norm_label": "homevalueestimator()"
     },
     {
       "label": "HeroBannerV2.jsx",
       "file_type": "code",
-      "source_file": "src/HeroBannerV2.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_hero_banner_v2",
-      "community": 33,
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/HeroBannerV2.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_herobannerv2_jsx",
+      "community": 11,
       "norm_label": "herobannerv2.jsx"
     },
     {
       "label": "FeaturedIn.jsx",
       "file_type": "code",
-      "source_file": "src/FeaturedIn.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_featured_in",
-      "community": 58,
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/FeaturedIn.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_featuredin_jsx",
+      "community": 22,
       "norm_label": "featuredin.jsx"
     },
     {
       "label": "EducationStrip.jsx",
       "file_type": "code",
-      "source_file": "src/EducationStrip.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_education_strip",
-      "community": 59,
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/EducationStrip.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_educationstrip_jsx",
+      "community": 23,
       "norm_label": "educationstrip.jsx"
     },
     {
       "label": "MortgageCalculator.jsx",
       "file_type": "code",
-      "source_file": "src/MortgageCalculator.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_mortgage_calculator",
-      "community": 60,
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/MortgageCalculator.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_mortgagecalculator_jsx",
+      "community": 24,
       "norm_label": "mortgagecalculator.jsx"
+    },
+    {
+      "label": "AwardStrip.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/AwardStrip.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_awardstrip_jsx",
+      "community": 42,
+      "norm_label": "awardstrip.jsx"
+    },
+    {
+      "label": "AwardStrip()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/AwardStrip.jsx",
+      "source_location": "L5",
+      "id": "awardstrip_awardstrip",
+      "community": 42,
+      "norm_label": "awardstrip()"
+    },
+    {
+      "label": "Header.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/Header.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_header_jsx",
+      "community": 17,
+      "norm_label": "header.jsx"
+    },
+    {
+      "label": "ProductCategoryGridV2.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/ProductCategoryGridV2.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_productcategorygridv2_jsx",
+      "community": 43,
+      "norm_label": "productcategorygridv2.jsx"
+    },
+    {
+      "label": "ProductCategoryGridV2()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/ProductCategoryGridV2.jsx",
+      "source_location": "L6",
+      "id": "productcategorygridv2_productcategorygridv2",
+      "community": 43,
+      "norm_label": "productcategorygridv2()"
+    },
+    {
+      "label": "InvestingPreview.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/InvestingPreview.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_investingpreview_jsx",
+      "community": 44,
+      "norm_label": "investingpreview.jsx"
+    },
+    {
+      "label": "InvestingPreview()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/InvestingPreview.jsx",
+      "source_location": "L5",
+      "id": "investingpreview_investingpreview",
+      "community": 44,
+      "norm_label": "investingpreview()"
+    },
+    {
+      "label": "useNav.js",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/useNav.js",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_usenav_js",
+      "community": 9,
+      "norm_label": "usenav.js"
+    },
+    {
+      "label": "useNav()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/useNav.js",
+      "source_location": "L19",
+      "id": "usenav_usenav",
+      "community": 9,
+      "norm_label": "usenav()"
+    },
+    {
+      "label": "MembersDashboard.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_membersdashboard_jsx",
+      "community": 8,
+      "norm_label": "membersdashboard.jsx"
+    },
+    {
+      "label": "DesignSystem.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/DesignSystem.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_designsystem_jsx",
+      "community": 45,
+      "norm_label": "designsystem.jsx"
+    },
+    {
+      "label": "DesignSystem()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/DesignSystem.jsx",
+      "source_location": "L6",
+      "id": "designsystem_designsystem",
+      "community": 45,
+      "norm_label": "designsystem()"
+    },
+    {
+      "label": "SavingsShowcase.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/SavingsShowcase.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_savingsshowcase_jsx",
+      "community": 18,
+      "norm_label": "savingsshowcase.jsx"
+    },
+    {
+      "label": "Footer.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/Footer.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_footer_jsx",
+      "community": 19,
+      "norm_label": "footer.jsx"
+    },
+    {
+      "label": "ToolsPage.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/ToolsPage.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_toolspage_jsx",
+      "community": 46,
+      "norm_label": "toolspage.jsx"
+    },
+    {
+      "label": "ToolsPage()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/ToolsPage.jsx",
+      "source_location": "L5",
+      "id": "toolspage_toolspage",
+      "community": 46,
+      "norm_label": "toolspage()"
+    },
+    {
+      "label": "InsurancePreview.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/InsurancePreview.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_insurancepreview_jsx",
+      "community": 47,
+      "norm_label": "insurancepreview.jsx"
+    },
+    {
+      "label": "InsurancePreview()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/InsurancePreview.jsx",
+      "source_location": "L6",
+      "id": "insurancepreview_insurancepreview",
+      "community": 47,
+      "norm_label": "insurancepreview()"
+    },
+    {
+      "label": "MortgageRateTable.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MortgageRateTable.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_mortgageratetable_jsx",
+      "community": 20,
+      "norm_label": "mortgageratetable.jsx"
+    },
+    {
+      "label": "TrustStrip.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/TrustStrip.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_truststrip_jsx",
+      "community": 16,
+      "norm_label": "truststrip.jsx"
+    },
+    {
+      "label": "InsurancePage.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/InsurancePage.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_insurancepage_jsx",
+      "community": 48,
+      "norm_label": "insurancepage.jsx"
+    },
+    {
+      "label": "InsurancePage()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/InsurancePage.jsx",
+      "source_location": "L6",
+      "id": "insurancepage_insurancepage",
+      "community": 48,
+      "norm_label": "insurancepage()"
+    },
+    {
+      "label": "SiteShell.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/SiteShell.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_siteshell_jsx",
+      "community": 49,
+      "norm_label": "siteshell.jsx"
+    },
+    {
+      "label": "SiteShell()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/SiteShell.jsx",
+      "source_location": "L23",
+      "id": "siteshell_siteshell",
+      "community": 49,
+      "norm_label": "siteshell()"
+    },
+    {
+      "label": "CardFinder.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/CardFinder.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_cardfinder_jsx",
+      "community": 21,
+      "norm_label": "cardfinder.jsx"
+    },
+    {
+      "label": "HomeValueEstimator.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/HomeValueEstimator.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_homevalueestimator_jsx",
+      "community": 25,
+      "norm_label": "homevalueestimator.jsx"
+    },
+    {
+      "label": "AffiliatesPortal.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/AffiliatesPortal.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_affiliatesportal_jsx",
+      "community": 29,
+      "norm_label": "affiliatesportal.jsx"
+    },
+    {
+      "label": "WidgetCard()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/AffiliatesPortal.jsx",
+      "source_location": "L52",
+      "id": "affiliatesportal_widgetcard",
+      "community": 29,
+      "norm_label": "widgetcard()"
+    },
+    {
+      "label": "AffiliatesPortal()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/AffiliatesPortal.jsx",
+      "source_location": "L157",
+      "id": "affiliatesportal_affiliatesportal",
+      "community": 29,
+      "norm_label": "affiliatesportal()"
+    },
+    {
+      "label": "HeroBannerV2.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/HeroBannerV2.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_herobannerv2_jsx",
+      "community": 11,
+      "norm_label": "herobannerv2.jsx"
+    },
+    {
+      "label": "InvestingPage.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/InvestingPage.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_investingpage_jsx",
+      "community": 50,
+      "norm_label": "investingpage.jsx"
+    },
+    {
+      "label": "InvestingPage()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/InvestingPage.jsx",
+      "source_location": "L5",
+      "id": "investingpage_investingpage",
+      "community": 50,
+      "norm_label": "investingpage()"
+    },
+    {
+      "label": "FeaturedIn.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/FeaturedIn.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_featuredin_jsx",
+      "community": 22,
+      "norm_label": "featuredin.jsx"
+    },
+    {
+      "label": "primitives.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/primitives.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_primitives_jsx",
+      "community": 12,
+      "norm_label": "primitives.jsx"
+    },
+    {
+      "label": "Button()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/primitives.jsx",
+      "source_location": "L8",
+      "id": "primitives_button",
+      "community": 12,
+      "norm_label": "button()"
+    },
+    {
+      "label": "Anchor()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/primitives.jsx",
+      "source_location": "L55",
+      "id": "primitives_anchor",
+      "community": 12,
+      "norm_label": "anchor()"
+    },
+    {
+      "label": "Pill()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/primitives.jsx",
+      "source_location": "L79",
+      "id": "primitives_pill",
+      "community": 12,
+      "norm_label": "pill()"
+    },
+    {
+      "label": "Icon()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/primitives.jsx",
+      "source_location": "L103",
+      "id": "primitives_icon",
+      "community": 12,
+      "norm_label": "icon()"
+    },
+    {
+      "label": "Card()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/primitives.jsx",
+      "source_location": "L109",
+      "id": "primitives_card",
+      "community": 12,
+      "norm_label": "card()"
+    },
+    {
+      "label": "Input()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/primitives.jsx",
+      "source_location": "L121",
+      "id": "primitives_input",
+      "community": 12,
+      "norm_label": "input()"
+    },
+    {
+      "label": "Select()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/primitives.jsx",
+      "source_location": "L157",
+      "id": "primitives_select",
+      "community": 12,
+      "norm_label": "select()"
+    },
+    {
+      "label": "CheckBullet()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/primitives.jsx",
+      "source_location": "L181",
+      "id": "primitives_checkbullet",
+      "community": 12,
+      "norm_label": "checkbullet()"
+    },
+    {
+      "label": "SectionBridge.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/SectionBridge.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_sectionbridge_jsx",
+      "community": 51,
+      "norm_label": "sectionbridge.jsx"
+    },
+    {
+      "label": "SectionBridge()",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/SectionBridge.jsx",
+      "source_location": "L5",
+      "id": "sectionbridge_sectionbridge",
+      "community": 51,
+      "norm_label": "sectionbridge()"
+    },
+    {
+      "label": "EducationStrip.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/EducationStrip.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_educationstrip_jsx",
+      "community": 23,
+      "norm_label": "educationstrip.jsx"
+    },
+    {
+      "label": "MortgageCalculator.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MortgageCalculator.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_components_mortgagecalculator_jsx",
+      "community": 24,
+      "norm_label": "mortgagecalculator.jsx"
+    },
+    {
+      "label": "HomeValueEstimator.jsx",
+      "file_type": "code",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/src/HomeValueEstimator.jsx",
+      "source_location": "L1",
+      "id": "users_abul_qasim_code_ratehub_ratehub_design_system_src_homevalueestimator_jsx",
+      "community": 25,
+      "norm_label": "homevalueestimator.jsx"
     },
     {
       "label": "Token: blueberry (primary brand)",
@@ -922,7 +1467,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 14,
       "norm_label": "token: blueberry (primary brand)",
       "id": "token_color_blueberry"
     },
@@ -935,7 +1480,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 61,
+      "community": 64,
       "norm_label": "token: lime (rates/success)",
       "id": "token_color_lime"
     },
@@ -948,7 +1493,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 62,
+      "community": 65,
       "norm_label": "token: mint (savings/success-soft)",
       "id": "token_color_mint"
     },
@@ -961,7 +1506,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 63,
+      "community": 66,
       "norm_label": "token: yuzu (rewards/highlights)",
       "id": "token_color_yuzu"
     },
@@ -974,7 +1519,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 64,
+      "community": 67,
       "norm_label": "token: stone (neutrals/borders)",
       "id": "token_color_stone"
     },
@@ -987,7 +1532,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 65,
+      "community": 68,
       "norm_label": "token: coconut (page background)",
       "id": "token_color_coconut"
     },
@@ -1000,7 +1545,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 66,
+      "community": 69,
       "norm_label": "token: blackberry (body text)",
       "id": "token_color_blackberry"
     },
@@ -1013,7 +1558,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 34,
+      "community": 52,
       "norm_label": "token: gordita typography scale",
       "id": "token_typography"
     },
@@ -1026,7 +1571,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 67,
+      "community": 70,
       "norm_label": "token: 8px grid spacing",
       "id": "token_spacing"
     },
@@ -1039,7 +1584,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 68,
+      "community": 71,
       "norm_label": "token: border radii (xs\u2013full)",
       "id": "token_radii"
     },
@@ -1052,7 +1597,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 69,
+      "community": 72,
       "norm_label": "token: shadows (xs\u2013l, cool-blue)",
       "id": "token_shadows"
     },
@@ -1065,7 +1610,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 70,
+      "community": 73,
       "norm_label": "token: motion (150/300/500ms)",
       "id": "token_motion"
     },
@@ -1078,7 +1623,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 14,
       "norm_label": "skill.md \u2014 brand rules",
       "id": "skill_brand_rules"
     },
@@ -1091,7 +1636,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 14,
       "norm_label": "primary cta: #2d6e8a (desaturated)",
       "id": "skill_primary_cta"
     },
@@ -1104,7 +1649,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 14,
       "norm_label": ".showdot \u2014 blueberry h1 period",
       "id": "skill_show_dot"
     },
@@ -1117,7 +1662,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 14,
       "norm_label": "icon rule: assets/icons/ svg only",
       "id": "skill_icons_rule"
     },
@@ -1130,7 +1675,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 14,
       "norm_label": "brand voice: sentence case, numbers over adjectives",
       "id": "skill_voice_rule"
     },
@@ -1143,7 +1688,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 14,
       "norm_label": "hero pattern: blueberry-darkest bg + pill + showdot h1",
       "id": "skill_hero_pattern"
     },
@@ -1156,7 +1701,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 71,
+      "community": 74,
       "norm_label": "claude.md \u2014 design token system",
       "id": "claude_design_tokens"
     },
@@ -1169,7 +1714,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 72,
+      "community": 75,
       "norm_label": "claude.md \u2014 spa routing via localstorage",
       "id": "claude_routing"
     },
@@ -1182,7 +1727,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 76,
       "norm_label": "window registration pattern (object.assign)",
       "id": "claude_window_registration"
     },
@@ -1195,7 +1740,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 74,
+      "community": 77,
       "norm_label": "claude.md \u2014 zoocasa widget integration",
       "id": "claude_zoocasa_integration"
     },
@@ -1208,7 +1753,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 75,
+      "community": 78,
       "norm_label": "homepage section architecture",
       "id": "readme_homepage_architecture"
     },
@@ -1221,7 +1766,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 76,
+      "community": 79,
       "norm_label": "edible color taxonomy",
       "id": "readme_color_taxonomy"
     },
@@ -1234,7 +1779,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 35,
+      "community": 53,
       "norm_label": "design-to-dev workflow (5 phases)",
       "id": "workflow_design_to_dev"
     },
@@ -1247,7 +1792,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 35,
+      "community": 53,
       "norm_label": "rationale: no handoff gap \u2014 design is the code",
       "id": "workflow_no_handoff_gap"
     },
@@ -1260,7 +1805,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 30,
       "norm_label": "zero-dependency portability (no node/npm)",
       "id": "workflow_zero_dependency"
     },
@@ -1273,7 +1818,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 14,
       "norm_label": "assets/icons/ \u2014 39 svg icons",
       "id": "assets_icons"
     },
@@ -1286,7 +1831,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 77,
+      "community": 80,
       "norm_label": "assets/brand/ \u2014 background shapes + favicon",
       "id": "assets_brand"
     },
@@ -1299,7 +1844,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 78,
+      "community": 81,
       "norm_label": "assets/logos/ \u2014 ratehub/canwise/moneysense wordmarks",
       "id": "assets_logos"
     },
@@ -1312,7 +1857,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 34,
+      "community": 52,
       "norm_label": "gordita font (vendored woff/woff2)",
       "id": "fonts_gordita"
     },
@@ -1325,7 +1870,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 30,
       "norm_label": "react 18.3.1 (unpkg cdn)",
       "id": "cdn_react"
     },
@@ -1338,7 +1883,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 30,
       "norm_label": "babel standalone 7.29.0 (unpkg cdn)",
       "id": "cdn_babel"
     },
@@ -1351,7 +1896,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 79,
+      "community": 82,
       "norm_label": "zoocasa home appraisal widget",
       "id": "zoocasa_widget"
     },
@@ -1507,7 +2052,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "blueberry color palette (brand primary, teal/cyan)",
       "id": "colors_blueberry"
     },
@@ -1520,7 +2065,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "blueberry-lightest \u2014 #dbf9ff",
       "id": "colors_blueberry_lightest"
     },
@@ -1533,7 +2078,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "blueberry-light \u2014 #a4f1ff",
       "id": "colors_blueberry_light"
     },
@@ -1546,7 +2091,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 10,
       "norm_label": "blueberry \u2014 #00b5d6",
       "id": "colors_blueberry_base"
     },
@@ -1559,7 +2104,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "blueberry-dark \u2014 #00729e",
       "id": "colors_blueberry_dark"
     },
@@ -1572,7 +2117,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "blueberry-darkest \u2014 #004f6e",
       "id": "colors_blueberry_darkest"
     },
@@ -1585,7 +2130,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "mint color palette (soft growth / success-soft)",
       "id": "colors_mint"
     },
@@ -1598,7 +2143,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "mint-lightest \u2014 #f5fffa",
       "id": "colors_mint_lightest"
     },
@@ -1611,7 +2156,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "mint-light \u2014 #e0fff5",
       "id": "colors_mint_light"
     },
@@ -1624,7 +2169,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "mint \u2014 #9ffcdf",
       "id": "colors_mint_base"
     },
@@ -1637,7 +2182,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "mint-dark \u2014 #68e9c1",
       "id": "colors_mint_dark"
     },
@@ -1650,7 +2195,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "mint-darkest \u2014 #3ea592",
       "id": "colors_mint_darkest"
     },
@@ -1741,7 +2286,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 0,
       "norm_label": "neutrals (coconut, blackberry, stone)",
       "id": "colors_neutrals"
     },
@@ -1754,7 +2299,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 0,
       "norm_label": "coconut \u2014 #ffffff (page bg)",
       "id": "colors_coconut"
     },
@@ -1767,7 +2312,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 0,
       "norm_label": "blackberry \u2014 #000000 (foreground text)",
       "id": "colors_blackberry"
     },
@@ -1780,7 +2325,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 0,
       "norm_label": "stone-lightest \u2014 #f5f9fa",
       "id": "colors_stone_lightest"
     },
@@ -1793,7 +2338,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 0,
       "norm_label": "stone-light \u2014 #e5eff1",
       "id": "colors_stone_light"
     },
@@ -1806,7 +2351,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 0,
       "norm_label": "stone \u2014 #c0ced3",
       "id": "colors_stone_base"
     },
@@ -1819,7 +2364,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 0,
       "norm_label": "stone-dark \u2014 #a4b4ba",
       "id": "colors_stone_dark"
     },
@@ -1832,7 +2377,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 0,
       "norm_label": "stone-darkest \u2014 #6a787c",
       "id": "colors_stone_darkest"
     },
@@ -1845,7 +2390,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "yuzu color palette (rewards / highlight)",
       "id": "colors_yuzu"
     },
@@ -1858,7 +2403,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "yuzu-lightest \u2014 #fff4da",
       "id": "colors_yuzu_lightest"
     },
@@ -1871,7 +2416,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "yuzu \u2014 #ffcc50",
       "id": "colors_yuzu_base"
     },
@@ -1884,7 +2429,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "yuzu-darkest \u2014 #e7a400",
       "id": "colors_yuzu_darkest"
     },
@@ -1897,7 +2442,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "tangerine color palette (warmth / warning)",
       "id": "colors_tangerine"
     },
@@ -1910,7 +2455,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "tangerine-lightest \u2014 #ffe7c8",
       "id": "colors_tangerine_lightest"
     },
@@ -1923,7 +2468,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "tangerine \u2014 #ff9300",
       "id": "colors_tangerine_base"
     },
@@ -1936,7 +2481,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "tangerine-dark \u2014 #ea7000",
       "id": "colors_tangerine_dark"
     },
@@ -1949,7 +2494,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "watermelon color palette",
       "id": "colors_watermelon"
     },
@@ -1962,7 +2507,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "watermelon \u2014 #ff989b",
       "id": "colors_watermelon_base"
     },
@@ -1975,7 +2520,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "watermelon-lightest \u2014 #ffedef",
       "id": "colors_watermelon_lightest"
     },
@@ -1988,7 +2533,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 10,
       "norm_label": "strawberry color palette (error / alert)",
       "id": "colors_strawberry"
     },
@@ -2001,7 +2546,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 10,
       "norm_label": "strawberry \u2014 #f6452c",
       "id": "colors_strawberry_base"
     },
@@ -2014,7 +2559,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 10,
       "norm_label": "strawberry-dark \u2014 #d82e15",
       "id": "colors_strawberry_dark"
     },
@@ -2027,7 +2572,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 31,
       "norm_label": "grape color palette (secondary accent)",
       "id": "colors_grape"
     },
@@ -2040,7 +2585,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 31,
       "norm_label": "grape \u2014 #b969d1",
       "id": "colors_grape_base"
     },
@@ -2053,7 +2598,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 31,
       "norm_label": "grape-dark \u2014 #80209c",
       "id": "colors_grape_dark"
     },
@@ -2066,7 +2611,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "semantic color tokens",
       "id": "colors_semantic"
     },
@@ -2079,7 +2624,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "--rh-bg-brand \u2014 #004f6e (brand hero bg)",
       "id": "semantic_bg_brand"
     },
@@ -2092,7 +2637,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "--rh-bg-brand-soft \u2014 #dbf9ff",
       "id": "semantic_bg_brand_soft"
     },
@@ -2105,7 +2650,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "--rh-success \u2014 #358255",
       "id": "semantic_success"
     },
@@ -2118,7 +2663,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "--rh-success-bg \u2014 #d3f7e2",
       "id": "semantic_success_bg"
     },
@@ -2131,7 +2676,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "--rh-warning \u2014 #ea7000",
       "id": "semantic_warning"
     },
@@ -2144,7 +2689,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "--rh-warning-bg \u2014 #ffe7c8",
       "id": "semantic_warning_bg"
     },
@@ -2157,7 +2702,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 10,
       "norm_label": "--rh-error \u2014 #d82e15",
       "id": "semantic_error"
     },
@@ -2170,7 +2715,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "--rh-error-bg \u2014 #ffedef",
       "id": "semantic_error_bg"
     },
@@ -2183,7 +2728,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "--rh-fg-link \u2014 #00729e (info / link)",
       "id": "semantic_fg_link"
     },
@@ -2196,7 +2741,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "--rh-border \u2014 #c0ced3",
       "id": "semantic_border"
     },
@@ -2274,7 +2819,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 13,
       "norm_label": "typography body scale",
       "id": "type_body"
     },
@@ -2287,7 +2832,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 13,
       "norm_label": "body xl \u2014 20px / 1.5 line-height",
       "id": "type_body_xl"
     },
@@ -2300,7 +2845,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 13,
       "norm_label": "body l \u2014 18px / 1.5 line-height",
       "id": "type_body_l"
     },
@@ -2313,7 +2858,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 13,
       "norm_label": "body m \u2014 16px / 1.5 line-height (default)",
       "id": "type_body_m"
     },
@@ -2326,7 +2871,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 13,
       "norm_label": "body s \u2014 14px / 1.5 line-height",
       "id": "type_body_s"
     },
@@ -2339,7 +2884,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 13,
       "norm_label": "body xs \u2014 12px / 1.5 line-height",
       "id": "type_body_xs"
     },
@@ -2352,7 +2897,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 13,
       "norm_label": "gordita 400 regular",
       "id": "type_weight_regular"
     },
@@ -2365,7 +2910,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 13,
       "norm_label": "gordita 500 medium",
       "id": "type_weight_medium"
     },
@@ -2378,7 +2923,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 13,
       "norm_label": "gordita 700 bold",
       "id": "type_weight_bold"
     },
@@ -2391,7 +2936,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 10,
       "norm_label": "form input component patterns",
       "id": "form_inputs"
     },
@@ -2404,7 +2949,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 10,
       "norm_label": "input default state \u2014 border stone, bg white, 15px",
       "id": "form_input_default"
     },
@@ -2417,7 +2962,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 10,
       "norm_label": "input focus state \u2014 border blueberry, shadow-focus ring",
       "id": "form_input_focus"
     },
@@ -2430,7 +2975,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 10,
       "norm_label": "input error state \u2014 border rh-error red",
       "id": "form_input_error"
     },
@@ -2443,7 +2988,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 10,
       "norm_label": "input disabled state \u2014 bg stone-lightest, not-allowed cursor",
       "id": "form_input_disabled"
     },
@@ -2456,7 +3001,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "pills, tags and badges component",
       "id": "pills_tags"
     },
@@ -2482,7 +3027,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "pill mint \u2014 bg mint-light, text mint-darkest (featured)",
       "id": "pill_mint"
     },
@@ -2495,7 +3040,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "pill yuzu \u2014 bg yuzu-lightest, text yuzu-darkest (rewards)",
       "id": "pill_yuzu"
     },
@@ -2508,7 +3053,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "pill blueberry \u2014 bg blueberry-lightest, text blueberry-darkest (new)",
       "id": "pill_berry"
     },
@@ -2521,7 +3066,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "pill stone \u2014 bg stone-light, text stone-darkest (updated daily)",
       "id": "pill_stone"
     },
@@ -2534,7 +3079,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "pill error \u2014 bg error-bg, text error (rate change alert)",
       "id": "pill_error"
     },
@@ -2547,7 +3092,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "tag \u2014 border stone, border-radius full, lowercase, 11px",
       "id": "tag_component"
     },
@@ -2599,7 +3144,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "ratehub brand logo library",
       "id": "logos_library"
     },
@@ -2625,7 +3170,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 26,
       "norm_label": "arrow left \u2014 directional navigation arrow pointing left, circle-in-circle style, stroked, 32x32 viewbox",
       "id": "icon_arrow_left"
     },
@@ -2638,7 +3183,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 26,
       "norm_label": "arrow right \u2014 directional navigation arrow pointing right, circle-in-circle style, stroked, 32x32 viewbox",
       "id": "icon_arrow_right"
     },
@@ -2651,7 +3196,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 55,
       "norm_label": "award \u2014 medal/ribbon badge with circle top and banner tails, stroked, 62x62 viewbox",
       "id": "icon_award"
     },
@@ -2664,7 +3209,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 15,
       "norm_label": "bar chart \u2014 three vertical bars of ascending height inside circle, stroked, 62x62 viewbox",
       "id": "icon_bar_chart"
     },
@@ -2677,7 +3222,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 15,
       "norm_label": "calculator \u2014 rectangular body with button grid (plus/minus/equals rows) inside circle, stroked, 62x62 viewbox",
       "id": "icon_calculator"
     },
@@ -2690,7 +3235,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 15,
       "norm_label": "car \u2014 automobile with wheels, body, and windows inside circle, stroked, 62x62 viewbox",
       "id": "icon_car"
     },
@@ -2703,7 +3248,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 56,
       "norm_label": "checkmark \u2014 tick/check path inside circle indicating success or confirmation, stroked, 62x62 viewbox",
       "id": "icon_checkmark"
     },
@@ -2716,7 +3261,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 38,
+      "community": 54,
       "norm_label": "chevron down \u2014 downward-pointing v-chevron inside circle for expand/dropdown, stroked, 62x62 viewbox",
       "id": "icon_chevron_down"
     },
@@ -2729,7 +3274,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 26,
       "norm_label": "chevron left \u2014 leftward-pointing v-chevron inside circle for previous/back, stroked, 62x62 viewbox",
       "id": "icon_chevron_left"
     },
@@ -2742,7 +3287,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 26,
       "norm_label": "chevron right \u2014 rightward-pointing v-chevron inside circle for next/forward, stroked, 62x62 viewbox",
       "id": "icon_chevron_right"
     },
@@ -2755,7 +3300,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 38,
+      "community": 54,
       "norm_label": "chevron up \u2014 upward-pointing v-chevron inside circle for collapse/scroll-up, stroked, 62x62 viewbox",
       "id": "icon_chevron_up"
     },
@@ -2768,7 +3313,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 32,
       "norm_label": "conversation \u2014 two overlapping speech bubbles inside circle for chat/support, stroked, 62x62 viewbox",
       "id": "icon_conversation"
     },
@@ -2781,7 +3326,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 15,
       "norm_label": "credit card \u2014 rectangular card with stripe lines inside circle, stroked, 62x62 viewbox",
       "id": "icon_credit_card"
     },
@@ -2794,7 +3339,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 15,
       "norm_label": "dollar \u2014 currency dollar sign with vertical line inside circle, stroked, 62x62 viewbox",
       "id": "icon_dollar"
     },
@@ -2807,7 +3352,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 15,
       "norm_label": "gift \u2014 wrapped present box with ribbon bow inside circle for rewards/promotions, stroked, 62x62 viewbox",
       "id": "icon_gift"
     },
@@ -2820,7 +3365,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 55,
       "norm_label": "heart \u2014 heart shape with two upper arcs inside circle for favourites/saved, stroked, 62x62 viewbox",
       "id": "icon_heart"
     },
@@ -2833,7 +3378,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 15,
       "norm_label": "house \u2014 home silhouette with roof, walls and door inside circle for real estate/mortgages, stroked, 62x62 viewbox",
       "id": "icon_house"
     },
@@ -2846,7 +3391,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 32,
       "norm_label": "light bulb \u2014 bulb with filament detail and bracket inside circle for ideas/tips, stroked, 62x62 viewbox",
       "id": "icon_light_bulb"
     },
@@ -2859,7 +3404,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 32,
       "norm_label": "lightning \u2014 two-segment zigzag bolt path inside circle for energy/speed/power, stroked, 62x62 viewbox",
       "id": "icon_lightning"
     },
@@ -2872,7 +3417,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 56,
       "norm_label": "lock \u2014 padlock with shackle arc and keyhole circle inside circle for security/privacy, stroked, 62x62 viewbox",
       "id": "icon_lock"
     },
@@ -2892,7 +3437,7 @@
         "semantic_category": "navigation",
         "purpose": "Location or map marker"
       },
-      "community": 22,
+      "community": 33,
       "norm_label": "map pin icon",
       "id": "icon_map_pin"
     },
@@ -2912,7 +3457,7 @@
         "semantic_category": "brand",
         "purpose": "Canadian identity / national symbol"
       },
-      "community": 39,
+      "community": 57,
       "norm_label": "maple leaf icon",
       "id": "icon_maple_leaf"
     },
@@ -2932,7 +3477,7 @@
         "semantic_category": "ui_control",
         "purpose": "Decrease, collapse, or remove action"
       },
-      "community": 16,
+      "community": 27,
       "norm_label": "minus icon",
       "id": "icon_minus"
     },
@@ -2952,7 +3497,7 @@
         "semantic_category": "communication",
         "purpose": "Phone call or contact"
       },
-      "community": 21,
+      "community": 35,
       "norm_label": "phone icon",
       "id": "icon_phone"
     },
@@ -2972,7 +3517,7 @@
         "semantic_category": "financial",
         "purpose": "Savings, banking, or money storage"
       },
-      "community": 15,
+      "community": 28,
       "norm_label": "piggy bank icon",
       "id": "icon_piggy"
     },
@@ -2992,7 +3537,7 @@
         "semantic_category": "travel_insurance",
         "purpose": "Travel, flight, or travel insurance"
       },
-      "community": 23,
+      "community": 34,
       "norm_label": "airplane / travel icon",
       "id": "icon_plane"
     },
@@ -3012,7 +3557,7 @@
         "semantic_category": "ui_control",
         "purpose": "Add, expand, or increase action"
       },
-      "community": 16,
+      "community": 27,
       "norm_label": "plus icon",
       "id": "icon_plus"
     },
@@ -3032,7 +3577,7 @@
         "semantic_category": "ui_control",
         "purpose": "Help, tooltip, or FAQ"
       },
-      "community": 21,
+      "community": 35,
       "norm_label": "question mark icon",
       "id": "icon_question_mark"
     },
@@ -3052,7 +3597,7 @@
         "semantic_category": "brand",
         "purpose": "Ratehub.ca brand mark / logo icon"
       },
-      "community": 39,
+      "community": 57,
       "norm_label": "ratehub brand icon",
       "id": "icon_ratehub"
     },
@@ -3072,7 +3617,7 @@
         "semantic_category": "ui_control",
         "purpose": "Refresh, reload, or update"
       },
-      "community": 16,
+      "community": 27,
       "norm_label": "refresh / reload icon",
       "id": "icon_refresh"
     },
@@ -3092,7 +3637,7 @@
         "semantic_category": "navigation",
         "purpose": "Search input trigger (compact, branded blue variant)"
       },
-      "community": 22,
+      "community": 33,
       "norm_label": "search icon (blue)",
       "id": "icon_search_blue"
     },
@@ -3112,7 +3657,7 @@
         "semantic_category": "navigation",
         "purpose": "Search"
       },
-      "community": 22,
+      "community": 33,
       "norm_label": "search icon",
       "id": "icon_search"
     },
@@ -3132,7 +3677,7 @@
         "semantic_category": "insurance",
         "purpose": "Protection, insurance, or security"
       },
-      "community": 23,
+      "community": 34,
       "norm_label": "shield icon",
       "id": "icon_shield"
     },
@@ -3152,7 +3697,7 @@
         "semantic_category": "communication",
         "purpose": "Chat, message, or customer support"
       },
-      "community": 21,
+      "community": 35,
       "norm_label": "speech bubble icon",
       "id": "icon_speech_bubble"
     },
@@ -3172,7 +3717,7 @@
         "semantic_category": "rating_social_proof",
         "purpose": "Rating, favourite, or award"
       },
-      "community": 40,
+      "community": 58,
       "norm_label": "star / rating icon",
       "id": "icon_star"
     },
@@ -3192,7 +3737,7 @@
         "semantic_category": "financial",
         "purpose": "Rate trends, market movement, or analytics"
       },
-      "community": 15,
+      "community": 28,
       "norm_label": "trending / chart icon",
       "id": "icon_trending"
     },
@@ -3212,7 +3757,7 @@
         "semantic_category": "rating_social_proof",
         "purpose": "Award, best-in-class, or achievement"
       },
-      "community": 40,
+      "community": 58,
       "norm_label": "trophy icon",
       "id": "icon_trophy"
     },
@@ -3232,7 +3777,7 @@
         "semantic_category": "insurance",
         "purpose": "Insurance coverage or protection"
       },
-      "community": 23,
+      "community": 34,
       "norm_label": "umbrella icon",
       "id": "icon_umbrella"
     },
@@ -3252,7 +3797,7 @@
         "semantic_category": "account",
         "purpose": "User profile, sign-in, or account"
       },
-      "community": 15,
+      "community": 28,
       "norm_label": "user / person icon",
       "id": "icon_user"
     },
@@ -3272,7 +3817,7 @@
         "semantic_category": "financial",
         "purpose": "Payment, credit cards, or personal finance"
       },
-      "community": 15,
+      "community": 28,
       "norm_label": "wallet icon",
       "id": "icon_wallet"
     },
@@ -3292,7 +3837,7 @@
         "semantic_category": "ui_control",
         "purpose": "Close, dismiss, or cancel action"
       },
-      "community": 16,
+      "community": 27,
       "norm_label": "close / x icon",
       "id": "icon_x"
     },
@@ -3458,7 +4003,7 @@
         "has_icon": false,
         "has_wordmark": true
       },
-      "community": 41,
+      "community": 59,
       "norm_label": "moneysense logo (light / white variant)",
       "id": "logo_moneysense_light"
     },
@@ -3474,7 +4019,7 @@
       "properties": {
         "description": "MoneySense \u2014 Canadian personal finance media brand; appears as press mention in Ratehub FeaturedIn strip"
       },
-      "community": 41,
+      "community": 59,
       "norm_label": "moneysense brand",
       "id": "brand_moneysense"
     },
@@ -4022,7 +4567,7 @@
         "#FFFFFF (white letterform)"
       ],
       "confidence_score": 1.0,
-      "community": 42,
+      "community": 60,
       "norm_label": "ratehub favicon 32x32",
       "id": "brand_favicon"
     },
@@ -4041,12 +4586,180 @@
         "#FFFFFF (white shapes)"
       ],
       "confidence_score": 1.0,
-      "community": 42,
+      "community": 60,
       "norm_label": "ratehub r logo 300x300",
       "id": "brand_r_logo"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/layout.jsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_app_layout_jsx",
+      "_tgt": "layout_rootlayout",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_app_layout_jsx",
+      "target": "layout_rootlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/page.jsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_app_page_jsx",
+      "_tgt": "page_homepage",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_app_page_jsx",
+      "target": "page_homepage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/page.jsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "page_homepage",
+      "_tgt": "usenav_usenav",
+      "source": "page_homepage",
+      "target": "usenav_usenav"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/tools/page.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_app_tools_page_jsx",
+      "_tgt": "page_page",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_app_tools_page_jsx",
+      "target": "page_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/investing/page.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_app_investing_page_jsx",
+      "_tgt": "page_page",
+      "source": "page_page",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_app_investing_page_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/home-value/page.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_app_home_value_page_jsx",
+      "_tgt": "page_page",
+      "source": "page_page",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_app_home_value_page_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/members/page.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_app_members_page_jsx",
+      "_tgt": "page_page",
+      "source": "page_page",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_app_members_page_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/insurance/page.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_app_insurance_page_jsx",
+      "_tgt": "page_page",
+      "source": "page_page",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_app_insurance_page_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/tools/page.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "page_page",
+      "_tgt": "usenav_usenav",
+      "source": "page_page",
+      "target": "usenav_usenav"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/cards/page.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_app_cards_page_jsx",
+      "_tgt": "page_cardspage",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_app_cards_page_jsx",
+      "target": "page_cardspage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/banking/page.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_app_banking_page_jsx",
+      "_tgt": "page_bankingpage",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_app_banking_page_jsx",
+      "target": "page_bankingpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/mortgages/page.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_app_mortgages_page_jsx",
+      "_tgt": "page_mortgagespage",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_app_mortgages_page_jsx",
+      "target": "page_mortgagespage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/affiliates/page.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_app_affiliates_page_jsx",
+      "_tgt": "page_affiliatespage",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_app_affiliates_page_jsx",
+      "target": "page_affiliatespage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/app/design-system/page.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_app_design_system_page_jsx",
+      "_tgt": "page_designsystempage",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_app_design_system_page_jsx",
+      "target": "page_designsystempage",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -4057,6 +4770,30 @@
       "_tgt": "header_header",
       "source": "ui_kits_ratehub_web_header_jsx",
       "target": "header_header",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/Header.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_header_jsx",
+      "_tgt": "header_header",
+      "source": "header_header",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_header_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/Header.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_header_jsx",
+      "_tgt": "header_header",
+      "source": "header_header",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_header_jsx",
       "confidence_score": 1.0
     },
     {
@@ -4158,6 +4895,102 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/components.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_components_jsx",
+      "_tgt": "components_button",
+      "source": "components_button",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_components_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/components.jsx",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_components_jsx",
+      "_tgt": "components_anchor",
+      "source": "components_anchor",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_components_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/components.jsx",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_components_jsx",
+      "_tgt": "components_pill",
+      "source": "components_pill",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_components_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/components.jsx",
+      "source_location": "L100",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_components_jsx",
+      "_tgt": "components_icon",
+      "source": "components_icon",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_components_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/components.jsx",
+      "source_location": "L106",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_components_jsx",
+      "_tgt": "components_card",
+      "source": "components_card",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_components_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/components.jsx",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_components_jsx",
+      "_tgt": "components_input",
+      "source": "components_input",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_components_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/components.jsx",
+      "source_location": "L154",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_components_jsx",
+      "_tgt": "components_select",
+      "source": "components_select",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_components_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/components.jsx",
+      "source_location": "L178",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_components_jsx",
+      "_tgt": "components_checkbullet",
+      "source": "components_checkbullet",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_components_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "ui_kits/ratehub_web/SavingsShowcase.jsx",
       "source_location": "L1",
       "weight": 1.0,
@@ -4165,6 +4998,30 @@
       "_tgt": "savingsshowcase_savingsshowcase",
       "source": "ui_kits_ratehub_web_savingsshowcase_jsx",
       "target": "savingsshowcase_savingsshowcase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/SavingsShowcase.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_savingsshowcase_jsx",
+      "_tgt": "savingsshowcase_savingsshowcase",
+      "source": "savingsshowcase_savingsshowcase",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_savingsshowcase_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/SavingsShowcase.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_savingsshowcase_jsx",
+      "_tgt": "savingsshowcase_savingsshowcase",
+      "source": "savingsshowcase_savingsshowcase",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_savingsshowcase_jsx",
       "confidence_score": 1.0
     },
     {
@@ -4180,16 +5037,28 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "ui_kits/ratehub_web/",
-      "source_location": null,
-      "weight": 0.8,
-      "_src": "uikit_hero_banner_v1",
-      "_tgt": "src_hero_banner_v2",
-      "source": "uikit_hero_banner_v1",
-      "target": "src_hero_banner_v2"
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/Footer.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_footer_jsx",
+      "_tgt": "footer_footer",
+      "source": "footer_footer",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_footer_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/Footer.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_footer_jsx",
+      "_tgt": "footer_footer",
+      "source": "footer_footer",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_footer_jsx",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4201,6 +5070,30 @@
       "_tgt": "mortgageratetable_mortgageratetable",
       "source": "ui_kits_ratehub_web_mortgageratetable_jsx",
       "target": "mortgageratetable_mortgageratetable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/MortgageRateTable.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_mortgageratetable_jsx",
+      "_tgt": "mortgageratetable_mortgageratetable",
+      "source": "mortgageratetable_mortgageratetable",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_mortgageratetable_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MortgageRateTable.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_mortgageratetable_jsx",
+      "_tgt": "mortgageratetable_mortgageratetable",
+      "source": "mortgageratetable_mortgageratetable",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_mortgageratetable_jsx",
       "confidence_score": 1.0
     },
     {
@@ -4230,6 +5123,42 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/TrustStrip.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_truststrip_jsx",
+      "_tgt": "truststrip_truststrip",
+      "source": "truststrip_truststrip",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_truststrip_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/TrustStrip.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_truststrip_jsx",
+      "_tgt": "truststrip_truststrip",
+      "source": "truststrip_truststrip",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_truststrip_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/TrustStrip.jsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_truststrip_jsx",
+      "_tgt": "truststrip_awardstrip",
+      "source": "truststrip_awardstrip",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_truststrip_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "ui_kits/ratehub_web/CardFinder.jsx",
       "source_location": "L1",
       "weight": 1.0,
@@ -4237,6 +5166,30 @@
       "_tgt": "cardfinder_cardfinder",
       "source": "ui_kits_ratehub_web_cardfinder_jsx",
       "target": "cardfinder_cardfinder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/CardFinder.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_cardfinder_jsx",
+      "_tgt": "cardfinder_cardfinder",
+      "source": "cardfinder_cardfinder",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_cardfinder_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/CardFinder.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_cardfinder_jsx",
+      "_tgt": "cardfinder_cardfinder",
+      "source": "cardfinder_cardfinder",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_cardfinder_jsx",
       "confidence_score": 1.0
     },
     {
@@ -4314,6 +5267,150 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/HeroBannerV2.jsx",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_herobannerv2_jsx",
+      "_tgt": "herobannerv2_pulsebutton",
+      "source": "herobannerv2_pulsebutton",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_herobannerv2_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/HeroBannerV2.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_herobannerv2_jsx",
+      "_tgt": "herobannerv2_pulsebutton",
+      "source": "herobannerv2_pulsebutton",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_herobannerv2_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/HeroBannerV2.jsx",
+      "source_location": "L84",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_herobannerv2_jsx",
+      "_tgt": "herobannerv2_stepdots",
+      "source": "herobannerv2_stepdots",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_herobannerv2_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/HeroBannerV2.jsx",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_herobannerv2_jsx",
+      "_tgt": "herobannerv2_stepdots",
+      "source": "herobannerv2_stepdots",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_herobannerv2_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/HeroBannerV2.jsx",
+      "source_location": "L119",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_herobannerv2_jsx",
+      "_tgt": "herobannerv2_optionbtn",
+      "source": "herobannerv2_optionbtn",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_herobannerv2_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/HeroBannerV2.jsx",
+      "source_location": "L71",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_herobannerv2_jsx",
+      "_tgt": "herobannerv2_optionbtn",
+      "source": "herobannerv2_optionbtn",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_herobannerv2_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/HeroBannerV2.jsx",
+      "source_location": "L134",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_herobannerv2_jsx",
+      "_tgt": "herobannerv2_stepinput",
+      "source": "herobannerv2_stepinput",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_herobannerv2_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/HeroBannerV2.jsx",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_herobannerv2_jsx",
+      "_tgt": "herobannerv2_stepinput",
+      "source": "herobannerv2_stepinput",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_herobannerv2_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/HeroBannerV2.jsx",
+      "source_location": "L157",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_herobannerv2_jsx",
+      "_tgt": "herobannerv2_provinceselect",
+      "source": "herobannerv2_provinceselect",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_herobannerv2_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/HeroBannerV2.jsx",
+      "source_location": "L109",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_herobannerv2_jsx",
+      "_tgt": "herobannerv2_provinceselect",
+      "source": "herobannerv2_provinceselect",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_herobannerv2_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/HeroBannerV2.jsx",
+      "source_location": "L175",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_herobannerv2_jsx",
+      "_tgt": "herobannerv2_herobannerv2",
+      "source": "herobannerv2_herobannerv2",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_herobannerv2_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/HeroBannerV2.jsx",
+      "source_location": "L127",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_herobannerv2_jsx",
+      "_tgt": "herobannerv2_herobannerv2",
+      "source": "herobannerv2_herobannerv2",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_herobannerv2_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "ui_kits/ratehub_web/FeaturedIn.jsx",
       "source_location": "L4",
       "weight": 1.0,
@@ -4321,6 +5418,30 @@
       "_tgt": "featuredin_featuredin",
       "source": "ui_kits_ratehub_web_featuredin_jsx",
       "target": "featuredin_featuredin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/FeaturedIn.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_featuredin_jsx",
+      "_tgt": "featuredin_featuredin",
+      "source": "featuredin_featuredin",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_featuredin_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/FeaturedIn.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_featuredin_jsx",
+      "_tgt": "featuredin_featuredin",
+      "source": "featuredin_featuredin",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_featuredin_jsx",
       "confidence_score": 1.0
     },
     {
@@ -4338,6 +5459,30 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/EducationStrip.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_educationstrip_jsx",
+      "_tgt": "educationstrip_educationstrip",
+      "source": "educationstrip_educationstrip",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_educationstrip_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/EducationStrip.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_educationstrip_jsx",
+      "_tgt": "educationstrip_educationstrip",
+      "source": "educationstrip_educationstrip",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_educationstrip_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "ui_kits/ratehub_web/MortgageCalculator.jsx",
       "source_location": "L4",
       "weight": 1.0,
@@ -4348,16 +5493,280 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
-      "source_file": "src/components.jsx",
-      "source_location": null,
-      "weight": 0.9,
-      "_src": "src_icon",
-      "_tgt": "assets_icons",
-      "source": "src_icon",
-      "target": "assets_icons"
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/MortgageCalculator.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_mortgagecalculator_jsx",
+      "_tgt": "mortgagecalculator_mortgagecalculator",
+      "source": "mortgagecalculator_mortgagecalculator",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_mortgagecalculator_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MortgageCalculator.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_mortgagecalculator_jsx",
+      "_tgt": "mortgagecalculator_mortgagecalculator",
+      "source": "mortgagecalculator_mortgagecalculator",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_mortgagecalculator_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/MembersDashboard.jsx",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_membersdashboard_jsx",
+      "_tgt": "membersdashboard_fmtcad",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_membersdashboard_jsx",
+      "target": "membersdashboard_fmtcad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/MembersDashboard.jsx",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_membersdashboard_jsx",
+      "_tgt": "membersdashboard_fmtdate",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_membersdashboard_jsx",
+      "target": "membersdashboard_fmtdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/MembersDashboard.jsx",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_membersdashboard_jsx",
+      "_tgt": "membersdashboard_propline",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_membersdashboard_jsx",
+      "target": "membersdashboard_propline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/MembersDashboard.jsx",
+      "source_location": "L84",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_membersdashboard_jsx",
+      "_tgt": "membersdashboard_sectionlabel",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_membersdashboard_jsx",
+      "target": "membersdashboard_sectionlabel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/MembersDashboard.jsx",
+      "source_location": "L91",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_membersdashboard_jsx",
+      "_tgt": "membersdashboard_statcell",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_membersdashboard_jsx",
+      "target": "membersdashboard_statcell",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/MembersDashboard.jsx",
+      "source_location": "L100",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_membersdashboard_jsx",
+      "_tgt": "membersdashboard_detailrow",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_membersdashboard_jsx",
+      "target": "membersdashboard_detailrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/MembersDashboard.jsx",
+      "source_location": "L108",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_membersdashboard_jsx",
+      "_tgt": "membersdashboard_progressbar",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_membersdashboard_jsx",
+      "target": "membersdashboard_progressbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/MembersDashboard.jsx",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_membersdashboard_jsx",
+      "_tgt": "membersdashboard_membersdashboard",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_membersdashboard_jsx",
+      "target": "membersdashboard_membersdashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L153",
+      "weight": 1.0,
+      "_src": "membersdashboard_membersdashboard",
+      "_tgt": "membersdashboard_fmtcad",
+      "source": "membersdashboard_fmtcad",
+      "target": "membersdashboard_membersdashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_membersdashboard_jsx",
+      "_tgt": "membersdashboard_fmtcad",
+      "source": "membersdashboard_fmtcad",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_membersdashboard_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L165",
+      "weight": 1.0,
+      "_src": "membersdashboard_membersdashboard",
+      "_tgt": "membersdashboard_fmtdate",
+      "source": "membersdashboard_fmtdate",
+      "target": "membersdashboard_membersdashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_membersdashboard_jsx",
+      "_tgt": "membersdashboard_fmtdate",
+      "source": "membersdashboard_fmtdate",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_membersdashboard_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L147",
+      "weight": 1.0,
+      "_src": "membersdashboard_membersdashboard",
+      "_tgt": "membersdashboard_propline",
+      "source": "membersdashboard_propline",
+      "target": "membersdashboard_membersdashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_membersdashboard_jsx",
+      "_tgt": "membersdashboard_propline",
+      "source": "membersdashboard_propline",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_membersdashboard_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_membersdashboard_jsx",
+      "_tgt": "membersdashboard_sectionlabel",
+      "source": "membersdashboard_sectionlabel",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_membersdashboard_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_membersdashboard_jsx",
+      "_tgt": "membersdashboard_statcell",
+      "source": "membersdashboard_statcell",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_membersdashboard_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_membersdashboard_jsx",
+      "_tgt": "membersdashboard_detailrow",
+      "source": "membersdashboard_detailrow",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_membersdashboard_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L84",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_membersdashboard_jsx",
+      "_tgt": "membersdashboard_progressbar",
+      "source": "membersdashboard_progressbar",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_membersdashboard_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/MembersDashboard.jsx",
+      "source_location": "L90",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_membersdashboard_jsx",
+      "_tgt": "membersdashboard_membersdashboard",
+      "source": "membersdashboard_membersdashboard",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_membersdashboard_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/legacy/HomeValueEstimator.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_homevalueestimator_jsx",
+      "_tgt": "homevalueestimator_homevalueestimator",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_legacy_homevalueestimator_jsx",
+      "target": "homevalueestimator_homevalueestimator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/HomeValueEstimator.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_homevalueestimator_jsx",
+      "_tgt": "homevalueestimator_homevalueestimator",
+      "source": "homevalueestimator_homevalueestimator",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_components_homevalueestimator_jsx",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4367,8 +5776,260 @@
       "weight": 1.0,
       "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_src_homevalueestimator_jsx",
       "_tgt": "homevalueestimator_homevalueestimator",
-      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_src_homevalueestimator_jsx",
-      "target": "homevalueestimator_homevalueestimator",
+      "source": "homevalueestimator_homevalueestimator",
+      "target": "users_abul_qasim_code_ratehub_ratehub_design_system_src_homevalueestimator_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/AwardStrip.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_awardstrip_jsx",
+      "_tgt": "awardstrip_awardstrip",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_awardstrip_jsx",
+      "target": "awardstrip_awardstrip",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/ProductCategoryGridV2.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_productcategorygridv2_jsx",
+      "_tgt": "productcategorygridv2_productcategorygridv2",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_productcategorygridv2_jsx",
+      "target": "productcategorygridv2_productcategorygridv2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/InvestingPreview.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_investingpreview_jsx",
+      "_tgt": "investingpreview_investingpreview",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_investingpreview_jsx",
+      "target": "investingpreview_investingpreview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/useNav.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_usenav_js",
+      "_tgt": "usenav_usenav",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_usenav_js",
+      "target": "usenav_usenav",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/DesignSystem.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_designsystem_jsx",
+      "_tgt": "designsystem_designsystem",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_designsystem_jsx",
+      "target": "designsystem_designsystem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/ToolsPage.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_toolspage_jsx",
+      "_tgt": "toolspage_toolspage",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_toolspage_jsx",
+      "target": "toolspage_toolspage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/InsurancePreview.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_insurancepreview_jsx",
+      "_tgt": "insurancepreview_insurancepreview",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_insurancepreview_jsx",
+      "target": "insurancepreview_insurancepreview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/InsurancePage.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_insurancepage_jsx",
+      "_tgt": "insurancepage_insurancepage",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_insurancepage_jsx",
+      "target": "insurancepage_insurancepage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/SiteShell.jsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_siteshell_jsx",
+      "_tgt": "siteshell_siteshell",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_siteshell_jsx",
+      "target": "siteshell_siteshell",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/AffiliatesPortal.jsx",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_affiliatesportal_jsx",
+      "_tgt": "affiliatesportal_widgetcard",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_affiliatesportal_jsx",
+      "target": "affiliatesportal_widgetcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/AffiliatesPortal.jsx",
+      "source_location": "L157",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_affiliatesportal_jsx",
+      "_tgt": "affiliatesportal_affiliatesportal",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_affiliatesportal_jsx",
+      "target": "affiliatesportal_affiliatesportal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/InvestingPage.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_investingpage_jsx",
+      "_tgt": "investingpage_investingpage",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_investingpage_jsx",
+      "target": "investingpage_investingpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/primitives.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_primitives_jsx",
+      "_tgt": "primitives_button",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_primitives_jsx",
+      "target": "primitives_button",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/primitives.jsx",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_primitives_jsx",
+      "_tgt": "primitives_anchor",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_primitives_jsx",
+      "target": "primitives_anchor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/primitives.jsx",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_primitives_jsx",
+      "_tgt": "primitives_pill",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_primitives_jsx",
+      "target": "primitives_pill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/primitives.jsx",
+      "source_location": "L103",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_primitives_jsx",
+      "_tgt": "primitives_icon",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_primitives_jsx",
+      "target": "primitives_icon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/primitives.jsx",
+      "source_location": "L109",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_primitives_jsx",
+      "_tgt": "primitives_card",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_primitives_jsx",
+      "target": "primitives_card",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/primitives.jsx",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_primitives_jsx",
+      "_tgt": "primitives_input",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_primitives_jsx",
+      "target": "primitives_input",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/primitives.jsx",
+      "source_location": "L157",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_primitives_jsx",
+      "_tgt": "primitives_select",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_primitives_jsx",
+      "target": "primitives_select",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/primitives.jsx",
+      "source_location": "L181",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_primitives_jsx",
+      "_tgt": "primitives_checkbullet",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_primitives_jsx",
+      "target": "primitives_checkbullet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/abul.qasim/code/ratehub/Ratehub Design System/components/SectionBridge.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_abul_qasim_code_ratehub_ratehub_design_system_components_sectionbridge_jsx",
+      "_tgt": "sectionbridge_sectionbridge",
+      "source": "users_abul_qasim_code_ratehub_ratehub_design_system_components_sectionbridge_jsx",
+      "target": "sectionbridge_sectionbridge",
       "confidence_score": 1.0
     },
     {

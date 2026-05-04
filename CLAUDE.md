@@ -128,3 +128,12 @@ Rules:
 - After modifying code files in this session, run `graphify update .` to keep the graph current (AST-only, no API cost)
 
 Note: the graph may still reference the pre-Next.js structure. Re-run `graphify update .` (or `/graphify . --update` in Claude Code) to re-index the new `app/` + `components/` layout.
+
+## Agent response format
+
+End every response with a 5-bullet summary of work completed:
+- What was changed/created
+- What was tested/verified
+- What files were modified
+- What commands/tools were run
+- Any follow-up items or notes
