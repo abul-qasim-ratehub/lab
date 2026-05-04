@@ -12,6 +12,8 @@ const PATH_BY_ID = {
   tools: '/tools',
   'home-value': '/home-value',
   members: '/members',
+  'design-system': '/design-system',
+  affiliates: '/affiliates',
 };
 
 export function useNav() {
