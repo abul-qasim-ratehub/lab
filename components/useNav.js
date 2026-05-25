@@ -14,6 +14,9 @@ const PATH_BY_ID = {
   members: '/members',
   'design-system': '/design-system',
   affiliates: '/affiliates',
+  login: '/login',
+  perks: '/perks',
+  'perks-willful': '/perks/willful',
 };
 
 export function useNav() {

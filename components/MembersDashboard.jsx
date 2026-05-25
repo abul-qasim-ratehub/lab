@@ -5,6 +5,7 @@
 
 import React from 'react';
 import { Button, Card, Icon, Input, Pill } from './primitives';
+import { PerksPanel } from './PerksPanel';
 
 const MOCK_MEMBER = {
   mcapAccountNumber: 'MCM-4821-9034',
@@ -87,8 +88,10 @@ const ProgressBar = ({ pct, color = 'var(--rh-blueberry-dark)', height = 8 }) =>
   </div>
 );
 
-export const MembersDashboard = ({ onNavigate }) => {
+export const MembersDashboard = ({ onNavigate, initialTab = 'overview', claim = null }) => {
   const m = MOCK_MEMBER;
+  const [activeTab, setActiveTab] = React.useState(initialTab);
+  React.useEffect(() => { if (initialTab) setActiveTab(initialTab); }, [initialTab]);
   const [editMode, setEditMode] = React.useState(false);
   const [form, setForm] = React.useState({
     email:      m.email,
@@ -168,8 +171,60 @@ export const MembersDashboard = ({ onNavigate }) => {
         </div>
       </div>
 
-      <div style={{ background: 'var(--rh-stone-lightest)', padding: '36px 28px 56px' }}>
-        <div style={{ maxWidth: 1280, margin: '0 auto', display: 'flex', flexDirection: 'column', gap: 20 }}>
+      <div style={{ background: 'var(--rh-stone-lightest)', padding: '36px 28px 64px' }}>
+        <div className="rh-members-shell" style={{ maxWidth: 1280, margin: '0 auto', display: 'grid', gridTemplateColumns: '220px 1fr', gap: 28, alignItems: 'start' }}>
+
+          <aside className="rh-members-rail" style={{ position: 'sticky', top: 24, display: 'flex', flexDirection: 'column', gap: 4 }}>
+            {[
+              { id: 'overview', label: 'My mortgage', icon: 'house' },
+              { id: 'perks',    label: 'Your perks',  icon: 'gift', badge: 'New' },
+            ].map((t) => {
+              const active = activeTab === t.id;
+              return (
+                <button
+                  key={t.id}
+                  onClick={() => setActiveTab(t.id)}
+                  style={{
+                    display: 'flex', alignItems: 'center', gap: 10,
+                    width: '100%',
+                    padding: '12px 14px',
+                    background: active ? 'var(--rh-blueberry-lightest)' : 'transparent',
+                    border: 'none',
+                    borderLeft: `3px solid ${active ? 'var(--rh-blueberry-dark)' : 'transparent'}`,
+                    borderRadius: 8,
+                    color: active ? 'var(--rh-blueberry-darkest)' : 'var(--rh-blackberry-light)',
+                    fontFamily: 'inherit', fontSize: 14, fontWeight: 600,
+                    letterSpacing: '-0.005em',
+                    cursor: 'pointer',
+                    textAlign: 'left',
+                    transition: 'background 200ms, color 200ms, border-color 200ms',
+                  }}
+                >
+                  <Icon name={t.icon} size={18} color={active ? 'var(--rh-blueberry-darkest)' : 'var(--rh-stone-darkest)'} />
+                  <span style={{ flex: 1 }}>{t.label}</span>
+                  {t.badge && (
+                    <span style={{
+                      fontSize: 10, fontWeight: 700,
+                      padding: '2px 7px', borderRadius: 999,
+                      background: 'var(--rh-yuzu-lightest)', color: 'var(--rh-yuzu-darkest)',
+                      letterSpacing: '.05em', textTransform: 'uppercase',
+                    }}>
+                      {t.badge}
+                    </span>
+                  )}
+                </button>
+              );
+            })}
+          </aside>
+
+          <div className="rh-members-content" style={{ minWidth: 0 }}>
+
+          {activeTab === 'perks' && (
+            <PerksPanel memberName={m.firstName} claim={claim} />
+          )}
+
+          {activeTab === 'overview' && (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
 
           <div className="rh-grid-2" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20, alignItems: 'start' }}>
 
@@ -422,6 +477,10 @@ export const MembersDashboard = ({ onNavigate }) => {
             </div>
           </Card>
 
+          </div>
+          )}
+
+          </div>
         </div>
       </div>
     </div>

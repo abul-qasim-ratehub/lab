@@ -4,6 +4,7 @@
 
 import React from 'react';
 import { Button } from './primitives';
+import { LoginButton } from './LoginButton';
 
 export const Header = ({ onNavigate, current }) => {
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -31,6 +32,14 @@ export const Header = ({ onNavigate, current }) => {
       label: 'Tools',
       items: [
         { id: 'tools', label: 'Tools & calculators' },
+        { id: 'calculators', label: 'Financial calculators' },
+      ]
+    },
+    {
+      label: 'Perks',
+      items: [
+        { id: 'perks', label: 'Member perks' },
+        { id: 'perks-willful', label: 'Willful — Online wills' },
       ]
     },
     {
@@ -136,7 +145,7 @@ export const Header = ({ onNavigate, current }) => {
         </nav>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexShrink: 0 }}>
           <a href="#" style={{ fontSize: 13, color: 'var(--rh-blackberry)', textDecoration: 'none', fontWeight: 500 }}>En · Fr</a>
-          <Button size="s" variant="secondary">Sign in</Button>
+          <LoginButton />
         </div>
 
         {/* Mobile hamburger button */}

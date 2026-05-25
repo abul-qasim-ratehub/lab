@@ -16,9 +16,15 @@ const PATH_BY_ID = {
   members: '/members',
   'design-system': '/design-system',
   affiliates: '/affiliates',
+  calculators: '/calculators',
+  login: '/login',
+  perks: '/perks',
+  'perks-willful': '/perks/willful',
 };
 
 const ID_BY_PATH = Object.fromEntries(Object.entries(PATH_BY_ID).map(([k, v]) => [v, k]));
+
+const CHROMELESS = new Set(['/login']);
 
 export const SiteShell = ({ children }) => {
   const router = useRouter();
@@ -30,6 +36,10 @@ export const SiteShell = ({ children }) => {
     router.push(path);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+
+  if (CHROMELESS.has(pathname)) {
+    return <>{children}</>;
+  }
 
   return (
     <>

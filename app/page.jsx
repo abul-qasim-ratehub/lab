@@ -13,6 +13,7 @@ import { ProductCategoryGridV2 } from '../components/ProductCategoryGridV2';
 import { InsurancePreview } from '../components/InsurancePreview';
 import { InvestingPreview } from '../components/InvestingPreview';
 import { SectionBridge } from '../components/SectionBridge';
+import { PerksSiderail } from '../components/PerksSiderail';
 import { useNav } from '../components/useNav';
 
 export default function HomePage() {
@@ -30,6 +31,8 @@ export default function HomePage() {
       <hr className="rh-section-divider" />
       <SectionBridge icon="piggy" eyebrow="Banking & Savings" heading="Earn more from every dollar" cta="See savings rates →" onCta={() => go('banking')} />
       <SavingsShowcase />
+      <hr className="rh-section-divider" />
+      <PerksSiderail variant="willful" layout="strip" onClaim={() => go('login')} />
       <hr className="rh-section-divider" />
       <InsurancePreview onNavigate={go} />
       <hr className="rh-section-divider" />

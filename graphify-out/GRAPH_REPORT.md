@@ -1,7 +1,7 @@
-# Graph Report - /Users/abul.qasim/code/ratehub/Ratehub Design System  (2026-05-04)
+# Graph Report - /Users/abul.qasim/code/ratehub/Ratehub Design System  (2026-05-05)
 
 ## Corpus Check
-- 65 files · ~108,160 words
+- 65 files · ~121,462 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary

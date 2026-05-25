@@ -2,6 +2,7 @@ import '../colors_and_type.css';
 import './globals.css';
 import { PasswordGate } from '../components/PasswordGate';
 import { SiteShell } from '../components/SiteShell';
+import { AuthProvider } from '../components/AuthProvider';
 
 export const metadata = {
   title: 'Ratehub.ca — Smarter Financial Choices, Simplified.',
@@ -23,9 +24,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <PasswordGate>
-          <SiteShell>{children}</SiteShell>
-        </PasswordGate>
+        <AuthProvider>
+          <PasswordGate>
+            <SiteShell>{children}</SiteShell>
+          </PasswordGate>
+        </AuthProvider>
       </body>
     </html>
   );
