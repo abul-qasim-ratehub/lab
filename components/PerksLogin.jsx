@@ -6,6 +6,7 @@
 
 import React from 'react';
 import { Button, Card, CheckBullet, Icon, Input, Pill } from './primitives';
+import { assetPath } from '@/lib/assetPath';
 
 // Partner-specific copy lives here so the same screen serves Willful today
 // and partner #2/#3/... tomorrow with no UI changes.
@@ -124,7 +125,7 @@ export const PerksLogin = ({ partner = 'willful', onAuthenticated, onBackHome })
           style={{ display: 'inline-flex', alignItems: 'center', textDecoration: 'none' }}
           aria-label="Back to Ratehub"
         >
-          <img src="/assets/logos/ratehub_full_dark.svg" alt="Ratehub.ca" style={{ height: 24, display: 'block' }} />
+          <img src={assetPath('/assets/logos/ratehub_full_dark.svg')} alt="Ratehub.ca" style={{ height: 24, display: 'block' }} />
         </a>
         <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
           <span style={{ fontSize: 13, color: 'var(--rh-stone-darkest)' }}>

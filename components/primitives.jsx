@@ -4,6 +4,7 @@
 // Tokens come from colors_and_type.css
 
 import { useState } from 'react';
+import { assetPath } from '@/lib/assetPath';
 
 export const Button = ({ variant = 'primary', size = 'm', children, onClick, style, ...rest }) => {
   const base = {
@@ -102,7 +103,7 @@ export const Pill = ({ tone = 'lime', children, icon }) => {
 
 export const Icon = ({ name, size = 24, color = 'currentColor', style }) => (
   <span style={{ display: 'inline-block', width: size, height: size, color, flexShrink: 0, ...style }}>
-    <img src={`/assets/icons/${name}.svg`} alt="" style={{ width: '100%', height: '100%', display: 'block' }} />
+    <img src={assetPath(`/assets/icons/${name}.svg`)} alt="" style={{ width: '100%', height: '100%', display: 'block' }} />
   </span>
 );
 

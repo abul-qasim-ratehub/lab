@@ -5,6 +5,7 @@
 import React from 'react';
 import { Button } from './primitives';
 import { LoginButton } from './LoginButton';
+import { assetPath } from '@/lib/assetPath';
 
 export const Header = ({ onNavigate, current }) => {
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -76,7 +77,7 @@ export const Header = ({ onNavigate, current }) => {
       }}>
         <a href="#" onClick={(e) => { e.preventDefault(); handleNav('home'); }}
           style={{ display: 'block', textDecoration: 'none', flexShrink: 0 }}>
-          <img src="/assets/logos/ratehub_full_dark.svg" style={{ height: 26, display: 'block' }} alt="Ratehub.ca" />
+          <img src={assetPath('/assets/logos/ratehub_full_dark.svg')} style={{ height: 26, display: 'block' }} alt="Ratehub.ca" />
         </a>
         <nav style={{ display: 'flex', gap: 2, flex: 1 }}>
           {navGroups.map(group => (

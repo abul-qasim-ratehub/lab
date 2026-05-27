@@ -1,12 +1,12 @@
-# Graph Report - /Users/abul.qasim/code/ratehub/Ratehub Design System  (2026-05-05)
+# Graph Report - /Users/abul.qasim/code/ratehub/Ratehub Design System  (2026-05-27)
 
 ## Corpus Check
-- 65 files · ~121,462 words
+- 76 files · ~134,239 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 343 nodes · 311 edges · 83 communities detected
-- Extraction: 86% EXTRACTED · 14% INFERRED · 0% AMBIGUOUS · INFERRED: 43 edges (avg confidence: 0.8)
+- 377 nodes · 341 edges · 88 communities detected
+- Extraction: 87% EXTRACTED · 13% INFERRED · 0% AMBIGUOUS · INFERRED: 46 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
@@ -93,15 +93,20 @@
 - [[_COMMUNITY_Community 80|Community 80]]
 - [[_COMMUNITY_Community 81|Community 81]]
 - [[_COMMUNITY_Community 82|Community 82]]
+- [[_COMMUNITY_Community 83|Community 83]]
+- [[_COMMUNITY_Community 84|Community 84]]
+- [[_COMMUNITY_Community 85|Community 85]]
+- [[_COMMUNITY_Community 86|Community 86]]
+- [[_COMMUNITY_Community 87|Community 87]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Spacing Scale` - 10 edges
 2. `Semantic color tokens` - 10 edges
-3. `Typography body scale` - 8 edges
-4. `Neutrals (Coconut, Blackberry, Stone)` - 7 edges
-5. `Pills, tags and badges component` - 7 edges
-6. `Hero Section` - 7 edges
-7. `Page()` - 6 edges
+3. `Page()` - 9 edges
+4. `Typography body scale` - 8 edges
+5. `Neutrals (Coconut, Blackberry, Stone)` - 7 edges
+6. `Pills, tags and badges component` - 7 edges
+7. `Hero Section` - 7 edges
 8. `Navigation Bar` - 6 edges
 9. `MembersDashboard()` - 5 edges
 10. `SKILL.md — Brand Rules` - 5 edges
@@ -143,16 +148,16 @@
 ## Communities
 
 ### Community 0 - "Community 0"
-Cohesion: 0.08
-Nodes (28): blackberry — #000000 (foreground text), Blueberry color palette (brand primary, teal/cyan), blueberry-dark — #00729E, blueberry-darkest — #004F6E, blueberry-light — #A4F1FF, blueberry-lightest — #DBF9FF, coconut — #FFFFFF (page bg), Neutrals (Coconut, Blackberry, Stone) (+20 more)
+Cohesion: 0.06
+Nodes (38): blackberry — #000000 (foreground text), Blueberry color palette (brand primary, teal/cyan), blueberry — #00B5D6, blueberry-dark — #00729E, blueberry-darkest — #004F6E, blueberry-light — #A4F1FF, blueberry-lightest — #DBF9FF, coconut — #FFFFFF (page bg) (+30 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.1
-Nodes (20): Mint color palette (soft growth / success-soft), mint — #9FFCDF, mint-dark — #68E9C1, mint-darkest — #3EA592, mint-light — #E0FFF5, mint-lightest — #F5FFFA, Watermelon color palette, watermelon — #FF989B (+12 more)
+Cohesion: 0.07
+Nodes (27): Lime color palette (savings / success), lime — #4AB879, lime-dark — #358255, lime-darkest — #1F5F39, lime-light — #A7E8C2, lime-lightest — #D3F7E2, Mint color palette (soft growth / success-soft), mint — #9FFCDF (+19 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.12
-Nodes (16): Category chooser component — 6 product tiles, Lime color palette (savings / success), lime — #4AB879, lime-dark — #358255, lime-darkest — #1F5F39, lime-light — #A7E8C2, lime-lightest — #D3F7E2, Primary CTA button — #2D6E8A background, desaturated blueberry (+8 more)
+Cohesion: 0.1
+Nodes (7): useAuth(), usePreFill(), LoginButton(), HomePage(), MembersInner(), Page(), useNav()
 
 ### Community 3 - "Community 3"
 Cohesion: 0.15
@@ -179,120 +184,120 @@ Cohesion: 0.42
 Nodes (8): DetailRow(), fmtCad(), fmtDate(), MembersDashboard(), ProgressBar(), propLine(), SectionLabel(), StatCell()
 
 ### Community 9 - "Community 9"
-Cohesion: 0.2
-Nodes (3): HomePage(), Page(), useNav()
-
-### Community 10 - "Community 10"
-Cohesion: 0.2
-Nodes (10): blueberry — #00B5D6, Strawberry color palette (error / alert), strawberry — #F6452C, strawberry-dark — #D82E15, Input default state — border stone, bg white, 15px, Input disabled state — bg stone-lightest, not-allowed cursor, Input error state — border rh-error red, Input focus state — border blueberry, shadow-focus ring (+2 more)
-
-### Community 11 - "Community 11"
 Cohesion: 0.5
 Nodes (6): HeroBannerV2(), OptionBtn(), ProvinceSelect(), PulseButton(), StepDots(), StepInput()
 
-### Community 12 - "Community 12"
+### Community 10 - "Community 10"
 Cohesion: 0.22
 Nodes (0): 
 
-### Community 13 - "Community 13"
+### Community 11 - "Community 11"
+Cohesion: 0.22
+Nodes (9): Category chooser component — 6 product tiles, Primary CTA button — #2D6E8A background, desaturated blueberry, Icon library — circle-in-circle SVG style, 30 icons, Mortgage rate row component, Elevation / Shadow system, --rh-shadow-l, --rh-shadow-m, --rh-shadow-s (+1 more)
+
+### Community 12 - "Community 12"
 Cohesion: 0.22
 Nodes (9): Typography body scale, Body L — 18px / 1.5 line-height, Body M — 16px / 1.5 line-height (default), Body S — 14px / 1.5 line-height, Body XL — 20px / 1.5 line-height, Body XS — 12px / 1.5 line-height, Gordita 700 bold, Gordita 500 medium (+1 more)
 
-### Community 14 - "Community 14"
+### Community 13 - "Community 13"
 Cohesion: 0.32
 Nodes (8): assets/icons/ — 39 SVG icons, SKILL.md — Brand Rules, Hero pattern: blueberry-darkest bg + Pill + showDot H1, Icon rule: assets/icons/ SVG only, Primary CTA: #2d6e8a (desaturated), .showDot — blueberry H1 period, Brand voice: sentence case, numbers over adjectives, Token: blueberry (primary brand)
+
+### Community 14 - "Community 14"
+Cohesion: 0.29
+Nodes (0): 
 
 ### Community 15 - "Community 15"
 Cohesion: 0.29
 Nodes (7): Bar Chart — three vertical bars of ascending height inside circle, stroked, 62x62 viewBox, Calculator — rectangular body with button grid (plus/minus/equals rows) inside circle, stroked, 62x62 viewBox, Car — automobile with wheels, body, and windows inside circle, stroked, 62x62 viewBox, Credit Card — rectangular card with stripe lines inside circle, stroked, 62x62 viewBox, Dollar — currency dollar sign with vertical line inside circle, stroked, 62x62 viewBox, Gift — wrapped present box with ribbon bow inside circle for rewards/promotions, stroked, 62x62 viewBox, House — home silhouette with roof, walls and door inside circle for real estate/mortgages, stroked, 62x62 viewBox
 
 ### Community 16 - "Community 16"
-Cohesion: 0.5
-Nodes (2): AwardStrip(), TrustStrip()
+Cohesion: 0.33
+Nodes (0): 
 
 ### Community 17 - "Community 17"
 Cohesion: 0.5
-Nodes (1): Header()
+Nodes (2): AwardStrip(), TrustStrip()
 
 ### Community 18 - "Community 18"
 Cohesion: 0.5
-Nodes (1): SavingsShowcase()
+Nodes (1): Header()
 
 ### Community 19 - "Community 19"
 Cohesion: 0.5
-Nodes (1): Footer()
+Nodes (1): SavingsShowcase()
 
 ### Community 20 - "Community 20"
 Cohesion: 0.5
-Nodes (1): MortgageRateTable()
+Nodes (1): Footer()
 
 ### Community 21 - "Community 21"
 Cohesion: 0.5
-Nodes (1): CardFinder()
+Nodes (1): MortgageRateTable()
 
 ### Community 22 - "Community 22"
 Cohesion: 0.5
-Nodes (1): FeaturedIn()
+Nodes (1): CardFinder()
 
 ### Community 23 - "Community 23"
 Cohesion: 0.5
-Nodes (1): EducationStrip()
+Nodes (1): FeaturedIn()
 
 ### Community 24 - "Community 24"
 Cohesion: 0.5
-Nodes (1): MortgageCalculator()
+Nodes (1): EducationStrip()
 
 ### Community 25 - "Community 25"
 Cohesion: 0.5
-Nodes (1): HomeValueEstimator()
+Nodes (1): MortgageCalculator()
 
 ### Community 26 - "Community 26"
-Cohesion: 0.67
-Nodes (4): Arrow Left — directional navigation arrow pointing left, circle-in-circle style, stroked, 32x32 viewBox, Arrow Right — directional navigation arrow pointing right, circle-in-circle style, stroked, 32x32 viewBox, Chevron Left — leftward-pointing V-chevron inside circle for previous/back, stroked, 62x62 viewBox, Chevron Right — rightward-pointing V-chevron inside circle for next/forward, stroked, 62x62 viewBox
+Cohesion: 0.5
+Nodes (1): HomeValueEstimator()
 
 ### Community 27 - "Community 27"
 Cohesion: 0.5
-Nodes (4): Minus Icon, Plus Icon, Refresh / Reload Icon, Close / X Icon
+Nodes (0): 
 
 ### Community 28 - "Community 28"
+Cohesion: 0.67
+Nodes (4): Arrow Left — directional navigation arrow pointing left, circle-in-circle style, stroked, 32x32 viewBox, Arrow Right — directional navigation arrow pointing right, circle-in-circle style, stroked, 32x32 viewBox, Chevron Left — leftward-pointing V-chevron inside circle for previous/back, stroked, 62x62 viewBox, Chevron Right — rightward-pointing V-chevron inside circle for next/forward, stroked, 62x62 viewBox
+
+### Community 29 - "Community 29"
+Cohesion: 0.5
+Nodes (4): Minus Icon, Plus Icon, Refresh / Reload Icon, Close / X Icon
+
+### Community 30 - "Community 30"
 Cohesion: 0.5
 Nodes (4): Piggy Bank Icon, Trending / Chart Icon, User / Person Icon, Wallet Icon
 
-### Community 29 - "Community 29"
+### Community 31 - "Community 31"
 Cohesion: 0.67
 Nodes (0): 
 
-### Community 30 - "Community 30"
+### Community 32 - "Community 32"
 Cohesion: 0.67
 Nodes (3): Babel Standalone 7.29.0 (unpkg CDN), React 18.3.1 (unpkg CDN), Zero-dependency portability (no Node/npm)
 
-### Community 31 - "Community 31"
+### Community 33 - "Community 33"
 Cohesion: 0.67
 Nodes (3): Grape color palette (secondary accent), grape — #B969D1, grape-dark — #80209C
 
-### Community 32 - "Community 32"
-Cohesion: 0.67
-Nodes (3): Conversation — two overlapping speech bubbles inside circle for chat/support, stroked, 62x62 viewBox, Light Bulb — bulb with filament detail and bracket inside circle for ideas/tips, stroked, 62x62 viewBox, Lightning — two-segment zigzag bolt path inside circle for energy/speed/power, stroked, 62x62 viewBox
-
-### Community 33 - "Community 33"
-Cohesion: 0.67
-Nodes (3): Map Pin Icon, Search Icon, Search Icon (Blue)
-
 ### Community 34 - "Community 34"
 Cohesion: 0.67
-Nodes (3): Airplane / Travel Icon, Shield Icon, Umbrella Icon
+Nodes (3): Conversation — two overlapping speech bubbles inside circle for chat/support, stroked, 62x62 viewBox, Light Bulb — bulb with filament detail and bracket inside circle for ideas/tips, stroked, 62x62 viewBox, Lightning — two-segment zigzag bolt path inside circle for energy/speed/power, stroked, 62x62 viewBox
 
 ### Community 35 - "Community 35"
 Cohesion: 0.67
 Nodes (3): Phone Icon, Question Mark Icon, Speech Bubble Icon
 
 ### Community 36 - "Community 36"
-Cohesion: 1.0
-Nodes (0): 
+Cohesion: 0.67
+Nodes (3): Map Pin Icon, Search Icon, Search Icon (Blue)
 
 ### Community 37 - "Community 37"
-Cohesion: 1.0
-Nodes (0): 
+Cohesion: 0.67
+Nodes (3): Airplane / Travel Icon, Shield Icon, Umbrella Icon
 
 ### Community 38 - "Community 38"
 Cohesion: 1.0
@@ -352,240 +357,266 @@ Nodes (0):
 
 ### Community 52 - "Community 52"
 Cohesion: 1.0
-Nodes (2): Gordita font (vendored woff/woff2), Token: Gordita typography scale
+Nodes (0): 
 
 ### Community 53 - "Community 53"
 Cohesion: 1.0
-Nodes (2): Design-to-dev workflow (5 phases), Rationale: No handoff gap — design IS the code
+Nodes (0): 
 
 ### Community 54 - "Community 54"
 Cohesion: 1.0
-Nodes (2): Chevron Down — downward-pointing V-chevron inside circle for expand/dropdown, stroked, 62x62 viewBox, Chevron Up — upward-pointing V-chevron inside circle for collapse/scroll-up, stroked, 62x62 viewBox
+Nodes (0): 
 
 ### Community 55 - "Community 55"
 Cohesion: 1.0
-Nodes (2): Award — medal/ribbon badge with circle top and banner tails, stroked, 62x62 viewBox, Heart — heart shape with two upper arcs inside circle for favourites/saved, stroked, 62x62 viewBox
+Nodes (0): 
 
 ### Community 56 - "Community 56"
 Cohesion: 1.0
-Nodes (2): Checkmark — tick/check path inside circle indicating success or confirmation, stroked, 62x62 viewBox, Lock — padlock with shackle arc and keyhole circle inside circle for security/privacy, stroked, 62x62 viewBox
+Nodes (0): 
 
 ### Community 57 - "Community 57"
 Cohesion: 1.0
-Nodes (2): Maple Leaf Icon, Ratehub Brand Icon
+Nodes (2): Design-to-dev workflow (5 phases), Rationale: No handoff gap — design IS the code
 
 ### Community 58 - "Community 58"
 Cohesion: 1.0
-Nodes (2): Star / Rating Icon, Trophy Icon
+Nodes (2): Gordita font (vendored woff/woff2), Token: Gordita typography scale
 
 ### Community 59 - "Community 59"
 Cohesion: 1.0
-Nodes (2): MoneySense Brand, MoneySense Logo (Light / White variant)
+Nodes (2): Award — medal/ribbon badge with circle top and banner tails, stroked, 62x62 viewBox, Heart — heart shape with two upper arcs inside circle for favourites/saved, stroked, 62x62 viewBox
 
 ### Community 60 - "Community 60"
 Cohesion: 1.0
-Nodes (2): Ratehub Favicon 32x32, Ratehub R Logo 300x300
+Nodes (2): Chevron Down — downward-pointing V-chevron inside circle for expand/dropdown, stroked, 62x62 viewBox, Chevron Up — upward-pointing V-chevron inside circle for collapse/scroll-up, stroked, 62x62 viewBox
 
 ### Community 61 - "Community 61"
 Cohesion: 1.0
-Nodes (0): 
+Nodes (2): Checkmark — tick/check path inside circle indicating success or confirmation, stroked, 62x62 viewBox, Lock — padlock with shackle arc and keyhole circle inside circle for security/privacy, stroked, 62x62 viewBox
 
 ### Community 62 - "Community 62"
 Cohesion: 1.0
-Nodes (1): ProductCategoryGrid.jsx (ui_kit)
+Nodes (2): Maple Leaf Icon, Ratehub Brand Icon
 
 ### Community 63 - "Community 63"
 Cohesion: 1.0
-Nodes (1): HeroBanner.jsx (v1, ui_kit)
+Nodes (2): Star / Rating Icon, Trophy Icon
 
 ### Community 64 - "Community 64"
 Cohesion: 1.0
-Nodes (1): Token: lime (rates/success)
+Nodes (2): MoneySense Brand, MoneySense Logo (Light / White variant)
 
 ### Community 65 - "Community 65"
 Cohesion: 1.0
-Nodes (1): Token: mint (savings/success-soft)
+Nodes (2): Ratehub Favicon 32x32, Ratehub R Logo 300x300
 
 ### Community 66 - "Community 66"
 Cohesion: 1.0
-Nodes (1): Token: yuzu (rewards/highlights)
+Nodes (0): 
 
 ### Community 67 - "Community 67"
 Cohesion: 1.0
-Nodes (1): Token: stone (neutrals/borders)
+Nodes (1): ProductCategoryGrid.jsx (ui_kit)
 
 ### Community 68 - "Community 68"
 Cohesion: 1.0
-Nodes (1): Token: coconut (page background)
+Nodes (1): HeroBanner.jsx (v1, ui_kit)
 
 ### Community 69 - "Community 69"
 Cohesion: 1.0
-Nodes (1): Token: blackberry (body text)
+Nodes (1): Token: lime (rates/success)
 
 ### Community 70 - "Community 70"
 Cohesion: 1.0
-Nodes (1): Token: 8px grid spacing
+Nodes (1): Token: mint (savings/success-soft)
 
 ### Community 71 - "Community 71"
 Cohesion: 1.0
-Nodes (1): Token: border radii (xs–full)
+Nodes (1): Token: yuzu (rewards/highlights)
 
 ### Community 72 - "Community 72"
 Cohesion: 1.0
-Nodes (1): Token: shadows (xs–l, cool-blue)
+Nodes (1): Token: stone (neutrals/borders)
 
 ### Community 73 - "Community 73"
 Cohesion: 1.0
-Nodes (1): Token: motion (150/300/500ms)
+Nodes (1): Token: coconut (page background)
 
 ### Community 74 - "Community 74"
 Cohesion: 1.0
-Nodes (1): CLAUDE.md — Design Token System
+Nodes (1): Token: blackberry (body text)
 
 ### Community 75 - "Community 75"
 Cohesion: 1.0
-Nodes (1): CLAUDE.md — SPA Routing via localStorage
+Nodes (1): Token: 8px grid spacing
 
 ### Community 76 - "Community 76"
 Cohesion: 1.0
-Nodes (1): Window registration pattern (Object.assign)
+Nodes (1): Token: border radii (xs–full)
 
 ### Community 77 - "Community 77"
 Cohesion: 1.0
-Nodes (1): CLAUDE.md — Zoocasa Widget Integration
+Nodes (1): Token: shadows (xs–l, cool-blue)
 
 ### Community 78 - "Community 78"
 Cohesion: 1.0
-Nodes (1): Homepage section architecture
+Nodes (1): Token: motion (150/300/500ms)
 
 ### Community 79 - "Community 79"
 Cohesion: 1.0
-Nodes (1): Edible color taxonomy
+Nodes (1): CLAUDE.md — Design Token System
 
 ### Community 80 - "Community 80"
 Cohesion: 1.0
-Nodes (1): assets/brand/ — background shapes + favicon
+Nodes (1): CLAUDE.md — SPA Routing via localStorage
 
 ### Community 81 - "Community 81"
 Cohesion: 1.0
-Nodes (1): assets/logos/ — Ratehub/CanWise/MoneySense wordmarks
+Nodes (1): Window registration pattern (Object.assign)
 
 ### Community 82 - "Community 82"
+Cohesion: 1.0
+Nodes (1): CLAUDE.md — Zoocasa Widget Integration
+
+### Community 83 - "Community 83"
+Cohesion: 1.0
+Nodes (1): Homepage section architecture
+
+### Community 84 - "Community 84"
+Cohesion: 1.0
+Nodes (1): Edible color taxonomy
+
+### Community 85 - "Community 85"
+Cohesion: 1.0
+Nodes (1): assets/brand/ — background shapes + favicon
+
+### Community 86 - "Community 86"
+Cohesion: 1.0
+Nodes (1): assets/logos/ — Ratehub/CanWise/MoneySense wordmarks
+
+### Community 87 - "Community 87"
 Cohesion: 1.0
 Nodes (1): Zoocasa Home Appraisal Widget
 
 ## Knowledge Gaps
 - **115 isolated node(s):** `ProductCategoryGrid.jsx (ui_kit)`, `HeroBanner.jsx (v1, ui_kit)`, `Token: lime (rates/success)`, `Token: mint (savings/success-soft)`, `Token: yuzu (rewards/highlights)` (+110 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **Thin community `Community 36`** (2 nodes): `RootLayout()`, `layout.jsx`
+- **Thin community `Community 38`** (2 nodes): `RootLayout()`, `layout.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 37`** (2 nodes): `CardsPage()`, `page.jsx`
+- **Thin community `Community 39`** (2 nodes): `CardsPage()`, `page.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 38`** (2 nodes): `BankingPage()`, `page.jsx`
+- **Thin community `Community 40`** (2 nodes): `BankingPage()`, `page.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 39`** (2 nodes): `MortgagesPage()`, `page.jsx`
+- **Thin community `Community 41`** (2 nodes): `MortgagesPage()`, `page.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 40`** (2 nodes): `AffiliatesPage()`, `page.jsx`
+- **Thin community `Community 42`** (2 nodes): `CalculatorsRoute()`, `page.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 41`** (2 nodes): `DesignSystemPage()`, `page.jsx`
+- **Thin community `Community 43`** (2 nodes): `AffiliatesPage()`, `page.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 42`** (2 nodes): `AwardStrip()`, `AwardStrip.jsx`
+- **Thin community `Community 44`** (2 nodes): `DesignSystemPage()`, `page.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 43`** (2 nodes): `ProductCategoryGridV2()`, `ProductCategoryGridV2.jsx`
+- **Thin community `Community 45`** (2 nodes): `AwardStrip()`, `AwardStrip.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 44`** (2 nodes): `InvestingPreview()`, `InvestingPreview.jsx`
+- **Thin community `Community 46`** (2 nodes): `ProductCategoryGridV2()`, `ProductCategoryGridV2.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 45`** (2 nodes): `DesignSystem()`, `DesignSystem.jsx`
+- **Thin community `Community 47`** (2 nodes): `InvestingPreview()`, `InvestingPreview.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 46`** (2 nodes): `ToolsPage()`, `ToolsPage.jsx`
+- **Thin community `Community 48`** (2 nodes): `DesignSystem()`, `DesignSystem.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 47`** (2 nodes): `InsurancePreview()`, `InsurancePreview.jsx`
+- **Thin community `Community 49`** (2 nodes): `ToolsPage()`, `ToolsPage.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 48`** (2 nodes): `InsurancePage()`, `InsurancePage.jsx`
+- **Thin community `Community 50`** (2 nodes): `InsurancePreview()`, `InsurancePreview.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 49`** (2 nodes): `SiteShell()`, `SiteShell.jsx`
+- **Thin community `Community 51`** (2 nodes): `PerksSiderail()`, `PerksSiderail.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 50`** (2 nodes): `InvestingPage()`, `InvestingPage.jsx`
+- **Thin community `Community 52`** (2 nodes): `InsurancePage()`, `InsurancePage.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 51`** (2 nodes): `SectionBridge()`, `SectionBridge.jsx`
+- **Thin community `Community 53`** (2 nodes): `SiteShell()`, `SiteShell.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 52`** (2 nodes): `Gordita font (vendored woff/woff2)`, `Token: Gordita typography scale`
+- **Thin community `Community 54`** (2 nodes): `InvestingPage()`, `InvestingPage.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 53`** (2 nodes): `Design-to-dev workflow (5 phases)`, `Rationale: No handoff gap — design IS the code`
+- **Thin community `Community 55`** (2 nodes): `SectionBridge()`, `SectionBridge.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 54`** (2 nodes): `Chevron Down — downward-pointing V-chevron inside circle for expand/dropdown, stroked, 62x62 viewBox`, `Chevron Up — upward-pointing V-chevron inside circle for collapse/scroll-up, stroked, 62x62 viewBox`
+- **Thin community `Community 56`** (2 nodes): `CalculatorsPage()`, `CalculatorsPage.jsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 55`** (2 nodes): `Award — medal/ribbon badge with circle top and banner tails, stroked, 62x62 viewBox`, `Heart — heart shape with two upper arcs inside circle for favourites/saved, stroked, 62x62 viewBox`
+- **Thin community `Community 57`** (2 nodes): `Design-to-dev workflow (5 phases)`, `Rationale: No handoff gap — design IS the code`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 56`** (2 nodes): `Checkmark — tick/check path inside circle indicating success or confirmation, stroked, 62x62 viewBox`, `Lock — padlock with shackle arc and keyhole circle inside circle for security/privacy, stroked, 62x62 viewBox`
+- **Thin community `Community 58`** (2 nodes): `Gordita font (vendored woff/woff2)`, `Token: Gordita typography scale`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 57`** (2 nodes): `Maple Leaf Icon`, `Ratehub Brand Icon`
+- **Thin community `Community 59`** (2 nodes): `Award — medal/ribbon badge with circle top and banner tails, stroked, 62x62 viewBox`, `Heart — heart shape with two upper arcs inside circle for favourites/saved, stroked, 62x62 viewBox`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 58`** (2 nodes): `Star / Rating Icon`, `Trophy Icon`
+- **Thin community `Community 60`** (2 nodes): `Chevron Down — downward-pointing V-chevron inside circle for expand/dropdown, stroked, 62x62 viewBox`, `Chevron Up — upward-pointing V-chevron inside circle for collapse/scroll-up, stroked, 62x62 viewBox`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 59`** (2 nodes): `MoneySense Brand`, `MoneySense Logo (Light / White variant)`
+- **Thin community `Community 61`** (2 nodes): `Checkmark — tick/check path inside circle indicating success or confirmation, stroked, 62x62 viewBox`, `Lock — padlock with shackle arc and keyhole circle inside circle for security/privacy, stroked, 62x62 viewBox`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 60`** (2 nodes): `Ratehub Favicon 32x32`, `Ratehub R Logo 300x300`
+- **Thin community `Community 62`** (2 nodes): `Maple Leaf Icon`, `Ratehub Brand Icon`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 61`** (1 nodes): `next.config.mjs`
+- **Thin community `Community 63`** (2 nodes): `Star / Rating Icon`, `Trophy Icon`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 62`** (1 nodes): `ProductCategoryGrid.jsx (ui_kit)`
+- **Thin community `Community 64`** (2 nodes): `MoneySense Brand`, `MoneySense Logo (Light / White variant)`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 63`** (1 nodes): `HeroBanner.jsx (v1, ui_kit)`
+- **Thin community `Community 65`** (2 nodes): `Ratehub Favicon 32x32`, `Ratehub R Logo 300x300`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 64`** (1 nodes): `Token: lime (rates/success)`
+- **Thin community `Community 66`** (1 nodes): `next.config.mjs`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 65`** (1 nodes): `Token: mint (savings/success-soft)`
+- **Thin community `Community 67`** (1 nodes): `ProductCategoryGrid.jsx (ui_kit)`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 66`** (1 nodes): `Token: yuzu (rewards/highlights)`
+- **Thin community `Community 68`** (1 nodes): `HeroBanner.jsx (v1, ui_kit)`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 67`** (1 nodes): `Token: stone (neutrals/borders)`
+- **Thin community `Community 69`** (1 nodes): `Token: lime (rates/success)`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 68`** (1 nodes): `Token: coconut (page background)`
+- **Thin community `Community 70`** (1 nodes): `Token: mint (savings/success-soft)`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 69`** (1 nodes): `Token: blackberry (body text)`
+- **Thin community `Community 71`** (1 nodes): `Token: yuzu (rewards/highlights)`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 70`** (1 nodes): `Token: 8px grid spacing`
+- **Thin community `Community 72`** (1 nodes): `Token: stone (neutrals/borders)`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 71`** (1 nodes): `Token: border radii (xs–full)`
+- **Thin community `Community 73`** (1 nodes): `Token: coconut (page background)`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 72`** (1 nodes): `Token: shadows (xs–l, cool-blue)`
+- **Thin community `Community 74`** (1 nodes): `Token: blackberry (body text)`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 73`** (1 nodes): `Token: motion (150/300/500ms)`
+- **Thin community `Community 75`** (1 nodes): `Token: 8px grid spacing`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 74`** (1 nodes): `CLAUDE.md — Design Token System`
+- **Thin community `Community 76`** (1 nodes): `Token: border radii (xs–full)`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 75`** (1 nodes): `CLAUDE.md — SPA Routing via localStorage`
+- **Thin community `Community 77`** (1 nodes): `Token: shadows (xs–l, cool-blue)`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 76`** (1 nodes): `Window registration pattern (Object.assign)`
+- **Thin community `Community 78`** (1 nodes): `Token: motion (150/300/500ms)`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 77`** (1 nodes): `CLAUDE.md — Zoocasa Widget Integration`
+- **Thin community `Community 79`** (1 nodes): `CLAUDE.md — Design Token System`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 78`** (1 nodes): `Homepage section architecture`
+- **Thin community `Community 80`** (1 nodes): `CLAUDE.md — SPA Routing via localStorage`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 79`** (1 nodes): `Edible color taxonomy`
+- **Thin community `Community 81`** (1 nodes): `Window registration pattern (Object.assign)`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 80`** (1 nodes): `assets/brand/ — background shapes + favicon`
+- **Thin community `Community 82`** (1 nodes): `CLAUDE.md — Zoocasa Widget Integration`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 81`** (1 nodes): `assets/logos/ — Ratehub/CanWise/MoneySense wordmarks`
+- **Thin community `Community 83`** (1 nodes): `Homepage section architecture`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 82`** (1 nodes): `Zoocasa Home Appraisal Widget`
+- **Thin community `Community 84`** (1 nodes): `Edible color taxonomy`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 85`** (1 nodes): `assets/brand/ — background shapes + favicon`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 86`** (1 nodes): `assets/logos/ — Ratehub/CanWise/MoneySense wordmarks`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 87`** (1 nodes): `Zoocasa Home Appraisal Widget`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Semantic color tokens` connect `Community 0` to `Community 1`, `Community 10`?**
-  _High betweenness centrality (0.026) - this node is a cross-community bridge._
-- **Why does `Pills, tags and badges component` connect `Community 1` to `Community 0`, `Community 2`?**
-  _High betweenness centrality (0.018) - this node is a cross-community bridge._
+- **Why does `Semantic color tokens` connect `Community 0` to `Community 1`?**
+  _High betweenness centrality (0.021) - this node is a cross-community bridge._
+- **Why does `Pills, tags and badges component` connect `Community 1` to `Community 0`?**
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
 - **Why does `--rh-error-bg — #FFEDEF` connect `Community 1` to `Community 0`?**
-  _High betweenness centrality (0.012) - this node is a cross-community bridge._
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
 - **Are the 4 inferred relationships involving `Ratehub Brand` (e.g. with `Background Circle Brand Shape` and `Two Dots Brand Shape`) actually correct?**
   _`Ratehub Brand` has 4 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `ProductCategoryGrid.jsx (ui_kit)`, `HeroBanner.jsx (v1, ui_kit)`, `Token: lime (rates/success)` to the rest of the system?**
   _115 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07 - nodes in this community are weakly interconnected._
