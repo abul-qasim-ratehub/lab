@@ -7,6 +7,14 @@ const AuthContext = createContext(null);
 // Use relative URLs to hit local API routes, or external BFF if NEXT_PUBLIC_BFF_URL is set
 const BFF_URL = process.env.NEXT_PUBLIC_BFF_URL || '';
 
+// Dummy user for development/demo
+const DUMMY_USER = {
+  id: 'demo-user-001',
+  email: 'demo@ratehub.ca',
+  firstName: 'Demo',
+  lastName: 'User',
+};
+
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -18,6 +26,14 @@ export const AuthProvider = ({ children }) => {
 
   const validateSession = async () => {
     try {
+      // Check if BFF_URL is configured (external backend)
+      if (!BFF_URL) {
+        setUser(null);
+        setAuthenticated(false);
+        setLoading(false);
+        return;
+      }
+
       const response = await fetch(`${BFF_URL}/auth/me`, {
         credentials: 'include',
       });
@@ -25,6 +41,7 @@ export const AuthProvider = ({ children }) => {
       if (!response.ok) {
         setUser(null);
         setAuthenticated(false);
+        setLoading(false);
         return;
       }
 
@@ -48,22 +65,30 @@ export const AuthProvider = ({ children }) => {
 
   const login = async () => {
     try {
-      const response = await fetch(`${BFF_URL}/auth/login`, {
-        credentials: 'include',
-      });
+      // If BFF_URL is configured, use real backend
+      if (BFF_URL) {
+        const response = await fetch(`${BFF_URL}/auth/login`, {
+          credentials: 'include',
+        });
 
-      if (!response.ok) {
-        console.error('Login request failed:', response.status);
+        if (!response.ok) {
+          console.error('Login request failed:', response.status);
+          return;
+        }
+
+        const data = await response.json();
+
+        if (data.loginUrl) {
+          window.location.href = data.loginUrl;
+        } else if (data.success) {
+          await validateSession();
+        }
         return;
       }
 
-      const data = await response.json();
-
-      if (data.loginUrl) {
-        window.location.href = data.loginUrl;
-      } else if (data.success) {
-        await validateSession();
-      }
+      // Demo mode: use dummy user
+      setUser(DUMMY_USER);
+      setAuthenticated(true);
     } catch (error) {
       console.error('Login error:', error);
     }
@@ -71,10 +96,12 @@ export const AuthProvider = ({ children }) => {
 
   const logout = async () => {
     try {
-      await fetch(`${BFF_URL}/auth/logout`, {
-        method: 'POST',
-        credentials: 'include',
-      });
+      if (BFF_URL) {
+        await fetch(`${BFF_URL}/auth/logout`, {
+          method: 'POST',
+          credentials: 'include',
+        });
+      }
       setUser(null);
       setAuthenticated(false);
     } catch (error) {
@@ -84,6 +111,11 @@ export const AuthProvider = ({ children }) => {
 
   const getPreFill = async (product) => {
     try {
+      if (!BFF_URL) {
+        console.log('Demo mode: pre-fill not available without BFF_URL');
+        return null;
+      }
+
       const response = await fetch(`${BFF_URL}/profile/pre-fill?product=${product}`, {
         credentials: 'include',
       });
@@ -99,6 +131,20 @@ export const AuthProvider = ({ children }) => {
 
   const updateProfile = async (updates) => {
     try {
+      if (!BFF_URL) {
+        console.log('Demo mode: profile update not persisted without BFF_URL');
+        setUser(prev => ({
+          ...prev,
+          ...Object.fromEntries(
+            Object.entries(updates).map(([k, v]) => [
+              k.replace(/_/g, '').replace(/([a-z])([A-Z])/g, '$1$2').toLowerCase(),
+              v
+            ])
+          )
+        }));
+        return updates;
+      }
+
       const response = await fetch(`${BFF_URL}/profile`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
@@ -124,6 +170,11 @@ export const AuthProvider = ({ children }) => {
 
   const logApplication = async (productType, status, lender) => {
     try {
+      if (!BFF_URL) {
+        console.log('Demo mode: application not logged without BFF_URL', { productType, status, lender });
+        return { success: true, message: 'Demo application logged' };
+      }
+
       const response = await fetch(`${BFF_URL}/applications`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
